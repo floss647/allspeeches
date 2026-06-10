@@ -37,20 +37,14 @@ If any fail, the SSR isn't emitting content/schema into the raw HTML — fix bef
 - [ ] `/privacy` and `/terms` set to `noindex`
 
 ## E. Redirects & canonical host
-- [ ] `http://*` → `https://*` (301)
-- [ ] non-www → `https://www.allspeechesgreatandsmall.com` (301)
-- [ ] **Export current URL list from GSC → Pages**, then 301 any old slug that differs to its new
-      equivalent. Confirm-against-GSC list (old → new):
-  - [ ] old groom service URL → `/groom-speech-writer`
-  - [ ] old father-of-bride service URL → `/father-of-the-bride-speech-writer`
-  - [ ] old maid-of-honour service URL → `/maid-of-honour-speech-writer`
-  - [ ] old eulogy service URL → `/eulogy-writing-service`
-  - [ ] old groom guide URL → `/groom-speeches`
-  - [ ] old FOTB guide URL → `/father-of-the-bride-speeches`
-  - [ ] old eulogy guide URL → `/eulogy-examples`
-  - These slugs are preserved (no redirect if identical): `/`, `/best-man-speeches/`, `/moh-speeches`,
-    `/about-adrian-simpson-speechwriter/`, `/best-man-speech-writer/`, `/speech-review-service`,
-    `/contact`, `/blogs/`
+**Full map built from your GSC export → `redirect-map.md`.** Summary:
+- [ ] `http://*` → `https://*` (301) and non-www → www (301)
+- [ ] Old subdomain `bestman.allspeechesgreatandsmall.com` → `/best-man-speech-writer/`
+- [ ] 16 old structural/service URLs 301'd (table C in `redirect-map.md`)
+- [ ] 2 "decide" URLs resolved: `/after-dinner-speeches/`, `/father-of-the-bride-199`
+- [ ] **150 blog posts imported with identical slugs** (`blog-slugs-to-preserve.txt`) — no redirect, slug-preserved
+- [ ] `/blogs/page-N` pagination preserved or 301'd to `/blogs/`
+- [ ] Self-canonical ignores query params (`?gclid`, `?add_to_wishlist`, `?order`)
 - [ ] Zero 404s on any URL that currently gets impressions
 
 ## F. Pre-flight
