@@ -1,0 +1,100 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Write a Father of the Bride Speech",
+      "url": "https://www.allspeechesgreatandsmall.com/father-of-the-bride-speeches",
+      "datePublished": "2021-06-01",
+      "dateModified": "2026-06-02",
+      "author": {
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      },
+      "publisher": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "mainEntityOfPage": "https://www.allspeechesgreatandsmall.com/father-of-the-bride-speeches",
+      "description": "How to write a father of the bride speech — what to say about your daughter, welcoming the groom, structure, toast and full examples."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long should a father of the bride speech be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aim for around 7 minutes — you're first up, so an overlong speech makes the groom's and best man's jobs much harder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you start a father of the bride speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As the first speaker you do the welcoming — introduce yourself and your relationship to the bride, and give it on behalf of your wife as well."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should you structure a father of the bride speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Welcome first, then welcome the groom's family and groom, an optional absent-friends toast, the main section about your daughter, then her husband, your wife, and the final toast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should you say about your daughter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paint a picture of who she was, who she is, and the years in between — peppered with funny memories, and saluting her achievements subtly rather than like a CV."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you welcome the groom's family?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Welcome the groom's family and friends warmly, give everyone a fair mention, and have some fun with where the two families have come from."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should you end a father of the bride speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Summarise what a special person your daughter is in your own, original words — this is the part guests remember, so make it heartfelt and avoid all the clichés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle divorce in the speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It all depends on your relationship with her mother — but whatever the situation, never omit her completely."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Write a Father of the Bride Speech",
+          "item": "https://www.allspeechesgreatandsmall.com/father-of-the-bride-speeches"
+        }
+      ]
+    }
+  ]
+}
+</script>

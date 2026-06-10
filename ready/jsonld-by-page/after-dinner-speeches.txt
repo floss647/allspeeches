@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "serviceType": "After-dinner speech writing",
+      "name": "After-Dinner Speech Writer",
+      "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/",
+      "provider": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Bespoke, original after-dinner speech writing for dinners, clubs, awards and events — genuinely entertaining and pitched for your audience, with unlimited revisions.",
+      "offers": {
+        "@type": "Offer",
+        "price": "399",
+        "priceCurrency": "GBP",
+        "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes an after-dinner speech different from a wedding speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Everything except the nerves. There's no running order of thank-yous to hit — the whole job is to entertain a well-fed, well-watered room for ten or twenty minutes, so it has to be funnier, tighter and built entirely around holding their attention."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kinds of events do you write for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Charity and gala dinners, sports and social clubs, corporate awards, retirements, and association or society dinners — anywhere someone's been handed the after-dinner slot and told to be good."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should an after-dinner speech be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually ten to twenty minutes, depending on the event and your billing. I'll help you pitch the length to the room."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it actually be funny?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That's the entire point — original, well-timed humour written for your specific audience, never the recycled circuit gags everyone's heard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You tell me about the event, the audience and your material; I write the speech; we refine it together until it's exactly right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can you turn it around?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually within 7 days, and I can work to a tight deadline when the date's looming."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "After-Dinner Speech Writer",
+          "item": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/"
+        }
+      ]
+    }
+  ]
+}
+</script>

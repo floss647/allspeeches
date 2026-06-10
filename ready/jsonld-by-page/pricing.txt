@@ -1,0 +1,73 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Offer",
+      "name": "Bespoke wedding speech",
+      "description": "A 100% original best man, groom, father of the bride or maid of honour speech, written from scratch around your stories, with unlimited revisions.",
+      "price": "399",
+      "priceCurrency": "GBP",
+      "url": "https://www.allspeechesgreatandsmall.com/pricing",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is £399 really the full price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — for a bespoke wedding speech, that's everything, including unlimited revisions. No hidden extras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When do I pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full payment up front when you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I need it urgently?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Last-minute speeches are often possible — tell me your date and I'll let you know straight away."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I'm not happy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We keep refining until you are. That's what unlimited revisions means."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pricing",
+          "item": "https://www.allspeechesgreatandsmall.com/pricing"
+        }
+      ]
+    }
+  ]
+}
+</script>

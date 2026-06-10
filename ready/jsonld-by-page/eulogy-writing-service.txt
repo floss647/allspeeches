@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "serviceType": "Eulogy writing",
+      "name": "Eulogy Writing Service",
+      "url": "https://www.allspeechesgreatandsmall.com/eulogy-writing-service",
+      "provider": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Compassionate eulogy writing — gentle, unhurried help creating a personal, fitting tribute in your words, at a difficult time.",
+      "offers": {
+        "@type": "Offer",
+        "price": "399",
+        "priceCurrency": "GBP",
+        "url": "https://www.allspeechesgreatandsmall.com/eulogy-writing-service"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does this work at such a difficult time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gently. You share what you can, I do the shaping, and there's no pressure at any stage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can you help?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quickly when needed — please just tell me the date and I'll do everything I can."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we share memories with you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "However is easiest — a phone call, written notes, or both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should a eulogy be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually three to five minutes. I'll help you judge it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it confidential?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always, completely."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Eulogy Writing Service",
+          "item": "https://www.allspeechesgreatandsmall.com/eulogy-writing-service"
+        }
+      ]
+    }
+  ]
+}
+</script>

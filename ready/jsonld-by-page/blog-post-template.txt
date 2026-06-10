@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "[POST TITLE]",
+      "url": "https://www.allspeechesgreatandsmall.com/[slug]",
+      "datePublished": "[published_date YYYY-MM-DD]",
+      "dateModified": "[YYYY-MM-DD]",
+      "author": {
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      },
+      "publisher": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "mainEntityOfPage": "https://www.allspeechesgreatandsmall.com/[slug]",
+      "description": "[meta_description]"
+    }
+  ]
+}
+</script>
