@@ -20,6 +20,7 @@ footer, and `ready/llms.txt`.
 |---|---|---|
 | `[RATING]` | reviews.io dashboard — the **exact decimal** (e.g. 4.91), not the rounded 5 stars | home, reviews, every service page, footer, global schema, reviews schema |
 | Contact reply time | your call — suggest **"one working day"** | contact ("I aim to reply within …") |
+| After-dinner price | confirm — defaulted to **"from £399"** | after-dinner page + its Service schema |
 | Old URLs for 301s | GSC → Indexing → Pages export | redirect map (`launch-checklist.md` §E) |
 
 ## Find-and-replace for your page copy

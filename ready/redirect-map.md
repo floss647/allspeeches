@@ -46,11 +46,15 @@ your SEO risk disappears.
 | `/thank-you-edit` | `/` *(better: noindex)* |
 | `/thank-you-ai-bespoke` | `/` *(better: noindex)* |
 
-## D. Needs your decision (2)
-| Old URL | Issue |
+## D. Recreated / decided
+- `/after-dinner-speeches/` → **RECREATE as a service page, same URL** (no redirect). Copy + schema
+  ready in `after-dinner-speeches-PAGE.md`; route added to sitemap, llms.txt and `jsonld.md` (§7b).
+  Add the route + nav/footer link in Lovable. *Confirm the after-dinner price.*
+
+Still to confirm (1):
+| Old URL | Default |
 |---|---|
-| `/after-dinner-speeches/` | **No equivalent in the new build.** You used to offer after-dinner speeches. Recreate it as a service page (preserve the URL), or 301 it to `/` or the closest service? |
-| `/father-of-the-bride-199` | Looks like an old price/checkout page. 301 to `/father-of-the-bride-speech-writer`, or is it still needed? |
+| `/father-of-the-bride-199` | Looks like an old price/checkout page → 301 to `/father-of-the-bride-speech-writer` unless still needed. |
 
 ## E. Blog pagination (10 indexed: `/blogs/page-2` … `/blogs/page-14`)
 The new `/blogs/` index needs pagination. Either **keep the `/blogs/page-N` URL pattern** (cleanest —

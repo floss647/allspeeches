@@ -334,6 +334,52 @@ Rules:
 
 ---
 
+## 7b. AFTER-DINNER SERVICE — `/after-dinner-speeches/`  (+ global)
+*New page (recreated to preserve the indexed URL). Price shown as "from £399" — confirm; if it's
+quote-based, drop the `offers` block.*
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "After-dinner speech writing",
+  "name": "After-Dinner Speech Writer",
+  "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/",
+  "provider": { "@id": "https://www.allspeechesgreatandsmall.com/#business" },
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "description": "Bespoke, original after-dinner speech writing for dinners, clubs, awards and events — genuinely entertaining and pitched for your audience, with unlimited revisions.",
+  "offers": { "@type": "Offer", "price": "399", "priceCurrency": "GBP", "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/" }
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What kinds of events do you write after-dinner speeches for?", "acceptedAnswer": { "@type": "Answer", "text": "Charity dinners, sports and social clubs, corporate awards, retirements, and association or society dinners — any occasion where someone's asked to entertain a room after a meal." } },
+    { "@type": "Question", "name": "How long should an after-dinner speech be?", "acceptedAnswer": { "@type": "Answer", "text": "Usually around 10 to 20 minutes, depending on the event and the billing. I'll help you judge the right length for your audience." } },
+    { "@type": "Question", "name": "Will it actually be funny?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — entertaining and original, with humour pitched for your specific audience, never recycled gags." } },
+    { "@type": "Question", "name": "How does the process work?", "acceptedAnswer": { "@type": "Answer", "text": "You tell me about the event, the audience and your stories; I write a complete speech; we refine it together until it's right." } },
+    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually 7 days, with last-minute help available." } },
+    { "@type": "Question", "name": "Will it sound like me?", "acceptedAnswer": { "@type": "Answer", "text": "Always — it's your voice and your material, shaped to land in the room." } }
+  ]
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.allspeechesgreatandsmall.com/" },
+    { "@type": "ListItem", "position": 2, "name": "After-Dinner Speech Writer", "item": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/" }
+  ]
+}
+```
+
+---
+
 ## 8. BEST MAN GUIDE — `/best-man-speeches/`  (+ global)
 *Article block also lives in `../content/guide-best-man-ENHANCED.md`. FAQPage + Breadcrumb below.*
 
