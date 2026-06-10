@@ -357,12 +357,12 @@ quote-based, drop the `offers` block.*
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "What kinds of events do you write after-dinner speeches for?", "acceptedAnswer": { "@type": "Answer", "text": "Charity dinners, sports and social clubs, corporate awards, retirements, and association or society dinners — any occasion where someone's asked to entertain a room after a meal." } },
-    { "@type": "Question", "name": "How long should an after-dinner speech be?", "acceptedAnswer": { "@type": "Answer", "text": "Usually around 10 to 20 minutes, depending on the event and the billing. I'll help you judge the right length for your audience." } },
-    { "@type": "Question", "name": "Will it actually be funny?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — entertaining and original, with humour pitched for your specific audience, never recycled gags." } },
-    { "@type": "Question", "name": "How does the process work?", "acceptedAnswer": { "@type": "Answer", "text": "You tell me about the event, the audience and your stories; I write a complete speech; we refine it together until it's right." } },
-    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually 7 days, with last-minute help available." } },
-    { "@type": "Question", "name": "Will it sound like me?", "acceptedAnswer": { "@type": "Answer", "text": "Always — it's your voice and your material, shaped to land in the room." } }
+    { "@type": "Question", "name": "What makes an after-dinner speech different from a wedding speech?", "acceptedAnswer": { "@type": "Answer", "text": "Everything except the nerves. There's no running order of thank-yous to hit — the whole job is to entertain a well-fed, well-watered room for ten or twenty minutes, so it has to be funnier, tighter and built entirely around holding their attention." } },
+    { "@type": "Question", "name": "What kinds of events do you write for?", "acceptedAnswer": { "@type": "Answer", "text": "Charity and gala dinners, sports and social clubs, corporate awards, retirements, and association or society dinners — anywhere someone's been handed the after-dinner slot and told to be good." } },
+    { "@type": "Question", "name": "How long should an after-dinner speech be?", "acceptedAnswer": { "@type": "Answer", "text": "Usually ten to twenty minutes, depending on the event and your billing. I'll help you pitch the length to the room." } },
+    { "@type": "Question", "name": "Will it actually be funny?", "acceptedAnswer": { "@type": "Answer", "text": "That's the entire point — original, well-timed humour written for your specific audience, never the recycled circuit gags everyone's heard." } },
+    { "@type": "Question", "name": "How does it work?", "acceptedAnswer": { "@type": "Answer", "text": "You tell me about the event, the audience and your material; I write the speech; we refine it together until it's exactly right." } },
+    { "@type": "Question", "name": "How quickly can you turn it around?", "acceptedAnswer": { "@type": "Answer", "text": "Usually within 7 days, and I can work to a tight deadline when the date's looming." } }
   ]
 }
 ```
