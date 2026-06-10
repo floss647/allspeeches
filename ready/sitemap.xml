@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static fallback sitemap. PREFER auto-generating this from your routes so <lastmod>
+  reflects real edit dates. Update <lastmod> per page before launch.
+  Excludes /privacy and /terms (set those to noindex). Blog posts (/$slug) should be
+  appended automatically from the posts table.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.allspeechesgreatandsmall.com/</loc><lastmod>2026-06-10</lastmod><priority>1.0</priority></url>
+
+  <url><loc>https://www.allspeechesgreatandsmall.com/best-man-speech-writer/</loc><lastmod>2026-06-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/groom-speech-writer</loc><lastmod>2026-06-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/father-of-the-bride-speech-writer</loc><lastmod>2026-06-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/maid-of-honour-speech-writer</loc><lastmod>2026-06-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/eulogy-writing-service</loc><lastmod>2026-06-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/speech-review-service</loc><lastmod>2026-06-10</lastmod><priority>0.9</priority></url>
+
+  <url><loc>https://www.allspeechesgreatandsmall.com/best-man-speeches/</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/groom-speeches</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/father-of-the-bride-speeches</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/moh-speeches</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/eulogy-examples</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
+
+  <url><loc>https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/</loc><lastmod>2026-06-10</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/reviews</loc><lastmod>2026-06-10</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/pricing</loc><lastmod>2026-06-10</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/contact</loc><lastmod>2026-06-10</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.allspeechesgreatandsmall.com/blogs/</loc><lastmod>2026-06-10</lastmod><priority>0.5</priority></url>
+</urlset>
