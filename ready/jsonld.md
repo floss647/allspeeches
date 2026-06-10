@@ -65,7 +65,7 @@ Rules:
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "How does it actually work?", "acceptedAnswer": { "@type": "Answer", "text": "You share your stories with me, I write a complete speech around them, and we refine it together until it's perfect. The whole thing is built from scratch around you." } },
-    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Most speeches are drafted within [X] days, and I can work to tight deadlines — even last-minute — when needed." } },
+    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Most speeches are drafted within 7 days, and I can work to tight deadlines — even last-minute — when needed." } },
     { "@type": "Question", "name": "Is the speech really original?", "acceptedAnswer": { "@type": "Answer", "text": "Completely. Every speech is written from the ground up for one person. I never reuse jokes, lines or templates." } }
   ]
 }
@@ -95,7 +95,7 @@ Rules:
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "How does the process work?", "acceptedAnswer": { "@type": "Answer", "text": "You share your stories with me, I write a complete speech around them, and we refine it together until it's perfect." } },
-    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Most best man speeches are drafted within [X] days, and I can work to tight deadlines when needed." } },
+    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Most best man speeches are drafted within 7 days, and I can work to tight deadlines when needed." } },
     { "@type": "Question", "name": "Will it sound like me?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. I write in your voice, using your humour and your stories, so it sounds like the best possible version of you — not like a writer." } },
     { "@type": "Question", "name": "What if I don't have many good stories?", "acceptedAnswer": { "@type": "Answer", "text": "Most people have far more material than they realise. A short conversation almost always uncovers the gold." } },
     { "@type": "Question", "name": "How do you handle jokes about the groom?", "acceptedAnswer": { "@type": "Answer", "text": "Sharp but never cruel, and always judged for the audience — grandparents and all." } },
@@ -141,7 +141,7 @@ Rules:
     { "@type": "Question", "name": "How does it work?", "acceptedAnswer": { "@type": "Answer", "text": "You share your story, I write the speech, we perfect it together." } },
     { "@type": "Question", "name": "How do you balance funny and heartfelt?", "acceptedAnswer": { "@type": "Answer", "text": "Carefully — laughs early to settle the nerves, sincerity built towards the toast." } },
     { "@type": "Question", "name": "How do I thank everyone without it dragging?", "acceptedAnswer": { "@type": "Answer", "text": "I weave thanks into the story so they feel warm, not like a list." } },
-    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually [X] days; last-minute help available." } },
+    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually 7 days; last-minute help available." } },
     { "@type": "Question", "name": "Will it sound like me?", "acceptedAnswer": { "@type": "Answer", "text": "Always — it's your voice, your story." } }
   ]
 }
@@ -184,7 +184,7 @@ Rules:
     { "@type": "Question", "name": "How does it work?", "acceptedAnswer": { "@type": "Answer", "text": "You share your memories, I write the speech, we refine it together." } },
     { "@type": "Question", "name": "How do I welcome the groom's family warmly?", "acceptedAnswer": { "@type": "Answer", "text": "I'll craft a genuine welcome that brings both families together." } },
     { "@type": "Question", "name": "How emotional is too emotional?", "acceptedAnswer": { "@type": "Answer", "text": "I judge the balance so it's moving but deliverable — you'll get through it." } },
-    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually [X] days; last-minute help available." } },
+    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually 7 days; last-minute help available." } },
     { "@type": "Question", "name": "Will it sound like me?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — your voice, your daughter, your story." } }
   ]
 }
@@ -227,7 +227,7 @@ Rules:
     { "@type": "Question", "name": "How does it work?", "acceptedAnswer": { "@type": "Answer", "text": "You share your stories, I write the speech, we refine it together." } },
     { "@type": "Question", "name": "How do you balance funny and sentimental?", "acceptedAnswer": { "@type": "Answer", "text": "Laughs to open, warmth to close — judged for the room." } },
     { "@type": "Question", "name": "What if our best stories are private?", "acceptedAnswer": { "@type": "Answer", "text": "I handle sensitive material with discretion and tact, keeping the warmth without the overshare." } },
-    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually [X] days; last-minute help available." } },
+    { "@type": "Question", "name": "How long does it take?", "acceptedAnswer": { "@type": "Answer", "text": "Usually 7 days; last-minute help available." } },
     { "@type": "Question", "name": "Will it sound like me?", "acceptedAnswer": { "@type": "Answer", "text": "Always." } }
   ]
 }
@@ -247,7 +247,7 @@ Rules:
 ---
 
 ## 6. EULOGY SERVICE — `/eulogy-writing-service`  (+ global)
-*Price omitted deliberately — confirm eulogy pricing before adding an Offer.*
+*£399, same as wedding speeches. Price is in the schema only — keep the eulogy page copy gentle and price-free.*
 
 ```json
 {
@@ -258,7 +258,8 @@ Rules:
   "url": "https://www.allspeechesgreatandsmall.com/eulogy-writing-service",
   "provider": { "@id": "https://www.allspeechesgreatandsmall.com/#business" },
   "areaServed": { "@type": "Country", "name": "United Kingdom" },
-  "description": "Compassionate eulogy writing — gentle, unhurried help creating a personal, fitting tribute in your words, at a difficult time."
+  "description": "Compassionate eulogy writing — gentle, unhurried help creating a personal, fitting tribute in your words, at a difficult time.",
+  "offers": { "@type": "Offer", "price": "399", "priceCurrency": "GBP", "url": "https://www.allspeechesgreatandsmall.com/eulogy-writing-service" }
 }
 ```
 
@@ -290,7 +291,7 @@ Rules:
 ---
 
 ## 7. SPEECH REVIEW SERVICE — `/speech-review-service`  (+ global)
-*Price omitted deliberately — confirm speech-review pricing before adding an Offer.*
+*£399, same as wedding speeches.*
 
 ```json
 {
@@ -301,7 +302,8 @@ Rules:
   "url": "https://www.allspeechesgreatandsmall.com/speech-review-service",
   "provider": { "@id": "https://www.allspeechesgreatandsmall.com/#business" },
   "areaServed": { "@type": "Country", "name": "United Kingdom" },
-  "description": "Honest, professional feedback on a speech you've already written — structure, jokes, timing and delivery — with clear, actionable suggestions."
+  "description": "Honest, professional feedback on a speech you've already written — structure, jokes, timing and delivery — with clear, actionable suggestions.",
+  "offers": { "@type": "Offer", "price": "399", "priceCurrency": "GBP", "url": "https://www.allspeechesgreatandsmall.com/speech-review-service" }
 }
 ```
 
@@ -311,7 +313,7 @@ Rules:
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What do I get back?", "acceptedAnswer": { "@type": "Answer", "text": "Written, structured feedback with specific, actionable suggestions." } },
-    { "@type": "Question", "name": "How fast?", "acceptedAnswer": { "@type": "Answer", "text": "Usually within [X] days — tell me your date if it's tight." } },
+    { "@type": "Question", "name": "How fast?", "acceptedAnswer": { "@type": "Answer", "text": "Usually within 7 days — tell me your date if it's tight." } },
     { "@type": "Question", "name": "Will you rewrite it or just advise?", "acceptedAnswer": { "@type": "Answer", "text": "The review service is feedback and guidance; if you'd like me to write or substantially rewrite it, I can do that as a full speech instead." } },
     { "@type": "Question", "name": "What do you check?", "acceptedAnswer": { "@type": "Answer", "text": "Structure, content, humour, tone, length, timing and delivery." } },
     { "@type": "Question", "name": "How do I send it?", "acceptedAnswer": { "@type": "Answer", "text": "Just get in touch and I'll tell you where to send it." } }
@@ -596,7 +598,7 @@ keeping the schema text identical to what's shown on the page.*
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "Is £399 really the full price?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — for a bespoke wedding speech, that's everything, including unlimited revisions. No hidden extras." } },
-    { "@type": "Question", "name": "When do I pay?", "acceptedAnswer": { "@type": "Answer", "text": "[Confirm your payment terms — e.g. a deposit to book, balance on delivery.]" } },
+    { "@type": "Question", "name": "When do I pay?", "acceptedAnswer": { "@type": "Answer", "text": "Full payment up front when you book." } },
     { "@type": "Question", "name": "What if I need it urgently?", "acceptedAnswer": { "@type": "Answer", "text": "Last-minute speeches are often possible — tell me your date and I'll let you know straight away." } },
     { "@type": "Question", "name": "What if I'm not happy?", "acceptedAnswer": { "@type": "Answer", "text": "We keep refining until you are. That's what unlimited revisions means." } }
   ]
