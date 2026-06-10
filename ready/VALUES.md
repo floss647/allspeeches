@@ -13,12 +13,12 @@ footer, and `ready/llms.txt`.
 | Eulogy price | **£399** (in schema only — keep eulogy page copy gentle/price-free) | eulogy schema, pricing |
 | Speech review price | **£399** | speech-review schema, pricing |
 | Reviews source | reviews.io store **`all-speeches-great-and-small`** (live carousel widget) | reviews page, home reviews section |
+| `[REVIEW_COUNT]` | **421** | home, reviews, every service page, footer, global schema, reviews schema, llms.txt |
 
 ## ⏳ Still needed
 | Token | Where to get it | Appears on |
 |---|---|---|
-| `[RATING]` | reviews.io dashboard headline score (e.g. 4.93) | home, reviews, every service page, footer, global schema, reviews schema |
-| `[REVIEW_COUNT]` | reviews.io total review count | same as above + `llms.txt` |
+| `[RATING]` | reviews.io dashboard — the **exact decimal** (e.g. 4.91), not the rounded 5 stars | home, reviews, every service page, footer, global schema, reviews schema |
 | Contact reply time | your call — suggest **"one working day"** | contact ("I aim to reply within …") |
 | Old URLs for 301s | GSC → Indexing → Pages export | redirect map (`launch-checklist.md` §E) |
 

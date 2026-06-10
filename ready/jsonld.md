@@ -38,7 +38,7 @@ Rules:
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "[RATING]",
-    "reviewCount": "[REVIEW_COUNT]",
+    "reviewCount": "421",
     "bestRating": "5"
   }
 }
@@ -546,7 +546,7 @@ reviews.co.uk. Add or remove review objects to match what's actually shown on th
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "[RATING]",
-    "reviewCount": "[REVIEW_COUNT]",
+    "reviewCount": "421",
     "bestRating": "5"
   },
   "review": [
