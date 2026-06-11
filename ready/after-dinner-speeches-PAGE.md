@@ -3,7 +3,7 @@
 **Route:** `/after-dinner-speeches/`  ← keep the exact slug + trailing slash (it's already indexed)
 **Title:** After-Dinner Speech Writer | Original Speeches That Actually Land
 **Meta:** A professional after-dinner speech writer for dinners, clubs, awards and events. Original, genuinely funny, written around you and your audience — never circuit gags. UK's most-reviewed.
-**Tokens to fill:** `[RATING]`, `[REVIEW_COUNT]`, after-dinner price (see note at end).
+**Tokens:** rating 4.9, review count 421, price "from £499" — all filled below.
 
 > New route — add it to Prompt 0's route list, the Services nav dropdown and the footer. No guide
 > pairing (services-only). Import the schema from `jsonld.md` §7b.
@@ -46,10 +46,10 @@ Anyone who's been handed the after-dinner slot and told to be good:
 
 > "[Real testimonial]" — [Name]
 
-★★★★★ [RATING]/5 from [REVIEW_COUNT] reviews · **Read all reviews →** /reviews
+★★★★★ 4.9/5 from 421 reviews · **Read all reviews →** /reviews
 
 ## What it costs
-Bespoke after-dinner speeches start from **£399**, unlimited revisions included. Tell me about your event and I'll confirm the price.
+Bespoke after-dinner speeches start from **£499**, unlimited revisions included. Tell me about your event and I'll confirm the price.
 `CTA link:` See what's included → /pricing
 
 ## FAQ
@@ -69,8 +69,6 @@ Bespoke after-dinner speeches start from **£399**, unlimited revisions included
 
 ---
 
-### ⚠️ Price note
-Pricing is written as **"from £399"** because after-dinner speeches are often longer/more involved
-than wedding speeches. **Confirm the real figure** — if it's a flat £399, change "start from £399"
-to "a flat £399"; if it's quote-based, say "priced on enquiry" and drop the number (and remove the
-`offers` block from the schema).
+### Price
+Confirmed: **from £499** (higher than the £399 wedding speeches, as after-dinner speeches are longer
+and more involved). Schema Offer uses 499.

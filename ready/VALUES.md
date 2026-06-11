@@ -14,18 +14,21 @@ footer, and `ready/llms.txt`.
 | Speech review price | **£399** | speech-review schema, pricing |
 | Reviews source | reviews.io store **`all-speeches-great-and-small`** (live carousel widget) | reviews page, home reviews section |
 | `[REVIEW_COUNT]` | **421** | home, reviews, every service page, footer, global schema, reviews schema, llms.txt |
+| `[RATING]` | **4.9** | home, reviews, every service page, footer, global schema, reviews schema |
+| After-dinner price | **from £499** (longer/more involved than weddings) | after-dinner page + its Service schema |
+| Redirect map | **built from GSC export** → `redirect-map.md` | — |
 
 ## ⏳ Still needed
 | Token | Where to get it | Appears on |
 |---|---|---|
-| `[RATING]` | reviews.io dashboard — the **exact decimal** (e.g. 4.91), not the rounded 5 stars | home, reviews, every service page, footer, global schema, reviews schema |
 | Contact reply time | your call — suggest **"one working day"** | contact ("I aim to reply within …") |
-| After-dinner price | confirm — defaulted to **"from £399"** | after-dinner page + its Service schema |
-| Old URLs for 301s | GSC → Indexing → Pages export | redirect map (`launch-checklist.md` §E) |
 
 ## Find-and-replace for your page copy
+- `[RATING]` → `4.9`
+- `[REVIEW_COUNT]` → `421`
 - `[X] days` → `7 days`  (e.g. "delivery in 7 days", "drafted within 7 days")
 - `[your email]` → `adrian@allspeechesgreatandsmall.com`
+- After-dinner page → price is **from £499** (already filled in `after-dinner-speeches-PAGE.md`)
 - Pricing → "When do I pay?" answer → **"Full payment up front when you book."**
 - Pricing → eulogy line → **"A eulogy is also £399 — the same flat price, written with the same care and no rush."**
 - Pricing → speech-review line → **"£399."**

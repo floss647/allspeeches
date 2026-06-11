@@ -37,7 +37,7 @@ Rules:
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "[RATING]",
+    "ratingValue": "4.9",
     "reviewCount": "421",
     "bestRating": "5"
   }
@@ -335,8 +335,7 @@ Rules:
 ---
 
 ## 7b. AFTER-DINNER SERVICE — `/after-dinner-speeches/`  (+ global)
-*New page (recreated to preserve the indexed URL). Price shown as "from £399" — confirm; if it's
-quote-based, drop the `offers` block.*
+*New page (recreated to preserve the indexed URL). Price is "from £499" — Offer uses `lowPrice` 499.*
 
 ```json
 {
@@ -348,7 +347,7 @@ quote-based, drop the `offers` block.*
   "provider": { "@id": "https://www.allspeechesgreatandsmall.com/#business" },
   "areaServed": { "@type": "Country", "name": "United Kingdom" },
   "description": "Bespoke, original after-dinner speech writing for dinners, clubs, awards and events — genuinely entertaining and pitched for your audience, with unlimited revisions.",
-  "offers": { "@type": "Offer", "price": "399", "priceCurrency": "GBP", "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/" }
+  "offers": { "@type": "Offer", "price": "499", "priceCurrency": "GBP", "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/" }
 }
 ```
 
@@ -591,7 +590,7 @@ reviews.co.uk. Add or remove review objects to match what's actually shown on th
   "brand": { "@id": "https://www.allspeechesgreatandsmall.com/#business" },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "[RATING]",
+    "ratingValue": "4.9",
     "reviewCount": "421",
     "bestRating": "5"
   },

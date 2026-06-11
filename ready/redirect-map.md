@@ -32,9 +32,10 @@ your SEO risk disappears.
 | `/best-man-speech-writing-service/` | `/best-man-speech-writer/` |
 | `/groom-speech-writing-service/` | `/groom-speech-writer` |
 | `/groom-speech-writing-services` | `/groom-speech-writer` |
-| `/the-grooms-speech/` | `/groom-speech-writer` *(verify: service vs guide)* |
+| `/the-grooms-speech/` | `/groom-speeches` *(was the guide)* |
 | `/father-bride-speech-writing-service/` | `/father-of-the-bride-speech-writer` |
-| `/father-of-the-bride-speech/` | `/father-of-the-bride-speech-writer` *(verify: service vs guide)* |
+| `/father-of-the-bride-speech/` | `/father-of-the-bride-speeches` *(was the guide)* |
+| `/father-of-the-bride-199` | `/father-of-the-bride-speech-writer` |
 | `/father-of-the-bride-speech/jokes/` | `/father-of-the-bride-speeches` |
 | `/eulogy-writer/` | `/eulogy-writing-service` |
 | `/testimonials` | `/reviews` |
@@ -51,10 +52,7 @@ your SEO risk disappears.
   ready in `after-dinner-speeches-PAGE.md`; route added to sitemap, llms.txt and `jsonld.md` (§7b).
   Add the route + nav/footer link in Lovable. *Confirm the after-dinner price.*
 
-Still to confirm (1):
-| Old URL | Default |
-|---|---|
-| `/father-of-the-bride-199` | Looks like an old price/checkout page → 301 to `/father-of-the-bride-speech-writer` unless still needed. |
+All decisions resolved. ✅
 
 ## E. Blog pagination (10 indexed: `/blogs/page-2` … `/blogs/page-14`)
 The new `/blogs/` index needs pagination. Either **keep the `/blogs/page-N` URL pattern** (cleanest —

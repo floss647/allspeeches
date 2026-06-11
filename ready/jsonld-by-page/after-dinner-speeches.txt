@@ -17,7 +17,7 @@
       "description": "Bespoke, original after-dinner speech writing for dinners, clubs, awards and events — genuinely entertaining and pitched for your audience, with unlimited revisions.",
       "offers": {
         "@type": "Offer",
-        "price": "399",
+        "price": "499",
         "priceCurrency": "GBP",
         "url": "https://www.allspeechesgreatandsmall.com/after-dinner-speeches/"
       }

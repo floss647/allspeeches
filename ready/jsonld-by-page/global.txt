@@ -32,7 +32,7 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "[RATING]",
+        "ratingValue": "4.9",
         "reviewCount": "421",
         "bestRating": "5"
       }
