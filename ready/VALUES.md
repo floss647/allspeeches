@@ -17,11 +17,11 @@ footer, and `ready/llms.txt`.
 | `[RATING]` | **4.9** | home, reviews, every service page, footer, global schema, reviews schema |
 | After-dinner price | **from £499** (longer/more involved than weddings) | after-dinner page + its Service schema |
 | Redirect map | **built from GSC export** → `redirect-map.md` | — |
+| Contact reply time | **within one working day** | contact ("I aim to reply within …") |
 
-## ⏳ Still needed
-| Token | Where to get it | Appears on |
-|---|---|---|
-| Contact reply time | your call — suggest **"one working day"** | contact ("I aim to reply within …") |
+## ✅ All page-copy tokens resolved
+Remaining placeholders are **legal/business details** in `ready/legal/` (ICO reg, address, etc.) —
+see those files. Reviews testimonials come from the reviews.io widget, not tokens.
 
 ## Find-and-replace for your page copy
 - `[RATING]` → `4.9`
