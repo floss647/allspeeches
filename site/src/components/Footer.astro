@@ -1,0 +1,95 @@
+---
+import { SITE } from '../config/site';
+const year = new Date().getFullYear();
+const showRating = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
+---
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <img src="/images/logo-alt.png" alt={`${SITE.shortName} logo`} width="56" height="56" class="footer-logo" />
+      <p class="footer-tagline">Bespoke, original speeches for weddings and life's biggest moments — written around your story by {SITE.founder}.</p>
+      <p class="nap">
+        <strong>{SITE.name}</strong><br />
+        {SITE.addressRegion}, United Kingdom<br />
+        <a href={`tel:${SITE.telephoneE164.replace(/-/g, '')}`}>{SITE.telephone}</a><br />
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      </p>
+      <p class="reviews-badge">
+        {showRating ? (
+          <span><span class="stars">★★★★★</span> Rated {SITE.rating}/5 from {SITE.reviewCount} reviews</span>
+        ) : (
+          <span><span class="stars">★★★★★</span> <span class="ph">[RATING]/5 from [REVIEW_COUNT] reviews]</span></span>
+        )}
+        <br /><a href={SITE.reviewsProfileUrl} rel="nofollow">Verified on Reviews.co.uk →</a>
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Speech writing</h4>
+      <ul>
+        <li><a href="/best-man-speech-writer/">Best Man Speech Writer</a></li>
+        <li><a href="/groom-speech-writer">Groom Speech Writer</a></li>
+        <li><a href="/father-of-the-bride-speech-writer">Father of the Bride Writer</a></li>
+        <li><a href="/maid-of-honour-speech-writer">Maid of Honour Writer</a></li>
+        <li><a href="/eulogy-writing-service">Eulogy Writing Service</a></li>
+        <li><a href="/speech-review-service">Speech Review Service</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Free guides</h4>
+      <ul>
+        <li><a href="/best-man-speeches/">Best Man Speech Guide</a></li>
+        <li><a href="/groom-speeches">Groom Speech Guide</a></li>
+        <li><a href="/father-of-the-bride-speeches">Father of the Bride Guide</a></li>
+        <li><a href="/moh-speeches">Maid of Honour Guide</a></li>
+        <li><a href="/eulogy-examples">How to Write a Eulogy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href={SITE.founderUrlPath}>About Adrian</a></li>
+        <li><a href="/reviews">Reviews</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/blogs/">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <div class="social">
+        <a href={SITE.social[0]} aria-label="LinkedIn" rel="nofollow">in</a>
+        <a href={SITE.social[1]} aria-label="Facebook" rel="nofollow">f</a>
+        <a href={SITE.social[2]} aria-label="X" rel="nofollow">𝕏</a>
+        <a href={SITE.social[3]} aria-label="YouTube" rel="nofollow">▶</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap footer-legal">
+    <span>© {year} {SITE.name}. All rights reserved.</span>
+    <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+  </div>
+</footer>
+
+<style>
+  .site-footer { background: var(--ink); color: #cfcfe0; padding: 64px 0 28px; margin-top: 40px; }
+  .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; }
+  .site-footer h4 { color: #fff; font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 16px; }
+  .site-footer ul { list-style: none; padding: 0; margin: 0; }
+  .site-footer li { margin-bottom: 9px; }
+  .site-footer a { color: #cfcfe0; text-decoration: none; font-size: 0.95rem; }
+  .site-footer a:hover { color: var(--gold); }
+  .footer-logo { filter: brightness(0) invert(1); opacity: 0.9; margin-bottom: 14px; }
+  .footer-tagline { font-size: 0.98rem; max-width: 34ch; }
+  .nap { font-size: 0.92rem; line-height: 1.7; }
+  .nap strong { color: #fff; }
+  .reviews-badge { font-size: 0.92rem; margin-top: 14px; }
+  .stars { color: var(--gold); }
+  .social { display: flex; gap: 10px; margin-top: 18px; }
+  .social a { width: 36px; height: 36px; border: 1px solid rgba(255,255,255,0.25); border-radius: 50%; display: grid; place-items: center; font-size: 0.9rem; }
+  .social a:hover { border-color: var(--gold); }
+  .footer-legal { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; border-top: 1px solid rgba(255,255,255,0.12); margin-top: 48px; padding-top: 22px; font-size: 0.85rem; color: #9a9ab0; }
+  .footer-legal a { color: #9a9ab0; }
+  @media (max-width: 860px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
+</style>

@@ -1,0 +1,114 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import Faq from './Faq.astro';
+import CtaBand from './CtaBand.astro';
+import { SITE, fill } from '../config/site';
+import { service, faqPage, article } from '../lib/schema';
+import type { ServiceData } from '../data/services';
+
+interface Props { data: ServiceData; }
+const { data } = Astro.props;
+
+const intro = data.intro.map(fill);
+const items = data.whatYouGet.items.map(fill);
+const steps = data.howItWorks.map(fill);
+const faqs = data.faqs.map((f) => ({ q: f.q, a: fill(f.a) }));
+const ctaLabel = fill(data.ctaLabel);
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Speech Writing', path: '/#services' },
+  { name: data.h1, path: data.slug },
+];
+
+const schemas = [
+  service({
+    serviceType: data.serviceType,
+    name: data.h1,
+    path: data.slug,
+    description: fill(data.meta),
+    withPrice: data.withPrice,
+  }),
+  faqPage(faqs),
+];
+
+const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
+---
+<Layout title={data.title} description={fill(data.meta)} path={data.slug} ogImage={data.heroImage} breadcrumbs={crumbs} schemas={schemas}>
+  <section class="hero">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <div class="media" style="align-items:center">
+        <div>
+          <p class="eyebrow">{data.gentle ? 'Compassionate help' : 'Professional speech writing'}</p>
+          <h1>{data.h1}</h1>
+          {intro.map((p) => <p class="lede" set:html={p} />)}
+          <div class="btn-row mt-2">
+            <a class="btn btn--primary" href="/contact">{ctaLabel}</a>
+            {data.guidePath && <a class="btn btn--ghost" href={data.guidePath}>{data.guideLabel} →</a>}
+          </div>
+        </div>
+        <img src={data.heroImage} alt={`${data.h1} — All Speeches Great & Small`} width="520" height="400" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap media">
+      <div>
+        <h2>{data.whatYouGet.heading}</h2>
+        <ul class="ticks">
+          {items.map((i) => <li set:html={i} />)}
+        </ul>
+      </div>
+      <div>
+        <h2>How it works</h2>
+        <ol class="steps">
+          {steps.map((s) => <li set:html={s} />)}
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap media">
+      <img src="/images/adrian-home.jpg" alt="Adrian Simpson, professional speechwriter" width="500" height="500" loading="lazy" />
+      <div>
+        <p class="eyebrow">Why work with me</p>
+        <h2>{data.gentle ? 'A little about me' : 'Written by a professional, for you'}</h2>
+        <p>
+          I started as a magazine journalist, spent fifteen years in television including presenting
+          on BBC Top Gear, and have written speeches professionally since 2012 — making me the UK’s
+          most highly rated and reviewed speech writer.
+        </p>
+        {!data.gentle && (
+          <p class="lede">
+            <span class="stars">★★★★★</span>
+            {ratingKnown ? (
+              <span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews.</span>
+            ) : (
+              <span class="ph"> [RATING]/5 from [REVIEW_COUNT] reviews.</span>
+            )}
+          </p>
+        )}
+        <a class="btn btn--ghost" href={SITE.founderUrlPath}>Read my story →</a>
+      </div>
+    </div>
+  </section>
+
+  {data.withPrice && (
+    <section class="section center">
+      <div class="wrap measure mx-auto">
+        <p class="eyebrow">Simple pricing</p>
+        <h2>One flat fee. Everything included.</h2>
+        <p class="lede">A bespoke {data.nav.toLowerCase()} speech is a flat <strong>£{SITE.price}</strong>, including unlimited revisions and everything above. No hidden extras.</p>
+        <a class="btn btn--primary" href="/pricing">See what’s included →</a>
+      </div>
+    </section>
+  )}
+
+  <Faq faqs={faqs} />
+
+  <CtaBand heading={data.gentle ? 'Whenever you’re ready' : 'Ready to start?'} text={data.gentle ? 'There’s no pressure and no rush. Get in touch whenever the time feels right.' : 'Tell me about the occasion and I’ll take it from there.'} />
+</Layout>
