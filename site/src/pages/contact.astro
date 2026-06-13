@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE, fill } from '../config/site';
+import { contactPage } from '../lib/schema';
+
+const path = '/contact';
+const title = 'Contact | All Speeches Great & Small';
+const description =
+  'Get in touch with Adrian Simpson to start your speech. Call 0207 993 6524 or send a message — fast, friendly replies. Speeches written worldwide from our UK base.';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Contact', path },
+];
+const types = ['Best Man', 'Groom', 'Father of the Bride', 'Maid of Honour', 'Eulogy', 'Speech Review', 'Other'];
+---
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={[contactPage()]}>
+  <section class="hero">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <p class="eyebrow">Contact</p>
+      <h1>Get in touch</h1>
+      <p class="lede measure">Ready to start, or just want to ask a question? I'd love to hear from you — and I reply quickly and personally.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap media" style="align-items:start">
+      <div>
+        <h2>Talk to me directly</h2>
+        <p class="contact-line"><strong>Phone</strong><br /><a href={`tel:${SITE.telephoneE164.replace(/-/g,'')}`}>{SITE.telephone}</a></p>
+        <p class="contact-line"><strong>Email</strong><br /><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+        <p class="contact-line"><strong>Based in</strong><br />{SITE.addressRegion}, United Kingdom — writing for clients across the UK and worldwide.</p>
+        <p class="contact-line"><em>{fill('I aim to reply within one working day. Working to a tight deadline? Call me — last-minute speeches are often possible.')}</em></p>
+      </div>
+
+      <div>
+        <h2>Send me a message</h2>
+        <!-- Netlify Forms ready (works automatically when deployed to Netlify).
+             On other hosts, point `action` at your form endpoint (Formspree, etc.). -->
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact?sent=1" class="form">
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+          <label>Your name<input type="text" name="name" required /></label>
+          <label>Email address<input type="email" name="email" required /></label>
+          <label>Phone (optional)<input type="tel" name="phone" /></label>
+          <label>Type of speech
+            <select name="speech_type">
+              {types.map((t) => <option value={t}>{t}</option>)}
+            </select>
+          </label>
+          <label>Date of the occasion<input type="date" name="event_date" /></label>
+          <label>Tell me a little about it<textarea name="message" rows="5"></textarea></label>
+          <button class="btn btn--primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .contact-line { margin-bottom: 1.2em; }
+  .form label { display: block; margin-bottom: 16px; font-weight: 500; font-size: 0.95rem; }
+  .form input, .form select, .form textarea { display: block; width: 100%; margin-top: 6px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; font: inherit; font-size: 1rem; background: #fff; }
+  .form input:focus, .form select:focus, .form textarea:focus { outline: 2px solid var(--gold); border-color: var(--gold); }
+  .form button { margin-top: 8px; }
+</style>

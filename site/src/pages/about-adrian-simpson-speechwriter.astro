@@ -1,0 +1,102 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { SITE } from '../config/site';
+import { person } from '../lib/schema';
+
+const path = '/about-adrian-simpson-speechwriter/';
+const title = 'About Adrian Simpson | Professional Wedding Speechwriter';
+const description =
+  "Meet Adrian Simpson — former journalist and BBC Top Gear presenter, now the UK's most-reviewed professional wedding speechwriter. The story and the philosophy.";
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'About Adrian Simpson', path },
+];
+const aboutPage = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  url: `${SITE.url}${path}`,
+  mainEntity: { '@id': `${SITE.url}${path}#adrian` },
+};
+---
+<Layout title={title} description={description} path={path} ogImage="/images/adrian-portrait.jpg" breadcrumbs={crumbs} schemas={[person(), aboutPage]}>
+  <section class="hero">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <div class="media">
+        <div>
+          <p class="eyebrow">About</p>
+          <h1>About Adrian Simpson</h1>
+          <p class="lede">The UK's most highly rated and reviewed professional speech writer.</p>
+        </div>
+        <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson, professional wedding speechwriter and former BBC presenter" width="520" height="600" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>The short version</h2>
+      <p>
+        I'm Adrian Simpson, and I write speeches for a living — best man, groom, father of the bride,
+        maid of honour, and eulogies. I've been doing it professionally since 2012, and in that time
+        I've become the most reviewed wedding speech writer in the country. Every speech I write is
+        original, personal, and built entirely around the person giving it. No templates, no recycled
+        jokes, no clichés.
+      </p>
+
+      <h2>How I got here</h2>
+      <p>
+        My career began in print. I started out as a magazine journalist in London — a motoring writer
+        at Dennis Publishing — learning the craft that still underpins everything I do: how to find the
+        story, how to make a point land, and how to make people feel something in just a few hundred
+        words.
+      </p>
+      <p>
+        From there I moved into television, where I spent fifteen years as a presenter, including on the
+        BBC's <em>Top Gear</em>. Broadcasting taught me the other half of the job: how words work out
+        loud, how to hold a room, and how timing turns a good line into a great one. Writing for the page
+        and performing for an audience are different skills — and a wedding speech needs both.
+      </p>
+      <p>
+        In 2012 I brought the two together and founded All Speeches Great &amp; Small. More than a decade
+        later, I've written hundreds of speeches for people who were certain they couldn't do it
+        themselves — and watched them deliver the moment of the day.
+      </p>
+
+      <h2>How I work</h2>
+      <p>
+        I don't have a drawer of stock jokes or a template I drop your names into. I can't — because the
+        whole point is that your speech sounds like <em>you</em>.
+      </p>
+      <p>
+        So I listen. We talk about the people, the memories and the moments. I find the story only you can
+        tell, and I write it in your voice — funny where it should be funny, moving where it should be
+        moving, and always true to you. Then we refine it together, for as long as it takes, until you
+        can't wait to stand up and give it.
+      </p>
+      <p>
+        That's the difference between a speech that's <em>fine</em> and one people still talk about months
+        later. And it's why, year after year, my clients leave the reviews they do.
+      </p>
+
+      <h2>My promise</h2>
+      <ul class="ticks">
+        <li><strong>100% original.</strong> Every speech written from scratch, for one person.</li>
+        <li><strong>In your voice.</strong> It should sound like the best possible version of you — never like a writer.</li>
+        <li><strong>Unlimited revisions.</strong> We don't stop until it's right.</li>
+        <li><strong>Honest, friendly, and discreet</strong> from first message to final draft.</li>
+      </ul>
+
+      <p><img src="/images/adrian-signature.png" alt="Adrian Simpson signature" width="220" height="80" /></p>
+
+      <div class="btn-row">
+        <a class="btn btn--primary" href="/contact">Get in touch →</a>
+        <a class="btn btn--ghost" href="/reviews">Read my reviews →</a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBand heading="Let's talk" text="Whether it's a wedding, a special occasion, or a farewell to someone you love, I'd be glad to help you find the right words." />
+</Layout>

@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CtaBand from '../../components/CtaBand.astro';
+
+const path = '/blogs/';
+const title = 'Speech Writing Blog | Tips, Examples & Advice';
+const description =
+  'Expert speech-writing tips, examples and advice for best man, groom, father of the bride, maid of honour speeches and eulogies — from the UK\'s most-reviewed speechwriter.';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Blog', path },
+];
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => +new Date(b.data.publishedDate) - +new Date(a.data.publishedDate));
+
+const catLabel: Record<string, string> = {
+  'best-man': 'Best Man',
+  groom: 'Groom',
+  'father-of-the-bride': 'Father of the Bride',
+  'maid-of-honour': 'Maid of Honour',
+  eulogy: 'Eulogy',
+};
+---
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs}>
+  <section class="hero">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <p class="eyebrow">The blog</p>
+      <h1>Speech-writing tips &amp; examples</h1>
+      <p class="lede measure">Practical advice on writing every kind of speech — drawn from hundreds I've written and delivered with clients.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="grid grid--3">
+        {posts.map((p) => (
+          <article class="card">
+            <a href={`/${p.data.slug}`}>
+              <img class="card__img" src={p.data.hero ?? '/images/adrian-home.jpg'} alt={p.data.title} loading="lazy" width="400" height="267" />
+            </a>
+            <div class="card__body">
+              <p class="eyebrow" style="margin-bottom:.5em">{catLabel[p.data.category] ?? p.data.category}</p>
+              <h3 style="font-size:1.3rem"><a href={`/${p.data.slug}`} style="text-decoration:none;color:inherit">{p.data.title}</a></h3>
+              <p>{p.data.excerpt}</p>
+              <a class="card__link" href={`/${p.data.slug}`}>Read more →</a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <p class="center mt-2" style="color:var(--ink-soft)">
+        <span class="ph">Migrate your ~150 existing Joomla posts into <code>src/content/blog/</code> (one file per post, slug = old URL) and they'll appear here automatically, each at its original root-level URL.</span>
+      </p>
+    </div>
+  </section>
+
+  <CtaBand />
+</Layout>

@@ -43,10 +43,30 @@ export const SITE = {
   ogImage: '/images/adrian-portrait.jpg',
 } as const;
 
+/**
+ * Slugs whose trailing slash is part of the existing ranking URL and MUST be
+ * preserved exactly. Everything else is canonicalised without a trailing slash.
+ */
+export const TRAILING_SLASH_PATHS = new Set([
+  '/',
+  '/best-man-speech-writer/',
+  '/best-man-speeches/',
+  '/about-adrian-simpson-speechwriter/',
+  '/blogs/',
+]);
+
+/** Normalise a path to its exact canonical slug (mixed trailing slashes). */
+export function canonicalPath(path: string): string {
+  if (path === '/') return '/';
+  const withSlash = path.endsWith('/') ? path : path + '/';
+  const noSlash = path.replace(/\/$/, '');
+  return TRAILING_SLASH_PATHS.has(withSlash) ? withSlash : noSlash;
+}
+
 /** Resolve a path to an absolute canonical URL on the www host. */
 export function abs(path: string): string {
   if (path.startsWith('http')) return path;
-  return new URL(path, SITE.url).href.replace(/\/$/, path === '/' ? '/' : '');
+  return new URL(canonicalPath(path), SITE.url).href;
 }
 
 /** Replace the kit placeholders in any copy string with config values. */

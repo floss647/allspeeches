@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE } from '../config/site';
+const path = '/privacy';
+---
+<Layout title="Privacy Policy | All Speeches Great & Small" description="How All Speeches Great & Small collects, uses and protects your personal data." path={path} noindex={true}>
+  <section class="section">
+    <div class="wrap prose">
+      <h1>Privacy Policy</h1>
+      <p class="ph">Replace this with your full, reviewed privacy policy before launch (UK GDPR compliant). The points below are a starting skeleton only — have it checked.</p>
+
+      <h2>Who we are</h2>
+      <p>{SITE.name}, based in {SITE.addressRegion}, United Kingdom. Contact: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+
+      <h2>What we collect</h2>
+      <p>The details you provide when enquiring (name, email, phone, event date and information about your speech), and standard analytics data when you browse the site.</p>
+
+      <h2>How we use it</h2>
+      <p>To respond to your enquiry, write and refine your speech, and run our business. We do not sell your data.</p>
+
+      <h2>Your rights</h2>
+      <p>You can request access to, correction of, or deletion of your personal data at any time by contacting us.</p>
+
+      <h2>Cookies &amp; analytics</h2>
+      <p>Describe your analytics/cookie use here.</p>
+    </div>
+  </section>
+</Layout>
