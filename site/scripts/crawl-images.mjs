@@ -1,6 +1,9 @@
 // Crawl the live site and download every image. Run in a NEW session after the
 // site's host is added to the environment's network egress allowlist.
 //   node scripts/crawl-images.mjs
+// If the live host's WAF blocks us, fall back to the Wayback Machine (requires
+// web.archive.org in the egress allowlist):
+//   WAYBACK=1 node scripts/crawl-images.mjs
 // Output: /tmp/site-pull/images/* plus /tmp/site-pull/manifest.json
 import { mkdirSync, writeFileSync, createWriteStream } from 'node:fs';
 import { Readable } from 'node:stream';
@@ -8,20 +11,62 @@ import { pipeline } from 'node:stream/promises';
 import { resolve, basename } from 'node:path';
 
 const ORIGIN = 'https://www.allspeechesgreatandsmall.com';
+const DOMAIN = 'allspeechesgreatandsmall.com';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 const OUT = '/tmp/site-pull';
 const IMG = resolve(OUT, 'images');
 mkdirSync(IMG, { recursive: true });
 
+const WAYBACK = ['1', 'true', 'yes'].includes((process.env.WAYBACK || '').toLowerCase());
+
+// Wayback: map each original URL to its best capture timestamp, then fetch the
+// raw archived bytes via the `id_` modifier (no toolbar / URL rewriting).
+const tsMap = new Map();
+let latestTs = '2024';
+const norm = (u) => u.replace(/^https?:\/\//, '').replace(/\/+$/, '').toLowerCase();
+const wb = (u) => `https://web.archive.org/web/${tsMap.get(norm(u)) || latestTs}id_/${u}`;
+
 const get = async (url) => {
-  const r = await fetch(url, { headers: { 'User-Agent': UA }, redirect: 'follow' });
+  const target = WAYBACK && !url.includes('web.archive.org') ? wb(url) : url;
+  const r = await fetch(target, { headers: { 'User-Agent': UA }, redirect: 'follow' });
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return r;
 };
 const getText = async (url) => (await get(url)).text();
 
-// 1. Gather page URLs from sitemap(s); fall back to crawling the homepage.
+// Wayback CDX index: every 200-status capture for the domain.
+async function loadCdx() {
+  const api = `https://web.archive.org/cdx/search/cdx?url=${DOMAIN}*&output=json&fl=original,timestamp,statuscode,mimetype&filter=statuscode:200&collapse=urlkey`;
+  const rows = JSON.parse(await getText(api));
+  rows.shift(); // drop header row
+  for (const [original, timestamp] of rows) {
+    const k = norm(original);
+    if (!tsMap.has(k) || timestamp > tsMap.get(k)) tsMap.set(k, timestamp);
+    if (timestamp > latestTs) latestTs = timestamp;
+  }
+  return rows;
+}
+
+// 1. Gather page URLs. Wayback: enumerate via CDX. Live: sitemap, else homepage.
 async function pageUrls() {
+  if (WAYBACK) {
+    let rows;
+    try {
+      rows = await loadCdx();
+    } catch (e) {
+      console.error(`Wayback CDX unreachable: ${e.message}`);
+      console.error('Add web.archive.org to the environment network egress allowlist, then retry.');
+      process.exit(1);
+    }
+    const pages = new Set();
+    const seedImages = new Set();
+    for (const [original, , , mime] of rows) {
+      if (/text\/html/i.test(mime)) pages.add(original);
+      else if (/^image\//i.test(mime)) seedImages.add(original);
+    }
+    console.log(`CDX: ${rows.length} captures, ${pages.size} pages, ${seedImages.size} images`);
+    return { pages: [...pages], seedImages: [...seedImages] };
+  }
   const urls = new Set([ORIGIN + '/']);
   try {
     let xml = await getText(ORIGIN + '/sitemap.xml');
@@ -34,7 +79,7 @@ async function pageUrls() {
   } catch (e) {
     console.log('no sitemap, homepage only:', e.message);
   }
-  return [...urls];
+  return { pages: [...urls], seedImages: [] };
 }
 
 // 2. Extract image (and video) URLs from a page's HTML.
@@ -57,8 +102,8 @@ function extractAssets(html, pageUrl) {
   return { images: [...assets].filter((u) => /\.(jpg|jpeg|png|webp|gif|svg)(\?|$)/i.test(u)), videos: [...videos] };
 }
 
-const pages = await pageUrls();
-const imageSet = new Set();
+const { pages, seedImages } = await pageUrls();
+const imageSet = new Set(seedImages);
 const videoSet = new Set();
 for (const p of pages) {
   try {
