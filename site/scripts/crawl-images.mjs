@@ -1,21 +1,39 @@
 // Crawl the live site and download every image. Run in a NEW session after the
 // site's host is added to the environment's network egress allowlist.
-//   node scripts/crawl-images.mjs
+//
+//   node scripts/crawl-images.mjs                      # default origin (live site)
+//   ORIGIN=https://staging.example.com node scripts/crawl-images.mjs
+//   WAYBACK=1 node scripts/crawl-images.mjs            # pull via the Wayback Machine
+//
 // Output: /tmp/site-pull/images/* plus /tmp/site-pull/manifest.json
+//
+// Note: the live host sits behind a WAF that 403s automated fetchers, and the
+// managed environment only reaches hosts on its egress allowlist. If a plain run
+// fails with 403 host_not_allowed, the domain isn't allowlisted; if it fails with
+// a bare 403, the WAF blocked the fetch — try WAYBACK=1 (and allowlist web.archive.org).
 import { mkdirSync, writeFileSync, createWriteStream } from 'node:fs';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import { resolve, basename } from 'node:path';
 
-const ORIGIN = 'https://www.allspeechesgreatandsmall.com';
+const ORIGIN = (process.env.ORIGIN || 'https://www.allspeechesgreatandsmall.com').replace(/\/$/, '');
+const USE_WAYBACK = process.env.WAYBACK === '1' || process.env.WAYBACK === 'true';
+const WAYBACK_PREFIX = 'https://web.archive.org/web/2id_/'; // 2id_ = latest snapshot, raw (no archive chrome)
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 const OUT = '/tmp/site-pull';
 const IMG = resolve(OUT, 'images');
 mkdirSync(IMG, { recursive: true });
 
+// Route a target URL through the Wayback Machine when requested, leaving already
+// archived URLs untouched.
+const via = (url) => (USE_WAYBACK && !url.includes('web.archive.org') ? WAYBACK_PREFIX + url : url);
+
 const get = async (url) => {
-  const r = await fetch(url, { headers: { 'User-Agent': UA }, redirect: 'follow' });
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
+  const r = await fetch(via(url), { headers: { 'User-Agent': UA }, redirect: 'follow' });
+  if (!r.ok) {
+    const reason = r.headers.get('x-deny-reason');
+    throw new Error(`${r.status}${reason ? ` (${reason})` : ''} ${url}`);
+  }
   return r;
 };
 const getText = async (url) => (await get(url)).text();
