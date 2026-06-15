@@ -3,26 +3,51 @@ import Layout from '../layouts/Layout.astro';
 import { SITE } from '../config/site';
 const path = '/privacy';
 ---
-<Layout title="Privacy Policy | All Speeches Great & Small" description="How All Speeches Great & Small collects, uses and protects your personal data." path={path} noindex={true}>
+<Layout title="Privacy Policy | All Speeches Great & Small" description="How All Speeches Great & Small collects, uses and protects your personal data, in line with UK GDPR." path={path} noindex={true}>
   <section class="section">
     <div class="wrap prose">
       <h1>Privacy Policy</h1>
-      <p class="ph">Replace this with your full, reviewed privacy policy before launch (UK GDPR compliant). The points below are a starting skeleton only — have it checked.</p>
+      <p><em>Last updated: <span class="ph">[MONTH YEAR]</span></em></p>
+      <p class="ph">Template — not legal advice. Have it reviewed before publishing and fill every bracketed placeholder.</p>
 
-      <h2>Who we are</h2>
-      <p>{SITE.name}, based in {SITE.addressRegion}, United Kingdom. Contact: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+      <p>This policy explains how <strong>All Speeches Great &amp; Small</strong> (“we”, “us”, “I” — {SITE.founder}) collects and uses your personal information when you contact us or use our speech-writing service. We are the data controller for the information you provide.</p>
+      <p><strong>Contact:</strong> {SITE.email} · {SITE.telephone} · {SITE.addressRegion}, United Kingdom. <span class="ph">[If registered with the ICO, add registration number.]</span></p>
 
       <h2>What we collect</h2>
-      <p>The details you provide when enquiring (name, email, phone, event date and information about your speech), and standard analytics data when you browse the site.</p>
+      <ul>
+        <li><strong>When you enquire or order:</strong> your name, email, phone (if given), the type of speech, the date of your occasion, and the details of your message.</li>
+        <li><strong>The material for your speech:</strong> the stories, names, memories and information you choose to share so we can write your speech, which may include details about third parties (e.g. the bride, groom or the person being remembered).</li>
+        <li><strong>Reviews:</strong> if you leave a review, this is handled by our reviews provider, reviews.io.</li>
+        <li><strong>Website usage:</strong> basic analytics data (see Cookies below).</li>
+      </ul>
 
-      <h2>How we use it</h2>
-      <p>To respond to your enquiry, write and refine your speech, and run our business. We do not sell your data.</p>
+      <h2>Why we use it, and our lawful basis</h2>
+      <ul>
+        <li>To respond to your enquiry and provide the service — <strong>performance of a contract</strong> and our <strong>legitimate interest</strong> in answering enquiries.</li>
+        <li>To take payment and keep business records — <strong>legal obligation</strong> and contract.</li>
+        <li>To send your draft(s) and revisions — contract.</li>
+        <li>To display reviews and improve the service — <strong>consent</strong> / legitimate interest.</li>
+      </ul>
+      <p>We do <strong>not</strong> sell your data, and we do <strong>not</strong> use the personal stories you share for anything other than writing your speech.</p>
 
-      <h2>Your rights</h2>
-      <p>You can request access to, correction of, or deletion of your personal data at any time by contacting us.</p>
+      <h2>Who we share it with</h2>
+      <p>We use trusted service providers who process data on our behalf: hosting/database (the site’s backend), reviews.io, our email provider, and our payment provider (they handle card details; we don’t store them). We only share what’s necessary and never pass your details to third parties for marketing.</p>
 
-      <h2>Cookies &amp; analytics</h2>
-      <p>Describe your analytics/cookie use here.</p>
+      <h2>How long we keep it</h2>
+      <ul>
+        <li>Enquiry and project data: for the project and up to <span class="ph">[e.g. 12 months]</span> afterwards.</li>
+        <li>Financial records: as required by UK law (currently 6 years).</li>
+        <li>We delete the material for your speech on request once your project is complete.</li>
+      </ul>
+
+      <h2>Your rights (UK GDPR)</h2>
+      <p>You have the right to access, correct, delete, restrict or object to our use of your data, and to data portability. To exercise any of these, email {SITE.email}. You may also complain to the Information Commissioner’s Office (ico.org.uk).</p>
+
+      <h2>Cookies</h2>
+      <p>Our website uses essential cookies to function and <span class="ph">[analytics cookies]</span> to understand how the site is used. The reviews.io widget may set its own cookies. You can control cookies through your browser settings.</p>
+
+      <h2>Changes</h2>
+      <p>We may update this policy from time to time; the “last updated” date above shows the latest version.</p>
     </div>
   </section>
 </Layout>

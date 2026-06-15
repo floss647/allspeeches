@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian",
+      "name": "Adrian Simpson",
+      "jobTitle": "Professional Speechwriter",
+      "description": "Former magazine journalist and BBC Top Gear presenter, founder of All Speeches Great and Small (2012) and the UK's most-reviewed professional wedding speechwriter.",
+      "url": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/",
+      "worksFor": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "sameAs": [
+        "https://uk.linkedin.com/in/adrian-simpson-861485178",
+        "https://grokipedia.com/page/Adrian_Simpson"
+      ]
+    },
+    {
+      "@type": "AboutPage",
+      "url": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/",
+      "mainEntity": {
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Adrian Simpson",
+          "item": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/"
+        }
+      ]
+    }
+  ]
+}
+</script>

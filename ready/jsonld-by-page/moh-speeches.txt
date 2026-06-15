@@ -1,0 +1,100 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Write a Maid of Honour Speech",
+      "url": "https://www.allspeechesgreatandsmall.com/moh-speeches",
+      "datePublished": "2021-06-01",
+      "dateModified": "2026-06-02",
+      "author": {
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      },
+      "publisher": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "mainEntityOfPage": "https://www.allspeechesgreatandsmall.com/moh-speeches",
+      "description": "How to write a maid of honour speech that's funny and touching — structure, opening lines, examples and a full sample."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you write a maid of honour speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no fixed agenda — introduce yourself, tell the bride's story with plenty of humour, keep it to around 750–1,000 words, toast the happy couple at the end, and don't bother thanking anyone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a maid of honour speech include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It should include a funny introduction, the story of your friendship with the bride, a few warm words about the groom, the heartfelt 'best friend' moment, and a toast to the happy couple — with a laugh in nearly every paragraph."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you start a maid of honour speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Introduce yourself, then make them laugh by the second or third sentence — most guests won't know who you are yet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should you structure a maid of honour speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Work chronologically through the bride's life and keep the detail light, so the speech is easy to follow — this isn't Facebook Live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you balance funny and emotional?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead with the laughs and let the speech grow sincere as you go — earn the emotional ending by being genuinely funny first, and never undercut the heartfelt finish with one last gag."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you end a maid of honour speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep the sentiment real and honest but understated — less is more, and what goes unsaid is usually the most powerful."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should you avoid in a maid of honour speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Don't thank the venue or welcome guests, never forget to mention the groom, don't drink too much, and watch the length."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Write a Maid of Honour Speech",
+          "item": "https://www.allspeechesgreatandsmall.com/moh-speeches"
+        }
+      ]
+    }
+  ]
+}
+</script>

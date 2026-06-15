@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "serviceType": "Maid of honour speech writing",
+      "name": "Maid of Honour Speech Writer",
+      "url": "https://www.allspeechesgreatandsmall.com/maid-of-honour-speech-writer",
+      "provider": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Bespoke, original maid of honour speech writing built around your friendship with the bride — funny and touching in equal measure, with unlimited revisions.",
+      "offers": {
+        "@type": "Offer",
+        "price": "399",
+        "priceCurrency": "GBP",
+        "url": "https://www.allspeechesgreatandsmall.com/maid-of-honour-speech-writer"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share your stories, I write the speech, we refine it together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you balance funny and sentimental?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laughs to open, warmth to close — judged for the room."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if our best stories are private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I handle sensitive material with discretion and tact, keeping the warmth without the overshare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually 7 days; last-minute help available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it sound like me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Maid of Honour Speech Writer",
+          "item": "https://www.allspeechesgreatandsmall.com/maid-of-honour-speech-writer"
+        }
+      ]
+    }
+  ]
+}
+</script>

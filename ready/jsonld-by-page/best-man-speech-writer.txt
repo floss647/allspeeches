@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "serviceType": "Best man speech writing",
+      "name": "Best Man Speech Writer",
+      "url": "https://www.allspeechesgreatandsmall.com/best-man-speech-writer/",
+      "provider": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Bespoke, original best man speech writing built around your friendship with the groom — funny, warm and unmistakably yours, with unlimited revisions.",
+      "offers": {
+        "@type": "Offer",
+        "price": "399",
+        "priceCurrency": "GBP",
+        "url": "https://www.allspeechesgreatandsmall.com/best-man-speech-writer/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does the process work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share your stories with me, I write a complete speech around them, and we refine it together until it's perfect."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most best man speeches are drafted within 7 days, and I can work to tight deadlines when needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it sound like me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I write in your voice, using your humour and your stories, so it sounds like the best possible version of you — not like a writer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I don't have many good stories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most people have far more material than they realise. A short conversation almost always uncovers the gold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle jokes about the groom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sharp but never cruel, and always judged for the audience — grandparents and all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help at the last minute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Get in touch and tell me the date — I'll let you know straight away if I can help."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Best Man Speech Writer",
+          "item": "https://www.allspeechesgreatandsmall.com/best-man-speech-writer/"
+        }
+      ]
+    }
+  ]
+}
+</script>

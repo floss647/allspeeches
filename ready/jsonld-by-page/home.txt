@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does it actually work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share your stories with me, I write a complete speech around them, and we refine it together until it's perfect. The whole thing is built from scratch around you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most speeches are drafted within 7 days, and I can work to tight deadlines — even last-minute — when needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the speech really original?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Completely. Every speech is written from the ground up for one person. I never reuse jokes, lines or templates."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

@@ -1,0 +1,84 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Write a Eulogy",
+      "url": "https://www.allspeechesgreatandsmall.com/eulogy-examples",
+      "datePublished": "2026-06-02",
+      "dateModified": "2026-06-02",
+      "author": {
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      },
+      "publisher": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "mainEntityOfPage": "https://www.allspeechesgreatandsmall.com/eulogy-examples",
+      "description": "A compassionate, step-by-step guide to writing a eulogy — what to include, how long it should be, structure and a full example."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long should a eulogy be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A eulogy usually lasts around three to five minutes — roughly 500 to 750 words. Shorter, said with feeling, is always better than longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you start a eulogy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Begin simply: say who you are and your relationship to them, then offer one warm, true sentence about who they were. There's no need for a grand opening."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a eulogy include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Include who you are, who they were, a few specific memories or stories, what they meant to the people around them, and a simple closing thought or farewell."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you write about a difficult relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be honest but kind: speak to what was true and good without pretending, and you can acknowledge that someone was complicated with warmth and grace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you deliver a eulogy without breaking down?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Practise it aloud beforehand, speak slowly, keep water nearby, and remember it is completely all right to pause or to cry. Ask someone to be ready to step in if you can't go on."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Write a Eulogy",
+          "item": "https://www.allspeechesgreatandsmall.com/eulogy-examples"
+        }
+      ]
+    }
+  ]
+}
+</script>

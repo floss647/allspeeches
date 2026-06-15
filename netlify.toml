@@ -21,14 +21,100 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# ── 301 redirect map ──────────────────────────────────────────────
-# Non-www → www and http → https are handled by Netlify's primary-domain
-# setting (set www.allspeechesgreatandsmall.com as primary, force HTTPS).
-#
-# Add a line here for every OLD ranking URL whose slug differs from the new
-# one (verify against Search Console → Pages before launch). Examples:
-#
-# [[redirects]]
-#   from = "/old-groom-service-url"
-#   to   = "/groom-speech-writer"
-#   status = 301
+# ── 301 redirect map (from GSC Coverage export, 10 Jun 2026) ───────
+# Host-level: set www.allspeechesgreatandsmall.com as the PRIMARY domain and
+# enable "Force HTTPS" in Netlify — that covers http→https and non-www→www.
+# The old bestman.* subdomain must be pointed at this site in DNS, then:
+[[redirects]]
+  from = "https://bestman.allspeechesgreatandsmall.com/*"
+  to = "https://www.allspeechesgreatandsmall.com/best-man-speech-writer/"
+  status = 301
+  force = true
+
+# Old structural / service URLs → new slugs
+[[redirects]]
+  from = "/best-man-speech-writing-service/"
+  to = "/best-man-speech-writer/"
+  status = 301
+[[redirects]]
+  from = "/groom-speech-writing-service/"
+  to = "/groom-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/groom-speech-writing-services"
+  to = "/groom-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/the-grooms-speech/"
+  to = "/groom-speeches"
+  status = 301
+[[redirects]]
+  from = "/father-bride-speech-writing-service/"
+  to = "/father-of-the-bride-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/father-of-the-bride-speech/"
+  to = "/father-of-the-bride-speeches"
+  status = 301
+[[redirects]]
+  from = "/father-of-the-bride-199"
+  to = "/father-of-the-bride-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/father-of-the-bride-speech/jokes/"
+  to = "/father-of-the-bride-speeches"
+  status = 301
+[[redirects]]
+  from = "/eulogy-writer/"
+  to = "/eulogy-writing-service"
+  status = 301
+[[redirects]]
+  from = "/testimonials"
+  to = "/reviews"
+  status = 301
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy"
+  status = 301
+[[redirects]]
+  from = "/terms-and-conditions"
+  to = "/terms"
+  status = 301
+[[redirects]]
+  from = "/cookies-policy"
+  to = "/privacy"
+  status = 301
+[[redirects]]
+  from = "/cookies-and-privacy-policy"
+  to = "/privacy"
+  status = 301
+[[redirects]]
+  from = "/calendly-booking-2"
+  to = "/contact"
+  status = 301
+[[redirects]]
+  from = "/about/"
+  to = "/about-adrian-simpson-speechwriter/"
+  status = 301
+[[redirects]]
+  from = "/index.php"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+
+# Post-purchase pages — redirect to home (consider noindex instead)
+[[redirects]]
+  from = "/thank-you-coaching"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/thank-you-edit"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/thank-you-ai-bespoke"
+  to = "/"
+  status = 301

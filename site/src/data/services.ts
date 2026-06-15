@@ -21,6 +21,8 @@ export interface ServiceData {
   guideLabel: string | null;
   faqs: ServiceFaq[];
   gentle?: boolean;       // softer tone (eulogy)
+  priceValue?: string;    // overrides SITE.price (e.g. after-dinner 499)
+  priceFrom?: boolean;    // show "from £X" rather than a flat fee
 }
 
 const T = '[X]'; // turnaround placeholder, filled at render via fill()
@@ -276,6 +278,51 @@ export const services: ServiceData[] = [
       { q: 'Will you rewrite it or just advise?', a: 'The review service is feedback and guidance; if you’d like me to write or substantially rewrite it, I can do that as a full speech instead.' },
       { q: 'What do you check?', a: 'Structure, content, humour, tone, length, timing and delivery.' },
       { q: 'How do I send it?', a: 'Just get in touch and I’ll tell you where to send it.' },
+    ],
+  },
+  {
+    slug: '/after-dinner-speeches/',
+    key: 'after-dinner',
+    nav: 'After-Dinner',
+    cardTitle: 'After-Dinner Speech',
+    cardBlurb: 'Original, genuinely funny, built to hold a room.',
+    cardImage: '/images/card-groom.jpg',
+    title: 'After-Dinner Speech Writer | Original Speeches That Actually Land',
+    meta: "A professional after-dinner speech writer for dinners, clubs, awards and events. Original, genuinely funny, written around you and your audience — never circuit gags. UK's most-reviewed.",
+    h1: 'After-Dinner Speech Writer',
+    serviceType: 'After-dinner speech writing',
+    withPrice: true,
+    priceValue: '499',
+    priceFrom: true,
+    heroImage: '/images/card-groom.jpg',
+    ctaLabel: 'Get my after-dinner speech written',
+    intro: [
+      'The after-dinner speech is a different animal. There’s no running order of thank-yous to get through, no bride to toast, no safety net. The room has been fed, watered and seated for an hour — and now they want to be entertained. That’s the whole job, and it’s a hard one. Get it right and you’re the best part of the night.',
+      'I write after-dinner speeches that are original, genuinely funny and built to hold a room — pitched for your audience, in your voice, around your material. You stand up with something worth saying; I take care of getting it there.',
+    ],
+    whatYouGet: {
+      heading: 'What makes mine different',
+      items: [
+        '<strong>No circuit gags.</strong> Every line is written for you and your room — not lifted from the same tired routine everyone’s heard at the last three dinners.',
+        '<strong>Built to be heard, not read.</strong> Decades writing for broadcast means it’s shaped for the ear: rhythm, set-ups, pauses, the lot.',
+        '<strong>Pitched for the actual audience.</strong> A rugby club and a livery company want very different evenings. The speech is tuned to yours.',
+        `<strong>Yours, start to finish.</strong> Your stories, your voice, unlimited revisions — delivered in ${T} days, last-minute possible.`,
+      ],
+    },
+    howItWorks: [
+      '<strong>Tell me about the night.</strong> The event, the crowd, the tone they’re expecting — and your material, your angle, the thing you want them talking about afterwards.',
+      '<strong>I write the speech.</strong> A complete, structured, genuinely entertaining draft, built around all of it.',
+      '<strong>We sharpen it together.</strong> You read it, we cut, we tighten, we time it — until it lands.',
+    ],
+    guidePath: null,
+    guideLabel: null,
+    faqs: [
+      { q: 'What makes an after-dinner speech different from a wedding speech?', a: 'Everything except the nerves. There’s no running order of thank-yous to hit — the whole job is to entertain a well-fed, well-watered room for ten or twenty minutes, so it has to be funnier, tighter and built entirely around holding their attention.' },
+      { q: 'What kinds of events do you write for?', a: 'Charity and gala dinners, sports and social clubs, corporate awards, retirements, and association or society dinners — anywhere someone’s been handed the after-dinner slot and told to be good.' },
+      { q: 'How long should an after-dinner speech be?', a: 'Usually ten to twenty minutes, depending on the event and your billing. I’ll help you pitch the length to the room.' },
+      { q: 'Will it actually be funny?', a: 'That’s the entire point — original, well-timed humour written for your specific audience, never the recycled circuit gags everyone’s heard.' },
+      { q: 'How does it work?', a: 'You tell me about the event, the audience and your material; I write the speech; we refine it together until it’s exactly right.' },
+      { q: 'How quickly can you turn it around?', a: `Usually within ${T} days, and I can work to a tight deadline when the date’s looming.` },
     ],
   },
 ];

@@ -47,9 +47,20 @@ function categoryFor(slug, title) {
 }
 const yaml = (s) => '"' + String(s ?? '').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, ' ').trim() + '"';
 
-// 1. Collect candidate post URLs from the sitemap(s).
+// 1. Collect candidate post URLs. Prefer the confirmed GSC slug list
+// (ready/blog-slugs-to-preserve.txt); fall back to the live sitemap.
 async function postUrls() {
   const urls = new Set();
+  try {
+    const { readFileSync, existsSync } = await import('node:fs');
+    const listPath = resolve(process.cwd(), '../ready/blog-slugs-to-preserve.txt');
+    if (existsSync(listPath)) {
+      const slugs = readFileSync(listPath, 'utf8').split('\n').map((s) => s.trim()).filter((s) => s && !s.startsWith('#'));
+      slugs.forEach((s) => urls.add(`${ORIGIN}/${s.replace(/^\//, '')}`));
+      if (urls.size) { console.log(`Using ${urls.size} slugs from blog-slugs-to-preserve.txt`); return [...urls]; }
+    }
+  } catch (e) { console.log('slug list unavailable, using sitemap:', e.message); }
+
   let xml = '';
   for (const sm of ['/sitemap.xml', '/sitemap_index.xml', '/sitemapindex.xml']) {
     try { xml = await get(ORIGIN + sm); break; } catch {}

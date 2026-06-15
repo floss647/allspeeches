@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "serviceType": "Groom speech writing",
+      "name": "Groom Speech Writer",
+      "url": "https://www.allspeechesgreatandsmall.com/groom-speech-writer",
+      "provider": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Bespoke, original groom speech writing built around your relationship — sincere, genuinely funny and perfectly balanced, with unlimited revisions.",
+      "offers": {
+        "@type": "Offer",
+        "price": "399",
+        "priceCurrency": "GBP",
+        "url": "https://www.allspeechesgreatandsmall.com/groom-speech-writer"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share your story, I write the speech, we perfect it together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you balance funny and heartfelt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carefully — laughs early to settle the nerves, sincerity built towards the toast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I thank everyone without it dragging?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I weave thanks into the story so they feel warm, not like a list."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually 7 days; last-minute help available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it sound like me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always — it's your voice, your story."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Groom Speech Writer",
+          "item": "https://www.allspeechesgreatandsmall.com/groom-speech-writer"
+        }
+      ]
+    }
+  ]
+}
+</script>

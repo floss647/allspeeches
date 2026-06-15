@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "serviceType": "Father of the bride speech writing",
+      "name": "Father of the Bride Speech Writer",
+      "url": "https://www.allspeechesgreatandsmall.com/father-of-the-bride-speech-writer",
+      "provider": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Bespoke, original father of the bride speech writing built around your daughter's story — warm, proud and moving, with unlimited revisions.",
+      "offers": {
+        "@type": "Offer",
+        "price": "399",
+        "priceCurrency": "GBP",
+        "url": "https://www.allspeechesgreatandsmall.com/father-of-the-bride-speech-writer"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share your memories, I write the speech, we refine it together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I welcome the groom's family warmly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I'll craft a genuine welcome that brings both families together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How emotional is too emotional?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I judge the balance so it's moving but deliverable — you'll get through it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually 7 days; last-minute help available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it sound like me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — your voice, your daughter, your story."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Father of the Bride Speech Writer",
+          "item": "https://www.allspeechesgreatandsmall.com/father-of-the-bride-speech-writer"
+        }
+      ]
+    }
+  ]
+}
+</script>

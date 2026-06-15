@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.allspeechesgreatandsmall.com/#business",
+      "name": "All Speeches Great and Small",
+      "description": "Bespoke professional speech writing for weddings and special occasions.",
+      "url": "https://www.allspeechesgreatandsmall.com/",
+      "telephone": "+44-20-7993-6524",
+      "priceRange": "££",
+      "founder": {
+        "@type": "Person",
+        "name": "Adrian Simpson",
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "East Sussex",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "sameAs": [
+        "https://uk.linkedin.com/in/adrian-simpson-861485178",
+        "https://www.facebook.com/allspeechesgreatandsmall/",
+        "https://x.com/allspeech",
+        "https://www.youtube.com/@Allspeechesgreatandsmallgp"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "421",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.allspeechesgreatandsmall.com/#website",
+      "url": "https://www.allspeechesgreatandsmall.com/",
+      "name": "All Speeches Great and Small",
+      "publisher": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      }
+    }
+  ]
+}
+</script>

@@ -16,18 +16,18 @@ export const SITE = {
   // NAP — keep byte-identical wherever it appears.
   telephone: '0207 993 6524',
   telephoneE164: '+44-20-7993-6524',
-  email: 'hello@allspeechesgreatandsmall.com', // TODO: confirm real address
+  email: 'adrian@allspeechesgreatandsmall.com', // confirmed
   addressRegion: 'East Sussex',
   addressCountry: 'GB',
   areaServed: 'United Kingdom',
 
-  // Reviews — REAL numbers from reviews.co.uk. Do not fabricate.
-  rating: '[RATING]', // TODO e.g. '4.9'
-  reviewCount: '[REVIEW_COUNT]', // TODO e.g. '421'
-  reviewsProfileUrl: 'https://www.reviews.co.uk/company-reviews/store/all-speeches-great-and-small', // TODO confirm
+  // Reviews — confirmed real figures (reviews.io store all-speeches-great-and-small).
+  rating: '4.9',
+  reviewCount: '421',
+  reviewsProfileUrl: 'https://www.reviews.io/company-reviews/store/all-speeches-great-and-small',
 
-  // Turnaround used across service copy. TODO confirm real figure.
-  turnaround: '5',
+  // Turnaround used across service copy. Confirmed: 7 days (1 week).
+  turnaround: '7',
 
   price: '399',
   priceCurrency: 'GBP',
@@ -51,6 +51,7 @@ export const TRAILING_SLASH_PATHS = new Set([
   '/',
   '/best-man-speech-writer/',
   '/best-man-speeches/',
+  '/after-dinner-speeches/',
   '/about-adrian-simpson-speechwriter/',
   '/blogs/',
 ]);

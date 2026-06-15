@@ -1,0 +1,100 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Write a Best Man Speech",
+      "url": "https://www.allspeechesgreatandsmall.com/best-man-speeches/",
+      "datePublished": "2021-06-01",
+      "dateModified": "2026-06-02",
+      "author": {
+        "@id": "https://www.allspeechesgreatandsmall.com/about-adrian-simpson-speechwriter/#adrian"
+      },
+      "publisher": {
+        "@id": "https://www.allspeechesgreatandsmall.com/#business"
+      },
+      "mainEntityOfPage": "https://www.allspeechesgreatandsmall.com/best-man-speeches/",
+      "description": "A step-by-step guide to writing a best man speech — structure, opening lines, jokes that land, and full examples."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long should a best man speech be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the UK, with three speakers, aim for a stand-up-to-sit-down time of no more than 10 minutes — about 5 in America — and cut it shorter as more speakers are added."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you start a best man speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open with a warm, funny line that earns a genuine laugh — never edgy — then introduce yourself. Quality matters more than racing to the first gag."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should you structure a best man speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep it simple: form a logical progression from one point to the next, don't let the timeline jump around, and never cover the same topic or person twice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What jokes work in a best man speech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Skip the recycled 'best man jokes' everyone has heard a hundred times — work out what's genuinely funny about the groom and people will laugh far more at your originality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you end a best man speech with a toast?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There should be only one toast in a best man speech, and it comes right at the very end — simple and effective."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should you mention the groom's ex-girlfriends?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Never mention former girlfriends in any way — the day is really about the bride, and upsetting her is terminal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle hecklers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan ahead: the simplest method is to pause, let them finish and carry on — but if you can turn it into a gentle extra laugh, so much the better."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.allspeechesgreatandsmall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Write a Best Man Speech",
+          "item": "https://www.allspeechesgreatandsmall.com/best-man-speeches/"
+        }
+      ]
+    }
+  ]
+}
+</script>

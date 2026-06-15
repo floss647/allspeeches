@@ -9,6 +9,7 @@ const KEEP_SLASH = new Set([
   '/',
   '/best-man-speech-writer/',
   '/best-man-speeches/',
+  '/after-dinner-speeches/',
   '/about-adrian-simpson-speechwriter/',
   '/blogs/',
 ]);

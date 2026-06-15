@@ -71,8 +71,9 @@ interface ServiceArgs {
   path: string;
   description: string;
   withPrice?: boolean;
+  price?: string;
 }
-export function service({ serviceType, name, path, description, withPrice = true }: ServiceArgs) {
+export function service({ serviceType, name, path, description, withPrice = true, price = SITE.price }: ServiceArgs) {
   const url = abs(path);
   const node: Record<string, any> = {
     '@context': 'https://schema.org',
@@ -87,7 +88,7 @@ export function service({ serviceType, name, path, description, withPrice = true
   if (withPrice) {
     node.offers = {
       '@type': 'Offer',
-      price: SITE.price,
+      price,
       priceCurrency: SITE.priceCurrency,
       url,
     };

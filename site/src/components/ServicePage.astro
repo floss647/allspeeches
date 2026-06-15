@@ -29,11 +29,13 @@ const schemas = [
     path: data.slug,
     description: fill(data.meta),
     withPrice: data.withPrice,
+    price: data.priceValue ?? SITE.price,
   }),
   faqPage(faqs),
 ];
 
 const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
+const priceDisplay = data.priceValue ?? SITE.price;
 ---
 <Layout title={data.title} description={fill(data.meta)} path={data.slug} ogImage={data.heroImage} breadcrumbs={crumbs} schemas={schemas}>
   <section class="hero">
@@ -101,8 +103,14 @@ const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('['
     <section class="section center">
       <div class="wrap measure mx-auto">
         <p class="eyebrow">Simple pricing</p>
-        <h2>One flat fee. Everything included.</h2>
-        <p class="lede">A bespoke {data.nav.toLowerCase()} speech is a flat <strong>£{SITE.price}</strong>, including unlimited revisions and everything above. No hidden extras.</p>
+        <h2>{data.priceFrom ? 'Straightforward pricing.' : 'One flat fee. Everything included.'}</h2>
+        <p class="lede">
+          {data.priceFrom ? (
+            <span>A bespoke {data.nav.toLowerCase()} speech starts <strong>from £{priceDisplay}</strong>, unlimited revisions included. Tell me about your event and I’ll confirm the price.</span>
+          ) : (
+            <span>A bespoke {data.nav.toLowerCase()} speech is a flat <strong>£{priceDisplay}</strong>, including unlimited revisions and everything above. No hidden extras.</span>
+          )}
+        </p>
         <a class="btn btn--primary" href="/pricing">See what’s included →</a>
       </div>
     </section>
