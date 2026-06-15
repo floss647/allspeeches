@@ -1,0 +1,66 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { SITE } from '../config/site';
+import { article } from '../lib/schema';
+
+// Root-level catch-all for blog posts (per the migration plan). Explicitly
+// defined pages take precedence; this only builds blog-collection slugs.
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.data.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const d = post.data;
+const { Content } = await render(post);
+const path = `/${d.slug}`;
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Blog', path: '/blogs/' },
+  { name: d.title, path },
+];
+
+const schemas = [
+  article({
+    headline: d.title,
+    path,
+    datePublished: d.publishedDate,
+    dateModified: d.updatedDate ?? d.publishedDate,
+    description: d.description,
+  }),
+];
+
+const published = new Date(d.publishedDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Layout title={`${d.title} | All Speeches Great & Small`} description={d.description} path={path} ogImage={d.hero ?? SITE.ogImage} ogType="article" breadcrumbs={crumbs} schemas={schemas}>
+  <article class="section">
+    <div class="wrap prose">
+      <Breadcrumbs items={crumbs} />
+      <h1>{d.title}</h1>
+      <div class="byline">
+        <img src="/images/adrian-home.jpg" alt="Adrian Simpson" width="44" height="44" />
+        <span>By <strong>{SITE.founder}</strong> · {published}</span>
+      </div>
+      {d.hero && <img src={d.hero} alt={d.title} width="1200" height="600" />}
+      <Content />
+
+      {d.related && (
+        <>
+          <hr />
+          <div class="guide-cta" style="background:var(--paper-2);border-radius:var(--radius);padding:28px;text-align:center">
+            <h3>Would you rather I wrote it for you?</h3>
+            <a class="btn btn--primary" href={d.related.path}>{d.related.label} →</a>
+          </div>
+        </>
+      )}
+    </div>
+  </article>
+  <CtaBand />
+</Layout>

@@ -1,0 +1,6 @@
+---
+import { getCollection } from 'astro:content';
+import GuideArticle from '../components/GuideArticle.astro';
+const entry = (await getCollection('guides')).find((g) => g.id === 'best-man')!;
+---
+<GuideArticle entry={entry} />

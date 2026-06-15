@@ -1,0 +1,87 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { SITE, fill } from '../config/site';
+import { faqPage, type Faq as FaqType } from '../lib/schema';
+
+const path = '/pricing';
+const title = 'Speech Writing Prices | From £399 — What\'s Included';
+const description =
+  'Simple, flat-fee speech writing pricing — £399 for a bespoke wedding speech, including unlimited revisions. See exactly what\'s included.';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Pricing', path },
+];
+
+const faqs: FaqType[] = [
+  { q: 'Is £399 really the full price?', a: 'Yes — for a bespoke wedding speech, that\'s everything, including unlimited revisions. No hidden extras.' },
+  { q: 'When do I pay?', a: 'Confirm your payment terms here — for example, a deposit to book and the balance on delivery.' },
+  { q: 'What if I need it urgently?', a: 'Last-minute speeches are often possible — tell me your date and I\'ll let you know straight away.' },
+  { q: 'What if I\'m not happy?', a: 'We keep refining until you are. That\'s what unlimited revisions means.' },
+];
+
+const offer = {
+  '@context': 'https://schema.org',
+  '@type': 'Offer',
+  name: 'Bespoke wedding speech',
+  price: SITE.price,
+  priceCurrency: SITE.priceCurrency,
+  url: `${SITE.url}${path}`,
+  availability: 'https://schema.org/InStock',
+  seller: { '@id': `${SITE.url}/#business` },
+};
+const included = [
+  'A 100% original speech, written from scratch around your stories',
+  'A relaxed chat or simple questionnaire to gather your material',
+  'A complete, polished, ready-to-deliver speech',
+  'Unlimited revisions until every word feels right',
+  fill('Delivery within [X] days — last-minute turnarounds available'),
+  'Honest, friendly, discreet service throughout',
+];
+---
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={[offer, faqPage(faqs)]}>
+  <section class="hero center">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <p class="eyebrow">Pricing</p>
+      <h1>Speech Writing Prices</h1>
+      <p class="lede measure mx-auto">One simple, honest price. No packages to decode, no upsells, no surprises.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap measure mx-auto">
+      <div class="price-card">
+        <p class="eyebrow">Bespoke wedding speech</p>
+        <p class="price">£{SITE.price}</p>
+        <p>Best man, groom, father of the bride, or maid of honour. Everything included:</p>
+        <ul class="ticks">{included.map((i) => <li>{i}</li>)}</ul>
+        <a class="btn btn--primary" href="/contact">Get my speech written — £{SITE.price}</a>
+      </div>
+
+      <div class="grid grid--2 mt-2">
+        <div class="card"><div class="card__body">
+          <h3>Eulogy writing</h3>
+          <p>A eulogy is a different kind of work, written with care and at your pace. <span class="ph">Confirm your eulogy price/approach — e.g. “Please get in touch and we'll talk it through gently.”</span></p>
+          <a class="card__link" href="/eulogy-writing-service">Eulogy Writing Service →</a>
+        </div></div>
+        <div class="card"><div class="card__body">
+          <h3>Speech review</h3>
+          <p>Already written your own and want a professional opinion? <span class="ph">Confirm your speech-review price.</span></p>
+          <a class="card__link" href="/speech-review-service">Speech Review Service →</a>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <Faq faqs={faqs} heading="Pricing questions" />
+  <CtaBand />
+</Layout>
+
+<style>
+  .price-card { background: #fff; border: 2px solid var(--gold); border-radius: var(--radius); padding: 36px; box-shadow: var(--shadow); text-align: center; }
+  .price-card .ticks { text-align: left; max-width: 420px; margin-inline: auto; }
+  .price { font-family: var(--serif); font-size: 4rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.4em; }
+</style>

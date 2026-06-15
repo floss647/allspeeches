@@ -1,0 +1,74 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { SITE, fill } from '../config/site';
+import { productWithReviews } from '../lib/schema';
+
+const path = '/reviews';
+const title = fill('Reviews | All Speeches Great & Small ([REVIEW_COUNT]+ 5★)');
+const description = fill(
+  "Read genuine customer reviews of All Speeches Great & Small — [REVIEW_COUNT]+ verified reviews of the UK's most-reviewed professional speechwriter."
+);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Reviews', path },
+];
+
+// Real testimonials go here (name, type, text). The Review schema below is
+// only emitted once SITE.rating / reviewCount hold real numbers.
+const testimonials: { name: string; type: string; text: string }[] = [];
+
+const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
+const productSchema = productWithReviews(
+  testimonials.map((t) => ({ author: t.name, date: '2026-01-01', body: t.text }))
+);
+const schemas = productSchema ? [productSchema] : [];
+---
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas}>
+  <section class="hero center">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <p class="eyebrow">Verified reviews</p>
+      <h1>What my clients say</h1>
+      <p class="lede">
+        <span class="stars">★★★★★</span>
+        {ratingKnown ? (
+          <span> {SITE.rating} out of 5 — from {SITE.reviewCount} verified reviews</span>
+        ) : (
+          <span class="ph"> [RATING] out of 5 — from [REVIEW_COUNT] verified reviews</span>
+        )}
+      </p>
+      <p class="measure mx-auto">
+        I'm proud to be the UK's most highly rated and reviewed professional speech writer — but I'd
+        much rather my clients told you why. Here's what people have said after standing up and
+        delivering a speech we wrote together.
+      </p>
+      <a class="btn btn--primary" href={SITE.reviewsProfileUrl} rel="nofollow">Read all reviews on Reviews.co.uk →</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      {testimonials.length === 0 ? (
+        <div class="measure mx-auto center">
+          <p class="ph" style="display:inline-block;padding:14px 18px;border-radius:10px">
+            Drop in your real reviews.co.uk testimonials here (name · speech type · text), and add the
+            live aggregate score above. The Review/AggregateRating schema then publishes automatically.
+            Never use fabricated numbers.
+          </p>
+        </div>
+      ) : (
+        <div class="grid grid--2">
+          {testimonials.map((t) => (
+            <figure class="card"><div class="card__body">
+              <blockquote class="quote">“{t.text}”<cite>— {t.name}, {t.type}</cite></blockquote>
+            </div></figure>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <CtaBand heading="Ready to write yours?" />
+</Layout>

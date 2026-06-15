@@ -1,0 +1,10 @@
+---
+// Renders a JSON-LD block into the page. Always present in the static HTML
+// (Astro pre-renders by default), satisfying the kit's Phase 0 requirement.
+interface Props {
+  schema: Record<string, any> | Record<string, any>[];
+}
+const { schema } = Astro.props;
+const json = JSON.stringify(schema);
+---
+<script type="application/ld+json" set:html={json} is:inline />
