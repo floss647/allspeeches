@@ -20,9 +20,35 @@ const get = async (url) => {
 };
 const getText = async (url) => (await get(url)).text();
 
-// 1. Gather page URLs from sitemap(s); fall back to crawling the homepage.
+// Known static page routes on the live site (the live /sitemap.xml returns 404,
+// so we can't rely on it). The crawler follows redirects, so trailing-slash
+// variants resolve automatically and any 404s are simply skipped.
+const STATIC_PAGES = [
+  '/', '/best-man-speech-writer/', '/groom-speech-writer', '/father-of-the-bride-speech-writer',
+  '/maid-of-honour-speech-writer', '/eulogy-writing-service', '/speech-review-service',
+  '/best-man-speeches/', '/groom-speeches', '/father-of-the-bride-speeches', '/moh-speeches',
+  '/eulogy-examples', '/about-adrian-simpson-speechwriter/', '/reviews', '/pricing', '/contact',
+  '/blogs/', '/privacy', '/terms', '/after-dinner-speeches/',
+];
+
+// 1. Build the page list from the known static routes plus the confirmed blog
+// slugs (ready/blog-slugs-to-preserve.txt). Falls back to the sitemap only if
+// the slug list is unavailable.
 async function pageUrls() {
-  const urls = new Set([ORIGIN + '/']);
+  const urls = new Set();
+  for (const p of STATIC_PAGES) urls.add(new URL(p, ORIGIN).href);
+
+  try {
+    const { readFileSync, existsSync } = await import('node:fs');
+    const listPath = resolve(process.cwd(), '../ready/blog-slugs-to-preserve.txt');
+    if (existsSync(listPath)) {
+      const slugs = readFileSync(listPath, 'utf8').split('\n').map((s) => s.trim()).filter((s) => s && !s.startsWith('#'));
+      slugs.forEach((s) => urls.add(`${ORIGIN}/${s.replace(/^\//, '')}`));
+      console.log(`page list: ${STATIC_PAGES.length} static + ${slugs.length} blog = ${urls.size} URLs`);
+      return [...urls];
+    }
+  } catch (e) { console.log('slug list unavailable, trying sitemap:', e.message); }
+
   try {
     let xml = await getText(ORIGIN + '/sitemap.xml');
     const sub = [...xml.matchAll(/<loc>([^<]+\.xml)<\/loc>/g)].map((m) => m[1]);
@@ -32,7 +58,7 @@ async function pageUrls() {
     }
     console.log(`sitemap: ${urls.size} page URLs`);
   } catch (e) {
-    console.log('no sitemap, homepage only:', e.message);
+    console.log('no sitemap, static pages only:', e.message);
   }
   return [...urls];
 }

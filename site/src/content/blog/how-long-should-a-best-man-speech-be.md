@@ -6,7 +6,7 @@ category: "best-man"
 publishedDate: "2026-02-10"
 updatedDate: "2026-06-01"
 excerpt: "Five minutes, well chosen, beats fifteen every time. Here's how to judge the length of your best man speech and keep the room with you."
-hero: "/images/card-best-man.jpg"
+hero: "/images/card-best-man.webp"
 related: { label: "Best Man Speech Writer", path: "/best-man-speech-writer/" }
 ---
 

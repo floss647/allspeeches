@@ -6,7 +6,7 @@ category: "father-of-the-bride"
 publishedDate: "2026-04-18"
 updatedDate: "2026-06-01"
 excerpt: "Your first line sets the tone for the whole father of the bride speech. Here's how to open with warmth and a smile — not a nervous throat-clear."
-hero: "/images/card-father-of-bride.jpg"
+hero: "/images/card-father-of-bride.webp"
 related: { label: "Father of the Bride Speech Writer", path: "/father-of-the-bride-speech-writer" }
 ---
 

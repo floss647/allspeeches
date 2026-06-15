@@ -6,7 +6,7 @@ category: "groom"
 publishedDate: "2026-03-04"
 updatedDate: "2026-06-01"
 excerpt: "The moment everyone waits for in a groom speech is what you say about your partner. Here's how to make it land — without the clichés."
-hero: "/images/card-groom.jpg"
+hero: "/images/card-groom.webp"
 related: { label: "Groom Speech Writer", path: "/groom-speech-writer" }
 ---
 
