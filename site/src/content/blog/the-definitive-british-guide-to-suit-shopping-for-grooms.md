@@ -11,7 +11,7 @@ The last time I counted, grooms have on average about 2 million things to organi
 
 A Grand Introduction: The Significance of the Occasion
 
-Weddings in any shape or form are not to be taken lightly. Even if you don’t care for the usual traditions and formalities, the groom's suit is not just a trivial matter—it's an essential part of the ceremony. So as your beloved embarks upon the Herculean task of finding the ideal dress, you are faced with a quest of your own: securing the perfect suit.
+Weddings in any shape or form are not to be taken lightly. Even if you don’t care for the usual traditions and formalities, the groom's suit is not just a trivial matter, it's an essential part of the ceremony. So as your beloved embarks upon the Herculean task of finding the ideal dress, you are faced with a quest of your own: securing the perfect suit.
 
 The Vast Landscape of Suit Types: A Gentleman’s Smorgasbord
 
@@ -21,7 +21,7 @@ It's a known fact that nothing says sophistication like a well-fitted tuxedo. If
 
 The Morning Suit: The Epitome of British Tradition
 
-The morning suit—often termed ‘morning dress’—is the epitome of traditional British sartorial elegance. A morning coat has tails that extend to the back of your knees, accompanied by a waistcoat and pinstriped trousers. For accessories, a top hat and cane are optional but do add an exquisite touch, and after a few drinks you can instantly turn into Fred Astaire. Savile Row, London's historic tailoring street, is perhaps the most famous destination for high-quality morning suits. Houses like[Gieves & Hawkes](https://www.gievesandhawkes.com/) provide an experience as tailored as the suits they produce.
+The morning suit, often termed ‘morning dress’, is the epitome of traditional British sartorial elegance. A morning coat has tails that extend to the back of your knees, accompanied by a waistcoat and pinstriped trousers. For accessories, a top hat and cane are optional but do add an exquisite touch, and after a few drinks you can instantly turn into Fred Astaire. Savile Row, London's historic tailoring street, is perhaps the most famous destination for high-quality morning suits. Houses like[Gieves & Hawkes](https://www.gievesandhawkes.com/) provide an experience as tailored as the suits they produce.
 
 The Three-Piece Suit: Versatility with a Dash of Panache
 
@@ -47,7 +47,7 @@ Wool is the most traditional fabric and offers the versatility of being worn in 
 
 Details: Where the Devil Truly Resides
 
-Cufflinks, pocket squares, lapel pins—these are the accents that can elevate your look from good to exceptional. Take note of the lapel styles—peak, notch, or shawl. For a better understanding of these smaller yet significant details,[Gentleman's Gazette](https://www.gentlemansgazette.com/lapel-buttonhole-boutonniere/) offers a full-fledged guide.
+Cufflinks, pocket squares, lapel pins, these are the accents that can elevate your look from good to exceptional. Take note of the lapel styles, peak, notch, or shawl. For a better understanding of these smaller yet significant details,[Gentleman's Gazette](https://www.gentlemansgazette.com/lapel-buttonhole-boutonniere/) offers a full-fledged guide.
 
 Budgets and Banknotes: How to Allocate the King’s Shilling
 

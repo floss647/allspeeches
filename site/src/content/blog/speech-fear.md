@@ -9,7 +9,7 @@ hero: "/images/blog/shutterstock_81215590-e1416776911615-1.webp"
 ---
 ### The fear of public speaking...
 
-There’s a stat somewhere that says that over 75% of us are terrified of public speaking. This shouldn’t come as any surprise because for quite a lot of people it’s not something they encounter at all in their everyday lives. It’s about as meaningless as declaring 80% of us are terrified of rewiring a house, or performing a quadruple by pass – of course we are, we’ve never done it before. If somebody in a green mask hands you the scalpel and points at a patient’s chest, then chances are you’re going to develop ‘disco leg’, which is the unstoppable urge for one of your legs to bounce uncontrollably as you attempt something way out of your comfort zone. Public speaking is no different but an awful lot easier to get to grips with than removing somebody’s heart and replacing it with an old fashioned alarm clock.
+There’s a stat somewhere that says that over 75% of us are terrified of public speaking. This shouldn’t come as any surprise because for quite a lot of people it’s not something they encounter at all in their everyday lives. It’s about as meaningless as declaring 80% of us are terrified of rewiring a house, or performing a quadruple by pass, of course we are, we’ve never done it before. If somebody in a green mask hands you the scalpel and points at a patient’s chest, then chances are you’re going to develop ‘disco leg’, which is the unstoppable urge for one of your legs to bounce uncontrollably as you attempt something way out of your comfort zone. Public speaking is no different but an awful lot easier to get to grips with than removing somebody’s heart and replacing it with an old fashioned alarm clock.
 
 So where to begin with the fear of public speaking? How do you transform a quantity surveyor, graphic designer or tree surgeon into a confident, engaging and entertaining speaker? Easy, you put your head in the lion’s mouth and confront that fear! The first thing to understand is what you are frightened of and then work back from there. What is making the everyday act of speaking, such a living nightmare? It is of course the fear of failure, either not being funny enough or engaging enough and that only ever comes down to preparation. And there’s plenty you can do about that.
 
@@ -19,7 +19,7 @@ A lot of people have little confidence in the tone and intonation of their voice
 
 #### Pace
 
-You can have all the greatest lines ever in a speech but if you haven’t got the pace right, you might as well be reading out the menu. As I’ve said a fear of public speaking stems from a worry that nobody will laugh or react in the right places and if you’re piling through the speech like you’ve got a bus to catch, then that’s exactly what’s going to happen. Practice a slow steady pace and above all deliberately write in pauses – make yourself stop. Pauses will always do the trick, deliver a line and let the audience catch up. It works.
+You can have all the greatest lines ever in a speech but if you haven’t got the pace right, you might as well be reading out the menu. As I’ve said a fear of public speaking stems from a worry that nobody will laugh or react in the right places and if you’re piling through the speech like you’ve got a bus to catch, then that’s exactly what’s going to happen. Practice a slow steady pace and above all deliberately write in pauses, make yourself stop. Pauses will always do the trick, deliver a line and let the audience catch up. It works.
 
 #### Cliches
 
@@ -27,7 +27,7 @@ Like it or not you’ve hit an age where weddings are part of your life and you�
 
 #### Projection
 
-Most people don’t have to project their voice in their usual daily routine so this is something that you need to grapple with. Practice speaking out loud at home until you’re comfortable with the sound of your own voice. If you’ve never done this nobody is going to be more surprised than you to hear it on the day. If there is a microphone, use it – the key here is for everyone to be able to hear what you’re saying – anything that amplifies your message is only a good thing.
+Most people don’t have to project their voice in their usual daily routine so this is something that you need to grapple with. Practice speaking out loud at home until you’re comfortable with the sound of your own voice. If you’ve never done this nobody is going to be more surprised than you to hear it on the day. If there is a microphone, use it, the key here is for everyone to be able to hear what you’re saying, anything that amplifies your message is only a good thing.
 
 #### Content
 

@@ -91,4 +91,4 @@ I bet at this point he's not thinking you're not the man he's knows...
 
 Boom boom! Get it Bangor...Bang Her...Yeah? I have to give credit to this guy he saved the most unfunny, uncomfortable and genuinely shit gag until the very end. Unbelievably he's not managed to say a single thing about the groom...mainly because he's been too busy destroying his life.
 
-**'Now for the moment that we have all been waiting for – take it away Fred and Ginger.' **
+**'Now for the moment that we have all been waiting for, take it away Fred and Ginger.' **

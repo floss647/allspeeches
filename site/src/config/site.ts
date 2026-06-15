@@ -1,6 +1,6 @@
 /**
  * Single source of truth for business data (NAP), social profiles and the
- * placeholders only Adrian can fill. Update the `TODO` values before launch —
+ * placeholders only Adrian can fill. Update the `TODO` values before launch, 
  * every page, schema block, footer and the llms.txt read from here.
  */
 
@@ -13,7 +13,7 @@ export const SITE = {
   founder: 'Adrian Simpson',
   founderUrlPath: '/about-adrian-simpson-speechwriter/',
 
-  // NAP — keep byte-identical wherever it appears.
+  // NAP, keep byte-identical wherever it appears.
   telephone: '0207 993 6524',
   telephoneE164: '+44-20-7993-6524',
   email: 'adrian@allspeechesgreatandsmall.com', // confirmed
@@ -21,7 +21,7 @@ export const SITE = {
   addressCountry: 'GB',
   areaServed: 'United Kingdom',
 
-  // Reviews — confirmed real figures (reviews.io store all-speeches-great-and-small).
+  // Reviews, confirmed real figures (reviews.io store all-speeches-great-and-small).
   rating: '4.9',
   reviewCount: '421',
   reviewsProfileUrl: 'https://www.reviews.io/company-reviews/store/all-speeches-great-and-small',
@@ -39,7 +39,7 @@ export const SITE = {
     'https://www.youtube.com/@Allspeechesgreatandsmallgp',
   ],
 
-  // Default share image — 1200x630 branded image still to be created.
+  // Default share image, 1200x630 branded image still to be created.
   ogImage: '/images/adrian-portrait.jpg',
 } as const;
 

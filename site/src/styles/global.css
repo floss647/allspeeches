@@ -145,7 +145,7 @@ img { max-width: 100%; height: auto; display: block; }
 .faq summary { font-family: var(--serif); font-size: 1.25rem; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after { content: '+'; color: var(--gold); font-size: 1.4rem; line-height: 1; }
-.faq details[open] summary::after { content: '–'; }
+.faq details[open] summary::after { content: '\00d7'; }
 .faq details p { margin-top: 12px; color: var(--ink-soft); }
 
 /* Hero */

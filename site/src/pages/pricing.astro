@@ -7,18 +7,18 @@ import { SITE, fill } from '../config/site';
 import { faqPage, type Faq as FaqType } from '../lib/schema';
 
 const path = '/pricing';
-const title = 'Speech Writing Prices | From £399 — What\'s Included';
+const title = 'Speech Writing Prices | From £399, What\'s Included';
 const description =
-  'Simple, flat-fee speech writing pricing — £399 for a bespoke wedding speech, including unlimited revisions. See exactly what\'s included.';
+  'Simple, flat-fee speech writing pricing, £399 for a bespoke wedding speech, including unlimited revisions. See exactly what\'s included.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Pricing', path },
 ];
 
 const faqs: FaqType[] = [
-  { q: 'Is £399 really the full price?', a: 'Yes — for a bespoke wedding speech, that\'s everything, including unlimited revisions. No hidden extras.' },
+  { q: 'Is £399 really the full price?', a: 'Yes, for a bespoke wedding speech, that\'s everything, including unlimited revisions. No hidden extras.' },
   { q: 'When do I pay?', a: 'Full payment up front when you book. That secures your slot and we get straight to work.' },
-  { q: 'What if I need it urgently?', a: 'Last-minute speeches are often possible — tell me your date and I\'ll let you know straight away.' },
+  { q: 'What if I need it urgently?', a: 'Last-minute speeches are often possible, tell me your date and I\'ll let you know straight away.' },
   { q: 'What if I\'m not happy?', a: 'We keep refining until you are. That\'s what unlimited revisions means.' },
 ];
 
@@ -37,7 +37,7 @@ const included = [
   'A relaxed chat or simple questionnaire to gather your material',
   'A complete, polished, ready-to-deliver speech',
   'Unlimited revisions until every word feels right',
-  fill('Delivery within [X] days — last-minute turnarounds available'),
+  fill('Delivery within [X] days, last-minute turnarounds available'),
   'Honest, friendly, discreet service throughout',
 ];
 ---
@@ -58,22 +58,22 @@ const included = [
         <p class="price">£{SITE.price}</p>
         <p>Best man, groom, father of the bride, or maid of honour. Everything included:</p>
         <ul class="ticks">{included.map((i) => <li>{i}</li>)}</ul>
-        <a class="btn btn--primary" href="/contact">Get my speech written — £{SITE.price}</a>
+        <a class="btn btn--primary" href="/contact">Get my speech written, £{SITE.price}</a>
       </div>
 
       <div class="grid grid--2 mt-2">
         <div class="card"><div class="card__body">
-          <h3>Eulogy writing — £399</h3>
-          <p>A eulogy is also £399 — the same flat price, written with the same care and no rush.</p>
+          <h3>Eulogy writing, £399</h3>
+          <p>A eulogy is also £399, the same flat price, written with the same care and no rush.</p>
           <a class="card__link" href="/eulogy-writing-service">Eulogy Writing Service →</a>
         </div></div>
         <div class="card"><div class="card__body">
-          <h3>Speech review — £399</h3>
+          <h3>Speech review, £399</h3>
           <p>Already written your own and want a professional opinion? A full speech review is £399.</p>
           <a class="card__link" href="/speech-review-service">Speech Review Service →</a>
         </div></div>
         <div class="card"><div class="card__body">
-          <h3>After-dinner — from £499</h3>
+          <h3>After-dinner, from £499</h3>
           <p>Longer and more involved than a wedding speech. Bespoke after-dinner speeches start from £499.</p>
           <a class="card__link" href="/after-dinner-speeches/">After-Dinner Speech Writer →</a>
         </div></div>

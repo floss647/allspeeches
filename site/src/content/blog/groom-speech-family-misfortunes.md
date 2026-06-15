@@ -1,5 +1,5 @@
 ---
-title: "Groom Speech – family misfortunes"
+title: "Groom Speech, family misfortunes"
 description: "There is a tendency, when in light conversation with friends, to declare that your own family is odd, can lapse into the dysfunctional, and compromises of chara..."
 slug: "groom-speech-family-misfortunes"
 category: "groom"

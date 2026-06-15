@@ -1,5 +1,5 @@
 ---
-title: "Best Man speech – not all advice is good advice"
+title: "Best Man speech, not all advice is good advice"
 description: "The internet is awash with tips, tricks, hints and secret formulas to make your best man speech the most amazingly drop dead all time success in the whole histo..."
 slug: "best-man-speech-not-all-advice-is-good-advice"
 category: "best-man"

@@ -1,7 +1,7 @@
 ---
 title: "How to Write a Father of the Bride Speech: Tips & Examples (2026)"
 headline: "How to Write a Father of the Bride Speech"
-description: "How to write a father of the bride speech — what to say about your daughter, welcoming the groom, structure, toast and full examples. By a professional speechwriter."
+description: "How to write a father of the bride speech, what to say about your daughter, welcoming the groom, structure, toast and full examples. By a professional speechwriter."
 path: "/father-of-the-bride-speeches"
 hero: "/images/card-father-of-bride.webp"
 service: "/father-of-the-bride-speech-writer"
@@ -12,37 +12,37 @@ faqs:
   - q: "How do you write a great father of the bride speech?"
     a: "A great father of the bride speech blends heartfelt tribute with genuine humour, taking the room on a fun, moving journey through your daughter's life."
   - q: "How do you start a father of the bride speech?"
-    a: "As the first speaker you do the welcoming — introduce yourself and your relationship to the bride, and give it on behalf of your wife as well."
+    a: "As the first speaker you do the welcoming, introduce yourself and your relationship to the bride, and give it on behalf of your wife as well."
   - q: "How should you structure a father of the bride speech?"
     a: "Welcome first, then welcome the groom's family and groom, an optional absent-friends toast, the main section about your daughter, then her husband, your wife, and the final toast."
   - q: "What kind of jokes work in a father of the bride speech?"
-    a: "Humour gives the speech balance — keep it genuinely funny, warm and inclusive, and land a good one just after your introduction to relax the room."
+    a: "Humour gives the speech balance, keep it genuinely funny, warm and inclusive, and land a good one just after your introduction to relax the room."
   - q: "How do you handle the absent friends toast?"
-    a: "The father of the bride often takes this toast — keep it a simple, warm tribute, go into detail only for key figures, and check with the groom before mentioning his relatives."
+    a: "The father of the bride often takes this toast, keep it a simple, warm tribute, go into detail only for key figures, and check with the groom before mentioning his relatives."
   - q: "How do you welcome the groom's family?"
     a: "Welcome the groom's family and friends warmly, give everyone a fair mention, and have some fun with where the two families have come from."
   - q: "What should you say about your daughter?"
-    a: "Paint a picture of who she was, who she is, and the years in between — peppered with funny memories, and saluting her achievements subtly rather than like a CV."
+    a: "Paint a picture of who she was, who she is, and the years in between, peppered with funny memories, and saluting her achievements subtly rather than like a CV."
   - q: "What should you say about your son-in-law?"
-    a: "How much you say depends on your relationship — if it's warm it writes itself; if it isn't, keep it short and generous, and never take pot shots."
+    a: "How much you say depends on your relationship, if it's warm it writes itself; if it isn't, keep it short and generous, and never take pot shots."
   - q: "What should you say about your wife or partner?"
     a: "Always give the speech on behalf of you and your wife, with a dedicated section on what she means to your daughter and what an incredible job she's done as a mother."
   - q: "How should you end a father of the bride speech?"
-    a: "Summarise what a special person your daughter is in your own, original words — this is the part guests remember, so make it heartfelt and avoid all the clichés."
+    a: "Summarise what a special person your daughter is in your own, original words, this is the part guests remember, so make it heartfelt and avoid all the clichés."
   - q: "How do you handle divorce in the speech?"
-    a: "It all depends on your relationship with her mother — but whatever the situation, never omit her completely."
+    a: "It all depends on your relationship with her mother, but whatever the situation, never omit her completely."
   - q: "How long should a father of the bride speech be?"
-    a: "Aim for around 7 minutes — you're first up, so an overlong speech makes the groom's and best man's jobs much harder."
+    a: "Aim for around 7 minutes, you're first up, so an overlong speech makes the groom's and best man's jobs much harder."
   - q: "Should you mention former boyfriends?"
-    a: "Unlike the best man, there's scope for gentle fun here — allude to colourful exes for comedy, but never by name and never in detail."
+    a: "Unlike the best man, there's scope for gentle fun here, allude to colourful exes for comedy, but never by name and never in detail."
   - q: "How many toasts should you make?"
-    a: "Really just one — to the happy couple at the end (plus the absent friends toast if the groom hands it to you). Leave the bridesmaids to the groom."
+    a: "Really just one, to the happy couple at the end (plus the absent friends toast if the groom hands it to you). Leave the bridesmaids to the groom."
   - q: "What should you avoid in a father of the bride speech?"
     a: "Don't talk about yourself, don't get so carried away with gags that you forget to talk about your daughter, and skip the props and childhood photos."
   - q: "How should you deliver the speech?"
-    a: "Practise out loud so the emotional lines hold — slow down, keep water nearby, and remember a wobble is the room loving you, not a mistake."
+    a: "Practise out loud so the emotional lines hold, slow down, keep water nearby, and remember a wobble is the room loving you, not a mistake."
 ---
-## The father of the bride speech guide — 10 minutes you'll remember forever
+## The father of the bride speech guide, 10 minutes you'll remember forever
 *By Adrian Simpson, professional speechwriter · Updated June 2026*
 
 This is a big speech. It's not just that you're up first, but this marks a very definite and emotional line in the sand, where your daughter is moving on to begin a new life and start her own family. Sure, she may have left home some years ago, but the father of the bride speech realises that transition and makes the passing of years and distant memories something that you need to grapple with.
@@ -67,11 +67,11 @@ Here is a short video with my thoughts and ideas on writing a great father of th
 [Order your bespoke speech today →](/father-of-the-bride-speech-writer)
 
 ## How do you start a father of the bride speech? (Opening Lines)
-**As the first speaker you do the welcoming — introduce yourself and your relationship to the bride, and give it on behalf of your wife as well.**
+**As the first speaker you do the welcoming, introduce yourself and your relationship to the bride, and give it on behalf of your wife as well.**
 
 It may seem obvious, but as you're the first one up you need to do the welcoming. In fact, you should really be the only one that welcomes, otherwise it's all going to get a little repetitive.
 
-- The first thing you need to do is introduce yourself – use your name and what relationship you are to the bride. This may sound strange but sometimes it's stepfathers, brothers, uncles or cousins making this speech.
+- The first thing you need to do is introduce yourself, use your name and what relationship you are to the bride. This may sound strange but sometimes it's stepfathers, brothers, uncles or cousins making this speech.
 - Also, you need to consider the use of the words 'ladies and gentlemen'. Some people find this too formal, and I never use it when writing US or Australian speeches, as they tend to have a more relaxed wedding culture, and I rarely use it in UK speeches. Instead just use the word 'everyone'.
 - Family circumstance needs to be considered at this point too, because you should be making this on behalf of your wife as well. If you're divorced then keep it simple and just address on behalf of her family instead.
 
@@ -92,13 +92,13 @@ Whilst the star of the show is undoubtedly your daughter, the speech is actually
 - Then summarise what your daughter means to you, and then it's on to the final toast, and you're done.
 
 ## What kind of jokes work in a father of the bride speech? (Jokes)
-**Humour gives the speech balance — keep it genuinely funny, warm and inclusive, and land a good one just after your introduction to relax the room.**
+**Humour gives the speech balance, keep it genuinely funny, warm and inclusive, and land a good one just after your introduction to relax the room.**
 
-As mentioned above comedy plays a big part in this speech but you need to make sure it's genuinely funny, warm and inclusive. The role that the humour plays cannot be overstated enough – it gives the speech balance, and without it, it would become one big wave of emotion, and that would be pretty tough to get through. With genuinely funny lines, observations and memories sprinkled throughout the speech, you can then deliver those more meaningful lines much more easily.
+As mentioned above comedy plays a big part in this speech but you need to make sure it's genuinely funny, warm and inclusive. The role that the humour plays cannot be overstated enough, it gives the speech balance, and without it, it would become one big wave of emotion, and that would be pretty tough to get through. With genuinely funny lines, observations and memories sprinkled throughout the speech, you can then deliver those more meaningful lines much more easily.
 
 - I like to put something funny in just after the introduction to lighten the atmosphere and let everyone relax, so your first joke has to be a good one, because if it falls flat it could be the longest 10 minutes of your life.
 - Stories and memories should be boiled down to their funniest essence, you don't need to take everyone through countless anecdotes, just get to the good stuff as quickly as possible.
-- The funny parts as mentioned should be inclusive – in other words everyone should be able to laugh along with them – there shouldn't be anything private or confusing in those stories.
+- The funny parts as mentioned should be inclusive, in other words everyone should be able to laugh along with them, there shouldn't be anything private or confusing in those stories.
 - You should avoid any of the scripted ice breaker type gags as they're never funny enough and very worn out, instead think of something funny that directly relates either to the location, your daughter, your new son in law, or the coming together of the two families.
 
 EXAMPLE:
@@ -106,7 +106,7 @@ EXAMPLE:
 This is a truly special occasion in our family's history, not just because of the celebration of marriage, but also because this means her intimate relationship with my credit card, is now very much at an end.
 
 ## How do you handle the absent friends toast? (Absent Friends)
-**The father of the bride often takes this toast — keep it a simple, warm tribute, go into detail only for key figures, and check with the groom before mentioning his relatives.**
+**The father of the bride often takes this toast, keep it a simple, warm tribute, go into detail only for key figures, and check with the groom before mentioning his relatives.**
 
 Very frequently the father of the bride takes this toast, as it frees up more room in the groom speech which enjoys the lion's share of the formalities.
 
@@ -129,19 +129,19 @@ You should welcome the groom's family and friends, and if it feels appropriate m
 - If you've come from two different parts of the country, or indeed world, think of anything which connects those two places. For instance, what connects Bristol and Birmingham? The M5 motorway. There's comedy gold in there somewhere!
 
 ## What should you say about your daughter? (Your Daughter)
-**Paint a picture of who she was, who she is, and the years in between — peppered with funny memories, and saluting her achievements subtly rather than like a CV.**
+**Paint a picture of who she was, who she is, and the years in between, peppered with funny memories, and saluting her achievements subtly rather than like a CV.**
 
 It's no easy task to talk about exactly what a person means to you, in such an emotionally charged atmosphere, and the father of the bride speech isn't simply an opportunity to say your daughter looks beautiful. In order for your speech to be a great success, you need to paint a picture of the person she was, the person she is, and what those intervening years have involved.
 
 - This is a celebration of her life thus far, so we want to know what were her hopes and dreams when she was younger? What was her character like, and has she continued to be like that?
 - Pepper this timeline with funny memories and observations, this shouldn't sound like a CV in spoken form, so the entertainment factor is crucial. What you're really looking for are stories that indicate just how much, or just how little, her character has changed.
-- It's also a really good idea to talk about her passions when she was growing up, because there's plenty of opportunity to have some fun, especially with topics such as The Spice Girls and One Direction – just how similar is her husband to Harry Styles, and has she kept flying the flag for girl power?
-- Talking about how successful your daughter has been is always a tricky area – you need to salute her achievements, but at the same time you don't want it to look like you're showing off.
+- It's also a really good idea to talk about her passions when she was growing up, because there's plenty of opportunity to have some fun, especially with topics such as The Spice Girls and One Direction, just how similar is her husband to Harry Styles, and has she kept flying the flag for girl power?
+- Talking about how successful your daughter has been is always a tricky area, you need to salute her achievements, but at the same time you don't want it to look like you're showing off.
 - Definitely pay tribute to academic achievements such as degrees, but always resist the urge to include grades, it can all get a bit too much.
 - If school and academia wasn't your daughter's thing, then emphasise just how great she is at her job, and how much she loves it. Maybe she's already a parent? Then, that gives ample opportunity to talk about what a caring and devoted mum she is. There's always something, you just have to be subtle in the way that you phrase it.
 
 ## What should you say about your son-in-law? (Son in Law)
-**How much you say depends on your relationship — if it's warm it writes itself; if it isn't, keep it short and generous, and never take pot shots.**
+**How much you say depends on your relationship, if it's warm it writes itself; if it isn't, keep it short and generous, and never take pot shots.**
 
 This part is really determined by the strength of the relationship that you share with him. There are many fathers of the bride who have perfectly great friendships with the groom, and so you can have a little fun here. On the other hand, there are plenty who don't, so in that case, you need to tread carefully.
 
@@ -163,9 +163,9 @@ The speech should always be given on behalf of you and your wife, this is a join
 - A new partner should only be included if the relationship with your daughter is fully functioning!
 
 ## How should you end a father of the bride speech? (Closing Lines)
-**Summarise what a special person your daughter is in your own, original words — this is the part guests remember, so make it heartfelt and avoid all the clichés.**
+**Summarise what a special person your daughter is in your own, original words, this is the part guests remember, so make it heartfelt and avoid all the clichés.**
 
-This should be the last part of the speech where you summarise what a truly special person she is and what a privilege it's been to be part of her life. When you're finished, this is the part that the guests will remember, so it needs to be as meaningful, moving and powerful as possible. Originality is vital – avoid all wedding clichés and quotes, and say it your way.
+This should be the last part of the speech where you summarise what a truly special person she is and what a privilege it's been to be part of her life. When you're finished, this is the part that the guests will remember, so it needs to be as meaningful, moving and powerful as possible. Originality is vital, avoid all wedding clichés and quotes, and say it your way.
 
 - Bring together all the strands that you've covered in the rest of the speech and try to frame exactly what your daughter means to you and everyone else. Dispense with the usual descriptive clichés of 'amazing' and 'special'. Think about the words that work for your daughter.
 - The key here is to try not to repeat yourself and be as original and heartfelt as you like. If you feel as though you're saying the same thing twice, combine those thoughts and condense the content.
@@ -174,7 +174,7 @@ This should be the last part of the speech where you summarise what a truly spec
 # Other things to consider
 
 ## How do you handle divorce in the speech? (Divorce)
-**It all depends on your relationship with her mother — but whatever the situation, never omit her completely.**
+**It all depends on your relationship with her mother, but whatever the situation, never omit her completely.**
 
 Divorce plays a part in many of the father of the bride speeches I write, and handling it in just the right way can not only make it go smoothly on the day, but also prevent any lingering resentment.
 
@@ -182,7 +182,7 @@ Divorce plays a part in many of the father of the bride speeches I write, and ha
 - If you're on more shaky ground with your former wife, then the words you choose are key, but whatever you do, don't omit her completely. It will be a stark omission on the day, and not only will this cause your daughter stress on the day, but it will also prove ample excuse for discourse in the future. In this instance, I usually say what a great job her mother has done and leave it at that.
 
 ## How long should a father of the bride speech be? (Length)
-**Aim for around 7 minutes — you're first up, so an overlong speech makes the groom's and best man's jobs much harder.**
+**Aim for around 7 minutes, you're first up, so an overlong speech makes the groom's and best man's jobs much harder.**
 
 The length is absolutely critical to the success of the father of the bride speech, and the dads normally fall into two camps: those who want to speak for about 3 days, and those who want to speak for about 30 seconds.
 
@@ -192,7 +192,7 @@ Things to remember:
 - You are the first one up. If you start with a 20 minute epic, you've just made the groom and the best man's job much harder to land. By the time the best man gets up an hour could have passed since you started, and this needs to be avoided at all costs.
 
 ## Should you mention former boyfriends? (Boyfriends)
-**Unlike the best man, there's scope for gentle fun here — allude to colourful exes for comedy, but never by name and never in detail.**
+**Unlike the best man, there's scope for gentle fun here, allude to colourful exes for comedy, but never by name and never in detail.**
 
 Unlike the Best Man, there is scope to have a little fun here, trading off the fact that fathers and potential suitors often have a fairly tricky relationship. Obviously, you're not going into granular detail, and avoiding any significant relationships. This is just a bit of fun, if it works for your situation.
 
@@ -200,7 +200,7 @@ Unlike the Best Man, there is scope to have a little fun here, trading off the f
 - You need no detail here just a comedic overview is fine if you think that will work for your daughter's sensibilities.
 
 ## How many toasts should you make? (Toast)
-**Really just one — to the happy couple at the end (plus the absent friends toast if the groom hands it to you). Leave the bridesmaids to the groom.**
+**Really just one, to the happy couple at the end (plus the absent friends toast if the groom hands it to you). Leave the bridesmaids to the groom.**
 
 You should really only have one toast to make and that at the end to the happy couple. In some cases, the groom will give the absent friends toast to you, and that's why I've included it here, however, don't be tempted to go any further.
 
@@ -211,18 +211,18 @@ I frequently receive responses from fathers asking why I haven't included the br
 
 All wedding speeches are potential minefields, and simmering family tensions, divorce and indifferent relationships with the groom can make the father of the bride speech, trickier than most. However, there are a few things you can do to mitigate impending disaster.
 
-- Avoid talking about yourself – this is the number one classic howler for all wedding speeches. So many people see these speeches as a vehicle for self-aggrandisement, and it's never a good look.
-- Remember it's all about your daughter – there are many fathers who get so carried away with scripted gags and themselves, that they quite forget to talk about their daughter. Don't be that person.
+- Avoid talking about yourself, this is the number one classic howler for all wedding speeches. So many people see these speeches as a vehicle for self-aggrandisement, and it's never a good look.
+- Remember it's all about your daughter, there are many fathers who get so carried away with scripted gags and themselves, that they quite forget to talk about their daughter. Don't be that person.
 - Don't bother with any props and/or photos from your daughter's childhood during the speech. These are only ever a distraction, and nothing beats a well delivered, efficient speech. To make those embarrassing photos work best, place them around the seating plan, and then you can refer to them in the speech.
 
 ## How should you deliver the speech? (Delivery)
-**Practise out loud so the emotional lines hold — slow down, keep water nearby, and remember a wobble is the room loving you, not a mistake.**
+**Practise out loud so the emotional lines hold, slow down, keep water nearby, and remember a wobble is the room loving you, not a mistake.**
 
-As the first speaker, you set the tone for the whole afternoon, so give yourself time to rehearse. Read the speech aloud several times — especially the heartfelt lines about your daughter — until they're familiar enough to deliver without your voice cracking on the first attempt. Print it in a large, clear font on numbered cards, and keep a glass of water within reach. Slow right down; nerves and emotion both make you rush. If you feel yourself welling up, pause and take a breath — the room is entirely on your side and a moment of genuine feeling is the speech working, not failing. Leave a beat after the funny lines, look up as much as you can, and enjoy it: you've earned this moment as much as anyone.
+As the first speaker, you set the tone for the whole afternoon, so give yourself time to rehearse. Read the speech aloud several times, especially the heartfelt lines about your daughter, until they're familiar enough to deliver without your voice cracking on the first attempt. Print it in a large, clear font on numbered cards, and keep a glass of water within reach. Slow right down; nerves and emotion both make you rush. If you feel yourself welling up, pause and take a breath, the room is entirely on your side and a moment of genuine feeling is the speech working, not failing. Leave a beat after the funny lines, look up as much as you can, and enjoy it: you've earned this moment as much as anyone.
 
 ---
 
 ### Want your father of the bride speech written for you?
-I write warm, proud, completely original father of the bride speeches built around your daughter's story — moving where it matters, funny where it counts, and beautifully judged so you can simply enjoy the day.
+I write warm, proud, completely original father of the bride speeches built around your daughter's story, moving where it matters, funny where it counts, and beautifully judged so you can simply enjoy the day.
 
 [Order your bespoke speech today →](/father-of-the-bride-speech-writer)

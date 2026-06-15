@@ -8,7 +8,7 @@ import { productWithReviews } from '../lib/schema';
 const path = '/reviews';
 const title = fill('Reviews | All Speeches Great & Small ([REVIEW_COUNT]+ 5★)');
 const description = fill(
-  "Read genuine customer reviews of All Speeches Great & Small — [REVIEW_COUNT]+ verified reviews of the UK's most-reviewed professional speechwriter."
+  "Read genuine customer reviews of All Speeches Great & Small, [REVIEW_COUNT]+ verified reviews of the UK's most-reviewed professional speechwriter."
 );
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -34,13 +34,13 @@ const schemas = productSchema ? [productSchema] : [];
       <p class="lede">
         <span class="stars">★★★★★</span>
         {ratingKnown ? (
-          <span> {SITE.rating} out of 5 — from {SITE.reviewCount} verified reviews</span>
+          <span> {SITE.rating} out of 5, from {SITE.reviewCount} verified reviews</span>
         ) : (
-          <span class="ph"> [RATING] out of 5 — from [REVIEW_COUNT] verified reviews</span>
+          <span class="ph"> [RATING] out of 5, from [REVIEW_COUNT] verified reviews</span>
         )}
       </p>
       <p class="measure mx-auto">
-        I'm proud to be the UK's most highly rated and reviewed professional speech writer — but I'd
+        I'm proud to be the UK's most highly rated and reviewed professional speech writer, but I'd
         much rather my clients told you why. Here's what people have said after standing up and
         delivering a speech we wrote together.
       </p>
@@ -62,7 +62,7 @@ const schemas = productSchema ? [productSchema] : [];
         <div class="grid grid--2">
           {testimonials.map((t) => (
             <figure class="card"><div class="card__body">
-              <blockquote class="quote">“{t.text}”<cite>— {t.name}, {t.type}</cite></blockquote>
+              <blockquote class="quote">“{t.text}”<cite>, {t.name}, {t.type}</cite></blockquote>
             </div></figure>
           ))}
         </div>

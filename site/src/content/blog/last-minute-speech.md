@@ -13,7 +13,7 @@ There’s a pattern when it comes to being appointed a best man and it’s very 
 
 #### Not alone
 
-Leaving it until the last minute is not exceptional – there are hundreds of guys out there who have done exactly the same thing, so let that be your first thought: you are not alone. Secondly, there is always time. My record so far this summer for a last minute speech is a call on a Thursday for a [groom’s speech](/the-grooms-speech/) on the Saturday. That was tight and a little strange as it’s usually never the groom leaving late, but we managed it no problem. So no matter how last minute you think it is, there is always enough time to come up with something, it’s just the way you’re going to deliver it that will need some thinking about.
+Leaving it until the last minute is not exceptional, there are hundreds of guys out there who have done exactly the same thing, so let that be your first thought: you are not alone. Secondly, there is always time. My record so far this summer for a last minute speech is a call on a Thursday for a [groom’s speech](/the-grooms-speech/) on the Saturday. That was tight and a little strange as it’s usually never the groom leaving late, but we managed it no problem. So no matter how last minute you think it is, there is always enough time to come up with something, it’s just the way you’re going to deliver it that will need some thinking about.
 
 #### Simples
 

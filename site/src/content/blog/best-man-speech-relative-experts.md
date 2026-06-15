@@ -1,5 +1,5 @@
 ---
-title: "Best man speech – relative experts"
+title: "Best man speech, relative experts"
 description: "Most families have one or two individuals who seem to think they know a lot of stuff about….a lot of stuff. They’re the kind of people who can contribute to pre..."
 slug: "best-man-speech-relative-experts"
 category: "best-man"

@@ -31,4 +31,4 @@ The lost revenue will mean those that can survive will have to suffer another to
 
 So, it’s easy. Just have a mini shoot on the morning of your wedding, whack a few birds whilst wearing tweed, and then sit down to your shoot lunch, which then becomes the wedding breakfast.
 
-On every level – the privilege, the self serving disparity between who really needs help and who really doesn’t, and the human misery that stems from that – it is entirely unforgiveable.
+On every level, the privilege, the self serving disparity between who really needs help and who really doesn’t, and the human misery that stems from that, it is entirely unforgiveable.

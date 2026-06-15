@@ -9,7 +9,7 @@ hero: "/images/blog/shutterstock_147912089.webp"
 ---
 ### Forget the internet
 
-Forget the internet. If you’ve reached this point because you’ve been made best man and now you’re looking for a template to copy or cut and paste joke to steal – stop. One of the fundamental facts of life is that what we do and how we do things is way funnier than some guy who’s sticking contrived jokes online for you to plunder. If, for example, you’ve decided to start your speech: ‘it’s an emotional wedding even the cake is in tiers’, [then you need help.](https://www.allspeechesgreatandsmall.com/best-man-speeches/) Not from me necessarily but from the voice in the back of your mind which is saying ‘the groom’s a funny guy, he deserves better than this’. You’re right. He does.
+Forget the internet. If you’ve reached this point because you’ve been made best man and now you’re looking for a template to copy or cut and paste joke to steal, stop. One of the fundamental facts of life is that what we do and how we do things is way funnier than some guy who’s sticking contrived jokes online for you to plunder. If, for example, you’ve decided to start your speech: ‘it’s an emotional wedding even the cake is in tiers’, [then you need help.](https://www.allspeechesgreatandsmall.com/best-man-speeches/) Not from me necessarily but from the voice in the back of your mind which is saying ‘the groom’s a funny guy, he deserves better than this’. You’re right. He does.
 
 #### Observations
 

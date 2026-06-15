@@ -29,4 +29,4 @@ There should only ever be a maximom of 4 toasts:
 3.  To the bridesmaids
 4.  To your wife and the future
 
-You should never double up on toasts – it saps guests’ patience, and can feel very awkward, however, unless you’re all communicating, this can happen far too easily. The only toast that should traditionally be made by the groom, is to the bridesmaids, but it also makes sense of him to cover the parents, and of course his bride. I tend to give the father of the bride the toast to those no longer with us.
+You should never double up on toasts, it saps guests’ patience, and can feel very awkward, however, unless you’re all communicating, this can happen far too easily. The only toast that should traditionally be made by the groom, is to the bridesmaids, but it also makes sense of him to cover the parents, and of course his bride. I tend to give the father of the bride the toast to those no longer with us.

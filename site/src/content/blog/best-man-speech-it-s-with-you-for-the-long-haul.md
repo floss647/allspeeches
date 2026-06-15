@@ -1,5 +1,5 @@
 ---
-title: "Best man speech – it’s with you for the long haul"
+title: "Best man speech, it’s with you for the long haul"
 description: "Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, other..."
 slug: "best-man-speech-it-s-with-you-for-the-long-haul"
 category: "best-man"
@@ -7,7 +7,7 @@ publishedDate: "2020-01-01"
 excerpt: "Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, other..."
 hero: "/images/blog/ezgifcom-gif-maker_11.webp"
 ---
-Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, others rate their own comedy, and there are a few who decide that they’d rather spend the money on themselves. All of this is of course, totally normal and I get where they’re coming from, especially if you don’t really like/know the groom – yes, that happens more than you think.
+Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, others rate their own comedy, and there are a few who decide that they’d rather spend the money on themselves. All of this is of course, totally normal and I get where they’re coming from, especially if you don’t really like/know the groom, yes, that happens more than you think.
 
 However, the only reason I take exception to, for their benefit not mine, is the conclusion that it’s only a few minutes on the day. Yes, it may just be 7-10 minutes or so, on the wedding day, but the [best man speech](/best-man-speeches/) has legs way beyond that. Many things end up being just a few minutes, like the moon landings for example. You could just about make a cup of tea in the time that it took Neil Armstrong and Buzz Aldrin to bounce around a bit and say a few things, but it’s firmly cemented in the sub conscious of pretty much everyone in the world. I am not for a minute suggesting that your best man speech is right up there with landing on the moon, but you get my point.
 

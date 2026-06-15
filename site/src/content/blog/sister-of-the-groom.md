@@ -16,7 +16,7 @@ This is obviously a really powerful element to the speech. Underlining what a gr
 
 ### humor
 
-Without humor, there will be no balance to the speech, and it will simply become one big wave of emotion, which will be difficult to get through for both you, and the guests. The humor should be genuinely funny, warm and inclusive – there should be nothing private or confusing in what you’re saying. Also try to avoid anything too embarrassing, this shouldn’t be an exercise in public humiliation, despite the overwhelming temptation!
+Without humor, there will be no balance to the speech, and it will simply become one big wave of emotion, which will be difficult to get through for both you, and the guests. The humor should be genuinely funny, warm and inclusive, there should be nothing private or confusing in what you’re saying. Also try to avoid anything too embarrassing, this shouldn’t be an exercise in public humiliation, despite the overwhelming temptation!
 
 ### Length
 
