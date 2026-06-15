@@ -68,17 +68,32 @@ async function pageUrls() {
     return { pages: [...pages], seedImages: [...seedImages] };
   }
   const urls = new Set([ORIGIN + '/']);
+  // Discover sitemap URLs from robots.txt `Sitemap:` directives, then common
+  // defaults. (This site advertises /sitemap-4seo.xml via robots, not /sitemap.xml.)
+  const candidates = new Set();
   try {
-    let xml = await getText(ORIGIN + '/sitemap.xml');
-    const sub = [...xml.matchAll(/<loc>([^<]+\.xml)<\/loc>/g)].map((m) => m[1]);
-    if (sub.length) { xml = (await Promise.all(sub.map(getText))).join('\n'); }
+    const robots = await getText(ORIGIN + '/robots.txt');
+    for (const m of robots.matchAll(/^\s*Sitemap:\s*(\S+)/gim)) candidates.add(m[1].trim());
+  } catch { /* no robots.txt */ }
+  for (const d of ['/sitemap.xml', '/sitemap_index.xml', '/sitemap-4seo.xml']) candidates.add(ORIGIN + d);
+
+  // Walk sitemaps, following nested <loc>*.xml indexes to any depth.
+  const seen = new Set();
+  const queue = [...candidates];
+  let found = 0;
+  while (queue.length) {
+    const sm = queue.shift();
+    if (seen.has(sm)) continue;
+    seen.add(sm);
+    let xml;
+    try { xml = await getText(sm); } catch { continue; }
     for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
-      if (!m[1].endsWith('.xml')) urls.add(m[1]);
+      const loc = m[1].trim();
+      if (/\.xml(\?|$)/i.test(loc)) queue.push(loc);
+      else { urls.add(loc); found++; }
     }
-    console.log(`sitemap: ${urls.size} page URLs`);
-  } catch (e) {
-    console.log('no sitemap, homepage only:', e.message);
   }
+  console.log(found ? `sitemap: ${urls.size} page URLs` : 'no sitemap, homepage only');
   return { pages: [...urls], seedImages: [] };
 }
 
