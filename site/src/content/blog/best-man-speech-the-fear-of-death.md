@@ -5,6 +5,7 @@ slug: "best-man-speech-the-fear-of-death"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "There's a statistic somewhere that states 75% of us are more scared by the thought of public speaking than we are the thought of death. I can only think that th..."
+hero: "/images/blog/9020bd10054b1a8d6b66ba9f26f39eeb.jpg"
 ---
 There's a statistic somewhere that states 75% of us are more scared by the thought of public speaking than we are the thought of death. I can only think that this is a result of not fully considering the impact of death, and over estimating just how much people care about you when you stand up to talk.
 

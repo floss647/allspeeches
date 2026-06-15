@@ -5,6 +5,7 @@ slug: "best-man-speech-from-a-child"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "As we've seen in years gone by there are some things that children are great at that grown ups find difficult, like pickpocketing, and cleaning the inside of ch..."
+hero: "/images/blog/shutterstock_159537137.jpg"
 ---
 As we've seen in years gone by there are some things that children are great at that grown ups find difficult, like pickpocketing, and cleaning the inside of chimneys. On the whole though, adults do things better, just by virtue of the fact they've been around longer, know the score and understand how life works. Children on the other hand don't. They struggle with remembering what day comes after Wednesday, think the summer holidays are 2 years long and find tying shoelaces right up there with algebra. And that's not surprising because most of their waking moments are spent thinking about gob stoppers, worms and pretending they're not tired.
 

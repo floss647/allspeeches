@@ -5,6 +5,7 @@ slug: "a-modern-groom-speech"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Having written a groom speech for a client recently, I was then asked if I could make it more 'modern'. In all my years of writing groom speeches, I have never ..."
+hero: "/images/blog/bradley-pisney-cjqkqahtwuw-unsplash.jpg"
 ---
 Having written a groom speech for a client recently, I was then asked if I could make it more 'modern'. In all my years of writing [groom speeches](/the-grooms-speech/), I have never been more confused. I don't have much time for pomp and tradition in wedding speeches, because if anything, it's all a bit confusing - like the best man having to respond on behalf of the bridesmaids toast etc. However, this guy really had me baffled. Just what does more modern look like? Should I be speaking in more hip phrases, should I be referencing modern day icons like Jedward? So, I asked him again if he could be more specific. He just said he'd like it more 'modern'.
 

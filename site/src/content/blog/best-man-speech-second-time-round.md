@@ -5,6 +5,7 @@ slug: "best-man-speech-second-time-round"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Obviously, when a couple get married, everyone hopes that this will be forever, however, as we all know, life sometimes doesn’t work out like that. Divorce rate..."
+hero: "/images/blog/ezgifcom-gif-maker_12.jpg"
 ---
 Obviously, when a couple get married, everyone hopes that this will be forever, however, as we all know, life sometimes doesn’t work out like that. Divorce rates are running at record levels in the UK and in the US, so there’s a real chance that when you make your [best man speech](/best-man-speeches/), you might find yourself in exactly the same situation, for the same groom in years to come.
 

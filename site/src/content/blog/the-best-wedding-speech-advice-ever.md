@@ -5,6 +5,7 @@ slug: "the-best-wedding-speech-advice-ever"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "This is the single best piece of advice I could give anyone who has to make a wedding speech in the near future. It's free, and it's beautifully simple."
+hero: "/images/blog/man-couple-people-woman.jpg"
 ---
 Anyone reading this thinking that I'm about to give you the magic formula for writing a great wedding speech is going to be a little disappointed but I can give you some advice which WILL save you a lot of stress, trauma and sleepless nights. It's very simple: start now.
 As a wedding speech writer I work with people from all over the world, from all walks of life, every ethnicity and religion, and they all have one thing in common - they all leave it until the last minute. From the moment most guys propose they simply put off thinking about the speech, deluding themselves it's just a case of thanking the parents and saying how much they love their new wife. And for most Best Men, they remain resolutely in denial about the impending speech, convinced that they're caught in some kind of virtual reality nightmare, from which they will soon emerge, blissfully carefree. These scenarios are not the exceptions; they are the rule. And both groups are doomed to failure.

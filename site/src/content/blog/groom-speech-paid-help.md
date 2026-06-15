@@ -5,6 +5,7 @@ slug: "groom-speech-paid-help"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Even the smallest, most modest wedding undoubtedly has an awful lot of planning and preparation. If your guest list numbers just 30, that's still 30 meals that ..."
+hero: "/images/blog/maksym-kaharlytskyi-gwayapqjkom-unsplash_1.jpg"
 ---
 Even the smallest, most modest wedding undoubtedly has an awful lot of planning and preparation. If your guest list numbers just 30, that's still 30 meals that have to be organised, 30 people to entertain, and 30 people to move around. It's little wonder that wedding planners do great business and charge handsomely for their time and devotion. Happy couples will spend huge amounts of time talking with these professionals, and this is where the lines become blurred. With such a large dollop of shared company, many people fool themselves into thinking they're your new friends, which would work if you paid people to be your friends. A wedding planner is giving you their undivided attention because you're paying for it. Nothing else.
 

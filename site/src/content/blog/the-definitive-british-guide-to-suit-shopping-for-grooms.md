@@ -5,6 +5,7 @@ slug: "the-definitive-british-guide-to-suit-shopping-for-grooms"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "The last time I counted, grooms have on average about 2 million things to organise for the big day, and that’s in no small way because they want to introduce a ..."
+hero: "/images/blog/scott-webb-pcbujpqhuak-unsplash-_1_.webp"
 ---
 The last time I counted, grooms have on average about 2 million things to organise for the big day, and that’s in no small way because they want to introduce a granular level of detail, that makes Operation Barbarossa, look like an afternoon hike. They will labour for hours about the pattern on the ushers’ or groomsmen’s sock, and spend sleepless night deciding on how many jam jars with candles they are going to need. However, if you boil it down to the essentials, there are really just 2 main things that you need to tick off: what you’re going to say, and what you’re going to wear. Obviously, a great speech is something I can help with, and so I did some research on the ‘what to wear’ part, with the help of some expert guidance from people who really do know what they’re talking about.
 

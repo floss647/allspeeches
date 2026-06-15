@@ -5,6 +5,7 @@ slug: "best-man-speech-formats"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "The Best Man Speech format can be over thought, in fact it's actually pretty simple. All you have to do is think of it as one big story."
+hero: "/images/blog/mike-tinnion-327565.jpg"
 ---
 Usually one of the biggest problems with writing a [best man speech](https://www.allspeechesgreatandsmall.com/best-man-speeches/) is that you've got all the information but don't have a clue how to stitch it all together. Working out how to use all the stories, character traits, funny observations and anything else you've compiled, takes a lot of thinking about because you need this to be something that people want to listen to and will entertain them. So it's either a case of heavily editing what you've got or stretching it to fit the allotted time, so the best man speech format you might think, is critical.
 

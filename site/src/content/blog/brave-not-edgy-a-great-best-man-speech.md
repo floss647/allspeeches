@@ -5,6 +5,7 @@ slug: "brave-not-edgy-a-great-best-man-speech"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "A great best man speech relies pretty much on one commodity: humour. Don't be crass, don't be edgy. Just be funny."
+hero: "/images/blog/fashion-men-vintage-colorful.jpg"
 ---
 I write wedding speeches for all types of people all over thew world and if you forget for a minute the difference in social and cultural references, there is one thing that all great best man speeches should have in common: they are funny. And this is precisely what this Arsenal fan has achieved - being genuinely funny in a warm, inclusive way. It was a brave route to go down because these things can be hard to judge, but crucially his humor wasn't edgy or crass, it was just very cheeky. And there's a huge difference.
 Being funny is not easy, I spend a lot of time analysing why something very simply can be hilarious, and why switching just one word can change something from being reasonably funny into a real thigh slapper. However, it is the comedy which is usually the undoing of so many best man speeches. Most men have only really experienced being funny with their friends at work or in the pub - tight knit groups, comfortable with each other and their humorous sensibilities. So, what then happens is that your average best man writes his speech as if he's talking to his friends in the pub...and this is a huge mistake.

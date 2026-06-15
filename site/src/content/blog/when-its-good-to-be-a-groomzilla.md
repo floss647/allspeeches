@@ -5,6 +5,7 @@ slug: "when-its-good-to-be-a-groomzilla"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Believe it or not being Groomzilla is not such a bad thing after all because part of your job can help ensure that the speeches are a sure fire hit"
+hero: "/images/blog/shutterstock_146280422-e1416759470163.jpg"
 ---
 On paper there's not much that's attractive about a man becoming so entangled in his wedding plans that he begins to actually believe the minutiae of detail such as the matching socks for senior male wedding mafia, is actually just as important as life itself. Of course everyone can be forgiven for getting a little bit carried away, and that's why we have such sights as small dogs delivering the ring to the alter with a cushion strapped to them, like some mini elephant. But there is one specific area where grooms SHOULD be more in charge and direct, and that if course the speeches.
 

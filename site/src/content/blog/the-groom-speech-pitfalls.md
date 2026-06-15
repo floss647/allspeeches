@@ -5,6 +5,7 @@ slug: "the-groom-speech-pitfalls"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Although I have extensively documented the fact that there’s nothing we fear more than public speaking, I’ve given little time to the other notable factoid that..."
+hero: "/images/blog/ezgifcom-gif-maker_8.jpg"
 ---
 Although I have extensively documented the fact that there’s nothing we fear more than public speaking, I’ve given little time to the other notable factoid that there’s nothing most grown love more than talking about themselves. Yes, we may not like the idea of standing up and talking in front of others, but given half the chance in private, we can rattle on for hours about ourselves. Of course, social media has fed off this trait, and it’s little surprise that the most profitable companies in the world are the ones which provide a world stage for self aggrandisement. At this point you might be thinking ‘well, what does that have to do with the groom speech?’ …and the answer is: quite a lot actually.
 

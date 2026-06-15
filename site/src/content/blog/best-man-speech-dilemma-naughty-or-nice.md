@@ -5,6 +5,7 @@ slug: "best-man-speech-dilemma-naughty-or-nice"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "I have long since come to realise that there are only two types groom: those that are very naughty, and have racked up multiple stories about their exploits ove..."
+hero: "/images/blog/david-herron-vlmudsrxixg-unsplash.jpg"
 ---
 I have long since come to realise that there are only two types groom: those that are very naughty, and have racked up multiple stories about their exploits over the years, and those grooms who are so nice and boring, they've racked up precisely no stories over the years. The net effect of both these scenarios is exactly the same: you've got nothing to talk about. Well, some best men would disagree and view the naughty stories as fair game for a best man speech, but they would be a catastrophic lapse of judgement. Leave the dodgy stories to the pub.
 

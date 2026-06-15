@@ -5,6 +5,7 @@ slug: "groom-speech-a-stunning-surprise"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "It seems to me that there are a few words that only seem to make an appearance on specific special occasions. We can quite happily go our whole lives without us..."
+hero: "/images/blog/drew-coffman-llwjwo200fo-unsplash_2.jpg"
 ---
 It seems to me that there are a few words that only seem to make an appearance on specific special occasions. We can quite happily go our whole lives without using the word ‘brickbat’, but when a journalist uses it to describe a political strategy, then perfectly normal people will see fit to deploy it whilst describing parenting tactics.
 

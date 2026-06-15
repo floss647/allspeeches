@@ -5,6 +5,7 @@ slug: "best-man-speech-a-harsh-lesson"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "I recently heard back from a client I was writing for that said that a particular line in the best man speech, and I quote 'wasn't harsh enough for his humour'...."
+hero: "/images/blog/christian-bowen-x657fvd3smo-unsplash.jpg"
 ---
 I recently heard back from a client I was writing for that said that a particular line in the [best man speech](/best-man-speeches/), and I quote 'wasn't harsh enough for his humor'. This is symptomatic of the approach that so many best men take, and that's thinking that the speech should be some form of public humiliation. So many best men think that they have to tear the groom apart, and that involves the kind of humor and stories that they'd share in the pub. What they're really thinking is that they'd like to look ruthless and cool in front of the bridesmaids, and reap the rewards afterwards. Well, what it boils down to is: just how much of an idiot do you want to look?
 

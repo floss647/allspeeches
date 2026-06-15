@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-the-dating-days"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "When it comes to the subject of what you should include in a speech, and what’s inappropriate, I think the easiest way to determine that situation is just to th..."
+hero: "/images/blog/ezgifcom-gif-maker_23.jpg"
 ---
 When it comes to the subject of what you should include in a speech, and what’s inappropriate, I think the easiest way to determine that situation is just to think about everyday life. Would the bride have daily open conversation about the groom’s former girlfriends?…probably, not, so the best man should give that a swerve. Having received something through Amazon, would you then call them up and thank them, very much?...of course you wouldn’t, so why thank paid services in your speech?
 

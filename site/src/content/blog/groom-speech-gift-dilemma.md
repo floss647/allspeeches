@@ -5,6 +5,7 @@ slug: "groom-speech-gift-dilemma"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Everyone loves a present. As a grown up, you’re supposed to sign up to the mantra that giving is so much more pleasurable than receiving, which is of course, no..."
+hero: "/images/blog/ezgifcom-gif-maker_6.jpg"
 ---
 Everyone loves a present. As a grown up, you’re supposed to sign up to the mantra that giving is so much more pleasurable than receiving, which is of course, nonsense. Nothing beats the feeling of unwrapping something truly wonderful, that you would have never bought for yourself. Kids absolutely love Christmas, and that has nothing to do with giving, it’s all about receiving, and they are right. Giving gifts as a bride and groom has been part and parcel of the wedding machinery for quite some time, and as a best man who’s had to remortgage their trousers for the umpteeth wedding that summer, it’s quite nice to get something back.
 

@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-it-s-all-about-length"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "There are a few key areas to a speech that will dictate its success, and whilst structure and great writing are obviously important, nothing really determines t..."
+hero: "/images/blog/bradley-pisney-cjqkqahtwuw-unsplash.jpg"
 ---
 There are a few key areas to a speech that will dictate its success, and whilst structure and great writing are obviously important, nothing really determines the outcome of a speech more succinctly than its length. If everyone kept an eye on the length of their speeches, then we wouldn't be subjected to the the 90 minute speech marathons that collectively wedding speeches can become. It's always going to be a fine balancing act - on the one hand you don't want to talk forever and bore everyone senseless, but on the other hand you don't want it to be a couple of sentences and then a toast. However, if I had to choose how to ruin my speech, it would easily be the latter option.
 

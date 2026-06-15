@@ -5,6 +5,7 @@ slug: "best-man-speech-the-cake-isnt-just-in-tears-its-got-ptsd"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Best man speech jokes go back a long way. Ever since people decided it was a great idea to get married, there has been somebody, usually a disenfranchised man i..."
+hero: "/images/blog/david-holifield-7epjhwxtxcu-unsplash_1.jpg"
 ---
 [Best man speech jokes](/best-man-speeches/) go back a long way. Ever since people decided it was a great idea to get married, there has been somebody, usually a disenfranchised man in his later youthful years, that wants to celebrate the occasion with ‘comedy’. I use that last term so loosely, it’s in danger of flying off and hitting us all in the face. Quite literally.
 

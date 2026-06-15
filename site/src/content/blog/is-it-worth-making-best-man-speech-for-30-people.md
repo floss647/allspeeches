@@ -5,6 +5,7 @@ slug: "is-it-worth-making-best-man-speech-for-30-people"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Well, obviously I'm going to say yes, but apart from the very real need to feed my children, why would you bother making a best man speech to a comparatively sm..."
+hero: "/images/blog/microphone.jpg"
 ---
 Well, obviously I'm going to say yes, but apart from the very real need to feed my children, why would you bother making a [best man speech](/best-man-speeches/) to a comparatively small crowd? It doesn't matter how many people are there, the premise of the best man speech never changes: it's your opportunity to stand up and celebrate the groom in a really entertaining, memorable and meaningful way. It is the very act of doing this for him, in front of people that he really cares about that is important, and so you can't put a value on it depending on how many people might be listening. And let's not forget that most of these smaller weddings are being videod to be shared en masse, and some are even being streamed live, so you might think there's only 29 other people in the room, but it could be several times that figure.
 
