@@ -5,6 +5,7 @@ slug: "the-groom-speech-a-balancing-act"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "We’ve all lived with Coronavirus for nearly a year now, and have spent the last 12 months rearranging what normal means to us, and will spend the next 10 years ..."
+hero: "/images/blog/ezgifcom-gif-maker_5.webp"
 ---
 We’ve all lived with Coronavirus for nearly a year now, and have spent the last 12 months rearranging what normal means to us, and will spend the next 10 years trying to get our old normal back again. Just like those war time enthusiasts who like to wear heavy knitted tank tops and listen to bakelite radios whilst jiving with pretend GI’s, we’ll form retro clubs that will get together to practice the art of hugging. Societies will form to celebrate the days when you could quite comfortably sneeze on a bus, and and there will be Facebook groups reminiscing about the days of cheek by jowl queuing.
 

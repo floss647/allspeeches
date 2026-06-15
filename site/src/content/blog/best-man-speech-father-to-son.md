@@ -5,6 +5,7 @@ slug: "best-man-speech-father-to-son"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "In times gone by, the best man role was usually handed over to a brother, or a good friend, and whilst that's still largely the case, things are changing. It's ..."
+hero: "/images/blog/ben-white-JJ9irt1OZmI-unsplash.webp"
 ---
 In times gone by, the best man role was usually handed over to a brother, or a good friend, and whilst that's still largely the case, things are changing. It's not unusual for it to now be the responsibility of anywhere up to 4 friends, 3 brother, or indeed a combination of the two. Lots of guys are choosing a close female friend or sister to represent them, which is great - the only problem is how to refer to them. Best woman, seems a little too much like an award title, whilst they're clearly not a man. This is something which is, as yet, unresolved and will probably stay that way until someone has a brainwave.
 

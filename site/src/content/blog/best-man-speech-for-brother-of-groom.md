@@ -5,6 +5,7 @@ slug: "best-man-speech-for-brother-of-groom"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Best Man Speech Brother of Groom, - sometimes writing about what you know isn;t as easy as you thought it would be, so stick to the basic rules."
+hero: "/images/blog/photo.webp"
 ---
 There's a saying that you should write about what you know, because obviously it's much easier to be more accurate, convincing and engaging when you're a slight expert on the subject. So, on the face of it, writing a best man speech for your brother might seem blissfully straightforward, but as many people out there already know: nothing could be further from the truth.
 Many grooms make their brother the Best Man for the wedding - it keeps a lot of people happy and in many cases they are the ideal choice. The problem comes when you're considering actually how to attack the speech because you'll have a sudden rising panic that apart from a few incidents as toddlers and on family holidays, you really don't know the first thing about him, and how on Earth are you going to fill up a ten minute speech? I've said many times that a great best man speech is not a collection of stories and it's not an assassination, it's a warm inclusive, but very funny look at who your brother is and what he's about.

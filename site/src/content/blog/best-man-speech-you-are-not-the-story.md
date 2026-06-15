@@ -5,6 +5,7 @@ slug: "best-man-speech-you-are-not-the-story"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "It's very rare that people get the opportunity to talk about themselves in an indulgent way. Yes, we might be asked in job interviews what we like to do in our ..."
+hero: "/images/blog/shutterstock_117930757-2.webp"
 ---
 It's very rare that people get the opportunity to talk about themselves in an indulgent way. Yes, we might be asked in job interviews what we like to do in our spare time, and what our strengths and weaknesses are, however, this is all well and good, but it's boring, and you rarely tell the truth, and God forbid, say anything funny. It's little wonder then, that when so many best men are given the job, they revert to their favourite subject: themselves.
 

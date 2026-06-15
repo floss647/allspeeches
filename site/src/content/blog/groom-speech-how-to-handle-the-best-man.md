@@ -5,6 +5,7 @@ slug: "groom-speech-how-to-handle-the-best-man"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Traditionally the best man can be a bit of a loose cannon. He's the guy you've selected to celebrate you in just the right way, probably a lifelong friend or br..."
+hero: "/images/blog/natilyn-hicks-aubrey-hicks-photography-abPrOvbLdAw-unsplash.webp"
 ---
 Traditionally the best man can be a bit of a loose cannon. He's the guy you've selected to celebrate you in just the right way, probably a lifelong friend or brother, but deep down you're not too sure if he's going to over step the mark. A large proportion of [best men speeches](/best-man-speeches/)around the world still seem dead set on destroying lives, not realising that the most significant casualty of all, will be themselves. However, there's not much you can do about a speech once it's set in motion, but you can mitigate and limit the damage as much as possible. I simply don't agree with brides demanding to have a first draft of the best man speech and signing it off on their approval, if you're that unsure about the guy, don't choose him in the first place. Just make sure he sticks to a sensible word count, and leaves out the former girlfriends - the very worst that can then happen is that he recounts a few dodgy stories, but doesn't outstay his welcome.
 

@@ -5,6 +5,7 @@ slug: "father-of-the-bride-wedding-advice"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "I spend most of my working life writing father of the speeches that have a backdrop of love and happiness, however, as much as we'd like to gloss over it, quite..."
+hero: "/images/blog/ezgifcom-gif-maker_16.webp"
 ---
 I spend most of my working life writing [father of the speeches](/father-of-the-bride-speech/) that have a backdrop of love and happiness, however, as much as we'd like to gloss over it, quite a few of those marriages don't go the distance. I was pretty amazed to discover recently, that the divorce rate in the UK is around the 50% mark, and which is an unbelievably sad conclusion to all those buffets and hangovers left in the wake of weddings gone by. This doesn't mean that you should think twice about marriage, it simply means that by the time you become a father of the bride, then family composition will almost certainly be a lot more interesting than you might have expected it to be.
 

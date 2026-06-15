@@ -5,6 +5,7 @@ slug: "best-man-speeches-of-the-future"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "There is a temptation to think that Coronavirus will forever change the people we are and how we interact with each other. Very early on in the pandemic, a medi..."
+hero: "/images/blog/kats-weil-133302-unsplash-min.webp"
 ---
 There is a temptation to think that Coronavirus will forever change the people we are and how we interact with each other. Very early on in the pandemic, a media that just didn't have anything to write about - nothing it was good at anyway, decided that we'd all be living in the middle of nowhere, working from home and walking about with fish bowls on our heads for the rest of our lives.
 

@@ -5,6 +5,7 @@ slug: "best-man-speech-resist-the-urge-to-race"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Conquer your best man speech anxiety with our expert tips! Learn how to navigate the emotional rollercoaster of public speaking with grace and humor, and avoid the dreaded 'speech stumble' on the big"
+hero: "/images/blog/ezgifcom-gif-maker_9.webp"
 ---
 Most people don’t want to make a [best man speech](/best-man-speeches/). They’re overwhelmed with anxiety about standing up of people and speaking, and paralysed with fear about making those people laugh. It’s little wonder that with that heady cocktail of emotions, some people need counselling, others refuse to take it on, and then there are the people who mitigate that fear on the day with booze.
 

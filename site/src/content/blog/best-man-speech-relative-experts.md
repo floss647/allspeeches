@@ -5,6 +5,7 @@ slug: "best-man-speech-relative-experts"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Most families have one or two individuals who seem to think they know a lot of stuff about….a lot of stuff. They’re the kind of people who can contribute to pre..."
+hero: "/images/blog/ezgifcom-gif-maker_9.webp"
 ---
 Most families have one or two individuals who seem to think they know a lot of stuff about….a lot of stuff. They’re the kind of people who can contribute to pretty much any topic of conversation, reflecting as easily on Angela Merkel’s foreign policy, to the greatest prog rock LP of the late 70’s. Give me these people any day rather than the punters who seem simply happy enough to let life wash over them without any real interest in what’s happening. These are the kind. of people who will happily attempt to cut their own hair based on Youtube videos, and anyone outside a Royal Navy submarine who attempts to cut their own deserves all our unbridled respect.
 

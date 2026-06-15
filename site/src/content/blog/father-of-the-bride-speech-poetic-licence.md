@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-poetic-licence"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "The father of the bride speech is obviously your one big chance to stand up and tell everyone at the wedding exactly what your daughter means to you. It is an a..."
+hero: "/images/blog/lydia-turner-bLKBipzGLXI-unsplash.webp"
 ---
 The [father of the bride speech](/father-of-the-bride-speech/)is obviously your one big chance to stand up and tell everyone at the wedding exactly what your daughter means to you. It is an amazing opportunity, and hopefully it won't come around again, so you want to make sure it's as good as it possibly can be on the day. I heard very recently about a father of the bride who spoke for 1 hour and 45 minutes, and did so using Powerpoint. Quite why somebody didn't just take him our with a well aimed salt cellar, is beyond me. I can see that in his mind making the most of the situation meant cramming every single detail of her life, every exam result, and job promotion, into just under 2 hours. This is unforgivable, and I guarantee, it'll come back to bite him at some point.
 

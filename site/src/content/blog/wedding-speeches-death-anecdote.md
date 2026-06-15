@@ -5,6 +5,7 @@ slug: "wedding-speeches-death-anecdote"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "When it comes to writing wedding speech jokes we all like a good story, but just not a full half an hour of them."
+hero: "/images/blog/shutterstock_172079696-e1404473706535.webp"
 ---
 Most of the people I write wedding speech jokes for for are not afraid of standing up in front of people and speaking. Many jobs nowadays require everyone form IT heroes to construction site managers to communicate en masse, whether you’re letting everyone know just how whoopy doo the latest software is or guiding people through the finer points of the coffee machine that’s just been installed, it all means speaking out loud to a group of people.
 

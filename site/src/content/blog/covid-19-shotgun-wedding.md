@@ -5,6 +5,7 @@ slug: "covid-19-shotgun-wedding"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "THE COMPLETELY LEGAL WAY TO HAVE AS MANY GUESTS AS YOU LIKE AT YOUR WEDDING RECEPTION NOW. As we are all well aware, meeting each other and having a good time h..."
+hero: "/images/blog/shutterstock_733234420-scaled.webp"
 ---
 THE COMPLETELY LEGAL WAY TO HAVE AS MANY GUESTS AS YOU LIKE AT YOUR WEDDING RECEPTION NOW.
 

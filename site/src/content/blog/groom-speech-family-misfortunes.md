@@ -5,6 +5,7 @@ slug: "groom-speech-family-misfortunes"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "There is a tendency, when in light conversation with friends, to declare that your own family is odd, can lapse into the dysfunctional, and compromises of chara..."
+hero: "/images/blog/scott-webb-pcbuJpqHUak-unsplash.webp"
 ---
 There is a tendency, when in light conversation with friends, to declare that your own family is odd, can lapse into the dysfunctional, and compromises of characters who wouldn’t look out of place in some sort of Channel 4 documentary. This could be reality, and you really do find yourself a one-man island in a bunch of misfits, but chances are yours is just like every other family, and its own unique dynamics. Unfortunately, nothing throws a spotlight on to these dynamics quite like a wedding, and nothing crystalises them more than the [groom speech](/the-grooms-speech/).
 

@@ -5,6 +5,7 @@ slug: "groom-speech-fail"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "It's not just the Best Man who gets it wrong, the Groom is just as capable of snatching defeat from the jaws of victory too with a groom speech fail."
+hero: "/images/blog/pen-fountain-pen-ink-gold-39065.webp"
 ---
 This is the story of a Groom Speech Fail that was narrowly avoided. Every now and again as a wedding speech writer people contact me and ask me for their opinion on the speech they've written themselves. I never mind doing this as I'm genuinely here to help in any way I can. Sometimes these are great speeches, sometimes valiant but flawed attempts, and sometimes just flawed. The problem most guys have is that they're time poor and these easiest thing to do is raid the usual websites for the all too familiar ropey lines. Forget 'it's an emotional wedding even the cakes is in tiers'...it can get much worse than that.
 So, having been lucky enough to write professionally for quite a few years, I was of the opinion that I'd pretty much seen it all. I have read Best Man speeches whose content can only be described as catastrophic lapses of judgement which will have long and lasting effects. None of them good.

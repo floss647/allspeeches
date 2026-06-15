@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-it-s-been-emotional"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "There's no getting away from it: unless you're a robot, and/or you have a semi dysfunctional relationship with your daughter, the father of the bride speech is ..."
+hero: "/images/blog/jakob-owens-4BQPUDJxMe8-unsplash.webp"
 ---
 There's no getting away from it: unless you're a robot, and/or you have a semi dysfunctional relationship with your daughter, the[father of the bride speech](/father-of-the-bride-speech/) is going to be emotional, and so it should be...in parts. As I've written many times before, the best antidote to becming a blubbering wreck, is to have plenty of funny lines and ideas scattered throughout the speech, and they will act as the perfect balance for some of the more meaningful things you'll hopefully be saying. However, on the day when the emotions are running high, and it becomes very apparent that this is a huge turning point in all your lives, any normal person will be fighting back the tears.
 

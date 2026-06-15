@@ -5,6 +5,7 @@ slug: "how-to-deliver-your-best-man-speech"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "The question about delivery is something I’m asked all the time. The idea goes that having a great speech is half the battle, but delivering it is the other hal..."
+hero: "/images/blog/ezgifcom-gif-maker_2.webp"
 ---
 The question about delivery is something I’m asked all the time. The idea goes that having a great speech is half the battle, but delivering it is the other half, and as often as I’m asked, I can’t be there to deliver it for you on the day. Well, it’s something I don’t actually agree with. What I’m looking for in an authentic best man speech, is just a regular guy standing up and delivering it in a deadpan, unsophisticated and honest way. I’m not looking for a polished, seamless experience, because this is a speech from a friend or a brother, and not an ITV Saturday night game show. The most dangerous type of best man is one that thinks he’s turned into Jimmy Carr for the night, believes his own hype, and then starts bouncing off the guests like it’s the Comedy Club, which it’s not. It’s really not.
 
