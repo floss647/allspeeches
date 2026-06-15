@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-for-a-step-daughter"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "Father of the Bride Speech: A Guide for Stepdaughters As a stepfather, you have a unique and special bond with your stepdaughter. You have been there for her th..."
+hero: "/images/blog/ezgifcom-gif-maker_24.jpg"
 ---
 Father of the Bride Speech: A Guide for Stepdaughters
 

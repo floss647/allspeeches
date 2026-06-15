@@ -5,6 +5,7 @@ slug: "still-popping-the-question-on-christmas-eve"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, a..."
+hero: "/images/blog/our-story-04.jpg"
 ---
 There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, and the only thing that separates them is one week and the fact that most people can't remember doing it when they wake up on January 1st. This year will have extra significance. Not since Leeds UTD left the top flight in 2003, have so many people wanted the year to be one to forget. Expectant couples full of hope and excitement will want to kick off 2021 in the best possible way, with the life changing decision to share the rest of their lives together. But under the current circumstances should you do it?
 

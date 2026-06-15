@@ -5,6 +5,7 @@ slug: "bets-man-speech-don-t-kick-it-down-the-road"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "There weren’t many upsides to a global pandemic, but for best men all around the world, it was the most unbelievable, unexpected and glorious reprieve they coul..."
+hero: "/images/blog/rui-matayoshi-kp9twkldqya-unsplash_2.jpg"
 ---
 There weren’t many upsides to a global pandemic, but for best men all around the world, it was the most unbelievable, unexpected and glorious reprieve they could have wished for. Suddenly, out of nowhere, they had a stay of execution, and that grinding fear in the pit of their stomach, was then replaced with the quiet joy of all day Netflix bingeing. However, even global pandemics don’t last forever, and as all best men eventually realise, at some point you have to stop running, and start doing something about your speech.
 

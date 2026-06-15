@@ -5,6 +5,7 @@ slug: "groom-speech-same-sex-wedding"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Weddings, and the traditions that they carry with them, have largely remained unchanged for many years, which is good and bad in equal measure. People can get a..."
+hero: "/images/blog/ezgifcom-gif-maker_15.jpg"
 ---
 Weddings, and the traditions that they carry with them, have largely remained unchanged for many years, which is good and bad in equal measure. People can get a little too caught up in the whole business of following traditions, which are as meaningless as they are unfathomable, and I'm not just talking about the fact that the meal you tend to eat towards the end of the day, is called a wedding beakfast.
 

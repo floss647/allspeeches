@@ -5,6 +5,7 @@ slug: "best-man-speeches-get-your-vaccination-here"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "At the moment with the world in what seem like a terminal tail spin, you often hear pundits, politicians and those that mainly breathe through their mouth, decl..."
+hero: "/images/blog/suit-portrait-preparation-wedding.jpg"
 ---
 At the moment with the world in what seem like a terminal tail spin, you often hear pundits, politicians and those that mainly breathe through their mouth, declare that these days there is no normal. There's a growing appetite, probably to cover the tracks of stupendous incompetence, to suggest that anything goes because of things like schooling now becoming optional, grown men more content to sit at home in their pants than go to the office, and every time you reach for a tin of beans at the supermarket you have to undergo some kind of cross between a Mexican standoff and a Balkan shoulder dance in order to avoid other humans.
 

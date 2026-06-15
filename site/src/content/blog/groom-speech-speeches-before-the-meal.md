@@ -5,6 +5,7 @@ slug: "groom-speech-speeches-before-the-meal"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "I’ve been writing wedding speeches for quite a long time now, and in all the years I’ve been doing it, I’ve never once spoken to a client who’s actually been lo..."
+hero: "/images/blog/maksym-kaharlytskyi-gwayapqjkom-unsplash.webp"
 ---
 I’ve been writing wedding speeches for quite a long time now, and in all the years I’ve been doing it, I’ve never once spoken to a client who’s actually been looking forward to it. We all accept that speaking in public is one of the greatest fears of grown ups, and thanks to a digital age where most communication is text based, that fear isn’t going anywhere soon. Even the guys who speak as part of their job, or their role in a society or sports team, don't like the idea if it, because understandably they are at their happiest when they know what they’re talking about.
 

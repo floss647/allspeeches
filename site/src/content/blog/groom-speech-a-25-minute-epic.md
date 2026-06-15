@@ -5,6 +5,7 @@ slug: "groom-speech-a-25-minute-epic"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "I always like to emphasise that the groom speech is a unique opportunity to stand up and say lovely things about people who are, and were, important in your lif..."
+hero: "/images/blog/andreas-ronningen-s2ysslw97l4-unsplash.jpg"
 ---
 I always like to emphasise that the [groom speech](/the-grooms-speech/) is a unique opportunity to stand up and say lovely things about people who are, and were, important in your life, and that opportunity needs to be seized with maximom enthusiasm. Fingers crossed won't get this chance again, and so it then becomes an exercise in trying to work out who those people are, and more importantly who they are not.
 

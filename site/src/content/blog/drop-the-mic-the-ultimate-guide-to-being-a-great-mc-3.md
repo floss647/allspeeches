@@ -5,6 +5,7 @@ slug: "drop-the-mic-the-ultimate-guide-to-being-a-great-mc-3"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "Introduction As a wedding Master of Ceremonies (MC), you're not just the host: you're the pulse of the celebration. Your role is vast, from ensuring the smooth ..."
+hero: "/images/blog/pexels-pixabay-164829.webp"
 ---
 Introduction
 

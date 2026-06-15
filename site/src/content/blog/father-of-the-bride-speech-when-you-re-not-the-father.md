@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-when-you-re-not-the-father"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "There are a few reasons why the bride’s father doesn’t make a speech, and none of them are particularly pleasant. Unfortunately the most common one is that he’s..."
+hero: "/images/blog/ezgifcom-gif-maker_22.jpg"
 ---
 There are a few reasons why the bride’s father doesn’t make a speech, and none of them are particularly pleasant. Unfortunately the most common one is that he’s passed away and that in itself brings about some really difficult elements to the day. The least common type of scenario I write for is two young couples with two intact sets of parents, it just doesn’t happen. If the bride’s father is no longer with us, then it normally either falls to an uncle, a wife or a son.
 

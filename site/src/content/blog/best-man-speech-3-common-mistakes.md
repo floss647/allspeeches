@@ -5,6 +5,7 @@ slug: "best-man-speech-3-common-mistakes"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "There are so many ways to get speeches wrong, and when it comes to best man speeches, you might be thinking that those reasons are pretty obvious: crass, inappr..."
+hero: "/images/blog/father-of-the-bride-jokes-hero.jpg"
 ---
 There are so many ways to get speeches wrong, and when it comes to [best man speeches](/best-man-speeches/), you might be thinking that those reasons are pretty obvious: crass, inappropriate, lewd rantings from someone whose IQ almost equals the number of beers he’s sunk. And, yes whilst they may be a terrible direction to take your speech, it’s the less obvious, stealth mistakes that are the most dangerous.
 

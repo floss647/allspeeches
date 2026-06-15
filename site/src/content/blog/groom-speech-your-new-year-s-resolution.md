@@ -5,6 +5,7 @@ slug: "groom-speech-your-new-year-s-resolution"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "As the new year dawns, and you inevitably begin to think about the wedding that's in the far off distant haze of summer, you might be comforted by the fact that..."
+hero: "/images/blog/jakob-owens-ys1mn_tnpkm-unsplash.jpg"
 ---
 As the new year dawns, and you inevitably begin to think about the wedding that's in the far off distant haze of summer, you might be comforted by the fact that there's at least 6 months until you make your [groom speech](/the-grooms-speech/). A buffer of half a year might seem like an eternity, but in reality it's about 5 minutes. Blink, and it will be Easter, and then things will start moving at hyper speed, as you witness the full force of your wedding date unrelentingly careering towards you.
 

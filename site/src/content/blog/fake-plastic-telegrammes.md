@@ -5,6 +5,7 @@ slug: "fake-plastic-telegrammes"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "So many best men that I write for all say the same thing: 'I haven't got anything to say!', and this can be for a whole variety of reason. Sometimes you really ..."
+hero: "/images/blog/accessory-adult-beautiful-1451359-min.jpg"
 ---
 So many best men that I write for all say the same thing: 'I haven't got anything to say!', and this can be for a whole variety of reason. Sometimes you really don't know the groom that well, you maybe haven't hung out with him for years, maybe he's really boring, or maybe he's so naughty there's nothing you can say.
 

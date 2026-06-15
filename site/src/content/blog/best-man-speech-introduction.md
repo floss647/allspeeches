@@ -5,6 +5,7 @@ slug: "best-man-speech-introduction"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "So, How to Write a Best Man Speech Introduction? This is actually the most straightforward and easy part of the best man speech, but it's also one where a lot o..."
+hero: "/images/blog/thought-catalog-217861-2.jpg"
 ---
 ## So, How to Write a Best Man Speech Introduction?
 

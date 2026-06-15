@@ -5,6 +5,7 @@ slug: "makes-great-speeches"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "When it comes to what makes great speeches the answer is very simple. No matter what the subject or occasion every single great speech has to have humour."
+hero: "/images/blog/wedding-speech.jpg"
 ---
 # What Makes a Great Speech?...That's Easy
 

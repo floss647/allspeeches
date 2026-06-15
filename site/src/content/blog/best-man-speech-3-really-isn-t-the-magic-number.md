@@ -5,6 +5,7 @@ slug: "best-man-speech-3-really-isn-t-the-magic-number"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "In Britain we rarely invent very much anymore, but when we do it tends to be quite big - like the internet and recreational post pub casual violence. However, s..."
+hero: "/images/blog/bestman-template-hero-v2.jpg"
 ---
 In Britain we rarely invent very much anymore, but when we do it tends to be quite big - like the internet and recreational post pub casual violence. However, some of the innovation we're responsible for, isn't as progressive, and far more likely to end in tears. When it comes to weddings we led the way up until about 300 years ago when Martha Stewart was born, and she then put an American spin on things. Ever since then we have been experiencing a more American type of wedding, and many weddings in the UK now feature the term 'groomsmen', which just makes me think of stables and horse shit.
 

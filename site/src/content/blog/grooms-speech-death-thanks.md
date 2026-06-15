@@ -5,6 +5,7 @@ slug: "grooms-speech-death-thanks"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "If you're not careful the groom's speech can become one long torturous interlude that requires extra dollops of wine to survive but it doesn't have to be that way"
+hero: "/images/blog/shutterstock_156465710-e1416759332395.jpg"
 ---
 There seems to be a commonly held opinion that the [groom's speech](/the-grooms-speech/) is really just a quick rifle through everyone you have ever known and thanking them personally and in precisely the same way for the part they've played in the story of your greatness. Now, nobody is saying you're not great, and not for a minute am I suggesting that some people in your life don't deserve recognition but in order for your groom's speech not to become a tsunami of acknowledgements you really need to think carefully about who you're going to thank and how you're going to thank them.
 

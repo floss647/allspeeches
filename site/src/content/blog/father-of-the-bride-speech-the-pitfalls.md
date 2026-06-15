@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-the-pitfalls"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "There are many pitfalls in wedding speeches, and they're all different depending on what speech you're making. Many best men like to talk about themselves far t..."
+hero: "/images/blog/jakob-owens-4bqpudjxme8-unsplash.jpg"
 ---
 There are many pitfalls in wedding speeches, and they're all different depending on what speech you're making. Many best men like to talk about themselves far too much, and grooms like to go into granular detail about every single usher and how wonderful the florists have been. However, when it comes to the [father of the bride speech](/father-of-the-bride-speech/), the classic mistake is actually not talking very much about you daughter, sometimes not talking about her at all. Fathers of the bride can get so carried away with 'ice breakers' and welcoming poeple, and recounting the last time they had to make a speech, that before they know it, it's the end of the speech, and all they've said is that their daughter looks lovely. I actually once worked for a mother of the bride who didn't want to say her daughter looked lovely, as it wasn't true. Unbelievable.
 

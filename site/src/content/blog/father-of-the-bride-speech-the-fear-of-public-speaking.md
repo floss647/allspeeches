@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-the-fear-of-public-speaking"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "Whilst very few people relish the idea of public speaking…make that none...it seems that wedding speeches provide the perfect storm when it comes to talking out..."
+hero: "/images/blog/taylor-gray-nfrmojvcuyy-unsplash_2.webp"
 ---
 Whilst very few people relish the idea of public speaking…make that none...it seems that wedding speeches provide the perfect storm when it comes to talking out loud in front of other people.
 

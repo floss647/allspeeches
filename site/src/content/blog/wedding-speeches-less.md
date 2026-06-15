@@ -5,6 +5,7 @@ slug: "wedding-speeches-less"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "The temptation to make wedding speeches into some kind of audio visual extravaganza should be avoided at all costs. Nothing beat a really great, simple speech"
+hero: "/images/blog/microphone-at-wedding-speech2.jpg"
 ---
 With wedding speeches there's a huge temptation once you've been given those 5 minutes in the spotlight to chuck everything at it. There's a misguided belief that by turning yourself into a 20 minute one man entertainment whirlwind, something you'll have covered, performed, sung or indeed acted out will have tickled every guest there in some way. In my opinion ramping your speech up to be something you could take to the Edinburgh Fringe is a one way ticket to failure.
 The absolute golden rule is that you must never tax the people who are sitting there listening to you. If they're relaxed and comfortable they're going to enjoy the speech. If you start making demands on them they're going to lose patience, and pretty quickly too. If I'm listening to a wedding speech I want to be able to sit back, drink wine and listen. I don't want to have to find a sheet of photographs and then work out why they're funny. I don't want to have to listen to some song being butchered in the name of comedy and above all I don't need a powerpoint. Anything that takes the attention away from the person is actually speaking is wholly counterproductive and you should avoid at all costs, because getting their attention back again can prove impossible.

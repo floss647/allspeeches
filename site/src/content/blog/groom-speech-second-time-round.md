@@ -5,6 +5,7 @@ slug: "groom-speech-second-time-round"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Very recently I ticked another first in the world of All Speeches Great and Small, by being asked to write a groom speech for someone I had already penned one f..."
+hero: "/images/blog/shutterstock_394327291-1-scaled.jpg"
 ---
 Very recently I ticked another first in the world of [All Speeches Great and Small](https://www.allspeechesgreatandsmall.com/), by being asked to write a groom speech for someone I had already penned one for about 7 years ago. It should come as no surprise to me that not all the relationships I play a tiny part in don't go the distance, and I'd like to think it wasn't anything to do with the speech. I'll put my hand up when I've got it wrong, but the brand new wife getting married whilst having an affair isn't one of them.
 
