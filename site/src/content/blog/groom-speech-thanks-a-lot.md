@@ -1,0 +1,15 @@
+---
+title: "Groom speech...thanks...a lot!"
+description: "It's not often that you're asked to stand up in front of room full of people and say lovely things about them, in fact when it does happen it usually means they..."
+slug: "groom-speech-thanks-a-lot"
+category: "groom"
+publishedDate: "2020-01-01"
+excerpt: "It's not often that you're asked to stand up in front of room full of people and say lovely things about them, in fact when it does happen it usually means they..."
+---
+It's not often that you're asked to stand up in front of room full of people and say lovely things about them, in fact when it does happen it usually means they're either leaving their job, or have just died. So, the [groom speech](/the-grooms-speech/) presents itself as an amazing opportunity in life - a unique opportunity - to thank all the people who have helped to get you to that point.
+
+Great, right? Well, yes it is, and you should seize it with both hands, but this needs to be so. much more than a list of thanks yous. Week in, week out, when we haven't got a global pandemic, grooms around the world just stand up and roll out a list of thanks. There is nothing more tedious, or indeed pointless than thanking a load of people en masse. By the time you've got to third person everyone has stopped listening, and by the end of the speech guests will be fully immersed in renewing their home insurance and booking flights for next year's summer holidays.
+
+You need to thank people, but it must be done in a really creative and hopefully funny way. A groom speech without humor can prove emotionally torturous, and if you want to engage guests as to why these people mean so much to you, then making them laugh is a great way to do that. Plus it acts as the perfect balance for all the more meaningful things you might like to say. Nobody wants to sit down and listen to a grown man ride an emotional roller coaster for 8 minutes, in some tear jerkingly sodden monologue. This is an entertainment based speech, and you should never lose sight of that...not of you want it to hit the mark.
+
+So, think of the role those people have played in your life, and then either bring some funny memory to contrast with the man you've become, or use something about their character to have a laugh. Maybe it's the sports team they support, maybe it's the fact they're not on the golf course for the first time ever...maybe it's because of their sense of style...or not. There's comedy to be had in something that bonds you, you just have to find it. Whatever you do, don't start thanking the caterers, or the florist, or the guy with the cars. I never thanks a paid service, as they really should be thanking you, and unless you want this speech to take on epic proportions, then leave them out. Imagine how weird it's going to be in 5 years time when you think about the time you spent lauding your new best friend the wedding planner in your speech, because I can guarantee, that will be the last time you ever heard from them.

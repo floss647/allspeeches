@@ -1,0 +1,15 @@
+---
+title: "Still popping the question on Christmas Eve?"
+description: "There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, a..."
+slug: "still-popping-the-question-on-christmas-eve"
+category: "wedding-speeches"
+publishedDate: "2020-01-01"
+excerpt: "There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, a..."
+---
+There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, and the only thing that separates them is one week and the fact that most people can't remember doing it when they wake up on January 1st. This year will have extra significance. Not since Leeds UTD left the top flight in 2003, have so many people wanted the year to be one to forget. Expectant couples full of hope and excitement will want to kick off 2021 in the best possible way, with the life changing decision to share the rest of their lives together. But under the current circumstances should you do it?
+
+Well, forget Tier 4, social distancing and talking into a face mask, by the time you're actually celebrating your wedding, Coronavirus and all it entails will be a dim and distant memory. From the extensive surveys carried out with venues throughout the UK, there isn't a space any day of the week, right through 2021...and 2022. The fact that so many 2020 weddings got bounced to next year meant that 2021 was fully booked back in August, and I mean rammed. We know of people who tried to book any weekend in August with the same venue they had to cancel with, and there was nothing until 2022, by the time they'd deliberated and got back to them in October, that had become 2023.
+
+The harsh reality of the situation is that if you're popping the question on Christmas Eve 2020, then you could be looking at a 3 year wait if you're being ultra specific about venue and date. In the last 10 years there has been an explosion of venues with farmers and large house owners realising that £15k for a weekend's work beats milking cows or running your own bath. Until this year that had very quickly led to a glut of venues, with many more established places seeing a drop in bookings thanks to a market groaning under the weight of choice. However, for the next few years at least, things have changed.
+
+Don't let this stop you. If 2020 has taught us anything it's that established convention isn't necessarily where it's at. I wrote for many clients whose hugely expensive and impressively decadent weddings had been swapped for 30 people in a friend's garden, and they all loved it. So, pop that question, because we all need good news like never before and if you can't wait 3 years, then let your imagination run wild. It doesn't have to be an incredible hotel, mega reception and 10 years worth of debt to pay off. If you can guarantee you're making your [groom speech](/the-grooms-speech/) to the people who really matter in your life, then that's all that matters.

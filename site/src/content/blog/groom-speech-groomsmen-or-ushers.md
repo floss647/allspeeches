@@ -1,0 +1,11 @@
+---
+title: "Groom Speech - groomsmen or ushers?"
+description: "I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they '..."
+slug: "groom-speech-groomsmen-or-ushers"
+category: "groom"
+publishedDate: "2020-01-01"
+excerpt: "I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they '..."
+---
+I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they 'enjoy' their very own brand of Franglais, which features words like jogging, brunch, and describes a rugby player as 'un rugbyman'. Germany is also seeing a creep of British/American words into its lexicon like flip flops, and in Japan an iced drink is referred to as 'onzarocksu'. The British have long since borrowed words and phrases from other cultures when ours simply won't do. In Britain we can have a laissez faire attitude, indulge in a little schandenfreude, and experience a dollop of deja vu. Language, is to all intents and purposes, a moveable feast.
+
+Weddings are no exception, and since we have devoured American culture, particularly in the form of television and film, there is now a complete mish mash of phrases, especially when it comes to the ushers in a [groom speech](/the-grooms-speech/). This isn't a problem until it all becomes a little confusing. I recently wrote a speech for a client whose wedding featured ushers and groomsmen, which just shows the extent to which people have got this all a bit muddled. In Britain, the selection of guests who are there representing the groom alongside the best man, are called ushers. In the United States and Australia, they are groomsmen. You can pick whichever one you like, but I would avoid using both terms as it's complete nonsense, and makes it sound like they have different roles, or even worse, different seniority on the day. More and more people in the UK are opting for the term groomsmen, which is fine, but I can't help but feel it sounds like they should work in a stable or horse racing yard.

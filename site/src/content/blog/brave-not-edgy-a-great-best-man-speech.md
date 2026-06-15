@@ -1,0 +1,12 @@
+---
+title: "Brave Not Edgy - A Great Best Man Speech"
+description: "A great best man speech relies pretty much on one commodity: humour. Don't be crass, don't be edgy. Just be funny."
+slug: "brave-not-edgy-a-great-best-man-speech"
+category: "best-man"
+publishedDate: "2020-01-01"
+excerpt: "A great best man speech relies pretty much on one commodity: humour. Don't be crass, don't be edgy. Just be funny."
+---
+I write wedding speeches for all types of people all over thew world and if you forget for a minute the difference in social and cultural references, there is one thing that all great best man speeches should have in common: they are funny. And this is precisely what this Arsenal fan has achieved - being genuinely funny in a warm, inclusive way. It was a brave route to go down because these things can be hard to judge, but crucially his humor wasn't edgy or crass, it was just very cheeky. And there's a huge difference.
+Being funny is not easy, I spend a lot of time analysing why something very simply can be hilarious, and why switching just one word can change something from being reasonably funny into a real thigh slapper. However, it is the comedy which is usually the undoing of so many best man speeches. Most men have only really experienced being funny with their friends at work or in the pub - tight knit groups, comfortable with each other and their humorous sensibilities. So, what then happens is that your average best man writes his speech as if he's talking to his friends in the pub...and this is a huge mistake.
+What is funny with three friends of similar age and background, rarely translates to a wider audience of mixed tastes, and to make matters worse what you find funny aged 30 in the club is usually not something you could share with your granny. But despite all of this, best men consistently write their speeches pitched exclusively at their friends and cannot see why taking the guests through ex girlfriends or real time accounts of the stag do just won't work. The reason is simple: it's not funny.
+Being unfunny in a wedding speech is a tragic waste of life, but being so edgy and inappropriate that all the guests collectively cringe and shrink into tiny balls, should in my opinion result in some form of custodial punishment. Now is not the time to embarrass, humiliate or insult. It's time to make a speech that everyone will enjoy hearing and you'll enjoy giving, and this Arsenal fan has got it completely right. It's well judged, well executed and above all genuinely funny.
