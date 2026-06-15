@@ -1,7 +1,9 @@
-# Netlify deploy config for the Astro static site.
+# Netlify config — MUST live at the repo root. Netlify reads this first, then
+# builds inside the `site/` subfolder where the Astro project lives.
 [build]
+  base = "site"
   command = "npm run build"
-  publish = "dist"
+  publish = "dist"          # relative to base -> site/dist
 
 [build.environment]
   NODE_VERSION = "22"
@@ -26,9 +28,7 @@
 # Add a line here for every OLD ranking URL whose slug differs from the new
 # one (verify against Search Console → Pages before launch). Examples:
 #
-# /old-groom-service-url      /groom-speech-writer            301!
-# /old-fotb-service-url       /father-of-the-bride-speech-writer  301!
-# /old-eulogy-service-url     /eulogy-writing-service         301!
-# /old-groom-guide-url        /groom-speeches                 301!
-# /old-fotb-guide-url         /father-of-the-bride-speeches   301!
-# /old-eulogy-guide-url       /eulogy-examples                301!
+# [[redirects]]
+#   from = "/old-groom-service-url"
+#   to   = "/groom-speech-writer"
+#   status = 301
