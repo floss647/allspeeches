@@ -5,6 +5,7 @@ slug: "groom-speech-a-question-of-gifts"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "The groom speech has always featured the giving of gifts, and as with a few wedding traditions, this is something I have a bit of an issue with. Yes, the weddin..."
+hero: "/images/blog/wijdan-mq-H5yiRXDUkto-unsplash.webp"
 ---
 The groom speech has always featured the giving of gifts, and as with a few wedding traditions, this is something I have a bit of an issue with. Yes, the wedding day does present an opportunity to single out people who have been instrumental in making you the person you are today, and rewarding them for the friendship, or parenting skills, is no bad thing, however, doing it in the middle of a [groom speech](/the-grooms-speech/) can be catastrophic. The length of the speech is fundamental to its success - the very best speeches do what they have to do in the most efficient way, and whatever you've practiced in your bedroom always takes far longer on the day. You really need to mitigate anything that's going to add to that.
 

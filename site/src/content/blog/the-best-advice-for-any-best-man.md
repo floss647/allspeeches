@@ -5,6 +5,7 @@ slug: "the-best-advice-for-any-best-man"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "If you have been made best man, chances are the minute you were asked, and then accepted your body went into anaphylactic shock at the prospect of having to mak..."
+hero: "/images/blog/ezgifcom-gif-maker_10.webp"
 ---
 If you have been made best man, chances are the minute you were asked, and then accepted your body went into anaphylactic shock at the prospect of having to make a [best man speech](/best-man-speeches/). Nobody sensible likes the idea of public speaking and with the role of best man you’ve got the added whammy of having to make people laugh. Some may disagree with this, and in you live in the USA, you may have a point, as culturally your best man speeches don’t focus so much on the humor. However, in the UK, Australia and NZ, it’s always a dollop of fun and you have to step up to that. So with that in mind, why oh why do nearly all best men around the world tackle such a huge leap outside their contort zone by doing absolutely nothing about it?
 

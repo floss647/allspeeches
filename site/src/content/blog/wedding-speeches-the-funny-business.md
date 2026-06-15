@@ -5,6 +5,7 @@ slug: "wedding-speeches-the-funny-business"
 category: "wedding-speeches"
 publishedDate: "2020-01-01"
 excerpt: "Any speech, be it eulogy, corporate communication, leaving party or burial of your pet goldfish, is all the better for humour. The humour in any speech gives i..."
+hero: "/images/blog/bruce-mars-AndE50aaHn4-unsplash.webp"
 ---
 Any speech, be it eulogy, corporate communication, leaving party or burial of your pet goldfish, is all the better for humor. The humor in any speech gives it balance, helps to break it up, and in many cases makes it bearable. The lack of it, is why so many lectures and business comms are the equivalent of having a dirty great tranquilliser dart blown into your backside. Wedding speeches require just as much humor as you can possible cram, in - not dodgy wedding gags, but genuinely funny lines, memories and observations.
 

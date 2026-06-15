@@ -5,6 +5,7 @@ slug: "best-man-speech-outline"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Many people have issues with writing the Best Man Speech, and for good reason - to do it well takes, skill, practice and a good helping of wit. It's little wond..."
+hero: "/images/blog/writing-notes-idea-conference.webp"
 ---
 Many people have issues with writing the Best Man Speech, and for good reason - to do it well takes, skill, practice and a good helping of wit. It's little wonder that it can prove a real headache for those 'lucky' enough to be made best man. As I've said many times in posts, and pages on this site, your best friend is time, and now we find ourselves at the beginning of the year you'll probably have at least 4 months before the fear and panic of the final countdown to D-Day. So, with that in mind, and if you're [planning on writing it yourself](/best-man-speeches/), you're firstly considering the initial outline of the speech.
 The problem with thinking of a best man speech outline is that you need to understand what kind of speech you want form the very beginning. If you're thinning about going down the tried and tested 'a couple of stories, a bit about the bride and marriage advice' route, then you really don't have to think about the speech until the night before, because no matter who much thought you put into that little lot, it will be an unmitigated failure.

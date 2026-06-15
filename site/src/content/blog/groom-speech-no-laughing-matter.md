@@ -5,6 +5,7 @@ slug: "groom-speech-no-laughing-matter"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "There’s a really basic equation when it comes to speeches, and that is: if you want people to listen to what you’re saying, then make it entertaining. Yes, of c..."
+hero: "/images/blog/New_Project-7.webp"
 ---
 There’s a really basic equation when it comes to speeches, and that is: if you want people to listen to what you’re saying, then make it entertaining. Yes, of course the groom speech is the one time when you stand up in front of a countless people and let everyone know exactly what your bride, family and friends mean to you. That sentiment should be as original as possible, from the heart and devoid of cliché. However, if you’re planning on 8-10 minutes of heartfelt emotion, and endless thanks, you should probably think again.
 

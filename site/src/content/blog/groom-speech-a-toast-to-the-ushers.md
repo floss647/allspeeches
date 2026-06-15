@@ -5,6 +5,7 @@ slug: "groom-speech-a-toast-to-the-ushers"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "As I have written many times before, there are a lot of wedding traditions that seem to be slipping away, and by and large, that’s a fairly good thing. Nobody r..."
+hero: "/images/blog/jason-gardner-B0k3i7GWAtA-unsplash_1.webp"
 ---
 As I have written many times before, there are a lot of wedding traditions that seem to be slipping away, and by and large, that’s a fairly good thing. Nobody really needs to hear the best man respond to the groom’s toast to the bridesmaids, although the increasing trend of having speeches before the meal, is in no way progress. You need your guests gently oiled and relaxed, not chomping at the bit diving into the table wine, attempting to offset all the expense they’ve already gone to, by drinking their own bodyweight in vin rouge.
 

@@ -5,6 +5,7 @@ slug: "groom-speech-template"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Forget wasting endless hours trying to work out how to do it, I already know. Instead, send me some information, and I’ll create a bespoke template for you.  I can produce stacks of ideas for creating"
+hero: "/images/blog/REVIEWSio_Social_Proof_Image_28.webp"
 ---
 ## I’ve perfected the art of writing amazing groom speeches
 

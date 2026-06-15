@@ -5,6 +5,7 @@ slug: "groom-speech-a-joint-enterprise"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Most young couples about to get married are clearly quite keen on one another, and so they should be - they are, after all, committing themselves to all eternit..."
+hero: "/images/blog/shutterstock_428257765-scaled.webp"
 ---
 Most young couples about to get married are clearly quite keen on one another, and so they should be - they are, after all, committing themselves to all eternity together. It's in these days of heady devotion that besotted couples can bare to be separated and often find themselves intertwined with one another in odd places such as the aisles of a supermarket. Thankfully this phase doesn’t last long, and after just a few years, the person you couldn't be without, is regularly planning opportunities to escape for a few days.
 

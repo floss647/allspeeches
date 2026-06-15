@@ -5,6 +5,7 @@ slug: "groom-speech-death-by-detail"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "There are many pitfalls to a groom speech, but perhaps the biggest trap for any speech, especially wedding speeches, is their length. A speech can be completely..."
+hero: "/images/blog/New_Project-7.webp"
 ---
 There are many pitfalls to a [groom speech](/the-grooms-speech/), but perhaps the biggest trap for any speech, especially wedding speeches, is their length. A speech can be completely boring, and totally devoid of humor, but if it’s only 4 minutes, then it can be forgiven – at least by the guests, although I’m not sure the bride would share that sentiment. Grooms can all too frequently get the balance wrong when it comes to talking about parents on both sides, and more often than not, they’ll have plenty to say about the ushers or groomsmen, and give names only for the bridesmaids. Again, if you manage to make all these howlers in less than 7 minutes, then all you’ll have to deal with is some very irate parents and bridesmaids at the bar later.
 

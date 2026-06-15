@@ -5,6 +5,7 @@ slug: "best-man-speech-how-soon-is-now"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "I am regularly asked a lot of the same questions: how long should a speech be? How many toasts do I make? Should I mention the bridesmaids...yadda yadda yadda. ..."
+hero: "/images/blog/writing-notes-idea-conference.webp"
 ---
 I am regularly asked a lot of the same questions: how long should a speech be? How many toasts do I make? Should I mention the bridesmaids...yadda yadda yadda. However, the question I'm asked most often is: when should I start? My guess is, if you're talking to me, it's got to such a point in your consciousness, that you need to something about it now. Most grown men operate in exactly the same way for most things - and that's to kick things into the long grass until the last possible moment, and then do something about it when it's reached crisis point. Nearly every person I write for says they wished they'd done something about it 6 months ago, instead of ruining 6 months of their lives worrying about it, and then 2 weeks frantically trying to create a speech.
 

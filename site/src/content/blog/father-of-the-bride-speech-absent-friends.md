@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-absent-friends"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "It's a sad fact of life, that by the time you stand up to make your father of the bride speech there are going to be some people who aren’t there to celebrate w..."
+hero: "/images/blog/asp-104-300x200.webp"
 ---
 It's a sad fact of life, that by the time you stand up to make your [father of the bride speech](/father-of-the-bride-speech/) there are going to be some people who aren’t there to celebrate with you. Nothing shines a light on to difficult family situations like a wedding, and nothing focuses it more than the speeches. Trying to navigate your way around bereavement is never easy, doing it in a very public way, can prove impossible.
 

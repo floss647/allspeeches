@@ -5,6 +5,7 @@ slug: "best-man-speech-brother"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "A Best Man Speech Brother isn't as tricky as you might think, you've just got to approach it in a much less predictable way...oh, and make it funny as well."
+hero: "/images/blog/shutterstock_110767718.webp"
 ---
 As a Best Man Speech Writer I have a gifted insight in to how grooms operate the world over. I know that the Empire State building is pretty much de rigeur when it comes to proposals, I know that well over 85% of my clients still ask for permission to marry from the father and I know that from the minute the button is pressed the girls take over and you become a passenger on a rather fast, furious and pricey roller coaster ride.
 So, pretty much all the groom has to do is choose a best man and organise the cars, except when I say choose...it's very much one of those situations where there IS a loaded revolver to your head and it WILL go off should you make the wrong decision. There are expectations from your wife to be and your family. One doesn't want you to ruin everything by choosing the close friend she's never liked with the potty mouth and drink issues, and the other wants you to choose your brother. So you choose your brother.

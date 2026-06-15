@@ -5,6 +5,7 @@ slug: "groom-speech-for-a-step-father"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "As I’ve mentioned in several blog posts, just about the rarest groom speech I write is for two sets of first time marrying couple with two intact sets of parent..."
+hero: "/images/blog/ezgifcom-gif-maker_3.webp"
 ---
 As I’ve mentioned in several blog posts, just about the rarest groom speech I write is for two sets of first time marrying couple with two intact sets of parents. Couples have been marrying later in life for the last 25 years, although that’s a trend that looks like in being reversed – which is great because if the parents aren’t intact you can be damn sure the grandparents aren’t either. In all the many many speeches I’ve written in the last 16 years, I think the ones where both sets of grandparents turned up, could be counted in single figures.
 

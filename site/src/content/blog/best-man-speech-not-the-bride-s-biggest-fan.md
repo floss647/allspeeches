@@ -5,6 +5,7 @@ slug: "best-man-speech-not-the-bride-s-biggest-fan"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "As young men make their way through life, it’s inevitable that they will find themselves, and more importantly their judgment, at loggerheads with their friends..."
+hero: "/images/blog/bestman-template-hero.webp"
 ---
 As young men make their way through life, it’s inevitable that they will find themselves, and more importantly their judgment, at loggerheads with their friends. When you’re younger, this could be simply an alternative taste when it comes to fashion. Buy a pair of shoes that are a deemed bit too whacky, and you’ll soon know all about it…get a haircut that pushes style boundaries, and the result could well be remorseless abuse.
 

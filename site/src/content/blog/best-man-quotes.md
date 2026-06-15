@@ -5,6 +5,7 @@ slug: "best-man-quotes"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "Finding a Best Man Quote that hasn't been used a million times is pretty difficult. Here are some different quotes you could use for your best man speech."
+hero: "/images/blog/matt-botsford-197870.webp"
 ---
 ## How to Use Quotes in a Best Man Speech
 

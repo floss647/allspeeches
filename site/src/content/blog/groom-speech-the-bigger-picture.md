@@ -5,6 +5,7 @@ slug: "groom-speech-the-bigger-picture"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "I always find it truly amazing just how little thought some grooms can put into certain areas of the big day. Yes, they'll have thought carefully about the hone..."
+hero: "/images/blog/sammy-williams-DIBwWsoshGE-unsplash.webp"
 ---
 I always find it truly amazing just how little thought some grooms can put into certain areas of the big day. Yes, they'll have thought carefully about the honeymoon, made sure that the ushers' socks all mean something, and will have named all the tables after all their globe trotting trotting destinations, but they won't have thought for a minute about the guests. Hang on a minute, I hear you say - what about the amazing food, canapés, and bottomless flagons of wine? Yes, there is a certain amount to be said for sedating your guests into some kind of utopia, but it's a lot more pleasant and effective to just give them a good time in the first place, and that means forgetting about you for a bit.
 

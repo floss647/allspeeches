@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-to-icebreak-or-not"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "The vast majority of people I write for are very nervous about their speech, and that's an entirely reasonable and expected emotion. If you're not nervous about..."
+hero: "/images/blog/christian-regg-jOicNGJIwZA-unsplash.webp"
 ---
 The vast majority of people I write for are very nervous about their speech, and that's an entirely reasonable and expected emotion. If you're not nervous about it, you probably haven't given enough thought as to the task in hand. The best man is the entertainment for the day, the groom has to encapsulate his feelings for family, friends and his bride, and the [father of the bride speech](/father-of-the-bride-speech/) needs to celebrate his daughter in a meaningful, memorable and entertaining speech. The guests expect, and you have to deliver.
 

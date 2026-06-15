@@ -5,6 +5,7 @@ slug: "a-covid-groom-speech"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "It's getting boring underlining the fact we're living in odd times, but we are, and weddings have been right in the cross hairs of the pandemic in every country..."
+hero: "/images/blog/shutterstock_428257765-scaled.webp"
 ---
 It's getting boring underlining the fact we're living in odd times, but we are, and weddings have been right in the cross hairs of the pandemic in every country right across the globe. Wherever you live, the number of guests, and how you can celebrate has been curtailed. However, the day itself remains intact as being a very special opportunity to celebrate the act of marriage, and of course the important people in your life.
 

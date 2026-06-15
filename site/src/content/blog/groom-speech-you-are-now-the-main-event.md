@@ -5,6 +5,7 @@ slug: "groom-speech-you-are-now-the-main-event"
 category: "groom"
 publishedDate: "2020-01-01"
 excerpt: "Having heard about the empty threats to cancel Christmas ever since I was a young boy, it now seems the impossible may well happen, and that our favourite party..."
+hero: "/images/blog/gades-photography-711061-unsplash-min-e1536990255778-1920.webp"
 ---
 Having heard about the empty threats to cancel Christmas ever since I was a young boy, it now seems the impossible may well happen, and that our favourite party of the year could be canned. Science people who have no understanding of life outside a lab, and ministers with PPE's from Oxford who try and talk knowledgeably about viruses, have decided that the most expedient way to destroy human life is to remain as separated as we can until all that's left is a smoking, charred landscape with a few McDonald's.
 

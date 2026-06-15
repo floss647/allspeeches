@@ -5,6 +5,7 @@ slug: "best-man-speech-new-year-s-eve"
 category: "best-man"
 publishedDate: "2020-01-01"
 excerpt: "So, as we approach the festive season there are plenty of reasons to be jolly. It's party time around the world, you'll have a few days away from work after wha..."
+hero: "/images/blog/lisanne-van-elsen-bTLY5vK7Xis-unsplash.webp"
 ---
 So, as we approach the festive season there are plenty of reasons to be jolly. It's party time around the world, you'll have a few days away from work after what has been another odd year, and you'll get to catch up with friends and family. However, it's also becoming a much more popular time to have weddings. Even before the world went into meltdown, winter weddings were becoming more of a thing, and now there's a backlog of people wanting to tie the knot, they've never been so popular.
 

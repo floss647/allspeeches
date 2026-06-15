@@ -5,6 +5,7 @@ slug: "father-of-the-bride-speech-son-in-law-issues"
 category: "father-of-the-bride"
 publishedDate: "2020-01-01"
 excerpt: "With all the jolity that surrounds a wedding, most people take it for granted that beneath the yummy design touches, the carefully crafted favours, and the stri..."
+hero: "/images/blog/UNADJUSTEDNONRAW_thumb_2303.webp"
 ---
 With all the jolity that surrounds a wedding, most people take it for granted that beneath the yummy design touches, the carefully crafted favours, and the string quartet, almost certainly lie a few issues. The bride will probably have had one or two falling outs with her bridesmaids, families will squabble about invites, and the groom will have issues with the caterers.
 
