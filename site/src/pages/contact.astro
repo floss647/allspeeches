@@ -7,7 +7,7 @@ import { contactPage } from '../lib/schema';
 const path = '/contact';
 const title = 'Contact | All Speeches Great & Small';
 const description =
-  'Get in touch with Adrian Simpson to start your speech. Call 0207 993 6524 or send a message — fast, friendly replies. Speeches written worldwide from our UK base.';
+  'Get in touch with Adrian Simpson to start your speech. Call 0207 993 6524 or send a message, fast, friendly replies. Speeches written worldwide from our UK base.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Contact', path },
@@ -20,7 +20,7 @@ const types = ['Best Man', 'Groom', 'Father of the Bride', 'Maid of Honour', 'Eu
       <Breadcrumbs items={crumbs} />
       <p class="eyebrow">Contact</p>
       <h1>Get in touch</h1>
-      <p class="lede measure">Ready to start, or just want to ask a question? I'd love to hear from you — and I reply quickly and personally.</p>
+      <p class="lede measure">Ready to start, or just want to ask a question? I'd love to hear from you, and I reply quickly and personally.</p>
     </div>
   </section>
 
@@ -30,8 +30,8 @@ const types = ['Best Man', 'Groom', 'Father of the Bride', 'Maid of Honour', 'Eu
         <h2>Talk to me directly</h2>
         <p class="contact-line"><strong>Phone</strong><br /><a href={`tel:${SITE.telephoneE164.replace(/-/g,'')}`}>{SITE.telephone}</a></p>
         <p class="contact-line"><strong>Email</strong><br /><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
-        <p class="contact-line"><strong>Based in</strong><br />{SITE.addressRegion}, United Kingdom — writing for clients across the UK and worldwide.</p>
-        <p class="contact-line"><em>{fill('I aim to reply within one working day. Working to a tight deadline? Call me — last-minute speeches are often possible.')}</em></p>
+        <p class="contact-line"><strong>Based in</strong><br />{SITE.addressRegion}, United Kingdom, writing for clients across the UK and worldwide.</p>
+        <p class="contact-line"><em>{fill('I aim to reply within one working day. Working to a tight deadline? Call me, last-minute speeches are often possible.')}</em></p>
       </div>
 
       <div>

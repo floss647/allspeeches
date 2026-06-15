@@ -8,12 +8,12 @@ import { faqPage, type Faq as FaqType } from '../lib/schema';
 
 const title = 'Professional Wedding Speech Writer | All Speeches Great & Small';
 const description = fill(
-  "The UK's most-reviewed wedding speech writer. Bespoke best man, groom & father of the bride speeches from £399 — no templates, no clichés. [REVIEW_COUNT]+ 5★ reviews."
+  "The UK's most-reviewed wedding speech writer. Bespoke best man, groom & father of the bride speeches from £399, no templates, no clichés. [REVIEW_COUNT]+ 5★ reviews."
 );
 
 const faqs: FaqType[] = [
   { q: 'How does it actually work?', a: 'You share your stories with me, I write a complete speech around them, and we refine it together until it’s perfect. The whole thing is built from scratch around you.' },
-  { q: 'How long does it take?', a: `Most speeches are drafted within ${SITE.turnaround} days, and I can work to tight deadlines — even last-minute — when needed.` },
+  { q: 'How long does it take?', a: `Most speeches are drafted within ${SITE.turnaround} days, and I can work to tight deadlines, even last-minute, when needed.` },
   { q: 'Is the speech really original?', a: 'Completely. Every speech is written from the ground up for one person. I never reuse jokes, lines or templates.' },
 ];
 
@@ -27,12 +27,12 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <p class="eyebrow">Bespoke speech writing for every occasion</p>
       <h1>Make your words unforgettable</h1>
       <p class="lede">
-        You only get one shot at the speech. Make it the one everyone remembers — for the right
+        You only get one shot at the speech. Make it the one everyone remembers, for the right
         reasons. I write original, personal speeches built entirely around your story. No templates.
         No recycled jokes. No clichés.
       </p>
       <div class="btn-row mt-2">
-        <a class="btn btn--primary" href="/contact">Get my speech written — £{SITE.price}</a>
+        <a class="btn btn--primary" href="/contact">Get my speech written, £{SITE.price}</a>
         <a class="btn btn--ghost" href="/pricing">See what’s included</a>
       </div>
       <p class="trust" style="margin-top:26px">
@@ -56,7 +56,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <div class="grid grid--3 mt-2">
         {services.map((s) => (
           <article class="card">
-            <img class="card__img" src={s.cardImage} alt={`${s.cardTitle} — professional speech writing`} loading="lazy" width="400" height="267" />
+            <img class="card__img" src={s.cardImage} alt={`${s.cardTitle}, professional speech writing`} loading="lazy" width="400" height="267" />
             <div class="card__body">
               <h3>{s.cardTitle}</h3>
               <p>{s.cardBlurb}</p>
@@ -76,14 +76,14 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
         <h2>The best idea ever? Letting a professional write it.</h2>
         <p>
           I’m Adrian Simpson. I started out as a magazine journalist in London, spent fifteen years
-          in television — including presenting on BBC Top Gear — and I’ve been writing speeches
+          in television, including presenting on BBC Top Gear, and I’ve been writing speeches
           professionally since 2012. In that time I’ve become the UK’s most highly rated and reviewed
           wedding speech writer.
         </p>
         <p>
           Every speech I write is original and built around you: your relationship, your memories,
           your sense of humour. I don’t keep a drawer of stock jokes. I listen, I find the story only
-          you can tell, and I write it so it sounds like the best possible version of you — not like a
+          you can tell, and I write it so it sounds like the best possible version of you, not like a
           speechwriter.
         </p>
         <a class="btn btn--ghost" href={SITE.founderUrlPath}>Read my story →</a>
@@ -98,7 +98,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <p class="eyebrow center">How it works</p>
       <h2 class="center">Three simple steps to a speech you’ll be proud of</h2>
       <ol class="steps mt-2">
-        <li><strong>Tell me your stories.</strong> A relaxed chat or a simple questionnaire — you give me the people, the memories and the moments.</li>
+        <li><strong>Tell me your stories.</strong> A relaxed chat or a simple questionnaire, you give me the people, the memories and the moments.</li>
         <li><strong>I write your draft.</strong> A complete, polished speech, crafted around what you’ve told me, delivered in {SITE.turnaround} days.</li>
         <li><strong>We make it perfect.</strong> Unlimited tweaks until every word feels right and sounds like you.</li>
       </ol>
@@ -129,7 +129,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <p class="eyebrow">Simple pricing</p>
       <h2>One simple price. Everything included.</h2>
       <p class="lede">
-        A bespoke wedding speech is a flat <strong>£{SITE.price}</strong> — including your stories
+        A bespoke wedding speech is a flat <strong>£{SITE.price}</strong>, including your stories
         woven in, a complete written speech, and unlimited revisions until it’s right. No hidden
         extras.
       </p>

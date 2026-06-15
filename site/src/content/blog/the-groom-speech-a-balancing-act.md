@@ -1,5 +1,5 @@
 ---
-title: "The groom speech – a balancing act"
+title: "The groom speech, a balancing act"
 description: "We’ve all lived with Coronavirus for nearly a year now, and have spent the last 12 months rearranging what normal means to us, and will spend the next 10 years ..."
 slug: "the-groom-speech-a-balancing-act"
 category: "groom"

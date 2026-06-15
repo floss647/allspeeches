@@ -1,5 +1,5 @@
 ---
-title: "Father of the bride speech – settling the scores?"
+title: "Father of the bride speech, settling the scores?"
 description: "I often say that the rarest wedding scenario I write for is two couples in their thirties, with two intact, happily married sets of parents. It so very rarely h..."
 slug: "father-of-the-bride-speech-settling-the-scores"
 category: "father-of-the-bride"
@@ -17,4 +17,4 @@ Secondly, if your ex wife has a new partner, and he plays a part in your daughte
 
 Of course, new partners can also mean stepchildren, half brothers and sisters, and an extended family that can takes several days to get through. Depending on time and what the relationships are like, you can mention them by name, but if you’re dealing with something that resembles the school register, you probably want to go for a more general acknowledgement.
 
-Families – you can’t choose them, but you can definitely choose how you talk about them, and as people tend to remember wedding speeches for many years, it’s worth getting it right.
+Families, you can’t choose them, but you can definitely choose how you talk about them, and as people tend to remember wedding speeches for many years, it’s worth getting it right.

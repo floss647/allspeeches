@@ -4,7 +4,7 @@ const BUSINESS_ID = `${SITE.url}/#business`;
 const WEBSITE_ID = `${SITE.url}/#website`;
 const ADRIAN_ID = `${SITE.url}${SITE.founderUrlPath}#adrian`;
 
-/** Global ProfessionalService — site-wide. */
+/** Global ProfessionalService, site-wide. */
 export function professionalService() {
   const node: Record<string, any> = {
     '@context': 'https://schema.org',

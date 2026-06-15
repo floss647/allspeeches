@@ -16,7 +16,7 @@ This is a really powerful element of the speech but needs to done in just the ri
 
 ### humor
 
-This is the other really important element of the speech, and without it, you’ll have no balance and it all becomes one big wave of emotion. These can be funny ideas, memories, observations – whatever works for you, however, in order for it to be a success sit needs to be genuinely funny and not require any previous knowledge of the groom in order to understand it.
+This is the other really important element of the speech, and without it, you’ll have no balance and it all becomes one big wave of emotion. These can be funny ideas, memories, observations, whatever works for you, however, in order for it to be a success sit needs to be genuinely funny and not require any previous knowledge of the groom in order to understand it.
 
 ### The Bride
 

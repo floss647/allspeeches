@@ -25,7 +25,7 @@ Connecting with the guests is paramount. The best MCs are those who can make eve
 
 Most importantly, you will be the calmer of nerves and the smoother of ruffles. Weddings, despite the best-laid plans, can often confront unexpected issues. Whether a microphone malfunctions or there's a delay in proceedings, you are the reassuring presence that keeps everything moving without guests being any the wiser.
 
-Understanding these roles and responsibilities thoroughly lays the groundwork for a memorable and professional performance. Your poise and preparedness, coupled with a sense of enjoyment, will ensure every guest — and most importantly, the couple — remember the wedding as a seamless celebration of love.
+Understanding these roles and responsibilities thoroughly lays the groundwork for a memorable and professional performance. Your poise and preparedness, coupled with a sense of enjoyment, will ensure every guest, and most importantly, the couple, remember the wedding as a seamless celebration of love.
 
 2. Pre-Wedding Preparations
 
@@ -133,7 +133,7 @@ By balancing empathy with well-placed humor, you create an inclusive and enjoyab
 
 5. The Art of Timing and Elegance
 
-Elegance in MCing comes down to the art of timing — knowing when to speak, when to pause, and how to move the evening along gracefully. It's an essential skill for wedding MCs, who must maintain a balance between keeping the event on schedule and allowing for natural moments to unfold. Here's how you can master timing and maintain elegance throughout your duties.
+Elegance in MCing comes down to the art of timing, knowing when to speak, when to pause, and how to move the evening along gracefully. It's an essential skill for wedding MCs, who must maintain a balance between keeping the event on schedule and allowing for natural moments to unfold. Here's how you can master timing and maintain elegance throughout your duties.
 
 Understand the Schedule
 
@@ -245,7 +245,7 @@ As the wedding MC, your voice is your primary instrument, and how you use it can
 
 Practice Projection
 
-Good projection isn't about shouting; it's about reaching the back of the room without straining your voice. Practice speaking from your diaphragm — the muscle just below your ribcage — and not just from your throat. This technique allows for a more powerful and controlled sound.
+Good projection isn't about shouting; it's about reaching the back of the room without straining your voice. Practice speaking from your diaphragm, the muscle just below your ribcage, and not just from your throat. This technique allows for a more powerful and controlled sound.
 
 Articulate Clearly
 
@@ -261,7 +261,7 @@ Change your pitch and tone to keep your announcements engaging. A monotonous voi
 
 Use a Microphone Effectively
 
-Understand how to use a microphone properly. Hold it at the right distance from your mouth — not too close or too far — to avoid feedback or being too faint. If using a lapel mic, check that it's clipped securely and positioned correctly.
+Understand how to use a microphone properly. Hold it at the right distance from your mouth, not too close or too far, to avoid feedback or being too faint. If using a lapel mic, check that it's clipped securely and positioned correctly.
 
 Take Care of Your Voice
 
@@ -291,9 +291,9 @@ Giving a special nod to guests who may have travelled far distances or those wit
 
 Work with suppliers for Surprises
 
-Coordinate with the venue, caterer, or DJ to introduce unexpected highlights – whether it's a special dessert, an impromptu performance, or a unique twist on the usual proceedings.
+Coordinate with the venue, caterer, or DJ to introduce unexpected highlights, whether it's a special dessert, an impromptu performance, or a unique twist on the usual proceedings.
 
-By integrating these added touches, you do more than just guide the evening – you create an unforgettable atmosphere brimming with personal moments that the couple and guests will talk about for years to come.
+By integrating these added touches, you do more than just guide the evening, you create an unforgettable atmosphere brimming with personal moments that the couple and guests will talk about for years to come.
 
 10. Final Check: Do's and Don'ts Before the Big Day
 
@@ -363,7 +363,7 @@ Introduction Sample:
 
 Transition to Dinner Sample:
 
-"Ladies and gentlemen, I hope you're enjoying the evening and those appetisers were as delicious for you as they were for me. Now, it's time to move on to the main course. The staff will be serving dinner shortly, so please make your way to your seats if you haven't already. And while you're savouring the fine cuisine, remember to save some room for dessert — and some energy for dancing!"
+"Ladies and gentlemen, I hope you're enjoying the evening and those appetisers were as delicious for you as they were for me. Now, it's time to move on to the main course. The staff will be serving dinner shortly, so please make your way to your seats if you haven't already. And while you're savouring the fine cuisine, remember to save some room for dessert, and some energy for dancing!"
 
 Introduction to Speeches Sample:
 

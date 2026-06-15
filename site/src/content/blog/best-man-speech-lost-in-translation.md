@@ -1,5 +1,5 @@
 ---
-title: "Best man speech – lost in translation"
+title: "Best man speech, lost in translation"
 description: "The world has always been a big place, and ever since time began we’ve wandered far and wide trying to find that special someone…or at the very least, someone w..."
 slug: "best-man-speech-lost-in-translation"
 category: "best-man"
@@ -13,13 +13,13 @@ There is something so intoxicating about being immersed in a world that bears no
 
 Well, what usually happens if you’re British, is that you rely heavily on the girl being not only able to speak English, but also happy to see you not make the slightest effort to learn her language for the rest of your days together. I have many friends who have partners from Holland, Italy, Spain, France, India and Russia, and not one of them can speak a bean of their partner’s language after a couple of decades together.
 
-So, if that works for her, then the next stage is meeting her parents who don’t speak English, so you then develop a long term relationship which usually revolves around a lot of pointing whilst doing a lot of drinking. If this all goes to plan, the next stage is to get married, which invariably takes place in your wife-to-be’s home town, and so that throws up the question of speeches. Every country around the world tackles this slightly differently – some don’t have them, others are more of an elongated toast, some are all about the funny, and others are really not. However, whatever happens, every other country seems to be only too aware of the British tradition of wedding speeches, and are only too happy to witness this first hand….up to a point.
+So, if that works for her, then the next stage is meeting her parents who don’t speak English, so you then develop a long term relationship which usually revolves around a lot of pointing whilst doing a lot of drinking. If this all goes to plan, the next stage is to get married, which invariably takes place in your wife-to-be’s home town, and so that throws up the question of speeches. Every country around the world tackles this slightly differently, some don’t have them, others are more of an elongated toast, some are all about the funny, and others are really not. However, whatever happens, every other country seems to be only too aware of the British tradition of wedding speeches, and are only too happy to witness this first hand….up to a point.
 
 In order to make this a success, you need to follow some fairly simple rules.
 
 - Do not, whatever you do attempt a running translation of your best man speech into your wife’s mother tongue. It will bloat the speech to epic proportions, become increasingly tedious, and neither the British contingent, or your new Polish friends, will like you by the end of it.
 
-- Always make the speech in English – you’ve got to cater for the people who get this kind of speech, otherwise you’ll be in danger of nobody getting it.
+- Always make the speech in English, you’ve got to cater for the people who get this kind of speech, otherwise you’ll be in danger of nobody getting it.
 
 - Keep it short. If you’re making this in English, then there’s going to be a fairly sizeable number of guests that are going to be twiddling their thumbs whilst you rattle on. My advice would be to stick to the 5 minute mark, and make every word count. If it looks like baggage or filler, remove it.
 
