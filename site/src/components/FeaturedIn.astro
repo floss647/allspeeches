@@ -6,13 +6,18 @@ const items = SITE.featuredIn;
   <div class="wrap">
     <p class="featured__eyebrow">As featured in</p>
     <ul class="featured__list">
-      {items.map((it) => (
-        <li class="featured__item">
-          {it.url
-            ? <a href={it.url} rel="nofollow noopener" target="_blank">{it.name}</a>
-            : <span>{it.name}</span>}
-        </li>
-      ))}
+      {items.map((it) => {
+        const inner = it.logo
+          ? <img class="featured__logo" src={it.logo} alt={it.name} loading="lazy" decoding="async" />
+          : <span class="featured__name">{it.name}</span>;
+        return (
+          <li class="featured__item">
+            {it.url
+              ? <a href={it.url} rel="nofollow noopener" target="_blank" aria-label={it.name}>{inner}</a>
+              : inner}
+          </li>
+        );
+      })}
     </ul>
   </div>
 </section>
@@ -21,8 +26,17 @@ const items = SITE.featuredIn;
   .featured { background: var(--paper-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; }
   .featured__eyebrow { text-align: center; font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.72rem; font-weight: 600; color: var(--ink-soft); margin: 0 0 18px; }
   .featured__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px 44px; }
-  .featured__item { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.01em; white-space: nowrap; }
-  .featured__item span, .featured__item a { color: var(--ink); opacity: 0.6; text-decoration: none; transition: opacity 0.2s ease; }
-  .featured__item a:hover { opacity: 0.95; color: var(--gold-dark); }
-  @media (max-width: 600px) { .featured__list { gap: 12px 28px; } .featured__item { font-size: 1.08rem; } }
+  .featured__item { display: inline-flex; align-items: center; }
+  .featured__item a { display: inline-flex; align-items: center; text-decoration: none; }
+  /* Text wordmark fallback */
+  .featured__name { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.01em; white-space: nowrap; color: var(--ink); opacity: 0.6; transition: opacity 0.2s ease; }
+  .featured__item a:hover .featured__name { opacity: 0.95; color: var(--gold-dark); }
+  /* Real logo: normalised to a uniform height, muted to sit together */
+  .featured__logo { height: 30px; width: auto; max-width: 160px; object-fit: contain; opacity: 0.62; filter: grayscale(1); transition: opacity 0.2s ease, filter 0.2s ease; }
+  .featured__item a:hover .featured__logo { opacity: 1; filter: none; }
+  @media (max-width: 600px) {
+    .featured__list { gap: 12px 28px; }
+    .featured__name { font-size: 1.08rem; }
+    .featured__logo { height: 24px; max-width: 130px; }
+  }
 </style>
