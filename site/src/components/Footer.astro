@@ -10,8 +10,7 @@ const showRating = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[')
       <p class="footer-tagline">Bespoke, original speeches for weddings and life's biggest moments, written around your story by {SITE.founder}.</p>
       <p class="nap">
         <strong>{SITE.name}</strong><br />
-        {SITE.addressRegion}, United Kingdom<br />
-        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        {SITE.addressRegion}, United Kingdom
       </p>
       <p class="reviews-badge">
         {showRating ? (
