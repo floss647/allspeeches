@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2019-01-01"
 excerpt: "Using props in a best man speech is never a good idea. A tricky days becomes even trickier and nobody will be looking at you."
 hero: "/images/blog/asp-90.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Last night I watched the visual smorgasbord which is The Eurovision Song Contest. It is a bonkers but nonetheless thoroughly entertaining romp around Europe and for some reason Australia, and it proved that in a super groovy high tech digital age, there are some people who are still more than happy to make a bit of a tit of themselves, and for that I love them. Quite why the Italian chap and the dancing gorilla didn't smash their way to the number spot is completely unfathomable, and then there was a the Austrian guy, for some reason called Nathan Trent, who was swinging about on a moon, but if there was any justice in the world the Romanian yodelling/hip hop crossover should have elevated the artists to multi millionaires overnight. But their genius was also their undoing.
 As Nathan was cuddling his moon most people around the world were looking at the moon and not him. Men were thinking 'what kind of poundage is the support cable good for?' and women were Googling if IKEA sold one of those massive moons as it would look great by the breakfast bar. But nobody was looking at him. The Italian could have been singing out his supermarket shopping list, because when you're on stage with a dancing gorilla nobody is paying the blindest bit of notice to anything else. And the yodelling and rapping was great right up until the point two massive cannons came into the scene and the rapper just stood on one of them waving like a lunatic. Why were they there? How heavy were they? Do they still fire? Do you need a firearms license for a cannon? Can you still buy ammunition for them?...these were all the things going through my mind...not the song.

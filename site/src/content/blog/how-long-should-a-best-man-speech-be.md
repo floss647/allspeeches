@@ -7,7 +7,9 @@ publishedDate: "2026-02-10"
 updatedDate: "2026-06-01"
 excerpt: "Five minutes, well chosen, beats fifteen every time. Here's how to judge the length of your best man speech and keep the room with you."
 hero: "/images/card-best-man.webp"
-related: { label: "Best Man Speech Writer", path: "/best-man-speech-writer/" }
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 
 **A best man speech should last around five minutes, roughly 700 to 900 words. Anything past eight minutes and you can feel a room start to drift.**

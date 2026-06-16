@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "The great thing about youth is that you're either so drunk the whole time or so completely emotionally incomplete, that not only do you find traffic cones hilar..."
 hero: "/images/blog/fashion-men-vintage-colorful.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 The great thing about youth is that you're either so drunk the whole time or so completely emotionally incomplete, that not only do you find traffic cones hilarious, you're convinced other people will find stories about them equally rib tickling. This usually doesn't make any difference to your life, as the worst that can happen is you'll recount the time Binky shoved his underpants on his head and sang the National Anthem in the middle of the street, to your girlfriend's granny at Sunday lunch, and she couldn't hear anyway.
 Drinking is fun. In may ways, when it's not involving imbibing floor cleaner and cough medicine, it's an effective social lubricant that can get even the most challenging of characters to have a good time, and in some cases even a girlfriend. But when it comes to horrific modern day crimes, there are few worse in this world than being made to listen to other peoples' drinking stories...especially when they're crap. Real drinking stories that start off in one continent and end in another, without any recollection of the marching band you temporarily joined are all well and good. The ones where you simply drank your own bodyweight in Sangria and woke up naked in the beach are OK if you were there, but as a story really don't go anywhere - we've all woken up naked at some point without any real idea of the details.

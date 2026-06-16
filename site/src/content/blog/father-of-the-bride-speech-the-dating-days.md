@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2023-01-17"
 excerpt: "When it comes to the subject of what you should include in a speech, and what’s inappropriate, I think the easiest way to determine that situation is just to th..."
 hero: "/images/blog/ezgifcom-gif-maker_23.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 When it comes to the subject of what you should include in a speech, and what’s inappropriate, I think the easiest way to determine that situation is just to think about everyday life. Would the bride have daily open conversation about the groom’s former girlfriends?…probably, not, so the best man should give that a swerve. Having received something through Amazon, would you then call them up and thank them, very much?...of course you wouldn’t, so why thank paid services in your speech?
 

@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2023-01-30"
 excerpt: "As young men make their way through life, it’s inevitable that they will find themselves, and more importantly their judgment, at loggerheads with their friends..."
 hero: "/images/blog/bestman-template-hero.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 As young men make their way through life, it’s inevitable that they will find themselves, and more importantly their judgment, at loggerheads with their friends. When you’re younger, this could be simply an alternative taste when it comes to fashion. Buy a pair of shoes that are a deemed bit too whacky, and you’ll soon know all about it…get a haircut that pushes style boundaries, and the result could well be remorseless abuse.
 

@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2024-01-16"
 excerpt: "I have been writing wedding speeches for a long time now, and I can’t ever remember having a conversation with someone who informed me how excited and enthusias..."
 hero: "/images/blog/glenn-carstens-peters-RLw-UC03Gwc-unsplash.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 I have been writing wedding speeches for a long time now, and I can’t ever remember having a conversation with someone who informed me how excited and enthusiastic they were to be speaking in front of a room full of people. [Public speaking](https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/)is nerve wracking at the best of times, but best men have the added pressure of having to be funny, To what extent they put their foot on the humor pedal is up to them, but guests, especially in the UK, are expecting to be entertained, and so ignore that at your peril. Of course, this wouldn't; be nearly so stressful if it wasn’t for the fact that most best men kick their duties down the road until the last possible minute. Having a speech to make and a year to think about it, can cause some butterflies in the stomach, having a speech to make and a week to do something about it, can make you feel like you’re going to give birth to a fully grown Albatross. So, it’s all about planning and time management.
 

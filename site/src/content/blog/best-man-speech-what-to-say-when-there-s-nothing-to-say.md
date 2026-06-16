@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-03-07"
 excerpt: "The great thing about being a man is that you can bumble along in life and not really take that much interest in your surroundings, for about the first 30 years..."
 hero: "/images/blog/ezgifcom-gif-maker_1.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 The great thing about being a man is that you can bumble along in life and not really take that much interest in your surroundings, for about the first 30 years. Generally speaking we are a bit self obsessed up until that point, wondering what career to go for, how to get it, and how to make someone like you enough they want to spend the rest of their lives with you. It all means that we don’t tend to focus on the detail very much. Ask any normal man between the ages of 25 to 35, and none of them will be able to tell you what any of their friends’ jobs actually involve. And why should you? There’s nothing worse than someone running you through the plot for a film…except running you through what they do for a living.
 

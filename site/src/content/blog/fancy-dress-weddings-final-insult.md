@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "For those who insist on a fancy dress weddings, this is exactly what you're inflicting on us your humble guests."
 hero: "/images/blog/shutterstock_99615326-e1404216781909.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 Here’s a tip when organizing your wedding: you know those people who’ve made such a great effort to be there? Well, they have feelings too. It’s very easy to get carried away with the whole idea of planning your big day. Many people feel that anything and everything that’s ever meant something to them has to be shoehorned into the event in some way.
 

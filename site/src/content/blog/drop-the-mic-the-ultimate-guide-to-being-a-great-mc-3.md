@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2024-01-16"
 excerpt: "Introduction As a wedding Master of Ceremonies (MC), you're not just the host: you're the pulse of the celebration. Your role is vast, from ensuring the smooth ..."
 hero: "/images/blog/pexels-pixabay-164829.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 Introduction
 

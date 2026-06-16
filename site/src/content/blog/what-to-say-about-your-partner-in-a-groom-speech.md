@@ -7,7 +7,9 @@ publishedDate: "2026-03-04"
 updatedDate: "2026-06-01"
 excerpt: "The moment everyone waits for in a groom speech is what you say about your partner. Here's how to make it land, without the clichés."
 hero: "/images/card-groom.webp"
-related: { label: "Groom Speech Writer", path: "/groom-speech-writer" }
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 
 **Say something specific and true. One small, real detail about your partner will move a room far more than a paragraph of "you're my best friend and my everything."**

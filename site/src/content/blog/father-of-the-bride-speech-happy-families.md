@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-09-27"
 excerpt: "Weddings are of course the coming together of two people, whose mutual love and affection means that they simply cannot with without each other; and it also bri..."
 hero: "/images/blog/shutterstock_394328398.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Weddings are of course the coming together of two people, whose mutual love and affection means that they simply cannot with without each other; and it also brings together two families with varying degrees of love and affection. Just because your daughter finds your brand new son in law irresistible, it doesn't necessarily follow that you'll have a similar attraction towards his parents. This wouldn't be an issue if it wasn't for the [father of the bride speech](/father-of-the-bride-speech/). In that speech you should always include the groom's parents out of courtesy, but sometimes that may feel a little awkward, especially if they've done little to assist in the wedding planning and preparation.
 

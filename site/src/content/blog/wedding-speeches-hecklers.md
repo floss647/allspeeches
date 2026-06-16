@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "Wedding Speech Hecklers are not the end of the world. In fact, they could be your gateway to public speaking superstardom."
 hero: "/images/blog/shutterstock_106987373-e1404217134342.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 It’s a known fact that most grown men would rather wrestle a tiger in their underpants than stand up in front of a crowd of people and speak for five minutes. This is understandable as, apart from our own families, many go out of their way to avoid any form of spoken communication with anyone not in their ‘circle’. Whilst commuting we prefer to inspect our shoes or pretend to be asleep and in supermarket queues we stand there fixated on the contents of the trolley we’ve just filled. Now of course we have smartphones that can fill every single second of our waking hours. If somebody you don’t recognize looks like they might want to talk to you, just pop out the iPhone and check up on the weather in Jeddah.
 

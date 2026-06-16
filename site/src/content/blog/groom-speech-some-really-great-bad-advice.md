@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2022-01-08"
 excerpt: "I love being a wedding speech writer, as I have the opportunity to meet some really fascinating people, hear their life stories and create something for them th..."
 hero: "/images/blog/will-myers-_CNtg_XjDgA-unsplash.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 I love being a wedding speech writer, as I have the opportunity to meet some really fascinating people, hear their life stories and create something for them that will not only be a great success on the day, but enjoyed for many years to come. The only problem with weddings is that, much like the healthcare industry, everyone is an expert. Around the world, doctors everywhere have to contend with the fact that, thanks to Google, their medical degrees count for very little, and if you are a housewife, shop assistant, banker or plumber, you probably know as much about deep vein thrombosis as a fully qualified medical professional.
 

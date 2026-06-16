@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2020-11-09"
 excerpt: "With all the jolity that surrounds a wedding, most people take it for granted that beneath the yummy design touches, the carefully crafted favours, and the stri..."
 hero: "/images/blog/UNADJUSTEDNONRAW_thumb_2303.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 With all the jolity that surrounds a wedding, most people take it for granted that beneath the yummy design touches, the carefully crafted favours, and the string quartet, almost certainly lie a few issues. The bride will probably have had one or two falling outs with her bridesmaids, families will squabble about invites, and the groom will have issues with the caterers.
 

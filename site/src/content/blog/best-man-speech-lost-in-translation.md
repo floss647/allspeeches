@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-03-03"
 excerpt: "The world has always been a big place, and ever since time began we’ve wandered far and wide trying to find that special someone…or at the very least, someone w..."
 hero: "/images/blog/ezgifcom-gif-maker_10.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 The world has always been a big place, and ever since time began we’ve wandered far and wide trying to find that special someone…or at the very least, someone who seems a lot more interesting and attractive than the girl in Boots. Maybe it’s the budget airline industry, maybe it’s the connectivity of this digital age, but more and more of us are finding partners from countries and cultures that are so different from our own. And long may that continue.
 

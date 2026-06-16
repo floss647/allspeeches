@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2024-02-04"
 excerpt: "Whenever I talk to clients, they are usually like to emphasis just how much they don’t enjoy public speaking, and how much they really would like this speech to..."
 hero: "/images/blog/taylor-gray-nFrMoJvCUyY-unsplash_2_2.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Whenever I talk to clients, they are usually like to emphasis just how much they don’t enjoy public speaking, and how much they really would like this speech to be as short and sweet as possible. I totally understand those emotions - I always think it takes a slightly odd person to enjoy standing up, getting everyone to look at them and revel in what they’re about to say. Either they’ve got boundless self confidence, or killer content, probably both.
 

@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2024-04-18"
 excerpt: "I’ve always worked on the principle that it’s better to do something well once, rather than have a few, less proficient stabs at it. Marriage and bungee jumping..."
 hero: "/images/blog/alvin-mahmudov-DnJioJ8nhxI-unsplash.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 I’ve always worked on the principle that it’s better to do something well once, rather than have a few, less proficient stabs at it. Marriage and bungee jumping are two cases in point, nothing would be more unpleasant than being splattered on to some hillside in NZ after your elastic cord failed on the third attempt, and nothing would be more fatal than realising your former life partner now has most of your money for the rest of your life. It’s exactly the same with speeches, don’t put me through 3000 words of bilge, telling my in 3 different ways how much the parents…best man...bridesmaids etc mean to you.
 

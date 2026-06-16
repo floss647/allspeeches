@@ -5,6 +5,9 @@ slug: "sister-of-the-groom"
 category: "groom"
 publishedDate: "2022-02-01"
 excerpt: "Sister of the Groom Speech Over the years, wedding traditions are progressed to more accurately reflect the world we live in, and long may that continue. The da..."
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 ### Engaging
 

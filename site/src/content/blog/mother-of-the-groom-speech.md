@@ -5,6 +5,9 @@ slug: "mother-of-the-groom-speech"
 category: "groom"
 publishedDate: "2022-02-01"
 excerpt: "Mother of the Groom Speech The mother of the groom speech has for some years become much more of a staple in the wedding speech line up, as an alternative to th..."
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 ### Introduce Yourself
 

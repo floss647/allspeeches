@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2014-11-17"
 excerpt: "Nearly every wedding speech has to deal with the tricky subject of a departed friend or relative. Getting the right balance is crucial to make the speech a success"
 hero: "/images/blog/pexels-photo-14303.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 Everyone loves a wedding. With great speeches, fantastic outfits and not so close relatives trying to drink their own bodyweight in table wine, you'd have to be made of wood not to get stuck into the revelry and start dancing with strangers like you're putting up wallpaper...with your tie around your head Rambo style. But amongst all the fun and games there's usually always a twinge of sadness or two as you reflect on who's not there, and it normally falls upon the speakers and the speeches to tackle the tricky issue of loss.
 As a wedding speech writer I'm called upon to write about sadly departed friends and relatives just as much as I am the living. Most people tend to get married a lot later in life which means that nearly every couple I write for is having to go through their special day without an important person they grew up with. This brings about a really tough situation: how do you deal with talking about a person who has died without the speech and indeed the day becoming swamped in sadness?

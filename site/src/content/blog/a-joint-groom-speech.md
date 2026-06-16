@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-10-09"
 excerpt: "Evolution in wedding speeches is no bad thing; there is a lot of nonsense surrounding tradition that really needs to be dispensed with. A case in point is the t..."
 hero: "/images/blog/alex-padurariu-Hoo9-pSSsKA-unsplash.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 Evolution in wedding speeches is no bad thing; there is a lot of nonsense surrounding tradition that really needs to be dispensed with. A case in point is the tradition of the best man responding on behalf of the bridesmaids' toast given by the groom. Confused? Yes so is everyone else. Tradition states that the groom should toast the bridesmaids, which is great, and as it should be. Tradition then states that the best man should respond to that toast. Not only is this completely unfathomable, it's also a colossal waste of time. I mean, why stop there? Why not bring back jousting and the ducking stool?
 

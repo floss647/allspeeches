@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2020-11-05"
 excerpt: "It's a well worn cliche that anyone under the age of 45 has no idea how to access any functionality on their smartphone. Reach the dizzy heights of people in th..."
 hero: "/images/blog/insung-yoon-628709-unsplash-min.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 It's a well worn cliche that anyone under the age of 45 has no idea how to access any functionality on their smartphone. Reach the dizzy heights of people in their late 50's and things like cut and paste or attaching an image, are right up there with discovering the double helix structure of DNA...make it your 70's and switching the thing on, is a bloody miracle. So, when it comes to the idea of asking senior citizens to make their [father of the bride speech](/father-of-the-bride-speech/) by Zoom, is this fair, ethical or indeed, advisable?
 

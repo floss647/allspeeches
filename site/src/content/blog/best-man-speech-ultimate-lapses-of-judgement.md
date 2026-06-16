@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-02-18"
 excerpt: "I write for pretty much every type of bloke in the world. Some are shy, some are super confident, others are creative, many are very business minded, a lot work..."
 hero: "/images/blog/ezgifcom-gif-maker_7.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 I write for pretty much every type of bloke in the world. Some are shy, some are super confident, others are creative, many are very business minded, a lot work with their hands, and some are even writers. Yes, best men come in all shapes and sizes and there’s no effective way if predicting what kind of best man speech they’re going to deliver based purely in what their job or upbringing is. I’ve had very burly builders insist they they don’t want any humor in their speech, they just want to make everyone cry, and I’ve had the most retiring of guys want to do the whole thing as a song.
 

@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-01-02"
 excerpt: "The running order of speeches at a wedding is really important, and something that is frequently overlooked. Where you sit in the line up of speakers dictates w..."
 hero: "/images/blog/asp-161.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 The running order of speeches at a wedding is really important, and something that is frequently overlooked. Where you sit in the line up of speakers dictates what you should be saying, how you open the speech, and also how long your speech should be. And this is why so many best man speeches get it wrong right from the kick off.
 

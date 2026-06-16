@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-08-25"
 excerpt: "Joint best man speeches are becoming more and more common. In fact, grooms are getting so carried away these days that the triple best man speech is making an a..."
 hero: "/images/blog/steven-van-Qk1zWx0vZqY-unsplash.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Joint [best man speeches](/best-man-speeches/) are becoming more and more common. In fact, grooms are getting so carried away these days that the triple best man speech is making an appearance, and my record was at a wedding in the Middle East which involved 15 best men. This trend seems to have started because either the groom just can't decide between two people, or they're so wrapped up in themselves they think that only two men can properly cover the person they've become.
 

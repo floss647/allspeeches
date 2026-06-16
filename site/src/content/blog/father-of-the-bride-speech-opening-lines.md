@@ -7,7 +7,9 @@ publishedDate: "2026-04-18"
 updatedDate: "2026-06-01"
 excerpt: "Your first line sets the tone for the whole father of the bride speech. Here's how to open with warmth and a smile, not a nervous throat-clear."
 hero: "/images/card-father-of-bride.webp"
-related: { label: "Father of the Bride Speech Writer", path: "/father-of-the-bride-speech-writer" }
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 
 **The best father of the bride opening lines are warm and a little self-deprecating, they settle your nerves and the room's at the same time.**

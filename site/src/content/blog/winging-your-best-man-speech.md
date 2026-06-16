@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-08-11"
 excerpt: "Despite well catalogued best man speech disasters on the internet, there are still a legion of men around the world convinced that they can stand up, and knock ..."
 hero: "/images/blog/soroush-karimi-4tAHleLnMWA-unsplash.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Despite well catalogued [best man speech](/best-man-speeches/) disasters on the internet, there are still a legion of men around the world convinced that they can stand up, and knock out a great speech from the depths of their mind. This is only ever Route 1 to disaster. If you've ever witnessed a really effortless, very naturally delivered speech, it's because it will have been weeks in the making. Most people aren't required to be seasoned raconteurs for their day job, so the idea you can transform yourself from IT support professional to a public speaking superhero in a matter a of minutes, just doesn't stack up.
 

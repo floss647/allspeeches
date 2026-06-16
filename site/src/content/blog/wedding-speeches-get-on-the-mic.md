@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2021-03-23"
 excerpt: "There’s one golden rule about wedding speeches that people tend to overlook, and that is: if they can’t hear you, there’s simply no point. For some reason a siz..."
 hero: "/images/blog/shutterstock_138750278-b3894690.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 There’s one golden rule about wedding speeches that people tend to overlook, and that is: if they can’t hear you, there’s simply no point. For some reason a sizeable chunk of people have an issue with using a microphone, as if it somehow sends out a message that you’re a bit of a knob. However, I have been to far too many weddings where nobody could hear the speakers. This becomes a pointless exercise if you’re making the [groom speech](/groom-speech-writing-service/), however, it becomes life changing if you’re making the [best man speech](/best-man-speech-writing-service/). You could have the funniest best man speech ever written, but if people can’t hear it, they can’t laugh, and delivering a really funny speech to complete silence, would send the hardiest best man into emotional breakdown.
 

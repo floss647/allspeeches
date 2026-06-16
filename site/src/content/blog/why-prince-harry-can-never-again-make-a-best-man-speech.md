@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-03-12"
 excerpt: "We’ve all had one, you know the mate that suddenly decides it’s way better to hang out permanently with his new girlfriend and forsake watching the match in th..."
 hero: "/images/blog/Prince_Harry_in_the_US-7d9818e7.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 We’ve all had one, you know the mate that suddenly decides it’s way better to hang out permanently with his new girlfriend and forsake watching the match in the pub with you, when he could be perusing the aisles of IKEA clutching a rolling pin and a neon cushion. Only months earlier he’d berate anyone foolish enough to waste their leisure time on such mundane and meaningless activities, whilst dropping yet another Jager bomb into his own pint. It seems like the bigger they are, the harder they fall, and never has any man fallen quite as hard as Prince Harry. The one time fag smoking, committed party enthusiast with a healthy appetite for philandering, is now so wrapped up in his own web of green issues, mindfulness and talking bollocks, that he even wore tramps’ socks and shoes to the Oprah interview almost certainly in a bid to make vagrants feel more included.
 
