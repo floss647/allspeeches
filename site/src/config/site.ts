@@ -51,6 +51,13 @@ export const SITE = {
 
   // Default share image, 1200x630 branded image still to be created.
   ogImage: '/images/adrian-portrait.jpg',
+
+  // Google Ads conversion tracking. Leave blank to keep tracking OFF entirely.
+  // When set, the /thank-you page loads gtag and fires the conversion on load.
+  //   googleAdsId:    your Conversion ID, e.g. 'AW-123456789'
+  //   googleAdsLabel: the conversion label from the event snippet, e.g. 'abCdEfGh-IjK'
+  googleAdsId: '',
+  googleAdsLabel: '',
 } as const;
 
 /**

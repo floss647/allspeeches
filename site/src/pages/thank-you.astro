@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE } from '../config/site';
+
+const path = '/thank-you';
+const title = 'Thank you | All Speeches Great & Small';
+const description = 'Thank you — your message has been received.';
+
+// Google Ads conversion fires only when both IDs are configured in site.ts.
+const adsId = SITE.googleAdsId;
+const adsLabel = SITE.googleAdsLabel;
+const trackAds = Boolean(adsId && adsLabel);
+---
+<Layout title={title} description={description} path={path} noindex>
+  <section class="hero">
+    <div class="wrap measure mx-auto center">
+      <p class="eyebrow center">Message received</p>
+      <h1>Thank you</h1>
+      <p class="lede">
+        Your message has landed safely with me. I read every enquiry personally and aim to reply
+        within one working day — often sooner. Working to a tight deadline? Don't worry, last-minute
+        speeches are often possible.
+      </p>
+      <div class="btn-row mt-2" style="justify-content:center">
+        <a class="btn btn--primary" href="/">Back to home</a>
+        <a class="btn btn--ghost" href="/blogs/">Read the speech-writing blog</a>
+      </div>
+    </div>
+  </section>
+
+  {trackAds && (
+    <Fragment>
+      <!-- Google Ads (gtag.js) -->
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${adsId}`}></script>
+      <script is:inline define:vars={{ adsId, adsLabel }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', adsId);
+        // Conversion fires on this page load.
+        gtag('event', 'conversion', { send_to: `${adsId}/${adsLabel}` });
+      </script>
+    </Fragment>
+  )}
+</Layout>
