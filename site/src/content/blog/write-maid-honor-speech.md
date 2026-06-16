@@ -3,7 +3,7 @@ title: "How to write a Maid of Honor Speech"
 description: "There are plenty of Maid of Honor Speech examples on the internet but by reading this simple guide you can create your very own masterpiece."
 slug: "write-maid-honor-speech"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "There are plenty of Maid of Honor Speech examples on the internet but by reading this simple guide you can create your very own masterpiece."
 hero: "/images/blog/shutterstock_118531534-e1410435915539.webp"
 ---

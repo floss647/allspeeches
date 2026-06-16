@@ -3,7 +3,7 @@ title: "Groom speech - same sex wedding"
 description: "Weddings, and the traditions that they carry with them, have largely remained unchanged for many years, which is good and bad in equal measure. People can get a..."
 slug: "groom-speech-same-sex-wedding"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-01-27"
 excerpt: "Weddings, and the traditions that they carry with them, have largely remained unchanged for many years, which is good and bad in equal measure. People can get a..."
 hero: "/images/blog/ezgifcom-gif-maker_15.webp"
 ---

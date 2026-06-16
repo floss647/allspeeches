@@ -3,7 +3,7 @@ title: "Best man speeches: funny, but not stand up comedian please"
 description: "Undoubtedly the job of the best man speech is to make people laugh, entertain and celebrate the groom in a really funny way, if you’re in the UK, Australia and..."
 slug: "best-man-speeches-funny-but-not-stand-up-comedian-please"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-01-08"
 excerpt: "Undoubtedly the job of the best man speech is to make people laugh, entertain and celebrate the groom in a really funny way, if you’re in the UK, Australia and..."
 hero: "/images/blog/ezgifcom-gif-maker_2.webp"
 ---

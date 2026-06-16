@@ -3,7 +3,7 @@ title: "How To Deliver a Great Speech"
 description: "learning how to deliver a great speech is something that just takes a few hints and tips and lots of practice. Here are my thoughts on how to nail it."
 slug: "how-to-deliver-a-great-speech"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "learning how to deliver a great speech is something that just takes a few hints and tips and lots of practice. Here are my thoughts on how to nail it."
 hero: "/images/blog/asp-161.webp"
 ---

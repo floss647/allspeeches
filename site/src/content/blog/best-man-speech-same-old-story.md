@@ -3,7 +3,7 @@ title: "Best Man Speech - same old story"
 description: "Many people think they know and understand best man speeches. In the UK, there’s an old fashioned understanding that it’s an opportunity to publicly humiliate t..."
 slug: "best-man-speech-same-old-story"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2023-02-20"
 excerpt: "Many people think they know and understand best man speeches. In the UK, there’s an old fashioned understanding that it’s an opportunity to publicly humiliate t..."
 hero: "/images/blog/best-man-HERO.webp"
 ---

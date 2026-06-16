@@ -3,7 +3,7 @@ title: "Groom Speech - the bigger picture"
 description: "I always find it truly amazing just how little thought some grooms can put into certain areas of the big day. Yes, they'll have thought carefully about the hone..."
 slug: "groom-speech-the-bigger-picture"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-01-13"
 excerpt: "I always find it truly amazing just how little thought some grooms can put into certain areas of the big day. Yes, they'll have thought carefully about the hone..."
 hero: "/images/blog/sammy-williams-DIBwWsoshGE-unsplash.webp"
 ---

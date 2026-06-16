@@ -3,7 +3,7 @@ title: "Groom speech - a question of gifts"
 description: "The groom speech has always featured the giving of gifts, and as with a few wedding traditions, this is something I have a bit of an issue with. Yes, the weddin..."
 slug: "groom-speech-a-question-of-gifts"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-12"
 excerpt: "The groom speech has always featured the giving of gifts, and as with a few wedding traditions, this is something I have a bit of an issue with. Yes, the weddin..."
 hero: "/images/blog/wijdan-mq-H5yiRXDUkto-unsplash.webp"
 ---

@@ -3,7 +3,7 @@ title: "Best man speeches of the future"
 description: "There is a temptation to think that Coronavirus will forever change the people we are and how we interact with each other. Very early on in the pandemic, a medi..."
 slug: "best-man-speeches-of-the-future"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2020-11-25"
 excerpt: "There is a temptation to think that Coronavirus will forever change the people we are and how we interact with each other. Very early on in the pandemic, a medi..."
 hero: "/images/blog/kats-weil-133302-unsplash-min.webp"
 ---

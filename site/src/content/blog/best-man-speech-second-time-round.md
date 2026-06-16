@@ -3,7 +3,7 @@ title: "Best Man Speech - second time round"
 description: "Obviously, when a couple get married, everyone hopes that this will be forever, however, as we all know, life sometimes doesn’t work out like that. Divorce rate..."
 slug: "best-man-speech-second-time-round"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2023-02-27"
 excerpt: "Obviously, when a couple get married, everyone hopes that this will be forever, however, as we all know, life sometimes doesn’t work out like that. Divorce rate..."
 hero: "/images/blog/ezgifcom-gif-maker_12.webp"
 ---

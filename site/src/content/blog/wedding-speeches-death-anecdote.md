@@ -3,7 +3,7 @@ title: "Wedding Speeches - Death By Anecdote"
 description: "When it comes to writing wedding speech jokes we all like a good story, but just not a full half an hour of them."
 slug: "wedding-speeches-death-anecdote"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-04"
 excerpt: "When it comes to writing wedding speech jokes we all like a good story, but just not a full half an hour of them."
 hero: "/images/blog/shutterstock_172079696-e1404473706535.webp"
 ---

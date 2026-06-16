@@ -3,7 +3,7 @@ title: "Groom speech - your new year's resolution"
 description: "As the new year dawns, and you inevitably begin to think about the wedding that's in the far off distant haze of summer, you might be comforted by the fact that..."
 slug: "groom-speech-your-new-year-s-resolution"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-01-04"
 excerpt: "As the new year dawns, and you inevitably begin to think about the wedding that's in the far off distant haze of summer, you might be comforted by the fact that..."
 hero: "/images/blog/jakob-owens-Ys1MN_tnpKM-unsplash.webp"
 ---

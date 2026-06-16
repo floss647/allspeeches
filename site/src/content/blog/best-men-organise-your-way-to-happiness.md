@@ -3,7 +3,7 @@ title: "Best Men - organise your way to happiness"
 description: "I have been writing wedding speeches for a long time now, and I can’t ever remember having a conversation with someone who informed me how excited and enthusias..."
 slug: "best-men-organise-your-way-to-happiness"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2024-01-16"
 excerpt: "I have been writing wedding speeches for a long time now, and I can’t ever remember having a conversation with someone who informed me how excited and enthusias..."
 hero: "/images/blog/glenn-carstens-peters-RLw-UC03Gwc-unsplash.webp"
 ---

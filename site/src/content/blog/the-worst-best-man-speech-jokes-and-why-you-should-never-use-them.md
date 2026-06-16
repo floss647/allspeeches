@@ -3,7 +3,7 @@ title: "The worst Best man speech jokes and why you should never use them"
 description: "Being a best man is a tricky business. Most best men are elected to that exulted position in the busiest time of their adult lives; I like to think you’re not r..."
 slug: "the-worst-best-man-speech-jokes-and-why-you-should-never-use-them"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2023-10-24"
 excerpt: "Being a best man is a tricky business. Most best men are elected to that exulted position in the busiest time of their adult lives; I like to think you’re not r..."
 hero: "/images/blog/pexels-andrea-piacquadio-3771129.webp"
 ---

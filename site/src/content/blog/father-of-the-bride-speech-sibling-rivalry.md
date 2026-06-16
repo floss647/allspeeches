@@ -3,7 +3,7 @@ title: "Father of the bride speech - sibling rivalry"
 description: "I once heard a very funny radio interview with a guy, who was once asked by his wife which of the children he loved the most. He said he loved them both equally..."
 slug: "father-of-the-bride-speech-sibling-rivalry"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2022-10-12"
 excerpt: "I once heard a very funny radio interview with a guy, who was once asked by his wife which of the children he loved the most. He said he loved them both equally..."
 hero: "/images/blog/ezgifcom-gif-maker_25.webp"
 ---

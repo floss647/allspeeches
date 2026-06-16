@@ -3,7 +3,7 @@ title: "Father of the bride speech - absent friends"
 description: "It's a sad fact of life, that by the time you stand up to make your father of the bride speech there are going to be some people who aren’t there to celebrate w..."
 slug: "father-of-the-bride-speech-absent-friends"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2024-09-11"
 excerpt: "It's a sad fact of life, that by the time you stand up to make your father of the bride speech there are going to be some people who aren’t there to celebrate w..."
 hero: "/images/blog/asp-104-300x200.webp"
 ---

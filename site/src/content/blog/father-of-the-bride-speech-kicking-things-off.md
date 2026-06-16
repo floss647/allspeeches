@@ -3,7 +3,7 @@ title: "Father of the bride speech- kicking things off"
 description: "Every wedding speech has its own demands and expectations - the groom speech has got to be heartfelt, the best man speech is there for the entertainment, and th..."
 slug: "father-of-the-bride-speech-kicking-things-off"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2020-12-07"
 excerpt: "Every wedding speech has its own demands and expectations - the groom speech has got to be heartfelt, the best man speech is there for the entertainment, and th..."
 hero: "/images/blog/shutterstock_638169361-scaled.webp"
 ---

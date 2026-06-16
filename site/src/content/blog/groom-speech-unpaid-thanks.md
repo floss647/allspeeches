@@ -3,7 +3,7 @@ title: "Groom speech - unpaid thanks"
 description: "Far too many people dismiss the groom speech as just a list of thank yous. Yes, it is your job as the groom to thank and welcome people, and the thanking part i..."
 slug: "groom-speech-unpaid-thanks"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-09-04"
 excerpt: "Far too many people dismiss the groom speech as just a list of thank yous. Yes, it is your job as the groom to thank and welcome people, and the thanking part i..."
 hero: "/images/blog/thomas-william-627600-unsplash-min.webp"
 ---

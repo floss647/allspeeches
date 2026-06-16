@@ -3,7 +3,7 @@ title: "Is there such a thing as the 2 minute Best Man Speech?"
 description: "Well, to be succinct, yes and no. The 2 minute best man speech is out there, but to call it a speech might be pushing the boundaries of reality a little. In the..."
 slug: "is-there-such-a-thing-as-the-2-minute-best-man-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-13"
 excerpt: "Well, to be succinct, yes and no. The 2 minute best man speech is out there, but to call it a speech might be pushing the boundaries of reality a little. In the..."
 hero: "/images/blog/microphone-at-wedding-speech2.webp"
 ---

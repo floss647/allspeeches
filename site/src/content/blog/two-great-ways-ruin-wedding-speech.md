@@ -3,7 +3,7 @@ title: "Two Great Ways To Ruin A Wedding Speech"
 description: "If you'd like to ruin your wedding speech and wedding day, then follow these two simple rules and get help with a wedding speech"
 slug: "two-great-ways-ruin-wedding-speech"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "If you'd like to ruin your wedding speech and wedding day, then follow these two simple rules and get help with a wedding speech"
 hero: "/images/blog/Microphone.webp"
 ---

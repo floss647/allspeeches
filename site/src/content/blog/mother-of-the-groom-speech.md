@@ -3,7 +3,7 @@ title: "Mother of the Groom Speech"
 description: "Mother of the Groom Speech The mother of the groom speech has for some years become much more of a staple in the wedding speech line up, as an alternative to th..."
 slug: "mother-of-the-groom-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-02-01"
 excerpt: "Mother of the Groom Speech The mother of the groom speech has for some years become much more of a staple in the wedding speech line up, as an alternative to th..."
 ---
 ### Introduce Yourself

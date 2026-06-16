@@ -3,7 +3,7 @@ title: "Father of the bride speech - it's been emotional"
 description: "There's no getting away from it: unless you're a robot, and/or you have a semi dysfunctional relationship with your daughter, the father of the bride speech is ..."
 slug: "father-of-the-bride-speech-it-s-been-emotional"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2022-01-20"
 excerpt: "There's no getting away from it: unless you're a robot, and/or you have a semi dysfunctional relationship with your daughter, the father of the bride speech is ..."
 hero: "/images/blog/jakob-owens-4BQPUDJxMe8-unsplash.webp"
 ---

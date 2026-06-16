@@ -3,7 +3,7 @@ title: "Still popping the question on Christmas Eve?"
 description: "There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, a..."
 slug: "still-popping-the-question-on-christmas-eve"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2020-12-19"
 excerpt: "There's no doubt about it, Christmas Eve is one of the two biggest days for popping the question. It shares the limelight with close bedfellow New Year's Eve, a..."
 hero: "/images/blog/our-story-04.webp"
 ---

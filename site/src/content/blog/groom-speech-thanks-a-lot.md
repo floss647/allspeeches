@@ -3,7 +3,7 @@ title: "Groom speech...thanks...a lot!"
 description: "It's not often that you're asked to stand up in front of room full of people and say lovely things about them, in fact when it does happen it usually means they..."
 slug: "groom-speech-thanks-a-lot"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2020-12-09"
 excerpt: "It's not often that you're asked to stand up in front of room full of people and say lovely things about them, in fact when it does happen it usually means they..."
 hero: "/images/blog/thomas-william-627600-unsplash-min.webp"
 ---

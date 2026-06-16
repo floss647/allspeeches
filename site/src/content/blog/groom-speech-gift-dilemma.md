@@ -3,7 +3,7 @@ title: "Groom speech gift dilemma"
 description: "Everyone loves a present. As a grown up, you’re supposed to sign up to the mantra that giving is so much more pleasurable than receiving, which is of course, no..."
 slug: "groom-speech-gift-dilemma"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-02-08"
 excerpt: "Everyone loves a present. As a grown up, you’re supposed to sign up to the mantra that giving is so much more pleasurable than receiving, which is of course, no..."
 hero: "/images/blog/ezgifcom-gif-maker_6.webp"
 ---

@@ -3,7 +3,7 @@ title: "Father of the bride speech - filling in the gaps"
 description: "If life goes according to plan, your daughter will meet the man of her dreams, fall in love and then decide to get married. This all usually takes its time, and..."
 slug: "father-of-the-bride-speech-filling-in-the-gaps"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-08"
 excerpt: "If life goes according to plan, your daughter will meet the man of her dreams, fall in love and then decide to get married. This all usually takes its time, and..."
 hero: "/images/blog/samantha-gades-CsrwM-bHQIg-unsplash.webp"
 ---

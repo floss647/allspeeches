@@ -3,7 +3,7 @@ title: "How to deliver a Great Best Man Speech"
 description: "Forget the content, when thinking about how to deliver a best man speech it's about a lot more than just the words. Here are my top ten tips, that will give you every chance."
 slug: "deliver-great-best-man-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Forget the content, when thinking about how to deliver a best man speech it's about a lot more than just the words. Here are my top ten tips, that will give you every chance."
 hero: "/images/blog/shutterstock_138750278.webp"
 ---

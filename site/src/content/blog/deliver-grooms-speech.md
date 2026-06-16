@@ -3,7 +3,7 @@ title: "How To Deliver A Groom's Speech"
 description: "When it comes to delivering a great Groom's speech the key is in the content and that could be down to a great Groom speech Writer"
 slug: "deliver-grooms-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "When it comes to delivering a great Groom's speech the key is in the content and that could be down to a great Groom speech Writer"
 hero: "/images/blog/shutterstock_156465710-e1416759332395.webp"
 ---

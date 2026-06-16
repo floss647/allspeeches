@@ -3,7 +3,7 @@ title: "Father of the bride speech - the pitfalls"
 description: "There are many pitfalls in wedding speeches, and they're all different depending on what speech you're making. Many best men like to talk about themselves far t..."
 slug: "father-of-the-bride-speech-the-pitfalls"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-09-09"
 excerpt: "There are many pitfalls in wedding speeches, and they're all different depending on what speech you're making. Many best men like to talk about themselves far t..."
 hero: "/images/blog/jakob-owens-4BQPUDJxMe8-unsplash.webp"
 ---

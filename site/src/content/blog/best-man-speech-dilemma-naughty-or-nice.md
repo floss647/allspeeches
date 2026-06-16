@@ -3,7 +3,7 @@ title: "Best man speech dilemma - naughty or nice?"
 description: "I have long since come to realise that there are only two types groom: those that are very naughty, and have racked up multiple stories about their exploits ove..."
 slug: "best-man-speech-dilemma-naughty-or-nice"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-01"
 excerpt: "I have long since come to realise that there are only two types groom: those that are very naughty, and have racked up multiple stories about their exploits ove..."
 hero: "/images/blog/david-herron-vLMudSrXIxg-unsplash.webp"
 ---

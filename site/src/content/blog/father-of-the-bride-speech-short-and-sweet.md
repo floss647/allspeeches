@@ -3,7 +3,7 @@ title: "Father of the bride speech - short and sweet?"
 description: "When it comes to public speaking, the way I like to look at it is: nobody normal likes standing up in front of a lot of people and talking out loud. If you're n..."
 slug: "father-of-the-bride-speech-short-and-sweet"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-04"
 excerpt: "When it comes to public speaking, the way I like to look at it is: nobody normal likes standing up in front of a lot of people and talking out loud. If you're n..."
 hero: "/images/blog/james-bold-0dj5ekWaDgQ-unsplash.webp"
 ---

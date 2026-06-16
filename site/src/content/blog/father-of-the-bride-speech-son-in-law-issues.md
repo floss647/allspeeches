@@ -3,7 +3,7 @@ title: "Father of the bride speech - son in law issues"
 description: "With all the jolity that surrounds a wedding, most people take it for granted that beneath the yummy design touches, the carefully crafted favours, and the stri..."
 slug: "father-of-the-bride-speech-son-in-law-issues"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2020-11-09"
 excerpt: "With all the jolity that surrounds a wedding, most people take it for granted that beneath the yummy design touches, the carefully crafted favours, and the stri..."
 hero: "/images/blog/UNADJUSTEDNONRAW_thumb_2303.webp"
 ---

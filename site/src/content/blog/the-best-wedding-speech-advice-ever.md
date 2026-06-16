@@ -3,7 +3,7 @@ title: "The Best Wedding Speech Advice Ever"
 description: "This is the single best piece of advice I could give anyone who has to make a wedding speech in the near future. It's free, and it's beautifully simple."
 slug: "the-best-wedding-speech-advice-ever"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-06"
 excerpt: "This is the single best piece of advice I could give anyone who has to make a wedding speech in the near future. It's free, and it's beautifully simple."
 hero: "/images/blog/man-couple-people-woman.webp"
 ---

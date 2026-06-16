@@ -3,7 +3,7 @@ title: "If you haven't got anything to say...just keep talking"
 description: "Today I received a notice from Facebook that I haven't posted anything on one of my pages for 20 days, it was a gentle reminder that in a world which is daily b..."
 slug: "havent-got-anything-say-just-keep-talking"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2017-03-09"
 excerpt: "Today I received a notice from Facebook that I haven't posted anything on one of my pages for 20 days, it was a gentle reminder that in a world which is daily b..."
 hero: "/images/blog/IMG_3816.webp"
 ---

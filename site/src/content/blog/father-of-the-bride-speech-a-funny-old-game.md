@@ -3,7 +3,7 @@ title: "Father of the bride speech - a funny old game"
 description: "Many years ago, when I entered the working world, I very quickly came to the conclusion that I was ideally unsuited to communicating in a corporate way. Every t..."
 slug: "father-of-the-bride-speech-a-funny-old-game"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2023-01-11"
 excerpt: "Many years ago, when I entered the working world, I very quickly came to the conclusion that I was ideally unsuited to communicating in a corporate way. Every t..."
 hero: "/images/blog/ezgifcom-gif-maker_25.webp"
 ---

@@ -3,7 +3,7 @@ title: "Last Minute Speech"
 description: "A lot of best men and sometimes the groom suddenly find themselves grappling with a last minute speech. It's a very common situation where only a clear head and cool nerves will see you through."
 slug: "last-minute-speech"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "A lot of best men and sometimes the groom suddenly find themselves grappling with a last minute speech. It's a very common situation where only a clear head and cool nerves will see you through."
 hero: "/images/blog/shutterstock_194514695.webp"
 ---

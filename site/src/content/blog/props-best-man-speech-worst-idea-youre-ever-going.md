@@ -3,7 +3,7 @@ title: "Why using props in a Best Man Speech is the worst idea you're ever going
 description: "Using props in a best man speech is never a good idea. A tricky days becomes even trickier and nobody will be looking at you."
 slug: "props-best-man-speech-worst-idea-youre-ever-going"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Using props in a best man speech is never a good idea. A tricky days becomes even trickier and nobody will be looking at you."
 hero: "/images/blog/asp-90.webp"
 ---

@@ -3,7 +3,7 @@ title: "Father of the bride speech, settling the scores?"
 description: "I often say that the rarest wedding scenario I write for is two couples in their thirties, with two intact, happily married sets of parents. It so very rarely h..."
 slug: "father-of-the-bride-speech-settling-the-scores"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-10"
 excerpt: "I often say that the rarest wedding scenario I write for is two couples in their thirties, with two intact, happily married sets of parents. It so very rarely h..."
 hero: "/images/blog/cinematic-imagery-660898-unsplash-min.webp"
 ---

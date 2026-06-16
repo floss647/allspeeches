@@ -3,7 +3,7 @@ title: "Groom's Speech - Death By Thanks"
 description: "If you're not careful the groom's speech can become one long torturous interlude that requires extra dollops of wine to survive but it doesn't have to be that way"
 slug: "grooms-speech-death-thanks"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "If you're not careful the groom's speech can become one long torturous interlude that requires extra dollops of wine to survive but it doesn't have to be that way"
 hero: "/images/blog/shutterstock_156465710-e1416759332395.webp"
 ---

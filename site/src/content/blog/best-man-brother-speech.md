@@ -3,7 +3,7 @@ title: "Best Man Brother Speech"
 description: "Making a best man speech for your brother can be a very daunting experience, here are my tips how how to go about making it a triumph!"
 slug: "best-man-brother-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2017-12-13"
 excerpt: "Making a best man speech for your brother can be a very daunting experience, here are my tips how how to go about making it a triumph!"
 hero: "/images/blog/juan-pablo-rodriguez-334216.webp"
 ---

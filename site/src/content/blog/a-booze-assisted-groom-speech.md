@@ -3,7 +3,7 @@ title: "A booze assisted groom speech?"
 description: "We’ve seen many reports over the last few months that tell us how much more we’re drinking thanks to COVID-19 and the roll over lockdowns. It seems as though mo..."
 slug: "a-booze-assisted-groom-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-01-12"
 excerpt: "We’ve seen many reports over the last few months that tell us how much more we’re drinking thanks to COVID-19 and the roll over lockdowns. It seems as though mo..."
 hero: "/images/blog/ezgifcom-gif-maker.webp"
 ---

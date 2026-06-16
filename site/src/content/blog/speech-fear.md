@@ -3,7 +3,7 @@ title: "Wedding Speech Fear"
 description: "Many of us suffer from a fear of public speaking but if you just stop to think about it, do some preparation and give yourself every possible chance, there's nothing to it"
 slug: "speech-fear"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Many of us suffer from a fear of public speaking but if you just stop to think about it, do some preparation and give yourself every possible chance, there's nothing to it"
 hero: "/images/blog/shutterstock_81215590-e1416776911615-1.webp"
 ---

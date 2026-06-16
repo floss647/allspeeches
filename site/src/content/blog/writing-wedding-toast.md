@@ -3,7 +3,7 @@ title: "Writing a Wedding Toast"
 description: "Writing a Wedding Toast has it's subtle differences to our good old British Wedding Speech, but they're all good things to take on board and may just make ours better"
 slug: "writing-wedding-toast"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Writing a Wedding Toast has it's subtle differences to our good old British Wedding Speech, but they're all good things to take on board and may just make ours better"
 hero: "/images/blog/shutterstock_106649108.webp"
 ---

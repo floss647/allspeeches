@@ -3,7 +3,7 @@ title: "Best Man Speech Formats"
 description: "The Best Man Speech format can be over thought, in fact it's actually pretty simple. All you have to do is think of it as one big story."
 slug: "best-man-speech-formats"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "The Best Man Speech format can be over thought, in fact it's actually pretty simple. All you have to do is think of it as one big story."
 hero: "/images/blog/mike-tinnion-327565.webp"
 ---

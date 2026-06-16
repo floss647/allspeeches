@@ -3,7 +3,7 @@ title: "Hiring A Speech Writer"
 description: "Hiring a speech writer used to be the privilege of the wealthy and connected but thanks to the digital age having a bespoke speech written for you is now within the grasp of us all."
 slug: "hiring-speech-writer"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Hiring a speech writer used to be the privilege of the wealthy and connected but thanks to the digital age having a bespoke speech written for you is now within the grasp of us all."
 hero: "/images/blog/Fountain-Pen.webp"
 ---

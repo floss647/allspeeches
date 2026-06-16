@@ -3,7 +3,7 @@ title: "Groom speech - a 25 minute epic?"
 description: "I always like to emphasise that the groom speech is a unique opportunity to stand up and say lovely things about people who are, and were, important in your lif..."
 slug: "groom-speech-a-25-minute-epic"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-08-13"
 excerpt: "I always like to emphasise that the groom speech is a unique opportunity to stand up and say lovely things about people who are, and were, important in your lif..."
 hero: "/images/blog/andreas-ronningen-S2YssLw97l4-unsplash.webp"
 ---

@@ -3,7 +3,7 @@ title: "Fake plastic...telegrammes"
 description: "So many best men that I write for all say the same thing: 'I haven't got anything to say!', and this can be for a whole variety of reason. Sometimes you really ..."
 slug: "fake-plastic-telegrammes"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2020-05-20"
 excerpt: "So many best men that I write for all say the same thing: 'I haven't got anything to say!', and this can be for a whole variety of reason. Sometimes you really ..."
 hero: "/images/blog/accessory-adult-beautiful-1451359-min.webp"
 ---

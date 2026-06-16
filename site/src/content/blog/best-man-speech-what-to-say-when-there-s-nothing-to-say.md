@@ -3,7 +3,7 @@ title: "Best man speech, what to say, when there’s nothing to say?"
 description: "The great thing about being a man is that you can bumble along in life and not really take that much interest in your surroundings, for about the first 30 years..."
 slug: "best-man-speech-what-to-say-when-there-s-nothing-to-say"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-07"
 excerpt: "The great thing about being a man is that you can bumble along in life and not really take that much interest in your surroundings, for about the first 30 years..."
 hero: "/images/blog/ezgifcom-gif-maker_1.webp"
 ---

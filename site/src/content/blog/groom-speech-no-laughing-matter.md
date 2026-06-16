@@ -3,7 +3,7 @@ title: "groom speech - no laughing matter?"
 description: "There’s a really basic equation when it comes to speeches, and that is: if you want people to listen to what you’re saying, then make it entertaining. Yes, of c..."
 slug: "groom-speech-no-laughing-matter"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2023-02-14"
 excerpt: "There’s a really basic equation when it comes to speeches, and that is: if you want people to listen to what you’re saying, then make it entertaining. Yes, of c..."
 hero: "/images/blog/New_Project-7.webp"
 ---

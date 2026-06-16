@@ -3,7 +3,7 @@ title: "Best man speech, it’s with you for the long haul"
 description: "Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, other..."
 slug: "best-man-speech-it-s-with-you-for-the-long-haul"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-08"
 excerpt: "Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, other..."
 hero: "/images/blog/ezgifcom-gif-maker_11.webp"
 ---

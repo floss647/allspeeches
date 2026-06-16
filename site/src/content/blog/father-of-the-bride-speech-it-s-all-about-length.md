@@ -3,7 +3,7 @@ title: "Father of the bride speech - it's all about length"
 description: "There are a few key areas to a speech that will dictate its success, and whilst structure and great writing are obviously important, nothing really determines t..."
 slug: "father-of-the-bride-speech-it-s-all-about-length"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-12-04"
 excerpt: "There are a few key areas to a speech that will dictate its success, and whilst structure and great writing are obviously important, nothing really determines t..."
 hero: "/images/blog/bradley-pisney-CJqKqAHTwUw-unsplash.webp"
 ---

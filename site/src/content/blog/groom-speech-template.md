@@ -3,7 +3,7 @@ title: "Groom Speech Template"
 description: "Forget wasting endless hours trying to work out how to do it, I already know. Instead, send me some information, and I’ll create a bespoke template for you.  I can produce stacks of ideas for creating original, very funny lines just from your content. I can provide you with original, powerful, and engaging sentiments. Guaranteed no boring clichés, no internet one liners."
 slug: "groom-speech-template"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-05"
 excerpt: "Forget wasting endless hours trying to work out how to do it, I already know. Instead, send me some information, and I’ll create a bespoke template for you.  I can produce stacks of ideas for creating"
 hero: "/images/blog/REVIEWSio_Social_Proof_Image_28.webp"
 ---

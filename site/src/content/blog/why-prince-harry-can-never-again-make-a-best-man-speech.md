@@ -3,7 +3,7 @@ title: "Why Prince Harry can never again make a best man speech"
 description: "We’ve all had one, you know the mate that suddenly decides it’s way better to hang out permanently with his new girlfriend and forsake watching the match in th..."
 slug: "why-prince-harry-can-never-again-make-a-best-man-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-12"
 excerpt: "We’ve all had one, you know the mate that suddenly decides it’s way better to hang out permanently with his new girlfriend and forsake watching the match in th..."
 hero: "/images/blog/Prince_Harry_in_the_US-7d9818e7.webp"
 ---

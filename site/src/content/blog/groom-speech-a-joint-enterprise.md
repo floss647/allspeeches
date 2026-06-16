@@ -3,7 +3,7 @@ title: "Groom Speech - a joint enterprise?"
 description: "Most young couples about to get married are clearly quite keen on one another, and so they should be - they are, after all, committing themselves to all eternit..."
 slug: "groom-speech-a-joint-enterprise"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-03-08"
 excerpt: "Most young couples about to get married are clearly quite keen on one another, and so they should be - they are, after all, committing themselves to all eternit..."
 hero: "/images/blog/shutterstock_428257765-scaled.webp"
 ---

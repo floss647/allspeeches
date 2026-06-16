@@ -3,7 +3,7 @@ title: "Best Man Speech - Father to Son"
 description: "In times gone by, the best man role was usually handed over to a brother, or a good friend, and whilst that's still largely the case, things are changing. It's ..."
 slug: "best-man-speech-father-to-son"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-25"
 excerpt: "In times gone by, the best man role was usually handed over to a brother, or a good friend, and whilst that's still largely the case, things are changing. It's ..."
 hero: "/images/blog/ben-white-JJ9irt1OZmI-unsplash.webp"
 ---

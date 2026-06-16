@@ -3,7 +3,7 @@ title: "Father of the bride speech when you’re not the father"
 description: "There are a few reasons why the bride’s father doesn’t make a speech, and none of them are particularly pleasant. Unfortunately the most common one is that he’s..."
 slug: "father-of-the-bride-speech-when-you-re-not-the-father"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-01-18"
 excerpt: "There are a few reasons why the bride’s father doesn’t make a speech, and none of them are particularly pleasant. Unfortunately the most common one is that he’s..."
 hero: "/images/blog/ezgifcom-gif-maker_22.webp"
 ---

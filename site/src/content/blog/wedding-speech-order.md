@@ -3,7 +3,7 @@ title: "Wedding Speech Order"
 description: "Wedding Speech Order There are many things that are important when it comes to the big day, but knowing the wedding speech order, is absolutely critical to the ..."
 slug: "wedding-speech-order"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2022-02-01"
 excerpt: "Wedding Speech Order There are many things that are important when it comes to the big day, but knowing the wedding speech order, is absolutely critical to the ..."
 ---
 ### Order

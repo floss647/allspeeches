@@ -3,7 +3,7 @@ title: "Best Man speeches: get your vaccination here"
 description: "At the moment with the world in what seem like a terminal tail spin, you often hear pundits, politicians and those that mainly breathe through their mouth, decl..."
 slug: "best-man-speeches-get-your-vaccination-here"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2020-12-30"
 excerpt: "At the moment with the world in what seem like a terminal tail spin, you often hear pundits, politicians and those that mainly breathe through their mouth, decl..."
 hero: "/images/blog/suit-portrait-preparation-wedding.webp"
 ---

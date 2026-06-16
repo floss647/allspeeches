@@ -3,7 +3,7 @@ title: "Best man speech - don't kick it down the road"
 description: "There weren’t many upsides to a global pandemic, but for best men all around the world, it was the most unbelievable, unexpected and glorious reprieve they coul..."
 slug: "bets-man-speech-don-t-kick-it-down-the-road"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2023-01-04"
 excerpt: "There weren’t many upsides to a global pandemic, but for best men all around the world, it was the most unbelievable, unexpected and glorious reprieve they coul..."
 hero: "/images/blog/rui-matayoshi-Kp9TWkldQYA-unsplash_2.webp"
 ---

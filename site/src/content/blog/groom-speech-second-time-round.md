@@ -3,7 +3,7 @@ title: "Groom speech second time round"
 description: "Very recently I ticked another first in the world of All Speeches Great and Small, by being asked to write a groom speech for someone I had already penned one f..."
 slug: "groom-speech-second-time-round"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2020-12-07"
 excerpt: "Very recently I ticked another first in the world of All Speeches Great and Small, by being asked to write a groom speech for someone I had already penned one f..."
 hero: "/images/blog/shutterstock_394327291-1-scaled.webp"
 ---

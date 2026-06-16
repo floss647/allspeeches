@@ -3,7 +3,7 @@ title: "Groom speech: some really great bad advice"
 description: "I love being a wedding speech writer, as I have the opportunity to meet some really fascinating people, hear their life stories and create something for them th..."
 slug: "groom-speech-some-really-great-bad-advice"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-01-08"
 excerpt: "I love being a wedding speech writer, as I have the opportunity to meet some really fascinating people, hear their life stories and create something for them th..."
 hero: "/images/blog/will-myers-_CNtg_XjDgA-unsplash.webp"
 ---

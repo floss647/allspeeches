@@ -3,7 +3,7 @@ title: "Groom speech - how to handle the best man"
 description: "Traditionally the best man can be a bit of a loose cannon. He's the guy you've selected to celebrate you in just the right way, probably a lifelong friend or br..."
 slug: "groom-speech-how-to-handle-the-best-man"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-28"
 excerpt: "Traditionally the best man can be a bit of a loose cannon. He's the guy you've selected to celebrate you in just the right way, probably a lifelong friend or br..."
 hero: "/images/blog/natilyn-hicks-aubrey-hicks-photography-abPrOvbLdAw-unsplash.webp"
 ---

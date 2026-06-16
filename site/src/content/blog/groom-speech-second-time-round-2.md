@@ -3,7 +3,7 @@ title: "Groom speech - second time round"
 description: "The Coronavirus has been responsible for many things, but when that guy from the Wuhan lab decided to make a few extra quid by selling a some sort of infected j..."
 slug: "groom-speech-second-time-round-2"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-02-02"
 excerpt: "The Coronavirus has been responsible for many things, but when that guy from the Wuhan lab decided to make a few extra quid by selling a some sort of infected j..."
 hero: "/images/blog/ezgifcom-gif-maker_4.webp"
 ---

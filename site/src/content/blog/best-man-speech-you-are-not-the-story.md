@@ -3,7 +3,7 @@ title: "Best Man Speech - you are not the story"
 description: "It's very rare that people get the opportunity to talk about themselves in an indulgent way. Yes, we might be asked in job interviews what we like to do in our ..."
 slug: "best-man-speech-you-are-not-the-story"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-12-15"
 excerpt: "It's very rare that people get the opportunity to talk about themselves in an indulgent way. Yes, we might be asked in job interviews what we like to do in our ..."
 hero: "/images/blog/shutterstock_117930757-2.webp"
 ---

@@ -3,7 +3,7 @@ title: "Two Best Man Speeches - The Worst Idea Ever?"
 description: "If you're one of two best men then you really need to have your stuff worked out, because there's now a much greater chance of getting it wrong."
 slug: "two-best-man-speeches-worst-idea-ever"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-02"
 excerpt: "If you're one of two best men then you really need to have your stuff worked out, because there's now a much greater chance of getting it wrong."
 hero: "/images/blog/shutterstock_59454907-e1404287203949.webp"
 ---

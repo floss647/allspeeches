@@ -3,7 +3,7 @@ title: "Wedding speeches, Get on the mic"
 description: "There’s one golden rule about wedding speeches that people tend to overlook, and that is: if they can’t hear you, there’s simply no point. For some reason a siz..."
 slug: "wedding-speeches-get-on-the-mic"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-23"
 excerpt: "There’s one golden rule about wedding speeches that people tend to overlook, and that is: if they can’t hear you, there’s simply no point. For some reason a siz..."
 hero: "/images/blog/shutterstock_138750278-b3894690.webp"
 ---

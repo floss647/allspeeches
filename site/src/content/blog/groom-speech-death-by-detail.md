@@ -3,7 +3,7 @@ title: "Groom speech - death by detail"
 description: "There are many pitfalls to a groom speech, but perhaps the biggest trap for any speech, especially wedding speeches, is their length. A speech can be completely..."
 slug: "groom-speech-death-by-detail"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2023-03-15"
 excerpt: "There are many pitfalls to a groom speech, but perhaps the biggest trap for any speech, especially wedding speeches, is their length. A speech can be completely..."
 hero: "/images/blog/New_Project-7.webp"
 ---

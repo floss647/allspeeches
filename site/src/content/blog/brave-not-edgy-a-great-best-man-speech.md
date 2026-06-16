@@ -3,7 +3,7 @@ title: "Brave Not Edgy - A Great Best Man Speech"
 description: "A great best man speech relies pretty much on one commodity: humour. Don't be crass, don't be edgy. Just be funny."
 slug: "brave-not-edgy-a-great-best-man-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "A great best man speech relies pretty much on one commodity: humour. Don't be crass, don't be edgy. Just be funny."
 hero: "/images/blog/fashion-men-vintage-colorful.webp"
 ---

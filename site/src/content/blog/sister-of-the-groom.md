@@ -3,7 +3,7 @@ title: "Sister of the Groom"
 description: "Sister of the Groom Speech Over the years, wedding traditions are progressed to more accurately reflect the world we live in, and long may that continue. The da..."
 slug: "sister-of-the-groom"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-02-01"
 excerpt: "Sister of the Groom Speech Over the years, wedding traditions are progressed to more accurately reflect the world we live in, and long may that continue. The da..."
 ---
 ### Engaging

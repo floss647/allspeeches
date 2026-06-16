@@ -3,7 +3,7 @@ title: "Groom speech - a stunning surprise?"
 description: "It seems to me that there are a few words that only seem to make an appearance on specific special occasions. We can quite happily go our whole lives without us..."
 slug: "groom-speech-a-stunning-surprise"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-12-10"
 excerpt: "It seems to me that there are a few words that only seem to make an appearance on specific special occasions. We can quite happily go our whole lives without us..."
 hero: "/images/blog/drew-coffman-llWjwo200fo-unsplash_2.webp"
 ---

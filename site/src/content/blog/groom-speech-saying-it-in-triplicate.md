@@ -3,7 +3,7 @@ title: "Groom Speech - Saying it in triplicate"
 description: "I’ve always worked on the principle that it’s better to do something well once, rather than have a few, less proficient stabs at it. Marriage and bungee jumping..."
 slug: "groom-speech-saying-it-in-triplicate"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2024-04-18"
 excerpt: "I’ve always worked on the principle that it’s better to do something well once, rather than have a few, less proficient stabs at it. Marriage and bungee jumping..."
 hero: "/images/blog/alvin-mahmudov-DnJioJ8nhxI-unsplash.webp"
 ---

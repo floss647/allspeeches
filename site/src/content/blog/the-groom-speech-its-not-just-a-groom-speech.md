@@ -3,7 +3,7 @@ title: "The Groom speech...it's not just a groom speech"
 description: "Over the years I have lost count of the number of times I've heard people dismiss the groom speech as just a groom speech. For some reason they like to relegate..."
 slug: "the-groom-speech-its-not-just-a-groom-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-01-03"
 excerpt: "Over the years I have lost count of the number of times I've heard people dismiss the groom speech as just a groom speech. For some reason they like to relegate..."
 hero: "/images/blog/groom-man-person-1711419-min.webp"
 ---

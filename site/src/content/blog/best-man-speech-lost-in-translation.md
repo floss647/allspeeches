@@ -3,7 +3,7 @@ title: "Best man speech, lost in translation"
 description: "The world has always been a big place, and ever since time began we’ve wandered far and wide trying to find that special someone…or at the very least, someone w..."
 slug: "best-man-speech-lost-in-translation"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-03"
 excerpt: "The world has always been a big place, and ever since time began we’ve wandered far and wide trying to find that special someone…or at the very least, someone w..."
 hero: "/images/blog/ezgifcom-gif-maker_10.webp"
 ---

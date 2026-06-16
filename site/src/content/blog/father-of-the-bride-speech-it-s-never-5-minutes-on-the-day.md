@@ -3,7 +3,7 @@ title: "Father of the bride speech - it's never 5 minutes on the day"
 description: "When people are thinking about and talking about speeches, there’s a tendency, for several reasons, to dismiss the speech as just 5 minutes on the day. Maybe th..."
 slug: "father-of-the-bride-speech-it-s-never-5-minutes-on-the-day"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2023-03-06"
 excerpt: "When people are thinking about and talking about speeches, there’s a tendency, for several reasons, to dismiss the speech as just 5 minutes on the day. Maybe th..."
 hero: "/images/blog/father-of-the-bride-jokes-hero.webp"
 ---

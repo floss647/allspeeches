@@ -3,7 +3,7 @@ title: "Father of the bride speech - opportunity knocks"
 description: "Whenever I talk to clients, they are usually like to emphasis just how much they don’t enjoy public speaking, and how much they really would like this speech to..."
 slug: "father-of-the-bride-speech-opportunity-knocks"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2024-02-04"
 excerpt: "Whenever I talk to clients, they are usually like to emphasis just how much they don’t enjoy public speaking, and how much they really would like this speech to..."
 hero: "/images/blog/taylor-gray-nFrMoJvCUyY-unsplash_2_2.webp"
 ---
