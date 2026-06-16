@@ -8,6 +8,7 @@ service: "/father-of-the-bride-speech-writer"
 serviceLabel: "Father of the Bride Speech Writer"
 datePublished: "2021-06-01"
 dateModified: "2026-06-02"
+video: "u-Ntv61GCdY"
 faqs:
   - q: "How do you write a great father of the bride speech?"
     a: "A great father of the bride speech blends heartfelt tribute with genuine humour, taking the room on a fun, moving journey through your daughter's life."

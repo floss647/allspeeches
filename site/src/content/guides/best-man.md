@@ -8,6 +8,7 @@ service: "/best-man-speech-writer/"
 serviceLabel: "Best Man Speech Writer"
 datePublished: "2021-06-01"
 dateModified: "2026-06-02"
+video: "O_zAdJIc31o"
 faqs:
   - q: "How do you write a great best man speech?"
     a: "A great best man speech is built on structure, a few well-chosen stories about the groom, and original humour, not recycled jokes."

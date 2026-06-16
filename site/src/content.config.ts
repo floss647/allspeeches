@@ -14,6 +14,7 @@ const guides = defineCollection({
     serviceLabel: z.string(),
     datePublished: z.string(),
     dateModified: z.string(),
+    video: z.string().optional(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
   }),
 });
