@@ -1,15 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { SITE } from '../config/site';
 
 const path = '/thank-you';
 const title = 'Thank you | All Speeches Great & Small';
 const description = 'Thank you — your message has been received.';
-
-// Google Ads conversion fires only when both IDs are configured in site.ts.
-const adsId = SITE.googleAdsId;
-const adsLabel = SITE.googleAdsLabel;
-const trackAds = Boolean(adsId && adsLabel);
+// The Google Ads conversion is fired by the cookie-consent component once
+// marketing consent has been granted (it detects this /thank-you page).
 ---
 <Layout title={title} description={description} path={path} noindex>
   <section class="hero">
@@ -27,19 +23,4 @@ const trackAds = Boolean(adsId && adsLabel);
       </div>
     </div>
   </section>
-
-  {trackAds && (
-    <Fragment>
-      <!-- Google Ads (gtag.js) -->
-      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${adsId}`}></script>
-      <script is:inline define:vars={{ adsId, adsLabel }}>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', adsId);
-        // Conversion fires on this page load.
-        gtag('event', 'conversion', { send_to: `${adsId}/${adsLabel}` });
-      </script>
-    </Fragment>
-  )}
 </Layout>
