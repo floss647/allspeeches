@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import FeaturedIn from '../components/FeaturedIn.astro';
 import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
 import { SITE, fill } from '../config/site';
@@ -48,6 +49,9 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       </p>
     </div>
   </section>
+
+  <!-- AS FEATURED IN -->
+  <FeaturedIn />
 
   <!-- SERVICES -->
   <section class="section">
