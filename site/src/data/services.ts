@@ -41,7 +41,7 @@ export const services: ServiceData[] = [
     serviceType: 'Best man speech writing',
     withPrice: true,
     heroImage: '/images/card-best-man.webp',
-    ctaLabel: 'Get my best man speech written, £399',
+    ctaLabel: 'Get my best man speech written for £399',
     intro: [
       "Being asked to be best man is an honour. Being asked to stand up and speak in front of everyone the groom has ever met is the terrifying bit. I take that part off your hands, writing you a best man speech that's funny, warm and unmistakably yours, so you can enjoy the day instead of dreading the tapping of a glass.",
       "I'm Adrian Simpson, the UK's most highly rated and reviewed professional speech writer. I've written hundreds of best man speeches, and not one of them came from a template.",
@@ -85,7 +85,7 @@ export const services: ServiceData[] = [
     serviceType: 'Groom speech writing',
     withPrice: true,
     heroImage: '/images/card-groom.webp',
-    ctaLabel: 'Get my groom speech written, £399',
+    ctaLabel: 'Get my groom speech written for £399',
     intro: [
       "The groom's speech is the one with the most to do: thank everyone, raise a few laughs, and say something about your partner that you'll both remember for the rest of your lives. That's a lot to balance, which is exactly why I write groom speeches for a living. I'll craft you something sincere, genuinely funny and completely original, so you can speak from the heart without the weeks of worry.",
     ],
@@ -127,7 +127,7 @@ export const services: ServiceData[] = [
     serviceType: 'Father of the bride speech writing',
     withPrice: true,
     heroImage: '/images/card-father-of-bride.webp',
-    ctaLabel: 'Get my father of the bride speech written, £399',
+    ctaLabel: 'Get my father of the bride speech written for £399',
     intro: [
       "It's one of the proudest moments of your life, and one of the hardest to put into words. The father of the bride speech has to be warm, a little funny, genuinely moving, and somehow sum up everything you feel about your daughter without falling apart at the lectern. I'll write you something that does all of that, in your voice, so you can simply enjoy the moment.",
     ],
@@ -169,7 +169,7 @@ export const services: ServiceData[] = [
     serviceType: 'Maid of honour speech writing',
     withPrice: true,
     heroImage: '/images/card-maid-of-honour.webp',
-    ctaLabel: 'Get my maid of honour speech written, £399',
+    ctaLabel: 'Get my maid of honour speech written for £399',
     intro: [
       "The maid of honour speech is having its moment, and it should be brilliant. Funny, touching, and full of the friendship only you two share. I'll write you a maid of honour speech that has the room laughing one minute and reaching for a tissue the next, all in your voice and built entirely around your story.",
     ],
