@@ -3,7 +3,7 @@ title: "Father of the bride speech - poetic licence?"
 description: "The father of the bride speech is obviously your one big chance to stand up and tell everyone at the wedding exactly what your daughter means to you. It is an a..."
 slug: "father-of-the-bride-speech-poetic-licence"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-08-23"
 excerpt: "The father of the bride speech is obviously your one big chance to stand up and tell everyone at the wedding exactly what your daughter means to you. It is an a..."
 hero: "/images/blog/lydia-turner-bLKBipzGLXI-unsplash.webp"
 ---

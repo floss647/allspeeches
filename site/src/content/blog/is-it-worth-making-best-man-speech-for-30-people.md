@@ -3,7 +3,7 @@ title: "Is it worth making Best Man speech for 30 people?"
 description: "Well, obviously I'm going to say yes, but apart from the very real need to feed my children, why would you bother making a best man speech to a comparatively sm..."
 slug: "is-it-worth-making-best-man-speech-for-30-people"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-05-22"
 excerpt: "Well, obviously I'm going to say yes, but apart from the very real need to feed my children, why would you bother making a best man speech to a comparatively sm..."
 hero: "/images/blog/Microphone.webp"
 ---

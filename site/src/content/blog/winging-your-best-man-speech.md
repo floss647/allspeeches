@@ -3,7 +3,7 @@ title: "Winging Your Best Man speech"
 description: "Despite well catalogued best man speech disasters on the internet, there are still a legion of men around the world convinced that they can stand up, and knock ..."
 slug: "winging-your-best-man-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-08-11"
 excerpt: "Despite well catalogued best man speech disasters on the internet, there are still a legion of men around the world convinced that they can stand up, and knock ..."
 hero: "/images/blog/soroush-karimi-4tAHleLnMWA-unsplash.webp"
 ---

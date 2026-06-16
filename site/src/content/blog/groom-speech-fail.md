@@ -3,7 +3,7 @@ title: "Groom Speech Fail"
 description: "It's not just the Best Man who gets it wrong, the Groom is just as capable of snatching defeat from the jaws of victory too with a groom speech fail."
 slug: "groom-speech-fail"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "It's not just the Best Man who gets it wrong, the Groom is just as capable of snatching defeat from the jaws of victory too with a groom speech fail."
 hero: "/images/blog/pen-fountain-pen-ink-gold-39065.webp"
 ---

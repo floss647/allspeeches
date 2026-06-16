@@ -3,7 +3,7 @@ title: "A Really Good Example of a Really Bad Speech"
 description: "That Pippa Middleton Best Man Speech Some people aren't funny, and there's nothing wrong with that. They're happy to admit it, and find another way to fit in so..."
 slug: "really-good-example-really-bad-speech"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "That Pippa Middleton Best Man Speech Some people aren't funny, and there's nothing wrong with that. They're happy to admit it, and find another way to fit in so..."
 hero: "/images/blog/Screen-Shot-2017-05-22-at-20.49.43.webp"
 ---

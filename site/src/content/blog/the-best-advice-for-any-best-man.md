@@ -3,7 +3,7 @@ title: "The best advice for any Best Man"
 description: "If you have been made best man, chances are the minute you were asked, and then accepted your body went into anaphylactic shock at the prospect of having to mak..."
 slug: "the-best-advice-for-any-best-man"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2024-08-01"
 excerpt: "If you have been made best man, chances are the minute you were asked, and then accepted your body went into anaphylactic shock at the prospect of having to mak..."
 hero: "/images/blog/ezgifcom-gif-maker_10.webp"
 ---

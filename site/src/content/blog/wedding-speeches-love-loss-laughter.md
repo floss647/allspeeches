@@ -3,7 +3,7 @@ title: "Wedding Speeches...love, loss and laughter."
 description: "Nearly every wedding speech has to deal with the tricky subject of a departed friend or relative. Getting the right balance is crucial to make the speech a success"
 slug: "wedding-speeches-love-loss-laughter"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2014-11-17"
 excerpt: "Nearly every wedding speech has to deal with the tricky subject of a departed friend or relative. Getting the right balance is crucial to make the speech a success"
 hero: "/images/blog/pexels-photo-14303.webp"
 ---

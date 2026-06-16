@@ -3,7 +3,7 @@ title: "A Modern Groom speech?"
 description: "Having written a groom speech for a client recently, I was then asked if I could make it more 'modern'. In all my years of writing groom speeches, I have never ..."
 slug: "a-modern-groom-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-08-11"
 excerpt: "Having written a groom speech for a client recently, I was then asked if I could make it more 'modern'. In all my years of writing groom speeches, I have never ..."
 hero: "/images/blog/bradley-pisney-CJqKqAHTwUw-unsplash.webp"
 ---

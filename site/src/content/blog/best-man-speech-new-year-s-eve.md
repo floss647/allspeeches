@@ -3,7 +3,7 @@ title: "Best man speech - New Year's Eve"
 description: "So, as we approach the festive season there are plenty of reasons to be jolly. It's party time around the world, you'll have a few days away from work after wha..."
 slug: "best-man-speech-new-year-s-eve"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-30"
 excerpt: "So, as we approach the festive season there are plenty of reasons to be jolly. It's party time around the world, you'll have a few days away from work after wha..."
 hero: "/images/blog/lisanne-van-elsen-bTLY5vK7Xis-unsplash.webp"
 ---

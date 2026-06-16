@@ -3,7 +3,7 @@ title: "Father of the bride speech - to icebreak or not?"
 description: "The vast majority of people I write for are very nervous about their speech, and that's an entirely reasonable and expected emotion. If you're not nervous about..."
 slug: "father-of-the-bride-speech-to-icebreak-or-not"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2022-01-05"
 excerpt: "The vast majority of people I write for are very nervous about their speech, and that's an entirely reasonable and expected emotion. If you're not nervous about..."
 hero: "/images/blog/christian-regg-jOicNGJIwZA-unsplash.webp"
 ---

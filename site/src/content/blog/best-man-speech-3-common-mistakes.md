@@ -3,7 +3,7 @@ title: "best man speech - 3 common mistakes"
 description: "There are so many ways to get speeches wrong, and when it comes to best man speeches, you might be thinking that those reasons are pretty obvious: crass, inappr..."
 slug: "best-man-speech-3-common-mistakes"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2022-10-20"
 excerpt: "There are so many ways to get speeches wrong, and when it comes to best man speeches, you might be thinking that those reasons are pretty obvious: crass, inappr..."
 hero: "/images/blog/father-of-the-bride-jokes-hero.webp"
 ---

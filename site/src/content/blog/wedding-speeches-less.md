@@ -3,7 +3,7 @@ title: "Wedding Speeches - Less Is More"
 description: "The temptation to make wedding speeches into some kind of audio visual extravaganza should be avoided at all costs. Nothing beat a really great, simple speech"
 slug: "wedding-speeches-less"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "The temptation to make wedding speeches into some kind of audio visual extravaganza should be avoided at all costs. Nothing beat a really great, simple speech"
 hero: "/images/blog/microphone-at-wedding-speech2.webp"
 ---

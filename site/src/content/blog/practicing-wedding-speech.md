@@ -3,7 +3,7 @@ title: "Practicing Your Wedding Speech"
 description: "A great speech can become an all time classic if the delivery is right. So here are my tips to practicing a wedding speech and how to nail it on the day"
 slug: "practicing-wedding-speech"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "A great speech can become an all time classic if the delivery is right. So here are my tips to practicing a wedding speech and how to nail it on the day"
 hero: "/images/blog/pexels-photo-14166.webp"
 ---

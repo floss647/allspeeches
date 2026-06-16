@@ -3,7 +3,7 @@ title: "Father of the bride speech - the dating days"
 description: "When it comes to the subject of what you should include in a speech, and what’s inappropriate, I think the easiest way to determine that situation is just to th..."
 slug: "father-of-the-bride-speech-the-dating-days"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2023-01-17"
 excerpt: "When it comes to the subject of what you should include in a speech, and what’s inappropriate, I think the easiest way to determine that situation is just to th..."
 hero: "/images/blog/ezgifcom-gif-maker_23.webp"
 ---

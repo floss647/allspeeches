@@ -3,7 +3,7 @@ title: "Best Man Speech - 3 really isn't the magic number"
 description: "In Britain we rarely invent very much anymore, but when we do it tends to be quite big - like the internet and recreational post pub casual violence. However, s..."
 slug: "best-man-speech-3-really-isn-t-the-magic-number"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2022-10-05"
 excerpt: "In Britain we rarely invent very much anymore, but when we do it tends to be quite big - like the internet and recreational post pub casual violence. However, s..."
 hero: "/images/blog/bestman-template-hero-v2.webp"
 ---

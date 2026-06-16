@@ -3,7 +3,7 @@ title: "Best Man Speech - Fear Of The Unknown"
 description: "Fear of Best Man Speech is completely understandable. You just have to rationalise it, face up to it and nail it."
 slug: "best-man-speech-fear-unknown"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Fear of Best Man Speech is completely understandable. You just have to rationalise it, face up to it and nail it."
 hero: "/images/blog/Best-Man-Wedding-Speech-Template.webp"
 ---

@@ -3,7 +3,7 @@ title: "Best Man Speech Outline"
 description: "Many people have issues with writing the Best Man Speech, and for good reason - to do it well takes, skill, practice and a good helping of wit. It's little wond..."
 slug: "best-man-speech-outline"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Many people have issues with writing the Best Man Speech, and for good reason - to do it well takes, skill, practice and a good helping of wit. It's little wond..."
 hero: "/images/blog/writing-notes-idea-conference.webp"
 ---

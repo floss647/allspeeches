@@ -3,7 +3,7 @@ title: "Father of the bride - wedding advice"
 description: "I spend most of my working life writing father of the speeches that have a backdrop of love and happiness, however, as much as we'd like to gloss over it, quite..."
 slug: "father-of-the-bride-wedding-advice"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2022-11-01"
 excerpt: "I spend most of my working life writing father of the speeches that have a backdrop of love and happiness, however, as much as we'd like to gloss over it, quite..."
 hero: "/images/blog/ezgifcom-gif-maker_16.webp"
 ---

@@ -3,7 +3,7 @@ title: "Groom speech - absent friends"
 description: "I've written for pretty much every single type of wedding scenario and family make up you can imagine. Every time I speak to a client who warns me their particu..."
 slug: "groom-speech-absent-friends"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-12-08"
 excerpt: "I've written for pretty much every single type of wedding scenario and family make up you can imagine. Every time I speak to a client who warns me their particu..."
 hero: "/images/blog/mike-tinnion-327565.webp"
 ---

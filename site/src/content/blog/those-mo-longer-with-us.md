@@ -3,7 +3,7 @@ title: "Groom Speech - those no longer with us"
 description: "Weddings are usually very jolly occasions - you get to spend time with a huge number of people you rarely get to see, some of whom you actually enjoy spending t..."
 slug: "those-mo-longer-with-us"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-11-12"
 excerpt: "Weddings are usually very jolly occasions - you get to spend time with a huge number of people you rarely get to see, some of whom you actually enjoy spending t..."
 hero: "/images/blog/photos-by-lanty-O38Id_cyV4M-unsplash_2.webp"
 ---

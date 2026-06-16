@@ -3,7 +3,7 @@ title: "Father of the bride speech - how do you like your toast?"
 description: "Toasting is a big part of wedding speeches, and frequently it's the part that's overlooked in its detail. Usually you have 3 wedding speakers, although these da..."
 slug: "father-of-the-bride-speech-how-do-you-like-your-toast"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-01"
 excerpt: "Toasting is a big part of wedding speeches, and frequently it's the part that's overlooked in its detail. Usually you have 3 wedding speakers, although these da..."
 hero: "/images/blog/thomas-william-627600-unsplash-min.webp"
 ---

@@ -3,7 +3,7 @@ title: "Wedding speeches - the funny business"
 description: "Any speech, be it eulogy, corporate communication, leaving party or burial of your pet goldfish, is all the better for humour. The humour in any speech gives i..."
 slug: "wedding-speeches-the-funny-business"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-17"
 excerpt: "Any speech, be it eulogy, corporate communication, leaving party or burial of your pet goldfish, is all the better for humour. The humour in any speech gives i..."
 hero: "/images/blog/bruce-mars-AndE50aaHn4-unsplash.webp"
 ---

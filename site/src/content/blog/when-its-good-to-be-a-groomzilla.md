@@ -3,7 +3,7 @@ title: "When it's good to be a Groomzilla"
 description: "Believe it or not being Groomzilla is not such a bad thing after all because part of your job can help ensure that the speeches are a sure fire hit"
 slug: "when-its-good-to-be-a-groomzilla"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Believe it or not being Groomzilla is not such a bad thing after all because part of your job can help ensure that the speeches are a sure fire hit"
 hero: "/images/blog/shutterstock_146280422-e1416759470163.webp"
 ---

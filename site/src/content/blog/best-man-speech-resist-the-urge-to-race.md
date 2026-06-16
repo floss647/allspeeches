@@ -3,7 +3,7 @@ title: "Best Man Speech - resist the urge to race"
 description: "Conquer your best man speech anxiety with our expert tips! Learn how to navigate the emotional rollercoaster of public speaking with grace and humor, and avoid the dreaded 'speech stumble' on the big day. Say no to the quick-fix of liquid courage and yes to delivering a memorable speech."
 slug: "best-man-speech-resist-the-urge-to-race"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2023-03-20"
 excerpt: "Conquer your best man speech anxiety with our expert tips! Learn how to navigate the emotional rollercoaster of public speaking with grace and humor, and avoid the dreaded 'speech stumble' on the big"
 hero: "/images/blog/ezgifcom-gif-maker_9.webp"
 ---

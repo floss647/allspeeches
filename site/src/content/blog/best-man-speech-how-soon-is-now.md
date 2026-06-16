@@ -3,7 +3,7 @@ title: "Best Man Speech - How soon is now?"
 description: "I am regularly asked a lot of the same questions: how long should a speech be? How many toasts do I make? Should I mention the bridesmaids...yadda yadda yadda. ..."
 slug: "best-man-speech-how-soon-is-now"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-06-19"
 excerpt: "I am regularly asked a lot of the same questions: how long should a speech be? How many toasts do I make? Should I mention the bridesmaids...yadda yadda yadda. ..."
 hero: "/images/blog/writing-notes-idea-conference.webp"
 ---

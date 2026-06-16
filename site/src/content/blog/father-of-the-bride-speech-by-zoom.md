@@ -3,7 +3,7 @@ title: "Father of the bride speech by Zoom"
 description: "It's a well worn cliche that anyone under the age of 45 has no idea how to access any functionality on their smartphone. Reach the dizzy heights of people in th..."
 slug: "father-of-the-bride-speech-by-zoom"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2020-11-05"
 excerpt: "It's a well worn cliche that anyone under the age of 45 has no idea how to access any functionality on their smartphone. Reach the dizzy heights of people in th..."
 hero: "/images/blog/insung-yoon-628709-unsplash-min.webp"
 ---

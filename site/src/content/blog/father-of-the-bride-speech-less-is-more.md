@@ -3,7 +3,7 @@ title: "Father of the bride speech - less is more"
 description: "Whenever I'm writing a speech, I'll always be thinking of how to keep it as efficient as possible; after all why use 3 sentences when one will do the trick? A c..."
 slug: "father-of-the-bride-speech-less-is-more"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-16"
 excerpt: "Whenever I'm writing a speech, I'll always be thinking of how to keep it as efficient as possible; after all why use 3 sentences when one will do the trick? A c..."
 hero: "/images/blog/leonardo-miranda-dvF6s1H1x68-unsplash.webp"
 ---

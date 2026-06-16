@@ -3,7 +3,7 @@ title: "Groom speech - paid help"
 description: "Even the smallest, most modest wedding undoubtedly has an awful lot of planning and preparation. If your guest list numbers just 30, that's still 30 meals that ..."
 slug: "groom-speech-paid-help"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2022-11-21"
 excerpt: "Even the smallest, most modest wedding undoubtedly has an awful lot of planning and preparation. If your guest list numbers just 30, that's still 30 meals that ..."
 hero: "/images/blog/maksym-kaharlytskyi-GwAYapqJKoM-unsplash_1.webp"
 ---

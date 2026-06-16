@@ -3,7 +3,7 @@ title: "Fancy Dress Weddings - The Final Insult"
 description: "For those who insist on a fancy dress weddings, this is exactly what you're inflicting on us your humble guests."
 slug: "fancy-dress-weddings-final-insult"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "For those who insist on a fancy dress weddings, this is exactly what you're inflicting on us your humble guests."
 hero: "/images/blog/shutterstock_99615326-e1404216781909.webp"
 ---

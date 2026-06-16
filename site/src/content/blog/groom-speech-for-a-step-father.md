@@ -3,7 +3,7 @@ title: "Groom speech for a step father"
 description: "As I’ve mentioned in several blog posts, just about the rarest groom speech I write is for two sets of first time marrying couple with two intact sets of parent..."
 slug: "groom-speech-for-a-step-father"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-01-08"
 excerpt: "As I’ve mentioned in several blog posts, just about the rarest groom speech I write is for two sets of first time marrying couple with two intact sets of parent..."
 hero: "/images/blog/ezgifcom-gif-maker_3.webp"
 ---

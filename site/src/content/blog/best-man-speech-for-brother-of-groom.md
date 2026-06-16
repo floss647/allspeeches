@@ -3,7 +3,7 @@ title: "Best Man Speech for Brother of Groom"
 description: "Best Man Speech Brother of Groom, - sometimes writing about what you know isn;t as easy as you thought it would be, so stick to the basic rules."
 slug: "best-man-speech-for-brother-of-groom"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-08"
 excerpt: "Best Man Speech Brother of Groom, - sometimes writing about what you know isn;t as easy as you thought it would be, so stick to the basic rules."
 hero: "/images/blog/photo.webp"
 ---

@@ -3,7 +3,7 @@ title: "Groom speeches - it's all about the bride"
 description: "Well, it is, and it isn't. Anyone that's been subjected to groom speeches, which are little more than an extended lecture on the subject of the bride, and how a..."
 slug: "groom-speeches-it-s-all-about-the-bride"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-12-12"
 excerpt: "Well, it is, and it isn't. Anyone that's been subjected to groom speeches, which are little more than an extended lecture on the subject of the bride, and how a..."
 hero: "/images/blog/omurden-cengiz-qTFH7TNowrE-unsplash.webp"
 ---

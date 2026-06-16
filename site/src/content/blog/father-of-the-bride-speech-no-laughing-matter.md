@@ -3,7 +3,7 @@ title: "Father of the bride speech - no laughing matter?"
 description: "I always tell my clients that the best speeches have to do what they need to do in the most efficient way. There are no prizes for staying up there longer than ..."
 slug: "father-of-the-bride-speech-no-laughing-matter"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-09-01"
 excerpt: "I always tell my clients that the best speeches have to do what they need to do in the most efficient way. There are no prizes for staying up there longer than ..."
 hero: "/images/blog/76008E77-C924-46CD-BF05-C7B4744176E9.webp"
 ---

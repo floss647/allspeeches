@@ -3,7 +3,7 @@ title: "Best Man Speech Clinic"
 description: "Nothing beats a really great speech, and of course practicing it is key to really doing it justice on the day, but how can you be sure you've got the performanc..."
 slug: "best-man-speech-clinic"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2017-05-11"
 excerpt: "Nothing beats a really great speech, and of course practicing it is key to really doing it justice on the day, but how can you be sure you've got the performanc..."
 hero: "/images/blog/shutterstock_81215590-e1416776911615.webp"
 ---

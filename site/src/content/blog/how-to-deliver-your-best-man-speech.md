@@ -3,7 +3,7 @@ title: "How to deliver your best man speech?"
 description: "The question about delivery is something I’m asked all the time. The idea goes that having a great speech is half the battle, but delivering it is the other hal..."
 slug: "how-to-deliver-your-best-man-speech"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-03-16"
 excerpt: "The question about delivery is something I’m asked all the time. The idea goes that having a great speech is half the battle, but delivering it is the other hal..."
 hero: "/images/blog/ezgifcom-gif-maker_2.webp"
 ---

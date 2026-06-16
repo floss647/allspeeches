@@ -3,7 +3,7 @@ title: "Best Man Speech - the cake isn't just in tears, it's got PTSD"
 description: "Best man speech jokes go back a long way. Ever since people decided it was a great idea to get married, there has been somebody, usually a disenfranchised man i..."
 slug: "best-man-speech-the-cake-isnt-just-in-tears-its-got-ptsd"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2024-03-14"
 excerpt: "Best man speech jokes go back a long way. Ever since people decided it was a great idea to get married, there has been somebody, usually a disenfranchised man i..."
 hero: "/images/blog/david-holifield-7ePjhwxtxCU-unsplash_1.webp"
 ---

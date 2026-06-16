@@ -3,7 +3,7 @@ title: "A joint groom speech?"
 description: "Evolution in wedding speeches is no bad thing; there is a lot of nonsense surrounding tradition that really needs to be dispensed with. A case in point is the t..."
 slug: "a-joint-groom-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-09"
 excerpt: "Evolution in wedding speeches is no bad thing; there is a lot of nonsense surrounding tradition that really needs to be dispensed with. A case in point is the t..."
 hero: "/images/blog/alex-padurariu-Hoo9-pSSsKA-unsplash.webp"
 ---

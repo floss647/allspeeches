@@ -3,7 +3,7 @@ title: "Best man speeches - permission to speak"
 description: "It’s no secret that best men the world over ‘enjoy’ a patchy reputation. For the most part, best man speeches are entertaining, moving and enjoyable, and a much..."
 slug: "best-man-speeches-permission-to-speak"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2022-12-01"
 excerpt: "It’s no secret that best men the world over ‘enjoy’ a patchy reputation. For the most part, best man speeches are entertaining, moving and enjoyable, and a much..."
 hero: "/images/blog/thomas-william-FD03zUvwznY-unsplash_1_1.webp"
 ---

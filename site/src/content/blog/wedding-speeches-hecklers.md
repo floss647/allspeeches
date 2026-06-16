@@ -3,7 +3,7 @@ title: "Wedding speeches: hecklers"
 description: "Wedding Speech Hecklers are not the end of the world. In fact, they could be your gateway to public speaking superstardom."
 slug: "wedding-speeches-hecklers"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "Wedding Speech Hecklers are not the end of the world. In fact, they could be your gateway to public speaking superstardom."
 hero: "/images/blog/shutterstock_106987373-e1404217134342.webp"
 ---

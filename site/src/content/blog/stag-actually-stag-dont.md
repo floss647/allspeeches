@@ -3,7 +3,7 @@ title: "Stag Do...actually Stag Don't."
 description: "The great thing about youth is that you're either so drunk the whole time or so completely emotionally incomplete, that not only do you find traffic cones hilar..."
 slug: "stag-actually-stag-dont"
 category: "wedding-speeches"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "The great thing about youth is that you're either so drunk the whole time or so completely emotionally incomplete, that not only do you find traffic cones hilar..."
 hero: "/images/blog/fashion-men-vintage-colorful.webp"
 ---

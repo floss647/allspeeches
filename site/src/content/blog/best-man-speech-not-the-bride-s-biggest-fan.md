@@ -3,7 +3,7 @@ title: "Best man speech - not the bride's biggest fan?"
 description: "As young men make their way through life, it’s inevitable that they will find themselves, and more importantly their judgment, at loggerheads with their friends..."
 slug: "best-man-speech-not-the-bride-s-biggest-fan"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2023-01-30"
 excerpt: "As young men make their way through life, it’s inevitable that they will find themselves, and more importantly their judgment, at loggerheads with their friends..."
 hero: "/images/blog/bestman-template-hero.webp"
 ---

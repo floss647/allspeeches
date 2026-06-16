@@ -3,7 +3,7 @@ title: "Funny Best Man Speeches"
 description: "A lot of people search for funny best man speeches but the truth is the magic is right under you nose and well within your grasp. Observational comedy is where it's at."
 slug: "funny-best-man-speeches"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "A lot of people search for funny best man speeches but the truth is the magic is right under you nose and well within your grasp. Observational comedy is where it's at."
 hero: "/images/blog/shutterstock_147912089.webp"
 ---

@@ -3,7 +3,7 @@ title: "Best man speeches - the order of the day"
 description: "The running order of speeches at a wedding is really important, and something that is frequently overlooked. Where you sit in the line up of speakers dictates w..."
 slug: "best-man-speeches-the-order-of-the-day"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-01-02"
 excerpt: "The running order of speeches at a wedding is really important, and something that is frequently overlooked. Where you sit in the line up of speakers dictates w..."
 hero: "/images/blog/asp-161.webp"
 ---

@@ -3,7 +3,7 @@ title: "The groom speech, a balancing act"
 description: "We’ve all lived with Coronavirus for nearly a year now, and have spent the last 12 months rearranging what normal means to us, and will spend the next 10 years ..."
 slug: "the-groom-speech-a-balancing-act"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-02-05"
 excerpt: "We’ve all lived with Coronavirus for nearly a year now, and have spent the last 12 months rearranging what normal means to us, and will spend the next 10 years ..."
 hero: "/images/blog/ezgifcom-gif-maker_5.webp"
 ---

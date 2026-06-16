@@ -3,7 +3,7 @@ title: "Best Man Speech Brother"
 description: "A Best Man Speech Brother isn't as tricky as you might think, you've just got to approach it in a much less predictable way...oh, and make it funny as well."
 slug: "best-man-speech-brother"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2019-01-01"
 excerpt: "A Best Man Speech Brother isn't as tricky as you might think, you've just got to approach it in a much less predictable way...oh, and make it funny as well."
 hero: "/images/blog/shutterstock_110767718.webp"
 ---

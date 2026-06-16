@@ -3,7 +3,7 @@ title: "The Definitive British Guide to Suit Shopping for Grooms"
 description: "The last time I counted, grooms have on average about 2 million things to organise for the big day, and that’s in no small way because they want to introduce a ..."
 slug: "the-definitive-british-guide-to-suit-shopping-for-grooms"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2024-01-16"
 excerpt: "The last time I counted, grooms have on average about 2 million things to organise for the big day, and that’s in no small way because they want to introduce a ..."
 hero: "/images/blog/scott-webb-pcbuJpqHUak-unsplash-_1_.webp"
 ---

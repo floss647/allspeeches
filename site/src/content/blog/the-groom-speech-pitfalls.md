@@ -3,7 +3,7 @@ title: "The groom speech pitfalls"
 description: "Although I have extensively documented the fact that there’s nothing we fear more than public speaking, I’ve given little time to the other notable factoid that..."
 slug: "the-groom-speech-pitfalls"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-02-20"
 excerpt: "Although I have extensively documented the fact that there’s nothing we fear more than public speaking, I’ve given little time to the other notable factoid that..."
 hero: "/images/blog/ezgifcom-gif-maker_8.webp"
 ---

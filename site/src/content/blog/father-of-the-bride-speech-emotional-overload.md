@@ -3,7 +3,7 @@ title: "Father of the bride speech - emotional overload"
 description: "Usually when writing speeches for clients I come across two distinct types of people: those who really want to ramp up the emotion in the speech and make people..."
 slug: "father-of-the-bride-speech-emotional-overload"
 category: "father-of-the-bride"
-publishedDate: "2020-01-01"
+publishedDate: "2021-09-19"
 excerpt: "Usually when writing speeches for clients I come across two distinct types of people: those who really want to ramp up the emotion in the speech and make people..."
 hero: "/images/blog/shutterstock_345832025-scaled.webp"
 ---

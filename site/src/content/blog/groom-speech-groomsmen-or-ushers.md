@@ -3,7 +3,7 @@ title: "Groom Speech - groomsmen or ushers?"
 description: "I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they '..."
 slug: "groom-speech-groomsmen-or-ushers"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2021-11-22"
 excerpt: "I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they '..."
 hero: "/images/blog/dillon-groves-XKp244cKX4s-unsplash.webp"
 ---

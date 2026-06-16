@@ -3,7 +3,7 @@ title: "Best man speech - a harsh lesson?"
 description: "I recently heard back from a client I was writing for that said that a particular line in the best man speech, and I quote 'wasn't harsh enough for his humour'...."
 slug: "best-man-speech-a-harsh-lesson"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-10-23"
 excerpt: "I recently heard back from a client I was writing for that said that a particular line in the best man speech, and I quote 'wasn't harsh enough for his humour'...."
 hero: "/images/blog/christian-bowen-X657fvd3smo-unsplash.webp"
 ---

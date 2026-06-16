@@ -3,7 +3,7 @@ title: "Joint Best Man Speech - Double Trouble?"
 description: "Joint best man speeches are becoming more and more common. In fact, grooms are getting so carried away these days that the triple best man speech is making an a..."
 slug: "joint-best-man-speech-double-trouble"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-08-25"
 excerpt: "Joint best man speeches are becoming more and more common. In fact, grooms are getting so carried away these days that the triple best man speech is making an a..."
 hero: "/images/blog/steven-van-Qk1zWx0vZqY-unsplash.webp"
 ---

@@ -3,7 +3,7 @@ title: "Best man speech, ultimate lapses of judgement"
 description: "I write for pretty much every type of bloke in the world. Some are shy, some are super confident, others are creative, many are very business minded, a lot work..."
 slug: "best-man-speech-ultimate-lapses-of-judgement"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2021-02-18"
 excerpt: "I write for pretty much every type of bloke in the world. Some are shy, some are super confident, others are creative, many are very business minded, a lot work..."
 hero: "/images/blog/ezgifcom-gif-maker_7.webp"
 ---

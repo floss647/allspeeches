@@ -3,7 +3,7 @@ title: "Best man speech - the 2 pint rule"
 description: "Very few things in life work better when you're completely plastered. Obviously, there are exceptions, and there's a very good reason why the military used to d..."
 slug: "best-man-speech-the-2-pint-rule"
 category: "best-man"
-publishedDate: "2020-01-01"
+publishedDate: "2022-03-21"
 excerpt: "Very few things in life work better when you're completely plastered. Obviously, there are exceptions, and there's a very good reason why the military used to d..."
 hero: "/images/blog/groom-HERO.webp"
 ---

@@ -3,7 +3,7 @@ title: "A COVID Groom Speech"
 description: "It's getting boring underlining the fact we're living in odd times, but we are, and weddings have been right in the cross hairs of the pandemic in every country..."
 slug: "a-covid-groom-speech"
 category: "groom"
-publishedDate: "2020-01-01"
+publishedDate: "2020-11-04"
 excerpt: "It's getting boring underlining the fact we're living in odd times, but we are, and weddings have been right in the cross hairs of the pandemic in every country..."
 hero: "/images/blog/shutterstock_428257765-scaled.webp"
 ---
