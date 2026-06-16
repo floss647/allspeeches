@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-11-22"
 excerpt: "I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they '..."
 hero: "/images/blog/dillon-groves-XKp244cKX4s-unsplash.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 I think it's fair to say that these days we all live in a fairly homogenous world, and languages in any country reflect a blend of many others. In France they 'enjoy' their very own brand of Franglais, which features words like jogging, brunch, and describes a rugby player as 'un rugbyman'. Germany is also seeing a creep of British/American words into its lexicon like flip flops, and in Japan an iced drink is referred to as 'onzarocksu'. The British have long since borrowed words and phrases from other cultures when ours simply won't do. In Britain we can have a laissez faire attitude, indulge in a little schandenfreude, and experience a dollop of deja vu. Language, is to all intents and purposes, a moveable feast.
 

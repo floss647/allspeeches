@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-09-19"
 excerpt: "Usually when writing speeches for clients I come across two distinct types of people: those who really want to ramp up the emotion in the speech and make people..."
 hero: "/images/blog/shutterstock_345832025-scaled.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Usually when writing speeches for clients I come across two distinct types of people: those who really want to ramp up the emotion in the speech and make people cry, and those who really rather do not. There's nothing to predict what type of person you are; I have written for hardened military men who much prefer an emotional tsunami, and very bookish accountants who baulk at the thought of saying anything too 'mushy'. Of all the speeches on the day, the [father of the bride speech](/father-of-the-bride-speech/)has the greater potential for emotional moments. It's a big event in anyone's life - officially recognising your daughter moving on with her life leaving your family to start her own. The memories and recollections of years gone by, can be incredibly moving, and there's nothing wrong with that.
 

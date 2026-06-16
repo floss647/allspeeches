@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-09-04"
 excerpt: "Far too many people dismiss the groom speech as just a list of thank yous. Yes, it is your job as the groom to thank and welcome people, and the thanking part i..."
 hero: "/images/blog/thomas-william-627600-unsplash-min.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 Far too many people dismiss [the groom speech](/the-grooms-speech/) as just a list of thank yous. Yes, it is your job as the groom to thank and welcome people, and the thanking part is really important. It's your opportunity to say just what your parents, family, friends and brand new in-laws mean to you. Never again - hopefully - will you have a public platform to stand up and acknowledge the hugely important part they have played in your life. The problem is...grooms get a little bit carried away.
 

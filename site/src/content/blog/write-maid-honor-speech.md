@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "There are plenty of Maid of Honor Speech examples on the internet but by reading this simple guide you can create your very own masterpiece."
 hero: "/images/blog/shutterstock_118531534-e1410435915539.webp"
+related:
+  label: "Get your maid of honour speech written"
+  path: "/maid-of-honour-speech-writer"
 ---
 ### Where to start?
 

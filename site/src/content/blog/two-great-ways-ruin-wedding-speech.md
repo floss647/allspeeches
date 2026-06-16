@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "If you'd like to ruin your wedding speech and wedding day, then follow these two simple rules and get help with a wedding speech"
 hero: "/images/blog/Microphone.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 ## Don't need help with a wedding speech? Think again...
 

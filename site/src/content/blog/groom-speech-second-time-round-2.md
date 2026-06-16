@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-02-02"
 excerpt: "The Coronavirus has been responsible for many things, but when that guy from the Wuhan lab decided to make a few extra quid by selling a some sort of infected j..."
 hero: "/images/blog/ezgifcom-gif-maker_4.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 The Coronavirus has been responsible for many things, but when that guy from the Wuhan lab decided to make a few extra quid by selling a some sort of infected jellyfish at the local market, little did he know what affect that would have on the global divorce rates. In the UK a whopping 42% marriages end in divorce, although that statistic was falling before China thought it would be a great idea to live out the film ‘Contagion’. Covid-19 will see that spike again, and so in the next 10 years we’re going to be having more and more grooms making their groom speeches second time round.
 

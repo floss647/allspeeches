@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2020-12-22"
 excerpt: "That may seem like an overly dramatic thought, but every single summer I speak to best men who tell me that whilst they were sat eating their Christmas dinner, ..."
 hero: "/images/blog/victor-rodvang-765917-unsplash-min.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 That may seem like an overly dramatic thought, but every single summer I speak to best men who tell me that whilst they were sat eating their Christmas dinner, their mind flashed to the [best man speech](/best-man-speeches/) they had to make in 5 months time. Yes, it gets that intense.
 

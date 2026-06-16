@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-01-08"
 excerpt: "Undoubtedly the job of the best man speech is to make people laugh, entertain and celebrate the groom in a really funny way, if you’re in the UK, Australia and..."
 hero: "/images/blog/ezgifcom-gif-maker_2.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Undoubtedly the job of the best man speech is to make people laugh, entertain and celebrate the groom in a really funny way, if you’re in the UK, Australia and New Zealand. American best man speeches tend to have the humor/sentiment balance tipped much more in favour of the sentiment, but there is still comedy.
 

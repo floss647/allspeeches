@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-11-16"
 excerpt: "Whenever I'm writing a speech, I'll always be thinking of how to keep it as efficient as possible; after all why use 3 sentences when one will do the trick? A c..."
 hero: "/images/blog/leonardo-miranda-dvF6s1H1x68-unsplash.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Whenever I'm writing a speech, I'll always be thinking of how to keep it as efficient as possible; after all why use 3 sentences when one will do the trick? A classic mistake in so many speeches is to say the same thing but in several different ways, however, there's another area where to keep an eye on what you're saying and how long you're spending on it...and that's you daughter's achievements.
 

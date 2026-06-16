@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-11-08"
 excerpt: "If life goes according to plan, your daughter will meet the man of her dreams, fall in love and then decide to get married. This all usually takes its time, and..."
 hero: "/images/blog/samantha-gades-CsrwM-bHQIg-unsplash.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 If life goes according to plan, your daughter will meet the man of her dreams, fall in love and then decide to get married. This all usually takes its time, and so with the natural pace of life, education, and career, that will probably be some time when she's around the age of 30. Things are changing on that front, and I'm writing far more speeches for couples marrying in their twenties than I was 10 years ago. However, that still means there's at least 25 years worth of memories to sort through, and that's where the problems start. Most men in their 50's find themselves doing things like getting to the top of the stairs, and not having the slightest idea what they were going upstairs for in the first place. Over the age of 40, remembering what happened at the weekend becomes increasingly challenging, and when it comes to birthdays and anniversaries, you've got more chance of winning the lottery.
 

@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-01-12"
 excerpt: "We’ve seen many reports over the last few months that tell us how much more we’re drinking thanks to COVID-19 and the roll over lockdowns. It seems as though mo..."
 hero: "/images/blog/ezgifcom-gif-maker.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 We’ve seen many reports over the last few months that tell us how much more we’re drinking thanks to COVID-19 and the roll over lockdowns. It seems as though most of Britain has little idea of what to do with their endless pyjama days than roll out of bed, straight over to the cocktail cabinet and start drinking to forget. Usually this means drinking to forget that one day this will all be over and they’ll have to go back to work like normal people and can no longer go on 3 month fully paid benders.
 

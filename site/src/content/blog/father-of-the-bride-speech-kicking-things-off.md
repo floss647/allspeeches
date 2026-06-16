@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2020-12-07"
 excerpt: "Every wedding speech has its own demands and expectations - the groom speech has got to be heartfelt, the best man speech is there for the entertainment, and th..."
 hero: "/images/blog/shutterstock_638169361-scaled.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Every wedding speech has its own demands and expectations - the groom speech has got to be heartfelt, the best man speech is there for the entertainment, and the [father of the bride speech](/father-of-the-bride-speech/) celebrates the bride in a combination of the two. However, the added cherry on top for the father of the bride, is that you're up first. This extar pressure is not to be sniffed at; I have seen plenty of very successful and talented career men go to pieces at the thought of kicking things off, so you need to be prepared.
 

@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2022-12-10"
 excerpt: "It seems to me that there are a few words that only seem to make an appearance on specific special occasions. We can quite happily go our whole lives without us..."
 hero: "/images/blog/drew-coffman-llWjwo200fo-unsplash_2.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 It seems to me that there are a few words that only seem to make an appearance on specific special occasions. We can quite happily go our whole lives without using the word ‘brickbat’, but when a journalist uses it to describe a political strategy, then perfectly normal people will see fit to deploy it whilst describing parenting tactics.
 

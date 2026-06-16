@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-10-01"
 excerpt: "Toasting is a big part of wedding speeches, and frequently it's the part that's overlooked in its detail. Usually you have 3 wedding speakers, although these da..."
 hero: "/images/blog/thomas-william-627600-unsplash-min.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Toasting is a big part of wedding speeches, and frequently it's the part that's overlooked in its detail. Usually you have 3 wedding speakers, although these days that's quickly becoming 4 or maybe even 5, and if they're all going to be making toasts, things can get out of hand pretty quickly.What needs to happen, and so rarely does, is that all the speakers should talk amongst each other and work out who's taking which toast. As there's generally very little communication between speakers you end up with the awkward mess of 3 toasts to the bridesmaids, and 3 toasts to those no longer with us.
 

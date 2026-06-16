@@ -5,6 +5,9 @@ slug: "the-importance-of-being-earners"
 category: "wedding-speeches"
 publishedDate: "2017-04-19"
 excerpt: "Generally speaking I like to work. I do love my job and I'm very lucky in that respect, however, I never lose sight of the fact that without the income that it ..."
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 Generally speaking I like to work. I do love my job and I'm very lucky in that respect, however, I never lose sight of the fact that without the income that it so handily provides my family with, I wouldn't be able to buy things like loo roll, Foie Gras, and things like bin liners. Yes, most of us work so that we can live - be it spiritually, emotionally and of course financially. The basic premise when it comes to services is that somebody engages me, I provide the service, and they hand over the lolly. However, in recent weeks this very simple and straightforward process has been interrupted by the kind of people who, were they actually fecaes, would probably survive three flushes of the loo.
 So how do these three flush floaters go about their business? Well, a lot of my trade is built on trust, and it's a mutual trust that works brilliantly of 99% of my clients. they pay and trust that I will provide a great service. I start writing that speech before the payment is made, safe in the knowledge that they will pay and I'm simply making good use of all the time we have. But every now and again somebody reneges on that deal and I'm left with a speech that I've taken the time and trouble to write, but whose eventual owner has decided they can't afford it.

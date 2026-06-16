@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-01-03"
 excerpt: "Over the years I have lost count of the number of times I've heard people dismiss the groom speech as just a groom speech. For some reason they like to relegate..."
 hero: "/images/blog/groom-man-person-1711419-min.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 Over the years I have lost count of the number of times I've heard people dismiss the groom speech as *just* a [groom speech](/the-grooms-speech/). For some reason they like to relegate its importance, thinking it's just a case of standing up thanking everyone you have ever met in your life, and many who you haven't and also throw in the bloke who drove the car, the ladies who did the flowers and Dave for being the MC. The groom speech is much more than this...it's probably the most important speech you're ever going to make.
 

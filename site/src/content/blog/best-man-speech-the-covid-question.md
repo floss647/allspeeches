@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2020-11-10"
 excerpt: "Now we are on the cusp on recovery, thanks to a vaccine injecting hope into the world for the first time since anyone can remember, it will soon be time to thin..."
 hero: "/images/blog/imageedit_8_7434247538.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Now we are on the cusp on recovery, thanks to a vaccine injecting hope into the world for the first time since anyone can remember, it will soon be time to think about wedding speeches again, and for many that's about as welcome as a head butt.
 

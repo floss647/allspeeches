@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-11-04"
 excerpt: "When it comes to public speaking, the way I like to look at it is: nobody normal likes standing up in front of a lot of people and talking out loud. If you're n..."
 hero: "/images/blog/james-bold-0dj5ekWaDgQ-unsplash.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 When it comes to public speaking, the way I like to look at it is: nobody normal likes standing up in front of a lot of people and talking out loud. If you're not prepared, it's nerve wracking, intimidating and can cause sleepless nights. The added cherry on top with wedding speeches is that they have to be entertaining - this isn't a dry procession through a software sales pitch, and then with the father of the bride speech, the fact that you're up first, just adds to the pressure.
 

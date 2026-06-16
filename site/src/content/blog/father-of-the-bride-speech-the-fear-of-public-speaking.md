@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2024-02-26"
 excerpt: "Whilst very few people relish the idea of public speaking…make that none...it seems that wedding speeches provide the perfect storm when it comes to talking out..."
 hero: "/images/blog/taylor-gray-nFrMoJvCUyY-unsplash_2.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Whilst very few people relish the idea of public speaking…make that none...it seems that wedding speeches provide the perfect storm when it comes to talking out loud in front of other people.
 

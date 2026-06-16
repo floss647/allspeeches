@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2024-03-14"
 excerpt: "Best man speech jokes go back a long way. Ever since people decided it was a great idea to get married, there has been somebody, usually a disenfranchised man i..."
 hero: "/images/blog/david-holifield-7ePjhwxtxCU-unsplash_1.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 [Best man speech jokes](/best-man-speeches/) go back a long way. Ever since people decided it was a great idea to get married, there has been somebody, usually a disenfranchised man in his later youthful years, that wants to celebrate the occasion with ‘comedy’. I use that last term so loosely, it’s in danger of flying off and hitting us all in the face. Quite literally.
 

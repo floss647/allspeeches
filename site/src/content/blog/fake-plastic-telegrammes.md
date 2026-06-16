@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2020-05-20"
 excerpt: "So many best men that I write for all say the same thing: 'I haven't got anything to say!', and this can be for a whole variety of reason. Sometimes you really ..."
 hero: "/images/blog/accessory-adult-beautiful-1451359-min.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 So many best men that I write for all say the same thing: 'I haven't got anything to say!', and this can be for a whole variety of reason. Sometimes you really don't know the groom that well, you maybe haven't hung out with him for years, maybe he's really boring, or maybe he's so naughty there's nothing you can say.
 

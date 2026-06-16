@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2023-10-24"
 excerpt: "Being a best man is a tricky business. Most best men are elected to that exulted position in the busiest time of their adult lives; I like to think you’re not r..."
 hero: "/images/blog/pexels-andrea-piacquadio-3771129.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Being a best man is a tricky business. Most best men are elected to that exulted position in the busiest time of their adult lives; I like to think you’re not really a best man unless you’re changing jobs, moving house, expecting a baby, and planning a new set of teeth in Turkey, all at the same time. So, it’s little wonder that most candidates try to minimise the impact on their lives by relying on a quick internet search of wedding gags, pasting them in and hoping for the best. This is about as sensible and realistic as playing hopscotch in a minefield, and just as likely to end in disaster. There’s an expectation for you to be funny in some measure, and the only thing that worse than not being funny…is trying to funny and not being funny. In order to survive you need to know your enemy, and so here are the top 10 least funny jokes which you should avoid at all costs
 

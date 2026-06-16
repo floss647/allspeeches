@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2019-01-01"
 excerpt: "Choosing your best man is a tricky business, there's the sensibilities of your oldest friends to consider but you've also got to think who is in the best position to nail it."
 hero: "/images/blog/shutterstock_159537137.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 #### Your Oldest Bestest Friend as Best Man? Maybe Not.
 

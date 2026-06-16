@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2022-12-01"
 excerpt: "It’s no secret that best men the world over ‘enjoy’ a patchy reputation. For the most part, best man speeches are entertaining, moving and enjoyable, and a much..."
 hero: "/images/blog/thomas-william-FD03zUvwznY-unsplash_1_1.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 It’s no secret that best men the world over ‘enjoy’ a patchy reputation. For the most part, [best man speeches](/best-man-speeches/) are entertaining, moving and enjoyable, and a much loved part of the wedding day. However, there has always been the more miscreant element in their ranks, and they are undeniably the ones that everyone thinks about when they think about best men. The stories of the groom’s romantic conquests in granular detail, lewd comments about the bridesmaids, and a level of intoxication most vagrants would be proud of.
 

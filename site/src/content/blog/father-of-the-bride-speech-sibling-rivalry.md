@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2022-10-12"
 excerpt: "I once heard a very funny radio interview with a guy, who was once asked by his wife which of the children he loved the most. He said he loved them both equally..."
 hero: "/images/blog/ezgifcom-gif-maker_25.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 I once heard a very funny radio interview with a guy, who was once asked by his wife which of the children he loved the most. He said he loved them both equally, but then admitted he'd lied, and that he loved his sin much more. Obviously, there is some artistic license in there, but you get my drift.
 

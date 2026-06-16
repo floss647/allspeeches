@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2019-01-01"
 excerpt: "Fear of Best Man Speech is completely understandable. You just have to rationalise it, face up to it and nail it."
 hero: "/images/blog/Best-Man-Wedding-Speech-Template.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 When it comes to appointing a Best Man a groom goes for a person he counts as being a great friend, not necessarily the person he thinks can make a great speech. Grooms are in the middle of an emotional maelstrom; suddenly everything is viewed through incredibly dewy eyed beer googles, every moment in their past becomes pivotal, every meal memorable and every friend, new or old, somebody who's played a part in their epic story. They want their choice of best man to mean something to the wider world. Maybe it was the childhood friend who stopped them from getting their head flushed down the loo on the first day of school, maybe it was the guy who showed them on their first day at work how to top up the toner on the photocopier or maybe...you're his brother.
 Whoever they choose there is one thing they all have in common: the groom wants you to be funny and he wants you to make him look good. Really good. And therein lies a huge problem - even if the Groom is the nicest guy in the world and has climbed Everest whilst raising money for orphans, you're not going to know about huge chunks of his life and feel you can't possibly do him justice. Schoolboy friends frequently know nothing about his twenties, work friends know nothing about his school days and brothers tend to know little about anything outside the home. This can cause abject panic amongst Best Men as they worry about how they're going to fill in the blanks to a life they hardly know.

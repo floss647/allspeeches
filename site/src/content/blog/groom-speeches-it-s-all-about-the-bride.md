@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-12-12"
 excerpt: "Well, it is, and it isn't. Anyone that's been subjected to groom speeches, which are little more than an extended lecture on the subject of the bride, and how a..."
 hero: "/images/blog/omurden-cengiz-qTFH7TNowrE-unsplash.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 Well, it is, and it isn't. Anyone that's been subjected to [groom speeches](/the-grooms-speech/), which are little more than an extended lecture on the subject of the bride, and how amazingly lucky the groom is to have met her, will understand the torture of that experience. I have had many chats with grooms who aren't remotely interested in talking about anyone else in their speech, than the bride, and that is a catastrophic lapse of judgment. Whilst the bride is the star of the show, the groom speech is a mega mix of people you should mention, and getting the balance right is essential.
 

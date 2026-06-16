@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2023-01-11"
 excerpt: "Many years ago, when I entered the working world, I very quickly came to the conclusion that I was ideally unsuited to communicating in a corporate way. Every t..."
 hero: "/images/blog/ezgifcom-gif-maker_25.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 Many years ago, when I entered the working world, I very quickly came to the conclusion that I was ideally unsuited to communicating in a corporate way. Every time I found myself in a serious conversation or meeting, I spent most of my time thinking of funny things to say, which were not only completely pointless, but also completely unrequired. Luckily, I found my way into broadcasting and writing and have never looked back, but it cemented in me the idea that, despite not sharing my love of humor in communications, they would have been all the richer for it.
 

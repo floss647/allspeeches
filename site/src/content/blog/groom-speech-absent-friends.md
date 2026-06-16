@@ -6,6 +6,9 @@ category: "groom"
 publishedDate: "2021-12-08"
 excerpt: "I've written for pretty much every single type of wedding scenario and family make up you can imagine. Every time I speak to a client who warns me their particu..."
 hero: "/images/blog/mike-tinnion-327565.webp"
+related:
+  label: "Get your groom speech written"
+  path: "/groom-speech-writer"
 ---
 I've written for pretty much every single type of wedding scenario and family make up you can imagine. Every time I speak to a client who warns me their particular situation is going to be uniquely challenging, I brace myself for a story I've heard several hundred times. Brothers marrying the other brother's ex wife, partners stolen from friends, family feuds that mean nobody is on speaking terms, and even a dog making a speech...are all part and parcel of what I cover. I always like to say that the rarest wedding scenario I write for, is two couples in their thirties with two intact sets of parents. It doesn't happen.
 

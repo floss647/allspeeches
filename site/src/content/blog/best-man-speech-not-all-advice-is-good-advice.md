@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-02-24"
 excerpt: "The internet is awash with tips, tricks, hints and secret formulas to make your best man speech the most amazingly drop dead all time success in the whole histo..."
 hero: "/images/blog/ezgifcom-gif-maker_9.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 The internet is awash with tips, tricks, hints and secret formulas to make your best man speech the most amazingly drop dead all time success in the whole history of weddings. Which is great, the only thing is, the internet isn’t that great sometimes at deciding just who gets the appropriate advice. This really matters when it comes to best man speeches, because there is a huge difference between a best man speech made in America, and one made in the UK or Australia.
 

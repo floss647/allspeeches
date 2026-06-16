@@ -6,6 +6,9 @@ category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "learning how to deliver a great speech is something that just takes a few hints and tips and lots of practice. Here are my thoughts on how to nail it."
 hero: "/images/blog/asp-161.webp"
+related:
+  label: "Let a professional write your speech"
+  path: "/"
 ---
 Unless you're made of circuit boards, and have an ultra fast processor where your heart should be, you're probably feeling a little worked up about the prospect of delivering a speech. Most of us don't have to communicate in that way, and if we do we're usually extolling the virtues of whatever it is pays our wages. So, whilst we're happy to talk about refinancing schemes, irrigation systems and the best way to achieve nirvana through home insurance policies, we're not usually doing it to entertaining. And if your wedding speech isn't entertaining, you may as well read out the breakfast buffet menu. At least one or two people will have a genuine interest in what you're saying.
 So, you're going to be nervous because you're out of your comfort zone, all eyes are on you, and for the first time ever you've got to make people laugh...and yes, that includes grooms. Any groom planning on making their speech without a good dollop of humor, should really think again. Being nervous means your hands are going to shaky, which in turn means papers if you have them will flap around all over the place. It also means your mouth will become very dry, very quickly, and you'll be a little sweaty and slightly short of breath. These are all things that can be dealt with.

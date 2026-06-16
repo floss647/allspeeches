@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2017-12-13"
 excerpt: "Making a best man speech for your brother can be a very daunting experience, here are my tips how how to go about making it a triumph!"
 hero: "/images/blog/juan-pablo-rodriguez-334216.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 ## How to Write a Speech for Your Brother
 

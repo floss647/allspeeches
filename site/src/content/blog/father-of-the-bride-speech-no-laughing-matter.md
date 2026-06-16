@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2021-09-01"
 excerpt: "I always tell my clients that the best speeches have to do what they need to do in the most efficient way. There are no prizes for staying up there longer than ..."
 hero: "/images/blog/76008E77-C924-46CD-BF05-C7B4744176E9.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 I always tell my clients that the best speeches have to do what they need to do in the most efficient way. There are no prizes for staying up there longer than necessary, and everyone will love you for not outstaying your welcome. Usually this happens because the speaker tries to include far too much detail into a speech which I've covered in other blog posts. However, the best speeches also do what they need to do in a humorous way, and that includes pretty much every type of speech. humor is a massive part of all wedding speeches, and not just the remit of the best man. Anyone attempting a groom speech and thinking they're going to get away with 20 minutes of thanking people, and then a quick mushy paragraph on the bride, is seriously underestimating the patience of the guests.
 

@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2022-03-21"
 excerpt: "Very few things in life work better when you're completely plastered. Obviously, there are exceptions, and there's a very good reason why the military used to d..."
 hero: "/images/blog/groom-HERO.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Very few things in life work better when you're completely plastered. Obviously, there are exceptions, and there's a very good reason why the military used to dish out rum tots before engaging in combat - being slightly squiffy can even make going over the top and running at a machine gun seem like a good idea. Construction workers on the Channel Tunnel, enjoyed very liquid lunches by all accounts, there's a corresponding death toll on that project which bears testament to the fact that heavy machinery and an all dayer, really don't mix. So, unless you're a pirate, being paralytic doesn’t work. Not even for hard drinking rock stars, as anyone who's seen Shane McGowan tried to sing whilst full to the brim with booze will testify to.
 

@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2023-02-20"
 excerpt: "Many people think they know and understand best man speeches. In the UK, there’s an old fashioned understanding that it’s an opportunity to publicly humiliate t..."
 hero: "/images/blog/best-man-HERO.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Many people think they know and understand [best man speeches](/best-man-speeches/). In the UK, there’s an old fashioned understanding that it’s an opportunity to publicly humiliate the groom, and in the US, it’s much more of a heartfelt celebration. However, both types of speech are usually executed in the same way, an introduction and then a list of stories.
 

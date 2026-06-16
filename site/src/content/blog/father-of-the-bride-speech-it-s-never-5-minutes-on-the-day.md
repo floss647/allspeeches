@@ -6,6 +6,9 @@ category: "father-of-the-bride"
 publishedDate: "2023-03-06"
 excerpt: "When people are thinking about and talking about speeches, there’s a tendency, for several reasons, to dismiss the speech as just 5 minutes on the day. Maybe th..."
 hero: "/images/blog/father-of-the-bride-jokes-hero.webp"
+related:
+  label: "Get your father of the bride speech written"
+  path: "/father-of-the-bride-speech-writer"
 ---
 When people are thinking about and talking about speeches, there’s a tendency, for several reasons, to dismiss the speech as just 5 minutes on the day. Maybe this is because they’re trying to downplay the event in their head, because inside the thought of standing up and speaking is causing emotional turmoil. Or, maybe they do really believe that it’s just a few minutes on the day, and then everyone forgets about it and cracks on with the celebrations.
 

@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-03-08"
 excerpt: "Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, other..."
 hero: "/images/blog/ezgifcom-gif-maker_11.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Every now and again I speak to people who decide not to go with my services, and that’s completely fine. Some have the time to dedicate to write a speech, others rate their own comedy, and there are a few who decide that they’d rather spend the money on themselves. All of this is of course, totally normal and I get where they’re coming from, especially if you don’t really like/know the groom, yes, that happens more than you think.
 

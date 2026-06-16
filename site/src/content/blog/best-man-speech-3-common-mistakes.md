@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2022-10-20"
 excerpt: "There are so many ways to get speeches wrong, and when it comes to best man speeches, you might be thinking that those reasons are pretty obvious: crass, inappr..."
 hero: "/images/blog/father-of-the-bride-jokes-hero.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 There are so many ways to get speeches wrong, and when it comes to [best man speeches](/best-man-speeches/), you might be thinking that those reasons are pretty obvious: crass, inappropriate, lewd rantings from someone whose IQ almost equals the number of beers he’s sunk. And, yes whilst they may be a terrible direction to take your speech, it’s the less obvious, stealth mistakes that are the most dangerous.
 

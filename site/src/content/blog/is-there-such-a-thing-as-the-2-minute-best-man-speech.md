@@ -6,6 +6,9 @@ category: "best-man"
 publishedDate: "2021-10-13"
 excerpt: "Well, to be succinct, yes and no. The 2 minute best man speech is out there, but to call it a speech might be pushing the boundaries of reality a little. In the..."
 hero: "/images/blog/microphone-at-wedding-speech2.webp"
+related:
+  label: "Get your best man speech written"
+  path: "/best-man-speech-writer/"
 ---
 Well, to be succinct, yes and no. The 2 minute [best man speech](/best-man-speeches/) is out there, but to call it a speech might be pushing the boundaries of reality a little. In the UK lot of best men don't relish the thought of speaking, and more accurately the pressure of making people laugh. To that end they think that the best policy is to be up there as briefly as possible; in America wedding speeches tend to be a lot shorter and more efficient, but even 2 minutes is maybe a little too efficient - and don't get me wrong: nothing is worse than talking for too long.
 
