@@ -5,6 +5,7 @@ import Faq from './Faq.astro';
 import CtaBand from './CtaBand.astro';
 import { SITE, fill } from '../config/site';
 import { service, faqPage } from '../lib/schema';
+import ReviewsCarousel from './ReviewsCarousel.astro';
 import type { ServiceData } from '../data/services';
 
 interface Props { data: ServiceData; }
@@ -96,6 +97,14 @@ const priceDisplay = data.priceValue ?? SITE.price;
         )}
         <a class="btn btn--ghost" href={SITE.founderUrlPath}>Read my story →</a>
       </div>
+    </div>
+  </section>
+
+  <section class="section center">
+    <div class="wrap">
+      <p class="eyebrow">Verified reviews</p>
+      <h2>{data.gentle ? 'Families I’ve helped' : 'Don’t take my word for it'}</h2>
+      <ReviewsCarousel />
     </div>
   </section>
 

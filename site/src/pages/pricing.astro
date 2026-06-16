@@ -5,6 +5,7 @@ import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
 import { SITE, fill } from '../config/site';
 import { faqPage, type Faq as FaqType } from '../lib/schema';
+import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
 const path = '/pricing';
 const title = 'Speech Writing Prices | From £399, What\'s Included';
@@ -78,6 +79,14 @@ const included = [
           <a class="card__link" href="/after-dinner-speeches/">After-Dinner Speech Writer →</a>
         </div></div>
       </div>
+    </div>
+  </section>
+
+  <section class="section section--tint center">
+    <div class="wrap">
+      <p class="eyebrow">Verified reviews</p>
+      <h2>Trusted by hundreds of speakers</h2>
+      <ReviewsCarousel />
     </div>
   </section>
 

@@ -5,6 +5,7 @@ import CtaBand from '../components/CtaBand.astro';
 import { SITE, fill } from '../config/site';
 import { services } from '../data/services';
 import { faqPage, type Faq as FaqType } from '../lib/schema';
+import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
 const title = 'Professional Wedding Speech Writer | All Speeches Great & Small';
 const description = fill(
@@ -107,7 +108,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
 
   <!-- REVIEWS TEASER -->
   <section class="section section--tint center">
-    <div class="wrap measure mx-auto">
+    <div class="wrap">
       <p class="eyebrow">My verified reviews</p>
       <h2>Don’t take my word for it</h2>
       <p class="lede">
@@ -118,8 +119,8 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
           <span class="ph"> [RATING]/5 from [REVIEW_COUNT] verified reviews.</span>
         )}
       </p>
-      <p>Add three or four real testimonials here from reviews.co.uk before launch.</p>
-      <a class="btn btn--ghost" href="/reviews">Read all reviews →</a>
+      <ReviewsCarousel />
+      <div class="mt-2"><a class="btn btn--ghost" href="/reviews">Read all reviews →</a></div>
     </div>
   </section>
 
