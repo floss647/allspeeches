@@ -118,3 +118,19 @@
   from = "/thank-you-ai-bespoke"
   to = "/"
   status = 301
+
+# ── Old Joomla URLs found in the live sitemap-4seo (16 Jun 2026) ───
+# Old blog pagination (/blogs/page-N) — the new blog is a single index.
+[[redirects]]
+  from = "/blogs/page-:n"
+  to = "/blogs/"
+  status = 301
+# Blog posts not carried over to the new site → nearest relevant page.
+[[redirects]]
+  from = "/groom-speech-when-it-s-not-a-wedding"
+  to = "/groom-speeches"
+  status = 301
+[[redirects]]
+  from = "/best-man-speech-it-s-never-about-the-best-man"
+  to = "/best-man-speech-you-are-not-the-story"
+  status = 301
