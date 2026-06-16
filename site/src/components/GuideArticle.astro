@@ -31,6 +31,11 @@ const schemas = [
 ];
 
 const updated = new Date(d.dateModified).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+
+// Accept a full YouTube URL or a bare video ID and pull out the 11-char ID.
+const videoId = d.video
+  ? (d.video.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/)?.[1] ?? d.video.trim())
+  : null;
 ---
 <Layout title={d.title} description={d.description} path={d.path} ogImage={d.hero} ogType="article" breadcrumbs={crumbs} schemas={schemas}>
   <article>
@@ -51,6 +56,20 @@ const updated = new Date(d.dateModified).toLocaleDateString('en-GB', { month: 'l
 
     <div class="section">
       <div class="wrap prose">
+        {videoId && (
+          <figure class="guide-video">
+            <div class="guide-video__frame">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+                title={`${d.headline} — video guide`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </figure>
+        )}
         <Content />
 
         <hr />
@@ -73,6 +92,9 @@ const updated = new Date(d.dateModified).toLocaleDateString('en-GB', { month: 'l
   .guide-hero__img { display: block; width: 100%; aspect-ratio: 5 / 2; object-fit: cover; object-position: center; border-radius: var(--radius); }
   .guide-hero__body { margin-top: -56px; position: relative; }
   .guide-hero__body h1 { background: var(--paper); display: inline-block; padding: 10px 16px; margin-left: -16px; border-radius: 8px; max-width: 760px; }
+  .guide-video { margin: 0 0 32px; }
+  .guide-video__frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: var(--ink); }
+  .guide-video__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   .guide-cta { background: var(--paper-2); border-radius: var(--radius); padding: 28px; text-align: center; }
   .guide-cta h3 { margin-bottom: 0.3em; }
 </style>

@@ -8,6 +8,7 @@ service: "/groom-speech-writer"
 serviceLabel: "Groom Speech Writer"
 datePublished: "2021-06-01"
 dateModified: "2026-06-02"
+video: "85aVWSpXGxI"
 faqs:
   - q: "How do you write a great groom speech?"
     a: "A great groom speech balances all the thanks, tributes and welcomes with original humour, building steadily towards the bride at the end."
