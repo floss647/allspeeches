@@ -4,6 +4,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import CtaBand from '../components/CtaBand.astro';
 import { SITE, fill } from '../config/site';
 import { productWithReviews } from '../lib/schema';
+import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
 const path = '/reviews';
 const title = fill('Reviews | All Speeches Great & Small ([REVIEW_COUNT]+ 5★)');
@@ -50,23 +51,7 @@ const schemas = productSchema ? [productSchema] : [];
 
   <section class="section">
     <div class="wrap">
-      {testimonials.length === 0 ? (
-        <div class="measure mx-auto center">
-          <p class="ph" style="display:inline-block;padding:14px 18px;border-radius:10px">
-            Drop in your real reviews.co.uk testimonials here (name · speech type · text), and add the
-            live aggregate score above. The Review/AggregateRating schema then publishes automatically.
-            Never use fabricated numbers.
-          </p>
-        </div>
-      ) : (
-        <div class="grid grid--2">
-          {testimonials.map((t) => (
-            <figure class="card"><div class="card__body">
-              <blockquote class="quote">“{t.text}”<cite>, {t.name}, {t.type}</cite></blockquote>
-            </div></figure>
-          ))}
-        </div>
-      )}
+      <ReviewsCarousel />
     </div>
   </section>
 
