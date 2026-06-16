@@ -13,7 +13,6 @@ export function professionalService() {
     name: SITE.name,
     description: SITE.description,
     url: `${SITE.url}/`,
-    telephone: SITE.telephoneE164,
     priceRange: '££',
     founder: { '@type': 'Person', name: SITE.founder, '@id': ADRIAN_ID },
     address: {

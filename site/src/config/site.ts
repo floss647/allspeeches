@@ -14,8 +14,6 @@ export const SITE = {
   founderUrlPath: '/about-adrian-simpson-speechwriter/',
 
   // NAP, keep byte-identical wherever it appears.
-  telephone: '0207 993 6524',
-  telephoneE164: '+44-20-7993-6524',
   email: 'adrian@allspeechesgreatandsmall.com', // confirmed
   addressRegion: 'East Sussex',
   addressCountry: 'GB',
