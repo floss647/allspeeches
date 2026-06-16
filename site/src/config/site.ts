@@ -37,6 +37,17 @@ export const SITE = {
     'https://www.youtube.com/@Allspeechesgreatandsmallgp',
   ],
 
+  // 'As featured in' press strip (site-wide). Text wordmarks for now;
+  // add a `url` to any entry to link it, or swap for logo images later.
+  featuredIn: [
+    { name: 'Mail Online' },
+    { name: 'BBC Radio 2' },
+    { name: 'The Daily Telegraph' },
+    { name: 'The Times' },
+    { name: 'The Sunday Times' },
+    { name: 'HuffPost' },
+  ] as { name: string; url?: string }[],
+
   // Default share image, 1200x630 branded image still to be created.
   ogImage: '/images/adrian-portrait.jpg',
 } as const;
