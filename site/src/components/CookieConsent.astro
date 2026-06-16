@@ -1,0 +1,104 @@
+---
+import { SITE } from '../config/site';
+const adsId = SITE.googleAdsId;
+const adsLabel = SITE.googleAdsLabel;
+---
+<div id="cookie-banner" class="cc" hidden role="dialog" aria-modal="false" aria-label="Cookie consent" aria-describedby="cc-text">
+  <div class="cc__inner wrap">
+    <p id="cc-text" class="cc__text">
+      We use cookies that are essential for this site to work. With your permission we'd also like to
+      set <strong>marketing cookies</strong> (Google Ads) to measure our advertising. Nothing
+      non‑essential is set unless you accept. See our <a href="/privacy">privacy &amp; cookie policy</a>.
+    </p>
+    <div class="cc__actions">
+      <button type="button" data-cc="reject" class="btn btn--ghost cc__btn">Reject</button>
+      <button type="button" data-cc="accept" class="btn btn--primary cc__btn">Accept</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ adsId, adsLabel }}>
+  (function () {
+    var NAME = 'asgs-consent';
+
+    function readConsent() {
+      var m = document.cookie.match(/(?:^|;\s*)asgs-consent=([^;]+)/);
+      return m ? decodeURIComponent(m[1]) : null;
+    }
+    function writeConsent(value) {
+      var d = new Date();
+      d.setMonth(d.getMonth() + 6); // re-ask after 6 months
+      document.cookie = NAME + '=' + value + '; path=/; max-age=' + 60 * 60 * 24 * 182 +
+        '; expires=' + d.toUTCString() + '; SameSite=Lax';
+    }
+
+    var banner = document.getElementById('cookie-banner');
+    var loaded = false;
+
+    function loadMarketing() {
+      if (loaded || !adsId) return;
+      loaded = true;
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      window.gtag = gtag;
+      // Consent Mode v2: default denied, then grant (we only reach here on consent).
+      gtag('consent', 'default', {
+        ad_storage: 'denied', ad_user_data: 'denied',
+        ad_personalization: 'denied', analytics_storage: 'denied',
+      });
+      gtag('consent', 'update', {
+        ad_storage: 'granted', ad_user_data: 'granted',
+        ad_personalization: 'granted', analytics_storage: 'granted',
+      });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + adsId;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', adsId);
+      // Fire the conversion when we're on the thank-you page.
+      if (adsLabel && location.pathname.replace(/\/+$/, '') === '/thank-you') {
+        gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
+      }
+    }
+
+    function showBanner() { if (banner) banner.hidden = false; }
+    function hideBanner() { if (banner) banner.hidden = true; }
+
+    var choice = readConsent();
+    if (choice === 'granted') loadMarketing();
+    else if (choice !== 'denied') showBanner();
+
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-cc]');
+      if (!btn) return;
+      var action = btn.getAttribute('data-cc');
+      if (action === 'open') { e.preventDefault(); showBanner(); return; }
+      if (action === 'accept') { writeConsent('granted'); loadMarketing(); }
+      else if (action === 'reject') { writeConsent('denied'); }
+      hideBanner();
+    });
+  })();
+</script>
+
+<style>
+  .cc {
+    position: fixed; inset: auto 0 0 0; z-index: 1000;
+    background: var(--ink); color: #e9e9f2;
+    box-shadow: 0 -8px 30px rgba(26, 26, 46, 0.25);
+  }
+  .cc__inner {
+    display: flex; align-items: center; gap: 20px 28px;
+    padding-top: 16px; padding-bottom: 16px; flex-wrap: wrap;
+  }
+  .cc__text { margin: 0; flex: 1 1 360px; font-size: 0.92rem; line-height: 1.55; }
+  .cc__text a { color: #fff; text-decoration: underline; }
+  .cc__actions { display: flex; gap: 12px; flex: 0 0 auto; }
+  .cc__btn { min-width: 120px; }
+  .cc .btn--ghost { color: #fff; border-color: rgba(255,255,255,0.4); }
+  .cc .btn--ghost:hover { border-color: #fff; }
+  @media (max-width: 560px) {
+    .cc__actions { width: 100%; }
+    .cc__btn { flex: 1 1 0; min-width: 0; }
+  }
+</style>
