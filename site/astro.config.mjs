@@ -33,8 +33,9 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      // /privacy and /terms are noindex — keep them out of the sitemap.
-      filter: (page) => !page.includes('/privacy') && !page.includes('/terms'),
+      // noindex pages (/privacy, /terms, /thank-you) stay out of the sitemap.
+      filter: (page) =>
+        !page.includes('/privacy') && !page.includes('/terms') && !page.includes('/thank-you'),
       // Match each <loc> to its exact preserved slug (mixed trailing slashes).
       serialize: (item) => ({ ...item, url: canonical(item.url) }),
     }),
