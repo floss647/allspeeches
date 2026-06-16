@@ -59,7 +59,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <p class="eyebrow center">What I write</p>
       <h2 class="center">Just some of the speeches I write</h2>
       <div class="grid grid--3 mt-2">
-        {services.map((s) => (
+        {services.filter((s) => s.audience !== 'corporate').map((s) => (
           <article class="card">
             <img class="card__img" src={s.cardImage} alt={`${s.cardTitle}, professional speech writing`} loading="lazy" width="400" height="267" />
             <div class="card__body">
@@ -70,6 +70,19 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
           </article>
         ))}
       </div>
+    </div>
+  </section>
+
+  <!-- FOR BUSINESS -->
+  <section class="section section--tint center">
+    <div class="wrap measure mx-auto">
+      <p class="eyebrow">Also for business &amp; events</p>
+      <h2>Keynotes, conference talks and corporate events</h2>
+      <p class="lede">
+        It’s not only weddings. I write keynotes, TED-style talks, executive addresses and awards
+        scripts for businesses and events, ghostwritten in your voice and in complete confidence.
+      </p>
+      <a class="btn btn--ghost" href="/corporate-speeches">Explore corporate speechwriting →</a>
     </div>
   </section>
 

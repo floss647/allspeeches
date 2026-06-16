@@ -19,7 +19,7 @@ const ctaLabel = fill(data.ctaLabel);
 
 const crumbs = [
   { name: 'Home', path: '/' },
-  { name: 'Speech Writing', path: '/#services' },
+  data.parentCrumb ?? { name: 'Speech Writing', path: '/#services' },
   { name: data.h1, path: data.slug },
 ];
 
@@ -44,7 +44,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
       <Breadcrumbs items={crumbs} />
       <div class="media" style="align-items:center">
         <div>
-          <p class="eyebrow">{data.gentle ? 'Compassionate help' : 'Professional speech writing'}</p>
+          <p class="eyebrow">{data.eyebrow ?? (data.gentle ? 'Compassionate help' : 'Professional speech writing')}</p>
           <h1>{data.h1}</h1>
           {intro.map((p) => <p class="lede" set:html={p} />)}
           <div class="btn-row mt-2">
@@ -127,5 +127,15 @@ const priceDisplay = data.priceValue ?? SITE.price;
 
   <Faq faqs={faqs} />
 
-  <CtaBand heading={data.gentle ? 'Whenever you’re ready' : 'Ready to start?'} text={data.gentle ? 'There’s no pressure and no rush. Get in touch whenever the time feels right.' : 'Tell me about the occasion and I’ll take it from there.'} />
+  {data.audience === 'corporate' ? (
+    <CtaBand
+      heading="Let’s talk about your event"
+      text="Tell me about the occasion, the audience and the date, and I’ll send a tailored proposal."
+      ctaLabel={ctaLabel}
+      secondaryLabel="See all business services"
+      secondaryHref="/corporate-speeches"
+    />
+  ) : (
+    <CtaBand heading={data.gentle ? 'Whenever you’re ready' : 'Ready to start?'} text={data.gentle ? 'There’s no pressure and no rush. Get in touch whenever the time feels right.' : 'Tell me about the occasion and I’ll take it from there.'} />
+  )}
 </Layout>

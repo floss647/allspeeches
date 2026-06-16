@@ -20,6 +20,15 @@ const guides = [
   ['/moh-speeches', 'Maid of Honour Guide'],
   ['/eulogy-examples', 'Eulogy Guide'],
 ];
+const business = [
+  ['/corporate-speeches', 'Corporate speechwriting'],
+  ['/keynote-speech-writer', 'Keynote & Conference'],
+  ['/ted-style-talk-writer', 'TED-style Talk'],
+  ['/executive-speech-writer', 'Executive & Leadership'],
+  ['/award-ceremony-speech-writer', 'Awards & Hosting'],
+  ['/after-dinner-speeches/', 'After-Dinner'],
+];
+const isCorporate = business.some(([href]) => isActive(href as string));
 ---
 <header class="site-header">
   <div class="wrap site-header__inner">
@@ -48,11 +57,19 @@ const guides = [
             ))}
           </ul>
         </li>
+        <li class="has-sub">
+          <span class="nav__link">For Business ▾</span>
+          <ul class="sub">
+            {business.map(([href, label]) => (
+              <li><a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a></li>
+            ))}
+          </ul>
+        </li>
         <li><a class="nav__link" href={SITE.founderUrlPath} aria-current={isActive(SITE.founderUrlPath) ? 'page' : undefined}>About</a></li>
         <li><a class="nav__link" href="/reviews" aria-current={isActive('/reviews') ? 'page' : undefined}>Reviews</a></li>
         <li><a class="nav__link" href="/pricing" aria-current={isActive('/pricing') ? 'page' : undefined}>Pricing</a></li>
         <li><a class="nav__link" href="/blogs/" aria-current={isActive('/blogs') ? 'page' : undefined}>Blog</a></li>
-        <li><a class="btn btn--primary nav__cta" href="/contact">Get my speech for £{SITE.price}</a></li>
+        <li><a class="btn btn--primary nav__cta" href="/contact">{isCorporate ? 'Discuss your event' : `Get my speech for £${SITE.price}`}</a></li>
       </ul>
     </nav>
   </div>

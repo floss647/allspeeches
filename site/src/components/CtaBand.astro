@@ -1,9 +1,20 @@
 ---
 import { SITE } from '../config/site';
-interface Props { heading?: string; text?: string; }
+interface Props {
+  heading?: string;
+  text?: string;
+  ctaLabel?: string;
+  ctaHref?: string;
+  secondaryLabel?: string;
+  secondaryHref?: string;
+}
 const {
   heading = "Let's write something unforgettable",
   text = "The sooner we start, the more relaxed you'll feel on the day.",
+  ctaLabel,
+  ctaHref = '/contact',
+  secondaryLabel = 'Read my reviews',
+  secondaryHref = '/reviews',
 } = Astro.props;
 ---
 <section class="section section--ink center">
@@ -11,8 +22,8 @@ const {
     <h2>{heading}</h2>
     <p class="lede" style="color:#cfcfe0">{text}</p>
     <div class="btn-row" style="justify-content:center">
-      <a class="btn btn--primary" href="/contact">Get my speech written for £{SITE.price}</a>
-      <a class="btn btn--ghost" href="/reviews">Read my reviews</a>
+      <a class="btn btn--primary" href={ctaHref}>{ctaLabel ?? `Get my speech written for £${SITE.price}`}</a>
+      <a class="btn btn--ghost" href={secondaryHref}>{secondaryLabel}</a>
     </div>
   </div>
 </section>
