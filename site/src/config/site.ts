@@ -41,11 +41,11 @@ export const SITE = {
   // add a `logo` (path under /public, e.g. '/press/the-times.svg') to show
   // the real logo, and/or a `url` to link the entry to the coverage.
   featuredIn: [
-    { name: 'Mail Online' },
-    { name: 'BBC Radio 2' },
-    { name: 'The Daily Telegraph' },
-    { name: 'The Times' },
-    { name: 'The Sunday Times' },
+    { name: 'Mail Online', logo: '/press/mail-online.png' },
+    { name: 'BBC Radio 2', logo: '/press/bbc-radio-2.png' },
+    { name: 'The Daily Telegraph', logo: '/press/the-daily-telegraph.png' },
+    { name: 'The Times', logo: '/press/the-times.png' },
+    { name: 'The Sunday Times', logo: '/press/the-sunday-times.png' },
     { name: 'HuffPost' },
   ] as { name: string; url?: string; logo?: string }[],
 
