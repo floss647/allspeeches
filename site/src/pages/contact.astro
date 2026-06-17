@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { contactPage } from '../lib/schema';
+import { SITE } from '../config/site';
 
 const path = '/contact';
 const title = 'Contact | All Speeches Great & Small';
@@ -11,7 +12,13 @@ const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Contact', path },
 ];
-const types = ['Best Man', 'Groom', 'Father of the Bride', 'Maid of Honour', 'Eulogy', 'Speech Review', 'Other'];
+const types = ['Best Man', 'Groom', 'Bride', 'Father of the Bride', 'Mother of the Bride', 'Maid of Honour', 'Brother of the Bride', 'Sister of the Groom', 'Eulogy', 'Business / Corporate', 'Other'];
+
+// If a Formspree (or similar) endpoint is configured, post there and bypass
+// Netlify Forms entirely. Otherwise fall back to Netlify Forms.
+const useFormspree = SITE.formEndpoint.length > 0;
+const formAction = useFormspree ? SITE.formEndpoint : '/thank-you';
+const thankYouUrl = `${SITE.url}/thank-you`;
 ---
 <Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={[contactPage()]}>
   <section class="hero">
@@ -27,11 +34,23 @@ const types = ['Best Man', 'Groom', 'Father of the Bride', 'Maid of Honour', 'Eu
     <div class="wrap">
       <div class="form-wrap measure mx-auto">
         <h2>Send me a message</h2>
-        <!-- Netlify Forms ready (works automatically when deployed to Netlify).
-             On other hosts, point `action` at your form endpoint (Formspree, etc.). -->
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you" class="form">
-          <input type="hidden" name="form-name" value="contact" />
-          <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+        <!-- Posts to Formspree when SITE.formEndpoint is set (bypasses Netlify),
+             otherwise uses Netlify Forms. Both redirect to /thank-you on success. -->
+        <form name="contact" method="POST" action={formAction} class="form"
+          data-netlify={useFormspree ? undefined : 'true'}
+          netlify-honeypot={useFormspree ? undefined : 'bot-field'}>
+          {useFormspree ? (
+            <Fragment>
+              <input type="hidden" name="_next" value={thankYouUrl} />
+              <input type="hidden" name="_subject" value="New enquiry via allspeechesgreatandsmall.com" />
+              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            </Fragment>
+          ) : (
+            <Fragment>
+              <input type="hidden" name="form-name" value="contact" />
+              <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+            </Fragment>
+          )}
 
           <label>Your name<input type="text" name="name" required /></label>
           <label>Email address<input type="email" name="email" required /></label>

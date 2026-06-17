@@ -58,6 +58,12 @@ export const SITE = {
   //   googleAdsLabel: the conversion label from the event snippet, e.g. 'abCdEfGh-IjK'
   googleAdsId: '',
   googleAdsLabel: '',
+
+  // Contact form. Leave blank to use Netlify Forms (needs form detection
+  // enabled in Netlify). To bypass Netlify entirely, paste a Formspree form
+  // endpoint here (free at formspree.io), e.g. 'https://formspree.io/f/abcdwxyz'
+  // and the contact form will post there instead and email you directly.
+  formEndpoint: '',
 } as const;
 
 /**
