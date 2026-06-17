@@ -1,0 +1,6 @@
+---
+import ServicePage from '../components/ServicePage.astro';
+import { getService } from '../data/services';
+const data = getService('sister-of-groom')!;
+---
+<ServicePage data={data} />
