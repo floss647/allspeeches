@@ -1,0 +1,22 @@
+<!--
+  Netlify Forms detection file.
+  Netlify registers forms by parsing static HTML at deploy time. This plain
+  file guarantees the "contact" form (and all its fields) is detected, even if
+  the framework-rendered page is ever missed. The real, styled form lives on
+  /contact and posts to /thank-you; Netlify matches submissions by form-name.
+-->
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8" /><title>Netlify form detection</title></head>
+  <body>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <select name="speech_type"><option>Best Man</option></select>
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
