@@ -18,13 +18,9 @@ const crumbs = [
   { name: 'For Business', path },
 ];
 
-// The corporate service pages, plus the existing after-dinner service.
+// All business services (keynote, TED-style, executive, awards, after-dinner).
 const corporate = services.filter((s) => s.audience === 'corporate');
-const afterDinner = services.find((s) => s.key === 'after-dinner')!;
-const offerings = [
-  ...corporate.map((s) => ({ title: s.cardTitle, blurb: s.cardBlurb, href: s.slug })),
-  { title: 'After-Dinner', blurb: 'Original, genuinely funny, built to hold a room.', href: afterDinner.slug },
-];
+const offerings = corporate.map((s) => ({ title: s.cardTitle, blurb: s.cardBlurb, href: s.slug }));
 
 const faqs: FaqType[] = [
   { q: 'Do you really write both wedding and corporate speeches?', a: 'Yes, and it’s the same craft. Whether it’s a best man or a chief executive, the job is to find the story only you can tell and write it so it sounds like the best possible version of you. The occasion changes; the skill doesn’t.' },
