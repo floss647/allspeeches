@@ -63,7 +63,7 @@ export const SITE = {
   // enabled in Netlify). To bypass Netlify entirely, paste a Formspree form
   // endpoint here (free at formspree.io), e.g. 'https://formspree.io/f/abcdwxyz'
   // and the contact form will post there instead and email you directly.
-  formEndpoint: '',
+  formEndpoint: 'https://formspree.io/f/mkoaagyj',
 } as const;
 
 /**
