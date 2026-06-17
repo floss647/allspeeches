@@ -63,7 +63,9 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <div class="grid grid--3 mt-2">
         {services.filter((s) => s.audience !== 'corporate').map((s) => (
           <article class="card">
-            <img class="card__img" src={s.cardImage} alt={`${s.cardTitle}, professional speech writing`} loading="lazy" width="400" height="267" />
+            <a href={s.slug} class="card__imglink" aria-label={s.cardTitle}>
+              <img class="card__img" src={s.cardImage} alt={`${s.cardTitle}, professional speech writing`} loading="lazy" width="400" height="267" />
+            </a>
             <div class="card__body">
               <h3>{s.cardTitle}</h3>
               <p>{s.cardBlurb}</p>
@@ -78,7 +80,9 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <div class="grid grid--3 mt-2">
         {services.filter((s) => s.audience === 'corporate').map((s) => (
           <article class="card">
-            <img class="card__img" src={s.cardImage} alt={`${s.cardTitle}, professional speech writing`} loading="lazy" width="400" height="267" />
+            <a href={s.slug} class="card__imglink" aria-label={s.cardTitle}>
+              <img class="card__img" src={s.cardImage} alt={`${s.cardTitle}, professional speech writing`} loading="lazy" width="400" height="267" />
+            </a>
             <div class="card__body">
               <h3>{s.cardTitle}</h3>
               <p>{s.cardBlurb}</p>
@@ -171,4 +175,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   .group-title { margin-top: 40px; font-size: 1.5rem; }
   .group-title--business { margin-top: 64px; }
   .group-intro { color: var(--ink-soft); margin-top: 6px; }
+  .card__imglink { display: block; overflow: hidden; border-radius: var(--radius) var(--radius) 0 0; }
+  .card__imglink .card__img { transition: transform 0.3s ease; }
+  .card__imglink:hover .card__img { transform: scale(1.04); }
 </style>
