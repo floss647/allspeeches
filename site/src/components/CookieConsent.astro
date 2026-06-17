@@ -2,13 +2,15 @@
 import { SITE } from '../config/site';
 const adsId = SITE.googleAdsId;
 const adsLabel = SITE.googleAdsLabel;
+const ga4Id = SITE.ga4Id;
 ---
 <div id="cookie-banner" class="cc" hidden role="dialog" aria-modal="false" aria-label="Cookie consent" aria-describedby="cc-text">
   <div class="cc__inner wrap">
     <p id="cc-text" class="cc__text">
       We use cookies that are essential for this site to work. With your permission we'd also like to
-      set <strong>marketing cookies</strong> (Google Ads) to measure our advertising. Nothing
-      non‑essential is set unless you accept. See our <a href="/privacy">privacy &amp; cookie policy</a>.
+      set <strong>analytics and marketing cookies</strong> (Google Analytics and Google Ads) to
+      understand how the site is used and to measure our advertising. Nothing non‑essential is set
+      unless you accept. See our <a href="/privacy">privacy &amp; cookie policy</a>.
     </p>
     <div class="cc__actions">
       <button type="button" data-cc="reject" class="btn btn--ghost cc__btn">Reject</button>
@@ -17,7 +19,7 @@ const adsLabel = SITE.googleAdsLabel;
   </div>
 </div>
 
-<script is:inline define:vars={{ adsId, adsLabel }}>
+<script is:inline define:vars={{ adsId, adsLabel, ga4Id }}>
   (function () {
     var NAME = 'asgs-consent';
 
@@ -35,8 +37,8 @@ const adsLabel = SITE.googleAdsLabel;
     var banner = document.getElementById('cookie-banner');
     var loaded = false;
 
-    function loadMarketing() {
-      if (loaded || !adsId) return;
+    function loadTags() {
+      if (loaded || (!adsId && !ga4Id)) return;
       loaded = true;
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
@@ -52,12 +54,13 @@ const adsLabel = SITE.googleAdsLabel;
       });
       var s = document.createElement('script');
       s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + adsId;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + (ga4Id || adsId);
       document.head.appendChild(s);
       gtag('js', new Date());
-      gtag('config', adsId);
-      // Fire the conversion when we're on the thank-you page.
-      if (adsLabel && location.pathname.replace(/\/+$/, '') === '/thank-you') {
+      if (ga4Id) gtag('config', ga4Id);
+      if (adsId) gtag('config', adsId);
+      // Fire the Ads conversion when we're on the thank-you page.
+      if (adsId && adsLabel && location.pathname.replace(/\/+$/, '') === '/thank-you') {
         gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
       }
     }
@@ -66,7 +69,7 @@ const adsLabel = SITE.googleAdsLabel;
     function hideBanner() { if (banner) banner.hidden = true; }
 
     var choice = readConsent();
-    if (choice === 'granted') loadMarketing();
+    if (choice === 'granted') loadTags();
     else if (choice !== 'denied') showBanner();
 
     document.addEventListener('click', function (e) {
@@ -74,7 +77,7 @@ const adsLabel = SITE.googleAdsLabel;
       if (!btn) return;
       var action = btn.getAttribute('data-cc');
       if (action === 'open') { e.preventDefault(); showBanner(); return; }
-      if (action === 'accept') { writeConsent('granted'); loadMarketing(); }
+      if (action === 'accept') { writeConsent('granted'); loadTags(); }
       else if (action === 'reject') { writeConsent('denied'); }
       hideBanner();
     });
