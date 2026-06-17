@@ -5,6 +5,7 @@ slug: "groom-speech-enough-is-enough"
 category: "groom"
 publishedDate: "2022-02-25"
 excerpt: "There's no point saying the same thing in three different ways. On the quality of efficiency in groom speeches, and knowing when enough is enough."
+hero: "/images/blog/bradley-pisney-CJqKqAHTwUw-unsplash.webp"
 related:
   label: "Get your groom speech written"
   path: "/groom-speech-writer"

@@ -5,6 +5,7 @@ slug: "groom-speech-don-t-forget-it-s-forever"
 category: "groom"
 publishedDate: "2022-02-04"
 excerpt: "There's an underlying temptation for grooms to see the groom speech as 'just a groom speech'. But this speech will be with you for the rest of your days."
+hero: "/images/blog/alex-padurariu-Hoo9-pSSsKA-unsplash.webp"
 related:
   label: "Get your groom speech written"
   path: "/groom-speech-writer"

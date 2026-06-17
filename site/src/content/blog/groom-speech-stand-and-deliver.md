@@ -5,6 +5,7 @@ slug: "groom-speech-stand-and-deliver"
 category: "groom"
 publishedDate: "2021-02-15"
 excerpt: "Very confident, successful and accomplished people are terrified at the thought of standing up and speaking. Here's how to beat the fear."
+hero: "/images/blog/shutterstock_428257765-scaled.webp"
 related:
   label: "Get your groom speech written"
   path: "/groom-speech-writer"
