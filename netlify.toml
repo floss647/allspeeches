@@ -129,7 +129,11 @@
 # Mother/Sister of the groom: moved from blog posts to service pages.
 [[redirects]]
   from = "/mother-of-the-groom-speech"
-  to = "/mother-of-the-groom-speech-writer"
+  to = "/mother-of-the-bride-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/mother-of-the-groom-speech-writer"
+  to = "/mother-of-the-bride-speech-writer"
   status = 301
 
 # Speech review service retired — point any old links at the contact page.
