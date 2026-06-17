@@ -5,7 +5,7 @@ slug: "wedding-speeches-practice-makes-perfect"
 category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "The short answer is nearly always yes, but sometimes no. The big 'no-nos' of wedding speech practice, starting with reading it to other people."
-hero: "/images/blog/pexels-pixabay-164829.webp"
+hero: "/images/blog/fob-speech-mic.webp"
 related:
   label: "Get your wedding speech written"
   path: "/best-man-speech-writer/"

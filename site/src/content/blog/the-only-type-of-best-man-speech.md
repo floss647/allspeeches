@@ -5,7 +5,7 @@ slug: "the-only-type-of-best-man-speech"
 category: "best-man"
 publishedDate: "2020-05-25"
 excerpt: "There is only one type of best man speech... and that's a really funny one. Whether you like it or not, everyone is expecting you to make them laugh."
-hero: "/images/blog/father-of-the-bride-jokes-hero.webp"
+hero: "/images/blog/groomsmen-lift.webp"
 related:
   label: "Get your best man speech written"
   path: "/best-man-speech-writer/"

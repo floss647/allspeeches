@@ -5,7 +5,7 @@ slug: "groom-speech-help"
 category: "groom"
 publishedDate: "2019-01-08"
 excerpt: "It's about this time of year that grooms the world over start thinking about THAT speech. So where do you start, and what should you bear in mind?"
-hero: "/images/blog/ezgifcom-gif-maker.webp"
+hero: "/images/blog/clem-groom-tweed.webp"
 related:
   label: "Get your groom speech written"
   path: "/groom-speech-writer"

@@ -5,7 +5,7 @@ slug: "write-great-best-mans-speech"
 category: "best-man"
 publishedDate: "2019-01-01"
 excerpt: "For many men the idea of giving a best man's speech sends them into a cold sweat. Here are my ten tips on how to write a great one."
-hero: "/images/blog/bestman-template-hero-v2.webp"
+hero: "/images/blog/smart-wedding-guest.webp"
 related:
   label: "Get your best man speech written"
   path: "/best-man-speech-writer/"
