@@ -5,7 +5,7 @@ slug: "talk-best-man"
 category: "best-man"
 publishedDate: "2019-01-01"
 excerpt: "The most cliched way to attack a best man speech is to spend a chunk of it talking about being the best man. Here's why that's filler, not killer."
-hero: "/images/blog/matt-botsford-197870.webp"
+hero: "/images/blog/two-wedding-guests.webp"
 related:
   label: "Get your best man speech written"
   path: "/best-man-speech-writer/"

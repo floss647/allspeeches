@@ -5,7 +5,7 @@ slug: "start-writing-your-father-of-the-bride-speech-30-years-in-advance"
 category: "father-of-the-bride"
 publishedDate: "2020-12-15"
 excerpt: "When it's your turn to make that father of the bride speech, you'll embrace the same age-old problem all dads do: memory loss."
-hero: "/images/blog/ezgifcom-gif-maker_25.webp"
+hero: "/images/blog/fob-first-dance.webp"
 related:
   label: "Get your father of the bride speech written"
   path: "/father-of-the-bride-speech-writer"

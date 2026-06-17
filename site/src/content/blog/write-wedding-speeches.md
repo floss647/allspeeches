@@ -5,7 +5,7 @@ slug: "write-wedding-speeches"
 category: "wedding-speeches"
 publishedDate: "2019-01-04"
 excerpt: "Two little words that cause an awful lot of pressure. Here's how to rationalise the fear and get the three magic ingredients right."
-hero: "/images/blog/shutterstock_733234420-scaled.webp"
+hero: "/images/blog/wedding-toast-champagne.webp"
 related:
   label: "Get your wedding speech written"
   path: "/best-man-speech-writer/"
