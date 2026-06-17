@@ -5,6 +5,7 @@ slug: "groom-speech-when-it-s-not-a-wedding"
 category: "groom"
 publishedDate: "2021-10-07"
 excerpt: "It's the most common groom speech I'm writing right now: speeches for the wedding party, not the day itself. Here's how to make them work."
+hero: "/images/blog/shutterstock_156465710-e1416759332395.webp"
 related:
   label: "Get your groom speech written"
   path: "/groom-speech-writer"

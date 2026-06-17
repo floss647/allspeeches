@@ -5,6 +5,7 @@ slug: "robots-in-disguise-we-need-to-talk-about-ai"
 category: "wedding-speeches"
 publishedDate: "2024-01-16"
 excerpt: "Artificial Intelligence has fully manifested itself in the mainstream. So I fed ChatGPT some info and waited to see what it produced."
+hero: "/images/blog/shutterstock_99615326-e1404216781909.webp"
 related:
   label: "Get a real, human-written speech"
   path: "/best-man-speech-writer/"

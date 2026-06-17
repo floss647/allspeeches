@@ -5,6 +5,7 @@ slug: "best-man-speech-it-s-never-about-the-best-man"
 category: "best-man"
 publishedDate: "2021-08-20"
 excerpt: "The best man speech is never about the best man. Keep that in mind and it will prevent all sorts of awkwardness."
+hero: "/images/blog/christian-bowen-X657fvd3smo-unsplash.webp"
 related:
   label: "Get your best man speech written"
   path: "/best-man-speech-writer/"

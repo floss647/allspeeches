@@ -5,6 +5,7 @@ slug: "funny-business-writing-comedy"
 category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "Last year I received something truly horrific in my inbox: a really bad speech that somebody had actually paid for."
+hero: "/images/blog/accessory-adult-beautiful-1451359-min.webp"
 related:
   label: "Get your speech written"
   path: "/best-man-speech-writer/"

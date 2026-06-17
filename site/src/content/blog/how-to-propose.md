@@ -5,6 +5,7 @@ slug: "how-to-propose"
 category: "wedding-speeches"
 publishedDate: "2019-01-01"
 excerpt: "Men the world over manage to get proposing spectacularly wrong. Here's what hundreds of grooms' stories reveal about how to get it right."
+hero: "/images/blog/glenn-carstens-peters-RLw-UC03Gwc-unsplash.webp"
 related:
   label: "Get your groom speech written"
   path: "/groom-speech-writer"

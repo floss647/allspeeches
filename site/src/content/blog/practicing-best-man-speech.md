@@ -5,6 +5,7 @@ slug: "practicing-best-man-speech"
 category: "best-man"
 publishedDate: "2019-01-01"
 excerpt: "Practice makes perfect... up to a point. Why rehearsing your best man speech in front of the wrong audience can set you up to fail."
+hero: "/images/blog/juan-pablo-rodriguez-334216.webp"
 related:
   label: "Get your best man speech written"
   path: "/best-man-speech-writer/"
