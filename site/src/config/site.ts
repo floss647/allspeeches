@@ -59,6 +59,10 @@ export const SITE = {
   googleAdsId: '',
   googleAdsLabel: '',
 
+  // GA4 Measurement ID (reuses the existing property so history is preserved).
+  // Loads via gtag only after the visitor accepts cookies.
+  ga4Id: 'G-99R1G1B2LC',
+
   // Contact form. Leave blank to use Netlify Forms (needs form detection
   // enabled in Netlify). To bypass Netlify entirely, paste a Formspree form
   // endpoint here (free at formspree.io), e.g. 'https://formspree.io/f/abcdwxyz'
