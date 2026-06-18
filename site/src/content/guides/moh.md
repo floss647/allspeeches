@@ -35,9 +35,6 @@ faqs:
 
 It wasn't so long ago that it was considered pretty maverick for anyone brave enough to let a woman do the talking at a wedding. Thankfully those days are behind us and led by the American Wedding Machine, the world is at last welcoming women to the microphone. It just leaves the question: what on earth do you say in a Maid of Honour Speech? Well, this is a gilt edged opportunity to show the boys how it's done. And about time too. Below is everything I know about writing a great one, the structure, the jokes, example lines, and a full worked example to borrow from.
 
-## Quick Links
-How to Write It · What to Include · Opening Lines · Structure · Comedy · Funny & Emotional · Examples · Closing Lines · What to Avoid · Delivery
-
 ## How do you write a maid of honour speech?
 **There's no fixed agenda, introduce yourself, tell the bride's story with plenty of humour, keep it to around 750 to 1,000 words, toast the happy couple at the end, and don't bother thanking anyone.**
 
@@ -52,7 +49,7 @@ Unlike the other wedding speakers there really is no set agenda as to what a Mai
 - **Thanks**, you don't need to thank anyone. Keep it tight.
 - **The Groom**, make this the penultimate thought before you go into the heartfelt friend bit. You only need about 3-4 sentences on him and it should neatly summarise just what a great guy he is and the amazing effect he's had on your friend. If you're struggling, just lie.
 
-## What should a maid of honour speech include?
+## What should a maid of honour speech include? (What to Include)
 **It should include a funny introduction, the story of your friendship with the bride, a few warm words about the groom, the heartfelt 'best friend' moment, and a toast to the happy couple, with a laugh in nearly every paragraph.**
 
 If you want a simple checklist of what goes in, this is it, in order:
@@ -94,12 +91,12 @@ EXAMPLE LINES to spark ideas (adapt to your own friend):
 - On the groom: "When Sarah told me she'd met someone called Tom who was kind, patient and tidied up after himself, I naturally assumed she'd got a dog. I'm delighted to have been proved half right."
 - On the groom's effect: "I have never seen her this happy, and I was there when she got front-row tickets to the Spice Girls reunion, so trust me, that is a genuinely high bar."
 
-## How do you balance funny and emotional?
+## How do you balance funny and emotional? (Funny and Emotional)
 **Lead with the laughs and let the speech grow sincere as you go, earn the emotional ending by being genuinely funny first, and never undercut the heartfelt finish with one last gag.**
 
 The very best maid of honour speeches take the room on a journey: laughing along with you early, then quietly moved by the end. The way you get there is to front-load the humour while everyone's settling in, then let the warmth build naturally as you move from the funny stories to what your friend really means to you. The single most common mistake is breaking the spell, landing your lovely heartfelt line and then immediately reaching for one more joke. Once you've turned sincere, stay there. Say the true thing, raise the glass, and sit down on the feeling.
 
-## What are some maid of honour speech examples?
+## What are some maid of honour speech examples? (Examples)
 **Here's a short worked example you can adapt, notice how it opens funny, warms up, mentions the groom, and toasts the couple (never the bride alone).**
 
 > "Hello everyone, I'm Katie, Sarah's maid of honour and her best friend since we were eleven, when she defended me from a much scarier girl in the dinner queue. I've been repaying her in embarrassing speeches ever since. So Sarah… this one's for the chips.

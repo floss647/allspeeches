@@ -27,15 +27,12 @@ faqs:
 
 If you're reading this, you've been asked to speak about someone you've lost, and that is both an honour and a heavy thing to carry. Please be gentle with yourself. There is no perfect eulogy, only an honest one, and you don't need to be a writer to give a beautiful one. This guide will take you through it slowly and simply, with examples to lean on. Take whatever helps, and leave the rest.
 
-## Quick Links
-How Long · How to Start · What to Include · A Difficult Relationship · Examples · Delivery · Gentle Reminders
-
-## How long should a eulogy be?
+## How long should a eulogy be? (Length)
 **A eulogy usually lasts around three to five minutes, roughly 500 to 750 words. Shorter, said with feeling, is always better than longer.**
 
 No one has ever wished a eulogy had gone on longer. Three to five minutes is enough to capture who someone was and to give everyone there something to hold on to. If you're unsure, lean towards the shorter side, it is kinder to you on the day, and a few true, well-chosen words carry more than many.
 
-## How do you start a eulogy?
+## How do you start a eulogy? (Opening)
 **Begin simply: say who you are and your relationship to them, then offer one warm, true sentence about who they were. There's no need for a grand opening.**
 
 You don't have to perform, and you don't need a dramatic first line. A quiet, honest beginning is exactly right.
@@ -44,7 +41,7 @@ EXAMPLE:
 
 "For those who don't know me, I'm Sarah, David's daughter. I could stand here all day and still not do him justice, so instead I'd like to share just a few of the things that made him so loved."
 
-## What should a eulogy include?
+## What should a eulogy include? (What to Include)
 **Include who you are, who they were, a few specific memories or stories, what they meant to the people around them, and a simple closing thought or farewell.**
 
 A gentle structure to follow:
@@ -57,12 +54,12 @@ A gentle structure to follow:
 
 The detail that brings someone back into the room is almost always the small, ordinary kind, a saying of theirs, the way they made tea, how they laughed, what they always got wrong. Reach for those rather than a list of achievements.
 
-## How do you write about a difficult relationship?
+## How do you write about a difficult relationship? (Difficult Relationships)
 **Be honest but kind: speak to what was true and good without pretending, and you can acknowledge that someone was complicated with warmth and grace.**
 
 Not every relationship is simple, and a eulogy doesn't have to claim it was. You can speak honestly to the good, leave the rest gently unsaid, and let kindness do the work. A line such as "He wasn't always an easy man, but he was our man, and he was loved" can hold a great deal with dignity. Say only what feels true to you, there is no obligation to say more.
 
-## What are some eulogy examples?
+## What are some eulogy examples? (Examples)
 **Here's a short, gentle example you can adapt, notice how small, specific details bring him to life far more than any summary could.**
 
 > "For those who don't know me, I'm Sarah, David's daughter. Dad would have hated a fuss, so I'll keep this the way he liked things, honest, and not too long.
@@ -75,7 +72,7 @@ Not every relationship is simple, and a eulogy doesn't have to claim it was. You
 
 That's around 130 words, for a three-to-five-minute eulogy you would add a couple more memories in the middle. The shape is simple: who you are, who they were, what you'll remember, and a quiet goodbye.
 
-## How do you deliver a eulogy without breaking down?
+## How do you deliver a eulogy without breaking down? (Delivery)
 **Practise it aloud beforehand, speak slowly, keep water nearby, and remember it is completely all right to pause or to cry. Ask someone to be ready to step in if you can't go on.**
 
 A few gentle, practical things that help:
@@ -86,7 +83,7 @@ A few gentle, practical things that help:
 - **Pause when you need to.** A silence is not a mistake; everyone is with you.
 - **Have a backup reader**, a friend or relative who can take over if the words won't come. There is no shame in that whatsoever.
 
-## A few gentle reminders
+## A few gentle reminders (Reminders)
 - There is no wrong way to do this, only your way.
 - It doesn't have to be polished. It has to be true.
 - You don't have to do it alone.

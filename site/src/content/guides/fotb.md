@@ -56,9 +56,6 @@ It's also an emotional speech in parts, and so it should be, but the more profou
 
 If you can make people laugh they'll love you for it and listen to everything you've got to say, so sprinkle that humour right the way throughout the speech.
 
-## Quick Links
-Opening Lines · Structure · Jokes · Absent Friends · Groom's Family · Your Daughter · Son in Law · Wife/Partner · Closing Lines · Divorce · Length · Boyfriends · Toast · Things to Avoid · Delivery
-
 ## How do you write a great father of the bride speech?
 **A great father of the bride speech blends heartfelt tribute with genuine humour, taking the room on a fun, moving journey through your daughter's life.**
 
