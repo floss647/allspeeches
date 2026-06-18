@@ -68,16 +68,6 @@ const updated = new Date(d.dateModified).toLocaleDateString('en-GB', { month: 'l
             </ul>
           </nav>
         )}
-        {quickLinks.length > 0 && (
-          <nav class="guide-toc" aria-label="Quick links">
-            <p class="guide-toc__title">Quick links</p>
-            <ul class="guide-toc__list">
-              {quickLinks.map((q) => (
-                <li><a href={`#${q.slug}`}>{q.label}</a></li>
-              ))}
-            </ul>
-          </nav>
-        )}
         <Content />
 
         <hr />
