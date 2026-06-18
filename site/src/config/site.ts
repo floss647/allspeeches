@@ -56,8 +56,8 @@ export const SITE = {
   // When set, the /thank-you page loads gtag and fires the conversion on load.
   //   googleAdsId:    your Conversion ID, e.g. 'AW-123456789'
   //   googleAdsLabel: the conversion label from the event snippet, e.g. 'abCdEfGh-IjK'
-  googleAdsId: '',
-  googleAdsLabel: '',
+  googleAdsId: 'AW-968218322',
+  googleAdsLabel: '2zCFCITfnMEcENKt180D',
 
   // GA4 Measurement ID (reuses the existing property so history is preserved).
   // Loads via gtag only after the visitor accepts cookies.
