@@ -61,7 +61,8 @@ If you can make people laugh they'll love you for it and listen to everything yo
 
 Here is a short video with my thoughts and ideas on writing a great father of the bride speech. I've expanded on those ideas below to give as much advice, hints and tips on writing a really great speech. Enjoy!
 
-<div class="video-slot"><a class="video-slot__play" href="https://www.youtube.com/@Allspeechesgreatandsmallgp" target="_blank" rel="noopener" aria-label="Watch Adrian's speech-writing video on YouTube"><span class="video-slot__btn">▶</span><span class="video-slot__label">Watch: Adrian's tips on this speech</span></a></div>
+<div class="guide-embed"><iframe src="https://www.youtube-nocookie.com/embed/u-Ntv61GCdY" title="How to write a father of the bride speech — video guide" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 [Order your bespoke speech today →](/father-of-the-bride-speech-writer)
 
 ## How do you start a father of the bride speech? (Opening Lines)
