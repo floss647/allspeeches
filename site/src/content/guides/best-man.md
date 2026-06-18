@@ -63,7 +63,8 @@ The Best Man Speech is one of the highlights of any wedding, but getting it righ
 
 Here is a short video with my thoughts and ideas on writing a great best man speech. I've expanded on those ideas below to give as much advice, hints and tips on writing a really great speech. Enjoy!
 
-<div class="video-slot"><a class="video-slot__play" href="https://www.youtube.com/@Allspeechesgreatandsmallgp" target="_blank" rel="noopener" aria-label="Watch Adrian's speech-writing video on YouTube"><span class="video-slot__btn">▶</span><span class="video-slot__label">Watch: Adrian's tips on this speech</span></a></div>
+<div class="guide-embed"><iframe src="https://www.youtube-nocookie.com/embed/O_zAdJIc31o" title="How to write a best man speech — video guide" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 [Write My Best Man Speech Now →](/best-man-speech-writer/)
 
 ## How do you start a best man speech? (Opening Lines)

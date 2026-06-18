@@ -77,7 +77,8 @@ On this page I've written out pretty much every idea, hints and tips that you're
 
 Here's a short video with all my hints and tips for writing a great groom speech. I've expanded on those thoughts and ideas on this page to give you the complete guide to writing your own.
 
-<div class="video-slot"><a class="video-slot__play" href="https://www.youtube.com/@Allspeechesgreatandsmallgp" target="_blank" rel="noopener" aria-label="Watch Adrian's speech-writing video on YouTube"><span class="video-slot__btn">▶</span><span class="video-slot__label">Watch: Adrian's tips on this speech</span></a></div>
+<div class="guide-embed"><iframe src="https://www.youtube-nocookie.com/embed/85aVWSpXGxI" title="How to write a groom speech — video guide" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 [Discover my speech writing service →](/groom-speech-writer)
 
 ## How do you start a groom speech? (Opening Lines)
