@@ -37,14 +37,21 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
         <a class="btn btn--primary" href="/contact">Get my speech written for £{SITE.price}</a>
         <a class="btn btn--ghost" href="/pricing">See what’s included</a>
       </div>
-      <p class="trust" style="margin-top:26px">
-        <span class="stars">★★★★★</span>
-        {ratingKnown && reviewsKnown ? (
-          <span>Rated {SITE.rating}/5 from {SITE.reviewCount} reviews</span>
-        ) : (
-          <span class="ph">Rated [RATING]/5 from [REVIEW_COUNT] reviews</span>
-        )}
-      </p>
+      <div class="trust" style="margin-top:26px">
+        <!-- Live reviews.io badge; the static rating inside is the fallback if the widget is blocked/offline -->
+        <div id="badge-ribbon">
+          <span class="stars">★★★★★</span>
+          {ratingKnown && reviewsKnown ? (
+            <span>Rated {SITE.rating}/5 from {SITE.reviewCount} reviews</span>
+          ) : (
+            <span class="ph">Rated [RATING]/5 from [REVIEW_COUNT] reviews</span>
+          )}
+        </div>
+      </div>
+      <script is:inline src="https://widget.reviews.io/badge-ribbon/dist.js"></script>
+      <script is:inline>
+        reviewsBadgeRibbon("badge-ribbon", { store: "all-speeches-great-and-small", size: "small" });
+      </script>
     </div>
   </section>
 
