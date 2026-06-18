@@ -15,4 +15,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.allspeechesgreatandsmall.com/sitemap.xml
+Sitemap: https://www.allspeechesgreatandsmall.com/sitemap-index.xml
