@@ -81,8 +81,8 @@ const isCorporate = business.some(([href]) => isActive(href as string));
   .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,253,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
   .site-header__inner { display: flex; align-items: center; justify-content: space-between; min-height: 72px; gap: 18px; }
   .brand { display: inline-flex; align-items: center; text-decoration: none; }
-  .brand img { display: block; height: 30px; width: auto; }
-  @media (max-width: 480px) { .brand img { height: 26px; } }
+  .brand img { display: block; height: 36px; width: auto; }
+  @media (max-width: 480px) { .brand img { height: 30px; } }
   .nav__list { display: flex; align-items: center; gap: 6px; list-style: none; margin: 0; padding: 0; }
   .nav__link { display: inline-block; padding: 10px 12px; font-size: 0.98rem; font-weight: 500; color: var(--ink); text-decoration: none; cursor: pointer; border-radius: 8px; white-space: nowrap; }
   a.nav__link:hover { color: var(--gold-dark); }
