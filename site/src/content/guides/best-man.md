@@ -58,9 +58,6 @@ faqs:
 
 The Best Man Speech is one of the highlights of any wedding, but getting it right is essential, because whilst it's just 10 minutes or so on the day, the memories of this speech will last a lifetime. Most Best Men are weighed down by the expectation to be funny, and have no idea where to start, what it should really contain, how to end it, or how to talk about the bride and groom in a meaningful and non-clichéd way. This page is the definitive guide on how to write your best man speech, from the structure, to the jokes, how to handle two men, props, format and quotes…it's here. All you need is some time, a creative burst and the rest will take care of itself.
 
-## Quick Links
-Opening Lines · Structure · Being Best Man · The Bridge · Relationship to Groom · Stories · Triumphs and Disasters · Impact · The Bride · The Toast · Closing Lines · Props · Quotes · Hecklers · Jokes · Length · Joint Best Man · Best Man for Brother · Girlfriends · Delivery
-
 ## How do you write a great best man speech?
 **A great best man speech is built on structure, a few well-chosen stories about the groom, and original humour, not recycled jokes.**
 

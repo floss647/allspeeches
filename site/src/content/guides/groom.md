@@ -72,9 +72,6 @@ You need to make all those thanks, acknowledgements and welcomes, in the most cr
 
 On this page I've written out pretty much every idea, hints and tips that you're ever going to need to write a really great groom speech.
 
-## Quick Links
-Opening Lines · Structure · Special Thanks · Journeys · Absent Friends · Groom's Parents · Bride's Parents · Best Man · Ushers · Bridesmaids · Bride · Closing Lines · Delivery · Divorced Parents · Humour · Gifts · Marrying Across Nations · Length · The Devil Is in the Details · Lead the Way · Toasts · Balance · Stag Weekend · Some Really Bad Ideas
-
 ## How do you write a great groom speech?
 **A great groom speech balances all the thanks, tributes and welcomes with original humour, building steadily towards the bride at the end.**
 
