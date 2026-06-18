@@ -21,6 +21,7 @@ const ga4Id = SITE.ga4Id;
 
 <script is:inline define:vars={{ adsId, adsLabel, ga4Id }}>
   (function () {
+    if (!adsId && !ga4Id) return;
     var NAME = 'asgs-consent';
 
     function readConsent() {
@@ -34,51 +35,61 @@ const ga4Id = SITE.ga4Id;
         '; expires=' + d.toUTCString() + '; SameSite=Lax';
     }
 
-    var banner = document.getElementById('cookie-banner');
-    var loaded = false;
-
-    function loadTags() {
-      if (loaded || (!adsId && !ga4Id)) return;
-      loaded = true;
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      window.gtag = gtag;
-      // Consent Mode v2: default denied, then grant (we only reach here on consent).
-      gtag('consent', 'default', {
-        ad_storage: 'denied', ad_user_data: 'denied',
-        ad_personalization: 'denied', analytics_storage: 'denied',
-      });
-      gtag('consent', 'update', {
-        ad_storage: 'granted', ad_user_data: 'granted',
-        ad_personalization: 'granted', analytics_storage: 'granted',
-      });
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + (ga4Id || adsId);
-      document.head.appendChild(s);
-      gtag('js', new Date());
-      if (ga4Id) gtag('config', ga4Id);
-      if (adsId) gtag('config', adsId);
-      // Fire the Ads conversion when we're on the thank-you page.
-      if (adsId && adsLabel && location.pathname.replace(/\/+$/, '') === '/thank-you') {
-        gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
-      }
-    }
-
-    function showBanner() { if (banner) banner.hidden = false; }
-    function hideBanner() { if (banner) banner.hidden = true; }
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    window.gtag = gtag;
 
     var choice = readConsent();
-    if (choice === 'granted') loadTags();
-    else if (choice !== 'denied') showBanner();
+    var granted = choice === 'granted';
+    var g = granted ? 'granted' : 'denied';
+
+    // Consent Mode v2 (advanced): the tag loads for everyone, but stays
+    // cookieless and ad-redacted until consent is granted. GA4 still collects
+    // (cookieless/modelled) data from non-consenting visitors, so reports
+    // populate; full data once a visitor accepts.
+    gtag('consent', 'default', {
+      ad_storage: g, ad_user_data: g, ad_personalization: g, analytics_storage: g,
+      functionality_storage: 'granted', security_storage: 'granted',
+    });
+    gtag('set', 'url_passthrough', true);
+    gtag('set', 'ads_data_redaction', !granted);
+
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + (ga4Id || adsId);
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    if (ga4Id) gtag('config', ga4Id);
+    if (adsId) gtag('config', adsId);
+    // Fire the Ads conversion on the thank-you page (respects consent mode).
+    if (adsId && adsLabel && location.pathname.replace(/\/+$/, '') === '/thank-you') {
+      gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
+    }
+
+    var banner = document.getElementById('cookie-banner');
+    function showBanner() { if (banner) banner.hidden = false; }
+    function hideBanner() { if (banner) banner.hidden = true; }
+    if (choice !== 'granted' && choice !== 'denied') showBanner();
 
     document.addEventListener('click', function (e) {
       var btn = e.target.closest('[data-cc]');
       if (!btn) return;
       var action = btn.getAttribute('data-cc');
       if (action === 'open') { e.preventDefault(); showBanner(); return; }
-      if (action === 'accept') { writeConsent('granted'); loadTags(); }
-      else if (action === 'reject') { writeConsent('denied'); }
+      if (action === 'accept') {
+        writeConsent('granted');
+        gtag('consent', 'update', {
+          ad_storage: 'granted', ad_user_data: 'granted',
+          ad_personalization: 'granted', analytics_storage: 'granted',
+        });
+        gtag('set', 'ads_data_redaction', false);
+      } else if (action === 'reject') {
+        writeConsent('denied');
+        gtag('consent', 'update', {
+          ad_storage: 'denied', ad_user_data: 'denied',
+          ad_personalization: 'denied', analytics_storage: 'denied',
+        });
+      }
       hideBanner();
     });
   })();
