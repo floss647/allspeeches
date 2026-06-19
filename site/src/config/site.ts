@@ -63,6 +63,10 @@ export const SITE = {
   // Loads via gtag only after the visitor accepts cookies.
   ga4Id: 'G-99R1G1B2LC',
 
+  // OpenAI / ChatGPT Ads conversion pixel. Loaded only after the visitor
+  // accepts cookies (it's a marketing tracker, so it's consent-gated).
+  openAiPixelId: 'Qh4vEpUYHGmwAKJ9oWpABo',
+
   // Contact form. Leave blank to use Netlify Forms (needs form detection
   // enabled in Netlify). To bypass Netlify entirely, paste a Formspree form
   // endpoint here (free at formspree.io), e.g. 'https://formspree.io/f/abcdwxyz'

@@ -3,14 +3,15 @@ import { SITE } from '../config/site';
 const adsId = SITE.googleAdsId;
 const adsLabel = SITE.googleAdsLabel;
 const ga4Id = SITE.ga4Id;
+const openAiPixelId = SITE.openAiPixelId;
 ---
 <div id="cookie-banner" class="cc" hidden role="dialog" aria-modal="false" aria-label="Cookie consent" aria-describedby="cc-text">
   <div class="cc__inner wrap">
     <p id="cc-text" class="cc__text">
       We use cookies that are essential for this site to work. With your permission we'd also like to
-      set <strong>analytics and marketing cookies</strong> (Google Analytics and Google Ads) to
-      understand how the site is used and to measure our advertising. Nothing non‑essential is set
-      unless you accept. See our <a href="/privacy">privacy &amp; cookie policy</a>.
+      set <strong>analytics and marketing cookies</strong> (Google Analytics, Google Ads and
+      ChatGPT Ads) to understand how the site is used and to measure our advertising. Nothing
+      non‑essential is set unless you accept. See our <a href="/privacy">privacy &amp; cookie policy</a>.
     </p>
     <div class="cc__actions">
       <button type="button" data-cc="reject" class="btn btn--ghost cc__btn">Reject</button>
@@ -19,10 +20,27 @@ const ga4Id = SITE.ga4Id;
   </div>
 </div>
 
-<script is:inline define:vars={{ adsId, adsLabel, ga4Id }}>
+<script is:inline define:vars={{ adsId, adsLabel, ga4Id, openAiPixelId }}>
   (function () {
-    if (!adsId && !ga4Id) return;
+    if (!adsId && !ga4Id && !openAiPixelId) return;
     var NAME = 'asgs-consent';
+
+    // OpenAI / ChatGPT Ads pixel — marketing tracker, so it only loads once
+    // the visitor has granted consent. Guarded so it never loads twice.
+    var oaiLoaded = false;
+    function loadOpenAiPixel() {
+      if (oaiLoaded || !openAiPixelId) return;
+      oaiLoaded = true;
+      !function (w, d, s, u) {
+        if (w.oaiq) return;
+        var q = function () { q.q.push(arguments); };
+        q.q = []; w.oaiq = q;
+        var j = d.createElement(s); j.async = 1; j.src = u;
+        var f = d.getElementsByTagName(s)[0];
+        f.parentNode.insertBefore(j, f);
+      }(window, document, 'script', 'https://bzrcdn.openai.com/sdk/oaiq.min.js');
+      window.oaiq('init', { pixelId: openAiPixelId, debug: true });
+    }
 
     function readConsent() {
       var m = document.cookie.match(/(?:^|;\s*)asgs-consent=([^;]+)/);
@@ -66,6 +84,9 @@ const ga4Id = SITE.ga4Id;
       gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
     }
 
+    // Load the OpenAI/ChatGPT Ads pixel for visitors who've already consented.
+    if (granted) loadOpenAiPixel();
+
     var banner = document.getElementById('cookie-banner');
     function showBanner() { if (banner) banner.hidden = false; }
     function hideBanner() { if (banner) banner.hidden = true; }
@@ -83,6 +104,7 @@ const ga4Id = SITE.ga4Id;
           ad_personalization: 'granted', analytics_storage: 'granted',
         });
         gtag('set', 'ads_data_redaction', false);
+        loadOpenAiPixel();
       } else if (action === 'reject') {
         writeConsent('denied');
         gtag('consent', 'update', {
