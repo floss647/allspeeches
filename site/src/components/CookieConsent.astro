@@ -42,6 +42,19 @@ const openAiPixelId = SITE.openAiPixelId;
       window.oaiq('init', { pixelId: openAiPixelId, debug: true });
     }
 
+    // True when an enquiry has just completed (the /thank-you page).
+    var onThankYou = location.pathname.replace(/\/+$/, '') === '/thank-you';
+
+    // Fire the ChatGPT Ads conversion once, only after the pixel is loaded.
+    var oaiConverted = false;
+    function fireOpenAiConversion() {
+      if (oaiConverted || !oaiLoaded || !window.oaiq) return;
+      oaiConverted = true;
+      window.oaiq('measure', 'registration_completed', {
+        type: 'customer_action', amount: 0, currency: 'USD',
+      });
+    }
+
     function readConsent() {
       var m = document.cookie.match(/(?:^|;\s*)asgs-consent=([^;]+)/);
       return m ? decodeURIComponent(m[1]) : null;
@@ -84,8 +97,12 @@ const openAiPixelId = SITE.openAiPixelId;
       gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
     }
 
-    // Load the OpenAI/ChatGPT Ads pixel for visitors who've already consented.
-    if (granted) loadOpenAiPixel();
+    // Load the OpenAI/ChatGPT Ads pixel for visitors who've already consented,
+    // and record the conversion if this is the thank-you page.
+    if (granted) {
+      loadOpenAiPixel();
+      if (onThankYou) fireOpenAiConversion();
+    }
 
     var banner = document.getElementById('cookie-banner');
     function showBanner() { if (banner) banner.hidden = false; }
@@ -105,6 +122,7 @@ const openAiPixelId = SITE.openAiPixelId;
         });
         gtag('set', 'ads_data_redaction', false);
         loadOpenAiPixel();
+        if (onThankYou) fireOpenAiConversion();
       } else if (action === 'reject') {
         writeConsent('denied');
         gtag('consent', 'update', {
