@@ -40,6 +40,7 @@ const openAiPixelId = SITE.openAiPixelId;
         f.parentNode.insertBefore(j, f);
       }(window, document, 'script', 'https://bzrcdn.openai.com/sdk/oaiq.min.js');
       window.oaiq('init', { pixelId: openAiPixelId, debug: true });
+      window.oaiq('measure', 'page_viewed', { type: 'contents' });
     }
 
     // True when an enquiry has just completed (the /thank-you page).
