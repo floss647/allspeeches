@@ -44,7 +44,7 @@ export const services: ServiceData[] = [
     serviceType: 'Best man speech writing',
     withPrice: true,
     heroImage: '/images/card-best-man.webp',
-    ctaLabel: 'Get my best man speech written for £399',
+    ctaLabel: "Let's write your best man speech",
     intro: [
       "Being asked to be best man is an honour. Being asked to stand up and speak in front of everyone the groom has ever met is the terrifying bit. I take that part off your hands, writing you a best man speech that's funny, warm and unmistakably yours, so you can enjoy the day instead of dreading the tapping of a glass.",
       "I'm Adrian Simpson, the UK's most highly rated and reviewed professional speech writer. I've written hundreds of best man speeches, and not one of them came from a template.",
@@ -88,7 +88,7 @@ export const services: ServiceData[] = [
     serviceType: 'Groom speech writing',
     withPrice: true,
     heroImage: '/images/card-groom.webp',
-    ctaLabel: 'Get my groom speech written for £399',
+    ctaLabel: "Let's write your groom speech",
     intro: [
       "The groom's speech is the one with the most to do: thank everyone, raise a few laughs, and say something about your partner that you'll both remember for the rest of your lives. That's a lot to balance, which is exactly why I write groom speeches for a living. I'll craft you something sincere, genuinely funny and completely original, so you can speak from the heart without the weeks of worry.",
     ],
@@ -130,7 +130,7 @@ export const services: ServiceData[] = [
     serviceType: 'Father of the bride speech writing',
     withPrice: true,
     heroImage: '/images/card-father-of-bride.webp',
-    ctaLabel: 'Get my father of the bride speech written for £399',
+    ctaLabel: "Let's write your father of the bride speech",
     intro: [
       "It's one of the proudest moments of your life, and one of the hardest to put into words. The father of the bride speech has to be warm, a little funny, genuinely moving, and somehow sum up everything you feel about your daughter without falling apart at the lectern. I'll write you something that does all of that, in your voice, so you can simply enjoy the moment.",
     ],
@@ -172,7 +172,7 @@ export const services: ServiceData[] = [
     serviceType: 'Maid of honour speech writing',
     withPrice: true,
     heroImage: '/images/card-maid-of-honour-v2.webp',
-    ctaLabel: 'Get my maid of honour speech written for £399',
+    ctaLabel: "Let's write your maid of honour speech",
     intro: [
       "The maid of honour speech is having its moment, and it should be brilliant. Funny, touching, and full of the friendship only you two share. I'll write you a maid of honour speech that has the room laughing one minute and reaching for a tissue the next, all in your voice and built entirely around your story.",
     ],
@@ -213,7 +213,7 @@ export const services: ServiceData[] = [
     serviceType: 'Mother of the bride speech writing',
     withPrice: true,
     heroImage: '/images/card-mother-of-bride.webp',
-    ctaLabel: 'Get my mother of the bride speech written for £399',
+    ctaLabel: "Let's write your mother of the bride speech",
     intro: [
       "More and more mothers of the bride are standing up to speak, and it's a wonderful moment, proud, warm and personal in a way only a mother's words can be. It's also a daunting one. I'll write you a mother of the bride speech that's heartfelt, genuinely funny in the right places and unmistakably yours, so you can savour the day instead of dreading the speech.",
     ],
@@ -255,7 +255,7 @@ export const services: ServiceData[] = [
     serviceType: 'Sister of the groom speech writing',
     withPrice: true,
     heroImage: '/images/card-sister-of-groom.webp',
-    ctaLabel: 'Get my sister of the groom speech written for £399',
+    ctaLabel: "Let's write your sister of the groom speech",
     intro: [
       "Wedding speeches have moved with the times, and the sister of the groom speech is one of the best additions, a chance to celebrate your brother from a perspective nobody else in the room can offer. I'll write you something engaging, touching and genuinely funny, built entirely around the story of the boy you grew up with and the man he's become.",
     ],
@@ -297,7 +297,7 @@ export const services: ServiceData[] = [
     serviceType: 'Brother of the bride speech writing',
     withPrice: true,
     heroImage: '/images/card-brother-of-bride.webp',
-    ctaLabel: 'Get my brother of the bride speech written for £399',
+    ctaLabel: "Let's write your brother of the bride speech",
     intro: [
       "More brothers of the bride are being asked to speak, and it's a lovely moment, a chance to celebrate your sister from a perspective nobody else in the room can offer. I'll write you something warm, genuinely funny and completely original, built around the story of growing up together and the woman she's become.",
     ],
@@ -339,7 +339,7 @@ export const services: ServiceData[] = [
     serviceType: 'Bride speech writing',
     withPrice: true,
     heroImage: '/images/card-bride.webp',
-    ctaLabel: 'Get my bride speech written for £399',
+    ctaLabel: "Let's write your bride speech",
     intro: [
       "More and more brides are taking the mic, and why not? It's your day too, and your words can be the most memorable of all. I'll write you a bride speech that's heartfelt, genuinely funny and completely original, so you can thank the people who matter and say something about your partner that you'll both treasure, without the weeks of worry.",
     ],
@@ -427,7 +427,7 @@ export const services: ServiceData[] = [
     priceValue: '499',
     priceFrom: true,
     heroImage: '/images/after-dinner-mic.webp',
-    ctaLabel: 'Get my after-dinner speech written',
+    ctaLabel: "Let's write your after-dinner speech",
     intro: [
       'The after-dinner speech is a different animal. There’s no running order of thank-yous to get through, no bride to toast, no safety net. The room has been fed, watered and seated for an hour, and now they want to be entertained. That’s the whole job, and it’s a hard one. Get it right and you’re the best part of the night.',
       'I write after-dinner speeches that are original, genuinely funny and built to hold a room, pitched for your audience, in your voice, around your material. You stand up with something worth saying; I take care of getting it there.',
