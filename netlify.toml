@@ -38,59 +38,59 @@
   status = 301
 [[redirects]]
   from = "/groom-speech-writing-service/"
-  to = "/groom-speech-writer"
+  to = "/groom-speech-writer/"
   status = 301
 [[redirects]]
   from = "/groom-speech-writing-services"
-  to = "/groom-speech-writer"
+  to = "/groom-speech-writer/"
   status = 301
 [[redirects]]
   from = "/the-grooms-speech/"
-  to = "/groom-speeches"
+  to = "/groom-speeches/"
   status = 301
 [[redirects]]
   from = "/father-bride-speech-writing-service/"
-  to = "/father-of-the-bride-speech-writer"
+  to = "/father-of-the-bride-speech-writer/"
   status = 301
 [[redirects]]
   from = "/father-of-the-bride-speech/"
-  to = "/father-of-the-bride-speeches"
+  to = "/father-of-the-bride-speeches/"
   status = 301
 [[redirects]]
   from = "/father-of-the-bride-199"
-  to = "/father-of-the-bride-speech-writer"
+  to = "/father-of-the-bride-speech-writer/"
   status = 301
 [[redirects]]
   from = "/father-of-the-bride-speech/jokes/"
-  to = "/father-of-the-bride-speeches"
+  to = "/father-of-the-bride-speeches/"
   status = 301
 [[redirects]]
   from = "/eulogy-writer/"
-  to = "/eulogy-writing-service"
+  to = "/eulogy-writing-service/"
   status = 301
 [[redirects]]
   from = "/testimonials"
-  to = "/reviews"
+  to = "/reviews/"
   status = 301
 [[redirects]]
   from = "/privacy-policy"
-  to = "/privacy"
+  to = "/privacy/"
   status = 301
 [[redirects]]
   from = "/terms-and-conditions"
-  to = "/terms"
+  to = "/terms/"
   status = 301
 [[redirects]]
   from = "/cookies-policy"
-  to = "/privacy"
+  to = "/privacy/"
   status = 301
 [[redirects]]
   from = "/cookies-and-privacy-policy"
-  to = "/privacy"
+  to = "/privacy/"
   status = 301
 [[redirects]]
   from = "/calendly-booking-2"
-  to = "/contact"
+  to = "/contact/"
   status = 301
 [[redirects]]
   from = "/about/"
@@ -122,51 +122,51 @@
 # ── Old Joomla URLs found in the live sitemap-4seo (16 Jun 2026) ───
 # Old blog pagination (/blogs/page-N) — the new blog is a single index.
 [[redirects]]
-  from = "/blogs/page-:n"
+  from = "/blogs/page-*"
   to = "/blogs/"
   status = 301
 
 # Mother/Sister of the groom: moved from blog posts to service pages.
 [[redirects]]
   from = "/mother-of-the-groom-speech"
-  to = "/mother-of-the-bride-speech-writer"
+  to = "/mother-of-the-bride-speech-writer/"
   status = 301
 [[redirects]]
   from = "/mother-of-the-groom-speech-writer"
-  to = "/mother-of-the-bride-speech-writer"
+  to = "/mother-of-the-bride-speech-writer/"
   status = 301
 
 # Speech review service retired — point any old links at the contact page.
 [[redirects]]
   from = "/speech-review-service"
-  to = "/contact"
+  to = "/contact/"
   status = 301
 [[redirects]]
   from = "/sister-of-the-groom"
-  to = "/sister-of-the-groom-speech-writer"
+  to = "/sister-of-the-groom-speech-writer/"
   status = 301
 
 # ── Gap fixes (24 Jun 2026): old URLs found returning 404 ──────────
 # Maid of honour had no redirects at all despite a live service page.
 [[redirects]]
   from = "/maid-of-honour-speech-writing-service/"
-  to = "/maid-of-honour-speech-writer"
+  to = "/maid-of-honour-speech-writer/"
   status = 301
 [[redirects]]
   from = "/maid-of-honour-speech/"
-  to = "/maid-of-honour-speech-writer"
+  to = "/maid-of-honour-speech-writer/"
   status = 301
 [[redirects]]
   from = "/maid-of-honor-speech-writing-service/"
-  to = "/maid-of-honour-speech-writer"
+  to = "/maid-of-honour-speech-writer/"
   status = 301
 [[redirects]]
   from = "/the-maid-of-honour-speech/"
-  to = "/moh-speeches"
+  to = "/moh-speeches/"
   status = 301
 [[redirects]]
   from = "/maid-of-honour-speech-examples/"
-  to = "/moh-speeches"
+  to = "/moh-speeches/"
   status = 301
 
 # Standard Joomla pages.
@@ -176,7 +176,7 @@
   status = 301
 [[redirects]]
   from = "/contact-us/"
-  to = "/contact"
+  to = "/contact/"
   status = 301
 [[redirects]]
   from = "/blog/"
