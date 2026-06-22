@@ -145,3 +145,48 @@
   from = "/sister-of-the-groom"
   to = "/sister-of-the-groom-speech-writer"
   status = 301
+
+# ── Gap fixes (24 Jun 2026): old URLs found returning 404 ──────────
+# Maid of honour had no redirects at all despite a live service page.
+[[redirects]]
+  from = "/maid-of-honour-speech-writing-service/"
+  to = "/maid-of-honour-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/maid-of-honour-speech/"
+  to = "/maid-of-honour-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/maid-of-honor-speech-writing-service/"
+  to = "/maid-of-honour-speech-writer"
+  status = 301
+[[redirects]]
+  from = "/the-maid-of-honour-speech/"
+  to = "/moh-speeches"
+  status = 301
+[[redirects]]
+  from = "/maid-of-honour-speech-examples/"
+  to = "/moh-speeches"
+  status = 301
+
+# Standard Joomla pages.
+[[redirects]]
+  from = "/about-us/"
+  to = "/about-adrian-simpson-speechwriter/"
+  status = 301
+[[redirects]]
+  from = "/contact-us/"
+  to = "/contact"
+  status = 301
+[[redirects]]
+  from = "/blog/"
+  to = "/blogs/"
+  status = 301
+[[redirects]]
+  from = "/blog/*"
+  to = "/blogs/"
+  status = 301
+[[redirects]]
+  from = "/wedding-speeches/"
+  to = "/"
+  status = 301
