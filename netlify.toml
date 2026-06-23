@@ -190,3 +190,18 @@
   from = "/wedding-speeches/"
   to = "/"
   status = 301
+
+# ── Orphan old URLs surfaced by GA4 (still getting hits, were 404) ──
+# Retired e-commerce / editing service → closest live pages.
+[[redirects]]
+  from = "/speech-shop/"
+  to = "/pricing/"
+  status = 301
+[[redirects]]
+  from = "/speech-editing-service"
+  to = "/contact/"
+  status = 301
+[[redirects]]
+  from = "/fob-speech-ready"
+  to = "/father-of-the-bride-speech-writer/"
+  status = 301
