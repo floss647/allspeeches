@@ -50,6 +50,24 @@ const allSchemas: Record<string, any>[] = [
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex, follow" />}
 
+    <!-- First-touch attribution: remember the page/referrer a visitor first
+         arrived on (session-scoped, first-party) so an enquiry can be traced
+         back to its source. Read by the contact form on submit. -->
+    <script is:inline>
+      (function () {
+        try {
+          var KEY = 'asgs-attribution';
+          if (!sessionStorage.getItem(KEY)) {
+            sessionStorage.setItem(KEY, JSON.stringify({
+              landing: location.pathname + location.search,
+              referrer: document.referrer || '',
+              ts: new Date().toISOString(),
+            }));
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link rel="apple-touch-icon" href="/images/favicon.png" />
     <meta name="theme-color" content="#1a1a2e" />

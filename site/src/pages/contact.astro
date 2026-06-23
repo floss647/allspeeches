@@ -61,11 +61,61 @@ const thankYouUrl = `${SITE.url}/thank-you`;
             </select>
           </label>
           <label>Let me know when you'd like to speak<textarea name="message" rows="5"></textarea></label>
+
+          <!-- Populated on submit by the attribution script below. -->
+          <input type="hidden" name="lead_source" value="" />
+          <input type="hidden" name="landing_page" value="" />
+          <input type="hidden" name="referrer" value="" />
+          <input type="hidden" name="enquiry_page" value="" />
+
           <button class="btn btn--primary" type="submit">Send message</button>
         </form>
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    (function () {
+      var form = document.querySelector('form[name="contact"]');
+      if (!form) return;
+      var src = {};
+      try { src = JSON.parse(sessionStorage.getItem('asgs-attribution') || '{}'); } catch (e) {}
+      var landing = src.landing || (location.pathname + location.search);
+      var referrer = src.referrer || '';
+
+      function detect(landing, referrer) {
+        var q = ''; var qi = landing.indexOf('?');
+        if (qi >= 0) q = landing.slice(qi + 1);
+        var p = new URLSearchParams(q.toLowerCase());
+        var s = (p.get('utm_source') || ''); var m = (p.get('utm_medium') || '');
+        var ref = (referrer || '').toLowerCase();
+        if (s.indexOf('chatgpt') >= 0 || s.indexOf('openai') >= 0 ||
+            ref.indexOf('chatgpt.com') >= 0 || ref.indexOf('openai.com') >= 0)
+          return 'ChatGPT Ads';
+        if (p.has('gclid') || (s.indexOf('google') >= 0 && (m.indexOf('cpc') >= 0 || m.indexOf('paid') >= 0)))
+          return 'Google Ads';
+        if (p.has('msclkid')) return 'Microsoft Ads';
+        if (p.has('fbclid') || ref.indexOf('facebook') >= 0 || ref.indexOf('instagram') >= 0) return 'Facebook / Instagram';
+        if (s) return 'Campaign: ' + s + (m ? ' / ' + m : '');
+        if (ref.indexOf('google.') >= 0) return 'Google (organic search)';
+        if (ref.indexOf('bing.') >= 0) return 'Bing (organic search)';
+        if (ref.indexOf('duckduckgo') >= 0) return 'DuckDuckGo (organic search)';
+        if (ref) {
+          try {
+            var h = new URL(referrer).hostname.replace(/^www\./, '');
+            if (h && h.indexOf('allspeechesgreatandsmall') < 0) return 'Referral: ' + h;
+          } catch (e) {}
+        }
+        return 'Direct / unknown';
+      }
+
+      function set(name, val) { var el = form.querySelector('input[name="' + name + '"]'); if (el) el.value = val; }
+      set('landing_page', landing);
+      set('referrer', referrer || '(none / direct)');
+      set('enquiry_page', location.pathname);
+      set('lead_source', detect(landing, referrer));
+    })();
+  </script>
 
   {useFormspree && (
     <script is:inline>
