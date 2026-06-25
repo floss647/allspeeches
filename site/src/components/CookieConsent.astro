@@ -93,16 +93,27 @@ const openAiPixelId = SITE.openAiPixelId;
     gtag('js', new Date());
     if (ga4Id) gtag('config', ga4Id);
     if (adsId) gtag('config', adsId);
-    // Fire the Ads conversion on the thank-you page (respects consent mode).
-    if (adsId && adsLabel && location.pathname.replace(/\/+$/, '') === '/thank-you') {
+
+    // A conversion only counts when the contact form was actually submitted.
+    // The form sets this one-time flag right before redirecting here, so a
+    // direct hit, refresh, bot or test view of /thank-you never fires one.
+    var realEnquiry = false;
+    try {
+      realEnquiry = sessionStorage.getItem('asgs-enquiry') === '1';
+      if (realEnquiry) sessionStorage.removeItem('asgs-enquiry');
+    } catch (e) {}
+    var validConversion = onThankYou && realEnquiry;
+
+    // Fire the Ads conversion on a genuine enquiry (respects consent mode).
+    if (adsId && adsLabel && validConversion) {
       gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
     }
 
     // Load the OpenAI/ChatGPT Ads pixel for visitors who've already consented,
-    // and record the conversion if this is the thank-you page.
+    // and record the conversion only on a genuine enquiry.
     if (granted) {
       loadOpenAiPixel();
-      if (onThankYou) fireOpenAiConversion();
+      if (validConversion) fireOpenAiConversion();
     }
 
     var banner = document.getElementById('cookie-banner');
@@ -123,7 +134,9 @@ const openAiPixelId = SITE.openAiPixelId;
         });
         gtag('set', 'ads_data_redaction', false);
         loadOpenAiPixel();
-        if (onThankYou) fireOpenAiConversion();
+        // The Ads conversion already fired at init under consent mode; only the
+        // OpenAI pixel waits for consent, so fire just that one here.
+        if (validConversion) fireOpenAiConversion();
       } else if (action === 'reject') {
         writeConsent('denied');
         gtag('consent', 'update', {
