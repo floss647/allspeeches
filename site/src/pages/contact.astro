@@ -12,151 +12,425 @@ const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Contact', path },
 ];
-const types = ['Best Man', 'Groom', 'Bride', 'Father of the Bride', 'Mother of the Bride', 'Maid of Honour', 'Brother of the Bride', 'Sister of the Groom', 'Eulogy', 'Business / Corporate', 'Other'];
 
-// If a Formspree (or similar) endpoint is configured, post there and bypass
-// Netlify Forms entirely. Otherwise fall back to Netlify Forms.
-const useFormspree = SITE.formEndpoint.length > 0;
-const formAction = useFormspree ? SITE.formEndpoint : '/thank-you';
+const formEndpoint = SITE.formEndpoint.length > 0 ? SITE.formEndpoint : '/thank-you';
 const thankYouUrl = `${SITE.url}/thank-you`;
+
+const speechTypes = [
+  { value: 'Best Man',              label: 'Best Man',              sub: 'The speech everyone remembers' },
+  { value: 'Groom',                 label: 'Groom',                 sub: 'Words from the heart' },
+  { value: 'Father of the Bride',   label: 'Father of the Bride',   sub: 'A moment she\'ll treasure' },
+  { value: 'Mother of the Bride',   label: 'Mother of the Bride',   sub: 'Your turn to speak' },
+  { value: 'Maid of Honour',        label: 'Maid of Honour',        sub: 'Funny, warm, unforgettable' },
+  { value: 'Bride',                 label: 'Bride',                 sub: 'Say it in your voice' },
+  { value: 'Eulogy',                label: 'Eulogy',                sub: 'A tribute done right' },
+  { value: 'Business / Corporate',  label: 'Business / Corporate',  sub: 'After-dinner or event speech' },
+  { value: 'Other',                 label: 'Something else',        sub: 'Tell me what you have in mind' },
+];
+
+const currentYear = new Date().getFullYear();
+const years = [currentYear, currentYear + 1, currentYear + 2];
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 ---
 <Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={[contactPage()]}>
   <section class="hero">
     <div class="wrap">
       <Breadcrumbs items={crumbs} />
       <p class="eyebrow">Contact</p>
-      <h1>Get in touch</h1>
-      <p class="lede measure">Ready to start, or just want to ask a question? I'd love to hear from you, and I reply quickly and personally.</p>
+      <h1>Book a free consultation</h1>
+      <p class="lede measure">Tell me a little about what you need — it only takes a minute, and I'll be back to you quickly and personally.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
-      <div class="form-wrap measure mx-auto">
-        <h2>Send me a message</h2>
-        <!-- Posts to Formspree when SITE.formEndpoint is set (bypasses Netlify),
-             otherwise uses Netlify Forms. Both redirect to /thank-you on success. -->
-        <form name="contact" method="POST" action={formAction} class="form"
-          data-netlify={useFormspree ? undefined : 'true'}
-          netlify-honeypot={useFormspree ? undefined : 'bot-field'}>
-          {useFormspree ? (
-            <Fragment>
-              <input type="hidden" name="_next" value={thankYouUrl} />
-              <input type="hidden" name="_subject" value="New enquiry via allspeechesgreatandsmall.com" />
-              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
-            </Fragment>
-          ) : (
-            <Fragment>
-              <input type="hidden" name="form-name" value="contact" />
-              <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
-            </Fragment>
-          )}
+      <div class="booking-wrap mx-auto">
 
-          <label>Your name<input type="text" name="name" required /></label>
-          <label>Email address<input type="email" name="email" required /></label>
-          <label>Phone (optional)<input type="tel" name="phone" /></label>
-          <label>Type of speech
-            <select name="speech_type">
-              {types.map((t) => <option value={t}>{t}</option>)}
-            </select>
-          </label>
-          <label>Let me know when you'd like to speak<textarea name="message" rows="5"></textarea></label>
+        <!-- Progress -->
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="step-label" id="step-label" aria-live="polite">Step 1 of 3 — Speech type</p>
 
-          <!-- Populated on submit by the attribution script below. -->
-          <input type="hidden" name="lead_source" value="" />
-          <input type="hidden" name="landing_page" value="" />
-          <input type="hidden" name="referrer" value="" />
-          <input type="hidden" name="enquiry_page" value="" />
+        <!-- ── Step 1: speech type ── -->
+        <div class="step-panel" id="panel-1" role="group" aria-labelledby="h-step1">
+          <h2 id="h-step1">What type of speech do you need?</h2>
+          <p class="step-intro">Choose the one that fits — everything else follows from here.</p>
 
-          <button class="btn btn--primary" type="submit">Send message</button>
+          <div class="type-grid" role="radiogroup" aria-label="Speech type" id="type-grid">
+            {speechTypes.map((t) => (
+              <button
+                type="button"
+                class="type-card"
+                data-value={t.value}
+                aria-pressed="false"
+              >
+                <span class="type-card__label">{t.label}</span>
+                <span class="type-card__sub">{t.sub}</span>
+              </button>
+            ))}
+          </div>
+
+          <div class="step-nav step-nav--right">
+            <button class="btn btn--primary" id="next-1" disabled>Continue →</button>
+          </div>
+        </div>
+
+        <!-- ── Step 2: event details ── -->
+        <div class="step-panel hidden" id="panel-2" role="group" aria-labelledby="h-step2">
+          <h2 id="h-step2">About the occasion</h2>
+          <p class="step-intro">A little context helps me understand exactly what you need.</p>
+
+          <div class="field-group">
+            <label class="field-label">When is the event? <span class="opt">(optional)</span></label>
+            <div class="date-row">
+              <select id="f-month" class="field-input">
+                <option value="">Month</option>
+                {months.map((m, i) => <option value={m}>{m}</option>)}
+              </select>
+              <select id="f-year" class="field-input">
+                <option value="">Year</option>
+                {years.map((y) => <option value={y}>{y}</option>)}
+              </select>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label class="field-label">How far away is it?</label>
+            <div class="pill-row" id="urgency-group" role="radiogroup" aria-label="Urgency">
+              {['Under 4 weeks','1–3 months','3–6 months','6+ months'].map((u) => (
+                <button type="button" class="pill-btn" data-group="urgency" data-value={u}>{u}</button>
+              ))}
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="f-message">
+              Anything you'd like me to know? <span class="opt">(optional)</span>
+            </label>
+            <textarea id="f-message" class="field-input" rows="4"
+              placeholder="Who it's for, any ideas you already have, anything that would help me understand what you're after…"></textarea>
+          </div>
+
+          <div class="step-nav">
+            <button class="btn btn--ghost" id="back-2">← Back</button>
+            <button class="btn btn--primary" id="next-2">Continue →</button>
+          </div>
+        </div>
+
+        <!-- ── Step 3: contact details ── -->
+        <div class="step-panel hidden" id="panel-3" role="group" aria-labelledby="h-step3">
+          <h2 id="h-step3">How do I reach you?</h2>
+          <p class="step-intro">I reply personally — usually within a few hours on weekdays.</p>
+
+          <div class="field-group">
+            <label class="field-label" for="f-name">Your name</label>
+            <input type="text" id="f-name" class="field-input" autocomplete="name" required />
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="f-email">Email address</label>
+            <input type="email" id="f-email" class="field-input" autocomplete="email" required />
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="f-phone">Phone <span class="opt">(optional)</span></label>
+            <input type="tel" id="f-phone" class="field-input" autocomplete="tel" />
+          </div>
+
+          <div class="field-group">
+            <label class="field-label">Best time to call</label>
+            <div class="pill-row" role="radiogroup" aria-label="Best time to call">
+              {['Morning (9–12)','Afternoon (12–5)','Evening (5–8)','Any time'].map((t, i) => (
+                <button type="button" class={`pill-btn${i === 3 ? ' selected' : ''}`}
+                  data-group="calltime" data-value={t}>{t}</button>
+              ))}
+            </div>
+          </div>
+
+          <p class="form-error hidden" id="form-error" role="alert"></p>
+
+          <div class="step-nav">
+            <button class="btn btn--ghost" id="back-3">← Back</button>
+            <button class="btn btn--primary" id="submit-btn">Send my enquiry →</button>
+          </div>
+        </div>
+
+        <!-- Hidden Formspree form — populated by JS on submit -->
+        <form id="booking-form" method="POST" action={formEndpoint} style="display:none" aria-hidden="true">
+          <input type="hidden" name="_next"    value={thankYouUrl} />
+          <input type="hidden" name="_subject" value="New consultation enquiry — allspeechesgreatandsmall.com" />
+          <input type="text"   name="_gotcha"  tabindex="-1" autocomplete="off" />
+          <input type="hidden" name="speech_type" id="hf-speech-type" />
+          <input type="hidden" name="event_date"  id="hf-event-date" />
+          <input type="hidden" name="urgency"     id="hf-urgency" />
+          <input type="hidden" name="message"     id="hf-message" />
+          <input type="hidden" name="name"        id="hf-name" />
+          <input type="hidden" name="email"       id="hf-email" />
+          <input type="hidden" name="phone"       id="hf-phone" />
+          <input type="hidden" name="call_time"   id="hf-call-time" />
+          <input type="hidden" name="lead_source"  id="hf-lead-source" />
+          <input type="hidden" name="landing_page" id="hf-landing-page" />
+          <input type="hidden" name="referrer"     id="hf-referrer" />
+          <input type="hidden" name="enquiry_page" id="hf-enquiry-page" />
         </form>
+
       </div>
     </div>
   </section>
 
   <script is:inline>
-    (function () {
-      var form = document.querySelector('form[name="contact"]');
-      if (!form) return;
-      var src = {};
-      try { src = JSON.parse(sessionStorage.getItem('asgs-attribution') || '{}'); } catch (e) {}
-      var landing = src.landing || (location.pathname + location.search);
-      var referrer = src.referrer || '';
+  (function () {
+    // ── State ──────────────────────────────────────────────────────
+    var state = {
+      step: 1,
+      speechType: '',
+      urgency: '',
+      callTime: 'Any time',
+    };
 
-      function detect(landing, referrer) {
-        var q = ''; var qi = landing.indexOf('?');
-        if (qi >= 0) q = landing.slice(qi + 1);
-        var p = new URLSearchParams(q.toLowerCase());
-        var s = (p.get('utm_source') || ''); var m = (p.get('utm_medium') || '');
-        var ref = (referrer || '').toLowerCase();
-        if (s.indexOf('chatgpt') >= 0 || s.indexOf('openai') >= 0 ||
-            ref.indexOf('chatgpt.com') >= 0 || ref.indexOf('openai.com') >= 0)
-          return 'ChatGPT Ads';
-        if (p.has('gclid') || (s.indexOf('google') >= 0 && (m.indexOf('cpc') >= 0 || m.indexOf('paid') >= 0)))
-          return 'Google Ads';
-        if (p.has('msclkid')) return 'Microsoft Ads';
-        if (p.has('fbclid') || ref.indexOf('facebook') >= 0 || ref.indexOf('instagram') >= 0) return 'Facebook / Instagram';
-        if (s) return 'Campaign: ' + s + (m ? ' / ' + m : '');
-        if (ref.indexOf('google.') >= 0) return 'Google (organic search)';
-        if (ref.indexOf('bing.') >= 0) return 'Bing (organic search)';
-        if (ref.indexOf('duckduckgo') >= 0) return 'DuckDuckGo (organic search)';
-        if (ref) {
-          try {
-            var h = new URL(referrer).hostname.replace(/^www\./, '');
-            if (h && h.indexOf('allspeechesgreatandsmall') < 0) return 'Referral: ' + h;
-          } catch (e) {}
-        }
-        return 'Direct / unknown';
+    // ── Attribution (first-touch, same logic as before) ────────────
+    var src = {};
+    try { src = JSON.parse(sessionStorage.getItem('asgs-attribution') || '{}'); } catch (e) {}
+    var landing = src.landing || (location.pathname + location.search);
+    var referrer = src.referrer || '';
+
+    function detectSource(landing, referrer) {
+      var q = ''; var qi = landing.indexOf('?');
+      if (qi >= 0) q = landing.slice(qi + 1);
+      var p = new URLSearchParams(q.toLowerCase());
+      var s = (p.get('utm_source') || ''); var m = (p.get('utm_medium') || '');
+      var ref = (referrer || '').toLowerCase();
+      if (s.indexOf('chatgpt') >= 0 || s.indexOf('openai') >= 0 ||
+          ref.indexOf('chatgpt.com') >= 0 || ref.indexOf('openai.com') >= 0) return 'ChatGPT Ads';
+      if (p.has('gclid') || (s.indexOf('google') >= 0 && (m.indexOf('cpc') >= 0 || m.indexOf('paid') >= 0))) return 'Google Ads';
+      if (p.has('msclkid')) return 'Microsoft Ads';
+      if (p.has('fbclid') || ref.indexOf('facebook') >= 0 || ref.indexOf('instagram') >= 0) return 'Facebook / Instagram';
+      if (s) return 'Campaign: ' + s + (m ? ' / ' + m : '');
+      if (ref.indexOf('google.') >= 0) return 'Google (organic search)';
+      if (ref.indexOf('bing.') >= 0) return 'Bing (organic search)';
+      if (ref.indexOf('duckduckgo') >= 0) return 'DuckDuckGo (organic search)';
+      if (ref) { try { var h = new URL(referrer).hostname.replace(/^www\./, ''); if (h && h.indexOf('allspeechesgreatandsmall') < 0) return 'Referral: ' + h; } catch (e) {} }
+      return 'Direct / unknown';
+    }
+
+    // ── Progress / step label ──────────────────────────────────────
+    var progressFill = document.getElementById('progress-fill');
+    var stepLabel    = document.getElementById('step-label');
+    var stepNames = ['', 'Speech type', 'Event details', 'Your details'];
+
+    function setStep(n) {
+      document.getElementById('panel-' + state.step).classList.add('hidden');
+      state.step = n;
+      document.getElementById('panel-' + n).classList.remove('hidden');
+      document.getElementById('panel-' + n).querySelector('h2, input, button:not([disabled])').focus();
+      progressFill.style.width = ((n - 1) / 3 * 100) + '%';
+      stepLabel.textContent = 'Step ' + n + ' of 3 — ' + stepNames[n];
+    }
+
+    // ── Step 1: type cards ─────────────────────────────────────────
+    var next1 = document.getElementById('next-1');
+    document.getElementById('type-grid').addEventListener('click', function (e) {
+      var card = e.target.closest('.type-card');
+      if (!card) return;
+      document.querySelectorAll('.type-card').forEach(function (c) {
+        c.classList.remove('selected');
+        c.setAttribute('aria-pressed', 'false');
+      });
+      card.classList.add('selected');
+      card.setAttribute('aria-pressed', 'true');
+      state.speechType = card.dataset.value;
+      next1.disabled = false;
+    });
+    next1.addEventListener('click', function () { setStep(2); });
+
+    // ── Step 2 pill buttons ────────────────────────────────────────
+    document.getElementById('urgency-group').addEventListener('click', function (e) {
+      var btn = e.target.closest('.pill-btn');
+      if (!btn) return;
+      document.querySelectorAll('#urgency-group .pill-btn').forEach(function (b) { b.classList.remove('selected'); });
+      btn.classList.add('selected');
+      state.urgency = btn.dataset.value;
+    });
+
+    document.getElementById('back-2').addEventListener('click', function () { setStep(1); });
+    document.getElementById('next-2').addEventListener('click', function () { setStep(3); });
+
+    // ── Step 3 pill buttons ────────────────────────────────────────
+    document.querySelectorAll('[data-group="calltime"]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('[data-group="calltime"]').forEach(function (b) { b.classList.remove('selected'); });
+        btn.classList.add('selected');
+        state.callTime = btn.dataset.value;
+      });
+    });
+
+    document.getElementById('back-3').addEventListener('click', function () { setStep(2); });
+
+    // ── Submit ─────────────────────────────────────────────────────
+    document.getElementById('submit-btn').addEventListener('click', function () {
+      var name  = document.getElementById('f-name').value.trim();
+      var email = document.getElementById('f-email').value.trim();
+      var errEl = document.getElementById('form-error');
+
+      if (!name || !email) {
+        errEl.textContent = 'Please enter your name and email address.';
+        errEl.classList.remove('hidden');
+        (!name ? document.getElementById('f-name') : document.getElementById('f-email')).focus();
+        return;
+      }
+      errEl.classList.add('hidden');
+
+      var month = document.getElementById('f-month').value;
+      var year  = document.getElementById('f-year').value;
+      var eventDate = (month && year) ? month + ' ' + year : (month || year || '');
+
+      // Populate hidden form
+      var hf = {
+        'hf-speech-type':   state.speechType,
+        'hf-event-date':    eventDate,
+        'hf-urgency':       state.urgency,
+        'hf-message':       document.getElementById('f-message').value,
+        'hf-name':          name,
+        'hf-email':         email,
+        'hf-phone':         document.getElementById('f-phone').value,
+        'hf-call-time':     state.callTime,
+        'hf-lead-source':   detectSource(landing, referrer),
+        'hf-landing-page':  landing,
+        'hf-referrer':      referrer || '(none / direct)',
+        'hf-enquiry-page':  location.pathname,
+      };
+      for (var id in hf) {
+        var el = document.getElementById(id);
+        if (el) el.value = hf[id];
       }
 
-      function set(name, val) { var el = form.querySelector('input[name="' + name + '"]'); if (el) el.value = val; }
-      set('landing_page', landing);
-      set('referrer', referrer || '(none / direct)');
-      set('enquiry_page', location.pathname);
-      set('lead_source', detect(landing, referrer));
-    })();
-  </script>
+      var btn = document.getElementById('submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+      progressFill.style.width = '100%';
 
-  {useFormspree && (
-    <script is:inline>
-      (function () {
-        var form = document.querySelector('form[name="contact"]');
-        if (!form) return;
-        form.addEventListener('submit', function (e) {
-          e.preventDefault();
-          var btn = form.querySelector('button[type="submit"]');
-          if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
-          fetch(form.action, {
-            method: 'POST',
-            body: new FormData(form),
-            headers: { Accept: 'application/json' },
-          })
-            .then(function (r) {
-              if (r.ok) {
-                // Mark this as a genuine enquiry so /thank-you fires exactly
-                // one ad conversion (not on direct hits, refreshes or bots).
-                try { sessionStorage.setItem('asgs-enquiry', '1'); } catch (e) {}
-                window.location.href = '/thank-you';
-                return;
-              }
-              return r.json().then(function (d) {
-                throw new Error((d && d.errors ? d.errors.map(function (x) { return x.message; }).join(', ') : '') || 'error');
-              });
-            })
-            .catch(function () {
-              if (btn) { btn.disabled = false; btn.textContent = 'Send message'; }
-              alert('Sorry, your message couldn’t be sent just then. Please try again in a moment.');
-            });
+      var form = document.getElementById('booking-form');
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' },
+      })
+        .then(function (r) {
+          if (r.ok) {
+            try { sessionStorage.setItem('asgs-enquiry', '1'); } catch (e) {}
+            window.location.href = '/thank-you';
+            return;
+          }
+          return r.json().then(function (d) {
+            throw new Error((d && d.errors ? d.errors.map(function (x) { return x.message; }).join(', ') : '') || 'error');
+          });
+        })
+        .catch(function () {
+          btn.disabled = false;
+          btn.textContent = 'Send my enquiry →';
+          progressFill.style.width = '67%';
+          errEl.textContent = 'Sorry, something went wrong. Please try again in a moment.';
+          errEl.classList.remove('hidden');
         });
-      })();
-    </script>
-  )}
+    });
+  })();
+  </script>
 </Layout>
 
 <style>
-  .contact-line { margin-bottom: 1.2em; }
-  .form label { display: block; margin-bottom: 16px; font-weight: 500; font-size: 0.95rem; }
-  .form input, .form select, .form textarea { display: block; width: 100%; margin-top: 6px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; font: inherit; font-size: 1rem; background: #fff; }
-  .form input:focus, .form select:focus, .form textarea:focus { outline: 2px solid var(--gold); border-color: var(--gold); }
-  .form button { margin-top: 8px; }
+  .booking-wrap { max-width: 640px; }
+
+  /* Progress */
+  .progress-track {
+    height: 4px; background: var(--line); border-radius: 99px;
+    overflow: hidden; margin-bottom: 10px;
+  }
+  .progress-fill {
+    height: 100%; background: var(--gold); border-radius: 99px;
+    width: 0%; transition: width 0.4s ease;
+  }
+  .step-label {
+    font-size: 0.8rem; color: var(--ink-muted, var(--ink)); opacity: 0.55;
+    margin-bottom: 28px; font-weight: 500;
+  }
+
+  /* Panels */
+  .step-panel h2 { margin-bottom: 6px; }
+  .step-intro { color: var(--ink-muted, var(--ink)); opacity: 0.7; margin-bottom: 28px; font-size: 0.97rem; }
+  .hidden { display: none !important; }
+
+  /* Speech type cards */
+  .type-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  @media (max-width: 520px) { .type-grid { grid-template-columns: repeat(2, 1fr); } }
+
+  .type-card {
+    display: flex; flex-direction: column; align-items: flex-start;
+    padding: 14px 16px; border: 1.5px solid var(--line);
+    border-radius: 12px; background: var(--surface, #fff);
+    cursor: pointer; text-align: left; transition: border-color 0.15s, box-shadow 0.15s;
+    font: inherit;
+  }
+  .type-card:hover { border-color: var(--gold); }
+  .type-card.selected {
+    border-color: var(--gold); background: var(--gold-tint, #fdf8ee);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 20%, transparent);
+  }
+  .type-card__label { font-weight: 600; font-size: 0.9rem; margin-bottom: 3px; }
+  .type-card__sub   { font-size: 0.75rem; color: var(--ink); opacity: 0.55; line-height: 1.3; }
+
+  /* Fields */
+  .field-group { margin-bottom: 20px; }
+  .field-label {
+    display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 7px;
+  }
+  .opt { font-weight: 400; opacity: 0.55; font-size: 0.85em; }
+  .field-input {
+    display: block; width: 100%; padding: 11px 14px;
+    border: 1.5px solid var(--line); border-radius: 10px;
+    font: inherit; font-size: 1rem; background: var(--surface, #fff);
+    transition: border-color 0.15s;
+  }
+  .field-input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 20%, transparent); }
+
+  .date-row { display: flex; gap: 10px; }
+  .date-row .field-input { flex: 1 1 0; }
+
+  textarea.field-input { resize: vertical; min-height: 100px; }
+
+  /* Pill buttons */
+  .pill-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill-btn {
+    padding: 8px 16px; border: 1.5px solid var(--line);
+    border-radius: 99px; font: inherit; font-size: 0.88rem; font-weight: 500;
+    cursor: pointer; background: var(--surface, #fff);
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .pill-btn:hover { border-color: var(--gold); }
+  .pill-btn.selected {
+    border-color: var(--gold); background: var(--gold-tint, #fdf8ee);
+    color: var(--ink);
+  }
+
+  /* Navigation */
+  .step-nav {
+    display: flex; gap: 12px; align-items: center;
+    margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line);
+  }
+  .step-nav--right { justify-content: flex-end; }
+  .step-nav .btn--ghost { padding-left: 0; border: none; background: none; opacity: 0.6; }
+  .step-nav .btn--ghost:hover { opacity: 1; }
+  .step-nav .btn--primary { margin-left: auto; }
+  .step-nav--right .btn--primary { margin-left: 0; }
+
+  /* Error */
+  .form-error {
+    color: #b91c1c; background: #fee2e2; border-radius: 8px;
+    padding: 10px 14px; font-size: 0.88rem; margin-top: 12px;
+  }
 </style>
