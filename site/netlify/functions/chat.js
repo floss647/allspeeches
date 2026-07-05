@@ -62,48 +62,51 @@ HOW TO RESPOND:
 - Keep replies focused — 2–4 short paragraphs is usually right
 - Do not discuss competitors`;
 
-export default async function handler(req) {
-  if (req.method !== 'POST') {
-    return new Response('Method not allowed', { status: 405 });
+exports.handler = async function (event) {
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: 'Method not allowed' };
   }
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    return new Response(JSON.stringify({ error: 'Service unavailable' }), {
-      status: 503,
+    return {
+      statusCode: 503,
       headers: { 'Content-Type': 'application/json' },
-    });
+      body: JSON.stringify({ error: 'Service unavailable' }),
+    };
   }
 
   let body;
   try {
-    body = await req.json();
+    body = JSON.parse(event.body || '{}');
   } catch {
-    return new Response(JSON.stringify({ error: 'Invalid request' }), {
-      status: 400,
+    return {
+      statusCode: 400,
       headers: { 'Content-Type': 'application/json' },
-    });
+      body: JSON.stringify({ error: 'Invalid request' }),
+    };
   }
 
   const { messages } = body;
   if (!Array.isArray(messages) || messages.length === 0) {
-    return new Response(JSON.stringify({ error: 'Invalid messages' }), {
-      status: 400,
+    return {
+      statusCode: 400,
       headers: { 'Content-Type': 'application/json' },
-    });
+      body: JSON.stringify({ error: 'Invalid messages' }),
+    };
   }
 
-  // Sanitise messages: only allow user/assistant roles, string content, max 20 turns
   const safe = messages
     .filter((m) => (m.role === 'user' || m.role === 'assistant') && typeof m.content === 'string')
     .slice(-20)
     .map((m) => ({ role: m.role, content: m.content.slice(0, 2000) }));
 
   if (safe.length === 0 || safe[safe.length - 1].role !== 'user') {
-    return new Response(JSON.stringify({ error: 'Invalid messages' }), {
-      status: 400,
+    return {
+      statusCode: 400,
       headers: { 'Content-Type': 'application/json' },
-    });
+      body: JSON.stringify({ error: 'Invalid messages' }),
+    };
   }
 
   try {
@@ -125,27 +128,27 @@ export default async function handler(req) {
     if (!response.ok) {
       const err = await response.text();
       console.error('Anthropic API error', response.status, err);
-      return new Response(JSON.stringify({ error: 'Upstream error' }), {
-        status: 502,
+      return {
+        statusCode: 502,
         headers: { 'Content-Type': 'application/json' },
-      });
+        body: JSON.stringify({ error: 'Upstream error' }),
+      };
     }
 
     const data = await response.json();
-    const text = data?.content?.[0]?.text ?? '';
+    const text = (data && data.content && data.content[0] && data.content[0].text) || '';
 
-    return new Response(JSON.stringify({ reply: text }), {
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'https://www.allspeechesgreatandsmall.com',
-      },
-    });
+    return {
+      statusCode: 200,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ reply: text }),
+    };
   } catch (err) {
     console.error('Chat function error', err);
-    return new Response(JSON.stringify({ error: 'Server error' }), {
-      status: 500,
+    return {
+      statusCode: 500,
       headers: { 'Content-Type': 'application/json' },
-    });
+      body: JSON.stringify({ error: 'Server error' }),
+    };
   }
-}
+};
