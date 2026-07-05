@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import ChatWidget from '../components/ChatWidget.astro';
 import JsonLd from '../components/JsonLd.astro';
 import { SITE, abs } from '../config/site';
 import { professionalService, website, breadcrumb, type Crumb } from '../lib/schema';
@@ -105,5 +106,6 @@ const allSchemas: Record<string, any>[] = [
     </main>
     <Footer />
     <CookieConsent />
+    <ChatWidget />
   </body>
 </html>
