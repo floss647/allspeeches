@@ -4,12 +4,10 @@
   base = "site"
   command = "npm run build"
   publish = "dist"          # relative to base -> site/dist
+  functions = "netlify/functions"
 
 [build.environment]
   NODE_VERSION = "22"
-
-[functions]
-  directory = "netlify/functions"
 
 # Security + caching headers
 [[headers]]
