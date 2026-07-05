@@ -34,13 +34,9 @@ const formEndpoint = SITE.formEndpoint;
       <label>Email <input type="email" name="email" placeholder="your@email.com" required /></label>
       <label>Phone (optional) <input type="tel" name="phone" placeholder="+44 7700 000000" /></label>
       <label>Preferred date <input type="date" name="date" required /></label>
-      <label>Best time to call
-        <select name="call_time" required>
-          <option value="">Choose a time…</option>
-          <option value="Morning (9–12)">Morning (9–12)</option>
-          <option value="Afternoon (12–5)">Afternoon (12–5)</option>
-          <option value="Evening (5–8)">Evening (5–8)</option>
-        </select>
+      <label>Preferred call time
+        <input type="time" name="call_time" min="09:00" max="20:00" required />
+        <span class="bw-hint">Between 9:00 and 20:00</span>
       </label>
 
       <button type="submit" id="bw-submit">Request call</button>
@@ -219,6 +215,8 @@ const formEndpoint = SITE.formEndpoint;
     border-color: var(--gold, #b08d57);
     background: #fff;
   }
+
+  .bw-hint { font-size: 0.72rem; font-weight: 400; color: #888; margin-top: 2px; }
 
   #bw-submit {
     margin-top: 4px;
