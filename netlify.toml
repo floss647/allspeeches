@@ -8,9 +8,6 @@
 [build.environment]
   NODE_VERSION = "22"
 
-[functions]
-  directory = "netlify/functions"
-
 # Security + caching headers
 [[headers]]
   for = "/*"
