@@ -14,8 +14,6 @@ const crumbs = [
 ];
 const types = ['Best Man', 'Groom', 'Bride', 'Father of the Bride', 'Mother of the Bride', 'Maid of Honour', 'Brother of the Bride', 'Sister of the Groom', 'Eulogy', 'Business / Corporate', 'Other'];
 
-// If a Formspree (or similar) endpoint is configured, post there and bypass
-// Netlify Forms entirely. Otherwise fall back to Netlify Forms.
 const useFormspree = SITE.formEndpoint.length > 0;
 const formAction = useFormspree ? SITE.formEndpoint : '/thank-you';
 const thankYouUrl = `${SITE.url}/thank-you`;
@@ -34,8 +32,6 @@ const thankYouUrl = `${SITE.url}/thank-you`;
     <div class="wrap">
       <div class="form-wrap measure mx-auto">
         <h2>Send me a message</h2>
-        <!-- Posts to Formspree when SITE.formEndpoint is set (bypasses Netlify),
-             otherwise uses Netlify Forms. Both redirect to /thank-you on success. -->
         <form name="contact" method="POST" action={formAction} class="form"
           data-netlify={useFormspree ? undefined : 'true'}
           netlify-honeypot={useFormspree ? undefined : 'bot-field'}>
@@ -60,7 +56,15 @@ const thankYouUrl = `${SITE.url}/thank-you`;
               {types.map((t) => <option value={t}>{t}</option>)}
             </select>
           </label>
-          <label>Let me know when you'd like to speak<textarea name="message" rows="5"></textarea></label>
+          <label>Best time to call
+            <select name="call_time">
+              <option value="Any time">Any time</option>
+              <option value="Morning (9–12)">Morning (9–12)</option>
+              <option value="Afternoon (12–5)">Afternoon (12–5)</option>
+              <option value="Evening (5–8)">Evening (5–8)</option>
+            </select>
+          </label>
+          <label>Your message<textarea name="message" rows="5"></textarea></label>
 
           <!-- Populated on submit by the attribution script below. -->
           <input type="hidden" name="lead_source" value="" />
@@ -133,8 +137,6 @@ const thankYouUrl = `${SITE.url}/thank-you`;
           })
             .then(function (r) {
               if (r.ok) {
-                // Mark this as a genuine enquiry so /thank-you fires exactly
-                // one ad conversion (not on direct hits, refreshes or bots).
                 try { sessionStorage.setItem('asgs-enquiry', '1'); } catch (e) {}
                 window.location.href = '/thank-you';
                 return;
