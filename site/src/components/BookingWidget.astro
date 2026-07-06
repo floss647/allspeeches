@@ -59,6 +59,23 @@ const formEndpoint = SITE.formEndpoint;
 
 <script is:inline>
 (function () {
+  // Keep widget above the cookie banner when it's visible
+  var widget = document.getElementById('bw-widget');
+  var banner = document.getElementById('cookie-banner');
+  function reposition() {
+    if (banner && !banner.hidden) {
+      widget.style.bottom = (banner.offsetHeight + 12) + 'px';
+    } else {
+      widget.style.bottom = '24px';
+    }
+  }
+  reposition();
+  if (banner) {
+    new MutationObserver(reposition).observe(banner, { attributes: true, attributeFilter: ['hidden'] });
+  }
+})();
+
+(function () {
   // Attribution tracking — same logic as the contact form
   var bwForm = document.getElementById('bw-form');
   var src = {};
