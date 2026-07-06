@@ -29,6 +29,10 @@ const formEndpoint = SITE.formEndpoint;
       <input type="hidden" name="_subject" value="Call booking request via allspeechesgreatandsmall.com" />
       <input type="hidden" name="form_type" value="call_booking" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <input type="hidden" name="lead_source" value="" />
+      <input type="hidden" name="landing_page" value="" />
+      <input type="hidden" name="referrer" value="" />
+      <input type="hidden" name="enquiry_page" value="" />
 
       <label>Your name <input type="text" name="name" placeholder="e.g. James Smith" required /></label>
       <label>Email <input type="email" name="email" placeholder="your@email.com" required /></label>
@@ -54,6 +58,50 @@ const formEndpoint = SITE.formEndpoint;
 </div>
 
 <script is:inline>
+(function () {
+  // Attribution tracking — same logic as the contact form
+  var bwForm = document.getElementById('bw-form');
+  var src = {};
+  try { src = JSON.parse(sessionStorage.getItem('asgs-attribution') || '{}'); } catch (e) {}
+  var landing = src.landing || (location.pathname + location.search);
+  var referrer = src.referrer || '';
+
+  function detect(landing, referrer) {
+    var q = ''; var qi = landing.indexOf('?');
+    if (qi >= 0) q = landing.slice(qi + 1);
+    var p = new URLSearchParams(q.toLowerCase());
+    var s = (p.get('utm_source') || ''); var m = (p.get('utm_medium') || '');
+    var ref = (referrer || '').toLowerCase();
+    if (s.indexOf('chatgpt') >= 0 || s.indexOf('openai') >= 0 ||
+        ref.indexOf('chatgpt.com') >= 0 || ref.indexOf('openai.com') >= 0)
+      return 'ChatGPT Ads';
+    if (p.has('gclid') || (s.indexOf('google') >= 0 && (m.indexOf('cpc') >= 0 || m.indexOf('paid') >= 0)))
+      return 'Google Ads';
+    if (p.has('msclkid')) return 'Microsoft Ads';
+    if (p.has('fbclid') || ref.indexOf('facebook') >= 0 || ref.indexOf('instagram') >= 0) return 'Facebook / Instagram';
+    if (s) return 'Campaign: ' + s + (m ? ' / ' + m : '');
+    if (ref.indexOf('google.') >= 0) return 'Google (organic search)';
+    if (ref.indexOf('bing.') >= 0) return 'Bing (organic search)';
+    if (ref.indexOf('duckduckgo') >= 0) return 'DuckDuckGo (organic search)';
+    if (ref) {
+      try {
+        var h = new URL(referrer).hostname.replace(/^www\./, '');
+        if (h && h.indexOf('allspeechesgreatandsmall') < 0) return 'Referral: ' + h;
+      } catch (e) {}
+    }
+    return 'Direct / unknown';
+  }
+
+  function setField(name, val) {
+    var el = bwForm.querySelector('input[name="' + name + '"]');
+    if (el) el.value = val;
+  }
+  setField('landing_page', landing);
+  setField('referrer', referrer || '(none / direct)');
+  setField('enquiry_page', location.pathname);
+  setField('lead_source', detect(landing, referrer));
+})();
+
 (function () {
   var toggle  = document.getElementById('bw-toggle');
   var panel   = document.getElementById('bw-panel');
