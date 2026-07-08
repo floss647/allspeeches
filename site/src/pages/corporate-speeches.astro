@@ -23,12 +23,12 @@ const corporate = services.filter((s) => s.audience === 'corporate');
 const offerings = corporate.map((s) => ({ title: s.cardTitle, blurb: s.cardBlurb, href: s.slug }));
 
 const faqs: FaqType[] = [
-  { q: 'Do you really write both wedding and corporate speeches?', a: 'Yes, and it’s the same craft. Whether it’s a best man or a chief executive, the job is to find the story only you can tell and write it so it sounds like the best possible version of you. The occasion changes; the skill doesn’t.' },
+  { q: 'Do you really write both wedding and corporate speeches?', a: 'Yes, and it's the same craft. Whether it's a best man or a chief executive, the job is to find the story only you can tell and write it so it sounds like the best possible version of you. The occasion changes; the skill doesn't.' },
   { q: 'Is everything confidential?', a: 'Completely. I work under NDAs as a matter of routine and handle commercially sensitive, pre-announcement and market-affecting material with full discretion.' },
-  { q: 'Will it sound like the speaker, not like a writer?', a: 'Always. I ghostwrite in the speaker’s own voice, so the audience hears them at their most articulate, never a script being read aloud.' },
-  { q: 'Can you work with our comms team or the executive’s EA?', a: 'Routinely. I slot into your process, brief with whoever you nominate, and keep drafts, versions and approvals clean and on schedule.' },
-  { q: 'How quickly can you turn work around?', a: 'Corporate moments rarely come with much notice. Tell me the deadline and I’ll tell you straight away whether I can meet it; I usually can.' },
-  { q: 'How much does it cost?', a: 'Corporate work is quoted per project, because length, complexity and timeline vary far too much for a flat fee. Tell me about your event and I’ll send a clear, tailored proposal. Ongoing work can be arranged on a retainer.' },
+  { q: 'Will it sound like the speaker, not like a writer?', a: 'Always. I ghostwrite in the speaker's own voice, so the audience hears them at their most articulate, never a script being read aloud.' },
+  { q: 'Can you work with our comms team or the executive's EA?', a: 'Routinely. I slot into your process, brief with whoever you nominate, and keep drafts, versions and approvals clean and on schedule.' },
+  { q: 'How quickly can you turn work around?', a: 'Corporate moments rarely come with much notice. Tell me the deadline and I'll tell you straight away whether I can meet it; I usually can.' },
+  { q: 'How much does it cost?', a: 'Corporate work is quoted per project, because length, complexity and timeline vary far too much for a flat fee. Tell me about your event and I'll send a clear, tailored proposal. Ongoing work can be arranged on a retainer.' },
 ];
 
 const schemas = [
@@ -54,7 +54,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <p class="lede">
         A keynote, a conference talk, a town hall, an awards night, the words you stand up and say in
         front of the people who matter are worth getting right. I turn your message into a speech
-        that’s clear, persuasive and unmistakably yours, written for the ear and built to land.
+        that's clear, persuasive and unmistakably yours, written for the ear and built to land.
       </p>
       <div class="btn-row mt-2">
         <a class="btn btn--primary" href="/contact">Discuss your event</a>
@@ -114,11 +114,11 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
         </div>
         <div>
           <h3>Works with your team</h3>
-          <p>I slot into your process, brief with your comms team or the executive’s EA, and keep versions and approvals clean.</p>
+          <p>I slot into your process, brief with your comms team or the executive's EA, and keep versions and approvals clean.</p>
         </div>
         <div>
           <h3>Reliable to the deadline</h3>
-          <p>Corporate moments rarely come with notice. Tell me the date and I’ll meet it, or tell you straight away if I can’t.</p>
+          <p>Corporate moments rarely come with notice. Tell me the date and I'll meet it, or tell you straight away if I can't.</p>
         </div>
         <div>
           <h3>Straightforward invoicing</h3>
@@ -133,16 +133,16 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
     <div class="wrap media">
       <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson, professional speechwriter" loading="lazy" width="520" height="600" />
       <div>
-        <p class="eyebrow">Who you’re working with</p>
-        <h2>A broadcaster’s ear, a writer’s discipline</h2>
+        <p class="eyebrow">Who you're working with</p>
+        <h2>A broadcaster's ear, a writer's discipline</h2>
         <p>
-          I’m Adrian Simpson. I started as a magazine journalist, spent fifteen years in television
+          I'm Adrian Simpson. I started as a magazine journalist, spent fifteen years in television
           including presenting on BBC Top Gear, and have written professionally for the spoken word
           since 2012. That broadcast background is exactly what a keynote or a conference talk needs:
           writing made to be heard, timed to the room, and delivered with confidence.
         </p>
         <p>
-          I’m also the UK’s most highly rated and reviewed speechwriter, trusted with weddings and
+          I'm also the UK's most highly rated and reviewed speechwriter, trusted with weddings and
           boardrooms alike, because the craft is the same: find the story only you can tell, and tell
           it brilliantly.
         </p>
@@ -155,7 +155,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   <section class="section section--tint center">
     <div class="wrap">
       <p class="eyebrow">Verified reviews</p>
-      <h2>Don’t take my word for it</h2>
+      <h2>Don't take my word for it</h2>
       <ReviewsCarousel />
       <div class="mt-2"><a class="btn btn--ghost" href="/reviews">Read all reviews →</a></div>
     </div>
@@ -168,7 +168,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
       <h2>Quoted per project</h2>
       <p class="lede">
         Corporate work is priced per project, because length, complexity and timeline vary far too
-        much for a flat fee. Tell me about your event and I’ll send a clear, tailored proposal,
+        much for a flat fee. Tell me about your event and I'll send a clear, tailored proposal,
         with no obligation. Ongoing work can be arranged on a retainer.
       </p>
       <a class="btn btn--primary" href="/contact">Request a proposal</a>
@@ -178,8 +178,8 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   <Faq faqs={faqs} heading="Questions companies ask" />
 
   <CtaBand
-    heading="Let’s talk about your event"
-    text="Tell me about the occasion, the audience and the date, and I’ll take it from there."
+    heading="Let's talk about your event"
+    text="Tell me about the occasion, the audience and the date, and I'll take it from there."
     ctaLabel="Discuss your event"
   />
 </Layout>
