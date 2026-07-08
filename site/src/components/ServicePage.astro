@@ -110,7 +110,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
   <section class="section center">
     <div class="wrap">
       <p class="eyebrow">Verified reviews</p>
-      <h2>{data.gentle ? 'Families I've helped' : 'Don't take my word for it'}</h2>
+      <h2>{data.gentle ? "Families I've helped" : "Don't take my word for it"}</h2>
       <ReviewsCarousel />
     </div>
   </section>
@@ -143,6 +143,6 @@ const priceDisplay = data.priceValue ?? SITE.price;
       secondaryHref="/corporate-speeches"
     />
   ) : (
-    <CtaBand heading={data.gentle ? 'Whenever you're ready' : 'Ready to start?'} text={data.gentle ? 'There's no pressure and no rush. Get in touch whenever the time feels right.' : 'Tell me about the occasion and I'll take it from there.'} />
+    <CtaBand heading={data.gentle ? "Whenever you're ready" : "Ready to start?"} text={data.gentle ? "There's no pressure and no rush. Get in touch whenever the time feels right." : "Tell me about the occasion and I'll take it from there."} />
   )}
 </Layout>
