@@ -144,6 +144,13 @@ const formEndpoint = SITE.formEndpoint;
     toggle.focus();
   }
 
+  // Allow any [data-open-booking] element on the page to trigger this widget
+  window.openBookingWidget = open;
+  document.addEventListener('click', function (e) {
+    var trigger = e.target.closest('[data-open-booking]');
+    if (trigger) { e.preventDefault(); open(); }
+  });
+
   toggle.addEventListener('click', function () {
     panel.hidden ? open() : close();
   });
