@@ -15,8 +15,8 @@ const intro = data.intro.map(fill);
 const items = data.whatYouGet.items.map(fill);
 const steps = data.howItWorks.map(fill);
 const aiFaq = {
-  q: 'Can't I just use ChatGPT or AI?',
-  a: 'You can, but brace yourself. I've tested it thoroughly: AI lists your facts in order, can't judge what's appropriate, and — fatally for a speech — it can't be funny. It arranges words; it can't find the story only you can tell or read a room. <a href="/can-ai-write-your-speech">Here's what happened when I put ChatGPT to the test →</a>',
+  q: 'Can\'t I just use ChatGPT or AI?',
+  a: 'You can, but brace yourself. I\'ve tested it thoroughly: AI lists your facts in order, can\'t judge what\'s appropriate, and — fatally for a speech — it can\'t be funny. It arranges words; it can\'t find the story only you can tell or read a room. <a href="/can-ai-write-your-speech">Here\'s what happened when I put ChatGPT to the test →</a>',
 };
 const faqs = [
   ...data.faqs.map((f) => ({ q: f.q, a: fill(f.a) })),

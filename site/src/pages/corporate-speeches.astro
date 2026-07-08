@@ -23,12 +23,12 @@ const corporate = services.filter((s) => s.audience === 'corporate');
 const offerings = corporate.map((s) => ({ title: s.cardTitle, blurb: s.cardBlurb, href: s.slug }));
 
 const faqs: FaqType[] = [
-  { q: 'Do you really write both wedding and corporate speeches?', a: 'Yes, and it's the same craft. Whether it's a best man or a chief executive, the job is to find the story only you can tell and write it so it sounds like the best possible version of you. The occasion changes; the skill doesn't.' },
+  { q: 'Do you really write both wedding and corporate speeches?', a: 'Yes, and it\'s the same craft. Whether it\'s a best man or a chief executive, the job is to find the story only you can tell and write it so it sounds like the best possible version of you. The occasion changes; the skill doesn\'t.' },
   { q: 'Is everything confidential?', a: 'Completely. I work under NDAs as a matter of routine and handle commercially sensitive, pre-announcement and market-affecting material with full discretion.' },
-  { q: 'Will it sound like the speaker, not like a writer?', a: 'Always. I ghostwrite in the speaker's own voice, so the audience hears them at their most articulate, never a script being read aloud.' },
-  { q: 'Can you work with our comms team or the executive's EA?', a: 'Routinely. I slot into your process, brief with whoever you nominate, and keep drafts, versions and approvals clean and on schedule.' },
-  { q: 'How quickly can you turn work around?', a: 'Corporate moments rarely come with much notice. Tell me the deadline and I'll tell you straight away whether I can meet it; I usually can.' },
-  { q: 'How much does it cost?', a: 'Corporate work is quoted per project, because length, complexity and timeline vary far too much for a flat fee. Tell me about your event and I'll send a clear, tailored proposal. Ongoing work can be arranged on a retainer.' },
+  { q: 'Will it sound like the speaker, not like a writer?', a: 'Always. I ghostwrite in the speaker\'s own voice, so the audience hears them at their most articulate, never a script being read aloud.' },
+  { q: 'Can you work with our comms team or the executive\'s EA?', a: 'Routinely. I slot into your process, brief with whoever you nominate, and keep drafts, versions and approvals clean and on schedule.' },
+  { q: 'How quickly can you turn work around?', a: 'Corporate moments rarely come with much notice. Tell me the deadline and I\'ll tell you straight away whether I can meet it; I usually can.' },
+  { q: 'How much does it cost?', a: 'Corporate work is quoted per project, because length, complexity and timeline vary far too much for a flat fee. Tell me about your event and I\'ll send a clear, tailored proposal. Ongoing work can be arranged on a retainer.' },
 ];
 
 const schemas = [
