@@ -21,7 +21,7 @@ const {
     <h2>{heading}</h2>
     <p class="lede" style="color:#cfcfe0">{text}</p>
     <div class="btn-row" style="justify-content:center">
-      <a class="btn btn--primary" href={ctaHref}>{ctaLabel ?? "Let’s write your speech"}</a>
+      <a class="btn btn--primary" href={ctaHref} data-open-booking={ctaHref === ‘/contact’ ? "" : undefined}>{ctaLabel ?? "Book a call"}</a>
       <a class="btn btn--ghost" href={secondaryHref}>{secondaryLabel}</a>
     </div>
   </div>

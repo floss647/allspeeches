@@ -55,7 +55,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
           <h1>{data.h1}</h1>
           {intro.map((p) => <p class="lede" set:html={p} />)}
           <div class="btn-row mt-2">
-            <a class="btn btn--primary" href="/contact">{ctaLabel}</a>
+            <a class="btn btn--primary" href="/contact" data-open-booking="">{ctaLabel}</a>
             {data.guidePath && <a class="btn btn--ghost" href={data.guidePath}>{data.guideLabel} →</a>}
           </div>
         </div>
