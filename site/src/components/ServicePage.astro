@@ -15,8 +15,8 @@ const intro = data.intro.map(fill);
 const items = data.whatYouGet.items.map(fill);
 const steps = data.howItWorks.map(fill);
 const aiFaq = {
-  q: 'Can’t I just use ChatGPT or AI?',
-  a: 'You can, but brace yourself. I’ve tested it thoroughly: AI lists your facts in order, can’t judge what’s appropriate, and — fatally for a speech — it can’t be funny. It arranges words; it can’t find the story only you can tell or read a room. <a href="/can-ai-write-your-speech">Here’s what happened when I put ChatGPT to the test →</a>',
+  q: 'Can't I just use ChatGPT or AI?',
+  a: 'You can, but brace yourself. I've tested it thoroughly: AI lists your facts in order, can't judge what's appropriate, and — fatally for a speech — it can't be funny. It arranges words; it can't find the story only you can tell or read a room. <a href="/can-ai-write-your-speech">Here's what happened when I put ChatGPT to the test →</a>',
 };
 const faqs = [
   ...data.faqs.map((f) => ({ q: f.q, a: fill(f.a) })),
@@ -89,7 +89,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
         <h2>{data.gentle ? 'A little about me' : 'Written by a professional, for you'}</h2>
         <p>
           I started as a magazine journalist, spent fifteen years in television including presenting
-          on BBC Top Gear, and have written speeches professionally since 2012, making me the UK’s
+          on BBC Top Gear, and have written speeches professionally since 2012, making me the UK's
           most highly rated and reviewed speech writer.
         </p>
         {!data.gentle && (
@@ -110,7 +110,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
   <section class="section center">
     <div class="wrap">
       <p class="eyebrow">Verified reviews</p>
-      <h2>{data.gentle ? 'Families I’ve helped' : 'Don’t take my word for it'}</h2>
+      <h2>{data.gentle ? 'Families I've helped' : 'Don't take my word for it'}</h2>
       <ReviewsCarousel />
     </div>
   </section>
@@ -122,12 +122,12 @@ const priceDisplay = data.priceValue ?? SITE.price;
         <h2>{data.priceFrom ? 'Straightforward pricing.' : 'One flat fee. Everything included.'}</h2>
         <p class="lede">
           {data.priceFrom ? (
-            <span>A bespoke {data.nav.toLowerCase()} speech starts <strong>from £{priceDisplay}</strong>, unlimited revisions included. Tell me about your event and I’ll confirm the price.</span>
+            <span>A bespoke {data.nav.toLowerCase()} speech starts <strong>from £{priceDisplay}</strong>, unlimited revisions included. Tell me about your event and I'll confirm the price.</span>
           ) : (
             <span>A bespoke {data.nav.toLowerCase()} speech is a flat <strong>£{priceDisplay}</strong>, including unlimited revisions and everything above. No hidden extras.</span>
           )}
         </p>
-        <a class="btn btn--primary" href="/pricing">See what’s included →</a>
+        <a class="btn btn--primary" href="/pricing">See what's included →</a>
       </div>
     </section>
   )}
@@ -136,13 +136,13 @@ const priceDisplay = data.priceValue ?? SITE.price;
 
   {data.audience === 'corporate' ? (
     <CtaBand
-      heading="Let’s talk about your event"
-      text="Tell me about the occasion, the audience and the date, and I’ll send a tailored proposal."
+      heading="Let's talk about your event"
+      text="Tell me about the occasion, the audience and the date, and I'll send a tailored proposal."
       ctaLabel={ctaLabel}
       secondaryLabel="See all business services"
       secondaryHref="/corporate-speeches"
     />
   ) : (
-    <CtaBand heading={data.gentle ? 'Whenever you’re ready' : 'Ready to start?'} text={data.gentle ? 'There’s no pressure and no rush. Get in touch whenever the time feels right.' : 'Tell me about the occasion and I’ll take it from there.'} />
+    <CtaBand heading={data.gentle ? 'Whenever you're ready' : 'Ready to start?'} text={data.gentle ? 'There's no pressure and no rush. Get in touch whenever the time feels right.' : 'Tell me about the occasion and I'll take it from there.'} />
   )}
 </Layout>
