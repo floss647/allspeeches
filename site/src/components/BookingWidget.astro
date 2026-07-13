@@ -1,6 +1,8 @@
 ---
 import { SITE } from '../config/site';
 const formEndpoint = SITE.formEndpoint;
+const adsId = SITE.googleAdsId;
+const adsLabel = SITE.googleAdsLabel;
 ---
 
 <!-- Backdrop overlay (desktop modal) -->
@@ -60,7 +62,7 @@ const formEndpoint = SITE.formEndpoint;
   </div>
 </div>
 
-<script is:inline>
+<script is:inline define:vars={{ adsId, adsLabel }}>
 (function () {
   // Keep widget above the cookie banner when it's visible
   var widget = document.getElementById('bw-widget');
@@ -177,6 +179,9 @@ const formEndpoint = SITE.formEndpoint;
         if (r.ok) {
           form.hidden = true;
           success.hidden = false;
+          if (adsId && adsLabel && typeof gtag === 'function') {
+            gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
+          }
         } else {
           throw new Error('error');
         }
