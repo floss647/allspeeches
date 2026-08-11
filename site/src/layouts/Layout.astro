@@ -58,11 +58,21 @@ const allSchemas: Record<string, any>[] = [
       (function () {
         try {
           var KEY = 'asgs-attribution';
+          var q = new URLSearchParams(location.search);
+          var gclid = q.get('gclid') || '';
           if (!sessionStorage.getItem(KEY)) {
             sessionStorage.setItem(KEY, JSON.stringify({
               landing: location.pathname + location.search,
               referrer: document.referrer || '',
+              gclid: gclid,
               ts: new Date().toISOString(),
+            }));
+          }
+          // Always refresh gclid in localStorage on a fresh paid click (90-day window)
+          if (gclid) {
+            localStorage.setItem('asgs-gclid', JSON.stringify({
+              v: gclid,
+              exp: Date.now() + 90 * 24 * 60 * 60 * 1000,
             }));
           }
         } catch (e) {}

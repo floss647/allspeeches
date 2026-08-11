@@ -71,6 +71,7 @@ const thankYouUrl = `${SITE.url}/thank-you`;
           <input type="hidden" name="landing_page" value="" />
           <input type="hidden" name="referrer" value="" />
           <input type="hidden" name="enquiry_page" value="" />
+          <input type="hidden" name="gclid" value="" />
 
           <button class="btn btn--primary" type="submit">Send message</button>
         </form>
@@ -114,10 +115,18 @@ const thankYouUrl = `${SITE.url}/thank-you`;
       }
 
       function set(name, val) { var el = form.querySelector('input[name="' + name + '"]'); if (el) el.value = val; }
+      function getGclid() {
+        try {
+          var raw = localStorage.getItem('asgs-gclid');
+          if (raw) { var obj = JSON.parse(raw); if (obj.exp > Date.now()) return obj.v; }
+        } catch (e) {}
+        try { return (JSON.parse(sessionStorage.getItem('asgs-attribution') || '{}').gclid || ''); } catch (e) { return ''; }
+      }
       set('landing_page', landing);
       set('referrer', referrer || '(none / direct)');
       set('enquiry_page', location.pathname);
       set('lead_source', detect(landing, referrer));
+      set('gclid', getGclid());
     })();
   </script>
 
