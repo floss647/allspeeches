@@ -38,6 +38,7 @@ const adsLabel = SITE.googleAdsLabel;
       <input type="hidden" name="landing_page" value="" />
       <input type="hidden" name="referrer" value="" />
       <input type="hidden" name="enquiry_page" value="" />
+      <input type="hidden" name="gclid" value="" />
 
       <label>Your name <input type="text" name="name" placeholder="e.g. James Smith" required /></label>
       <label>Email <input type="email" name="email" placeholder="your@email.com" required /></label>
@@ -118,10 +119,18 @@ const adsLabel = SITE.googleAdsLabel;
     var el = bwForm.querySelector('input[name="' + name + '"]');
     if (el) el.value = val;
   }
+  function getGclid() {
+    try {
+      var raw = localStorage.getItem('asgs-gclid');
+      if (raw) { var obj = JSON.parse(raw); if (obj.exp > Date.now()) return obj.v; }
+    } catch (e) {}
+    try { return (JSON.parse(sessionStorage.getItem('asgs-attribution') || '{}').gclid || ''); } catch (e) { return ''; }
+  }
   setField('landing_page', landing);
   setField('referrer', referrer || '(none / direct)');
   setField('enquiry_page', location.pathname);
   setField('lead_source', detect(landing, referrer));
+  setField('gclid', getGclid());
 })();
 
 (function () {
