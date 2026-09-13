@@ -199,16 +199,15 @@ const schemas = [
 </Layout>
 
 <script is:inline>
-  /* Show one price, geolocated: GBP by default, USD for visitors in the US.
-     No external calls; uses the browser's own locale and timezone. */
+  /* Show one price, geolocated by TIME ZONE: GBP by default, USD only for
+     visitors whose time zone is in the US. Deliberately NOT based on browser
+     language, since many UK users have their language set to US English. */
   (function () {
     try {
       var tz = '';
       try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
-      var region = '';
-      try { region = (new Intl.Locale(navigator.language)).region || ''; } catch (e) {}
       var usZones = ['America/New_York','America/Detroit','America/Kentucky','America/Indiana','America/Chicago','America/Menominee','America/Denver','America/Boise','America/Phoenix','America/Los_Angeles','America/Anchorage','America/Juneau','America/Sitka','America/Nome','America/Adak','America/Metlakatla','Pacific/Honolulu'];
-      var isUS = region === 'US';
+      var isUS = false;
       for (var i = 0; i < usZones.length && !isUS; i++) { if (tz.indexOf(usZones[i]) === 0) isUS = true; }
       if (isUS) {
         var els = document.querySelectorAll('[data-usd]');
