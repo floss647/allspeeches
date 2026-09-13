@@ -7,7 +7,7 @@ const showRating = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[')
   <div class="wrap footer-grid">
     <div class="footer-about">
       <img src="/images/logo-gold.png" alt={`${SITE.shortName} logo`} width="400" height="57" class="footer-logo" />
-      <p class="footer-tagline">Bespoke, original speeches for weddings and life's biggest moments, written around your story by {SITE.founder}.</p>
+      <p class="footer-tagline">Bespoke speeches and one to one coaching for weddings, life's biggest moments and the boardroom, from {SITE.founder}.</p>
       <p class="nap">
         <strong>{SITE.name}</strong><br />
         {SITE.addressRegion}, United Kingdom
@@ -50,6 +50,15 @@ const showRating = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[')
     </div>
 
     <div class="footer-col">
+      <h4>Coaching</h4>
+      <ul>
+        <li><a href="/speech-coaching">Public Speaking Coaching</a></li>
+        <li><a href="/wedding-speech-coaching">Wedding &amp; Occasion Coaching</a></li>
+        <li><a href="/executive-speaking-coaching">Executive Speaking Coaching</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
       <h4>Company</h4>
       <ul>
         <li><a href={SITE.founderUrlPath}>About Adrian</a></li>
@@ -76,7 +85,7 @@ const showRating = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[')
 
 <style>
   .site-footer { background: var(--ink); color: #cfcfe0; padding: 64px 0 28px; margin-top: 40px; }
-  .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; }
+  .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 36px; }
   .site-footer h4 { color: #fff; font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 16px; }
   .site-footer ul { list-style: none; padding: 0; margin: 0; }
   .site-footer li { margin-bottom: 9px; }
