@@ -224,6 +224,20 @@ const calendlyUrl = SITE.calendlyUrl;
         alert('Sorry, something went wrong. Please try again or email Adrian directly.');
       });
   });
+
+  // Fire the Google Ads conversion when a Calendly booking is completed.
+  // Calendly's popup posts a 'calendly.event_scheduled' message on booking;
+  // gtag only exists after the visitor has granted marketing consent.
+  window.addEventListener('message', function (e) {
+    if (typeof e.origin === 'string' && e.origin.indexOf('calendly.com') === -1) return;
+    if (!e.data || e.data.event !== 'calendly.event_scheduled') return;
+    if (adsId && adsLabel && typeof gtag === 'function') {
+      gtag('event', 'conversion', { send_to: adsId + '/' + adsLabel });
+    }
+    if (typeof gtag === 'function') {
+      gtag('event', 'coaching_call_booked', { method: 'calendly' });
+    }
+  });
 })();
 </script>
 
