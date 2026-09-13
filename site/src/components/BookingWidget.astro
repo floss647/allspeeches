@@ -3,7 +3,17 @@ import { SITE } from '../config/site';
 const formEndpoint = SITE.formEndpoint;
 const adsId = SITE.googleAdsId;
 const adsLabel = SITE.googleAdsLabel;
+// When set, every "Book a call" trigger opens this Calendly link (popup where
+// available, otherwise a new tab) instead of the built-in Formspree modal.
+const calendlyUrl = SITE.calendlyUrl;
 ---
+
+{calendlyUrl && (
+  <Fragment>
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
+    <script is:inline src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </Fragment>
+)}
 
 <!-- Backdrop overlay (desktop modal) -->
 <div id="bw-backdrop" hidden aria-hidden="true"></div>
@@ -63,7 +73,7 @@ const adsLabel = SITE.googleAdsLabel;
   </div>
 </div>
 
-<script is:inline define:vars={{ adsId, adsLabel }}>
+<script is:inline define:vars={{ adsId, adsLabel, calendlyUrl }}>
 (function () {
   // Keep widget above the cookie banner when it's visible
   var widget = document.getElementById('bw-widget');
@@ -161,15 +171,28 @@ const adsLabel = SITE.googleAdsLabel;
     toggle.focus();
   }
 
-  // Allow any [data-open-booking] element on the page to trigger this widget
-  window.openBookingWidget = open;
+  // When a Calendly URL is configured, every "Book a call" trigger opens it
+  // (popup where the Calendly script has loaded, otherwise a new tab) instead
+  // of the built-in Formspree modal.
+  function openCalendly() {
+    if (window.Calendly && typeof window.Calendly.initPopupWidget === 'function') {
+      window.Calendly.initPopupWidget({ url: calendlyUrl });
+    } else {
+      window.open(calendlyUrl, '_blank', 'noopener');
+    }
+  }
+  var useCalendly = !!calendlyUrl;
+
+  // Allow any [data-open-booking] element on the page to trigger booking
+  window.openBookingWidget = useCalendly ? openCalendly : open;
   document.addEventListener('click', function (e) {
     var trigger = e.target.closest('[data-open-booking]');
-    if (trigger) { e.preventDefault(); open(); }
+    if (trigger) { e.preventDefault(); useCalendly ? openCalendly() : open(); }
   });
 
   backdrop.addEventListener('click', close);
   toggle.addEventListener('click', function () {
+    if (useCalendly) { openCalendly(); return; }
     panel.hidden ? open() : close();
   });
   closeBtn.addEventListener('click', close);

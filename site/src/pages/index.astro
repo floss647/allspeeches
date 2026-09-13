@@ -8,9 +8,9 @@ import { services } from '../data/services';
 import { faqPage, type Faq as FaqType } from '../lib/schema';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
-const title = 'Professional Wedding Speech Writer | All Speeches Great & Small';
+const title = 'Speech Writing & Public Speaking Coaching | All Speeches Great & Small';
 const description = fill(
-  "The UK's most-reviewed wedding speech writer. Bespoke best man, groom & father of the bride speeches from £399, no templates, no clichés. [REVIEW_COUNT]+ 5★ reviews."
+  "Bespoke speechwriting and one to one public speaking coaching from Adrian Simpson, a former BBC broadcaster and the UK's most-reviewed speechwriter. For weddings, big occasions and the boardroom. [REVIEW_COUNT]+ 5★ reviews."
 );
 
 const faqs: FaqType[] = [
@@ -26,16 +26,17 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   <!-- HERO -->
   <section class="hero hero--home">
     <div class="wrap hero__inner">
-      <p class="eyebrow">Bespoke speech writing for every occasion</p>
-      <h1>Make your words unforgettable</h1>
+      <p class="eyebrow">Bespoke speechwriting &amp; public speaking coaching</p>
+      <h1>Great speeches, brilliantly delivered.</h1>
       <p class="lede">
-        You only get one shot at the speech. Make it the one everyone remembers, for the right
-        reasons. I write original, personal speeches built entirely around your story. No templates.
-        No recycled jokes. No clichés.
+        Two ways to own the moment: bespoke speeches written around your story, and one to one
+        coaching to help you deliver them with confidence. For weddings, big occasions and the
+        boardroom.
       </p>
       <div class="btn-row mt-2">
         <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
-        <a class="btn btn--ghost" href="/pricing">See what's included · from £{SITE.price}</a>
+        <a class="btn btn--ghost" href="/pricing">Speech writing · from £{SITE.price}</a>
+        <a class="btn btn--ghost" href="/speech-coaching">Explore 1:1 coaching →</a>
       </div>
       <p class="trust" style="margin-top:26px">
         <span class="stars">★★★★★</span>
@@ -50,6 +51,38 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
 
   <!-- AS FEATURED IN -->
   <FeaturedIn />
+
+  <!-- COACHING (featured) -->
+  <section class="section coaching-band">
+    <div class="wrap center">
+      <p class="eyebrow">New · One to one coaching</p>
+      <h2>Don't just get the words. Learn to deliver them.</h2>
+      <p class="lede measure mx-auto">
+        Now, as well as writing your speech, I coach you to deliver it: calm the nerves, master the
+        timing and command the room. For wedding and occasion speakers, and for executives and
+        professional speakers.
+      </p>
+    </div>
+    <div class="wrap">
+      <div class="grid grid--2 mt-2">
+        <div class="path-card">
+          <p class="eyebrow">Weddings &amp; special occasions</p>
+          <h3>Wedding &amp; Occasion Coaching</h3>
+          <p>Best man, groom, father of the bride, maid of honour, or a eulogy. Beat the nerves and deliver a speech people remember for the right reasons. One to one, online, built around your day.</p>
+          <a class="btn btn--primary" href="/wedding-speech-coaching">Wedding &amp; Occasion Coaching →</a>
+        </div>
+        <div class="path-card">
+          <p class="eyebrow">Corporate &amp; professional</p>
+          <h3>Executive Speaking Coaching</h3>
+          <p>Keynotes, conference talks, investor pitches and board presentations. Command the room when the stakes are highest. Bespoke programmes, tailored to you.</p>
+          <a class="btn btn--primary" href="/executive-speaking-coaching">Executive Speaking Coaching →</a>
+        </div>
+      </div>
+      <div class="center mt-2">
+        <a class="btn btn--ghost" href="/speech-coaching">Explore all coaching →</a>
+      </div>
+    </div>
+  </section>
 
   <!-- SERVICES -->
   <section class="section">
@@ -105,7 +138,8 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
           I'm Adrian Simpson. I started out as a magazine journalist in London, spent fifteen years
           in television, including presenting on BBC Top Gear, and I've been writing speeches
           professionally since 2012. In that time I've become the UK's most highly rated and reviewed
-          wedding speech writer.
+          wedding speech writer, and I've given talks around the world, including at MIT in Boston,
+          to global CEOs in the telecoms industry.
         </p>
         <p>
           Every speech I write is original and built around you: your relationship, your memories,
@@ -115,7 +149,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
         </p>
         <a class="btn btn--ghost" href={SITE.founderUrlPath}>Read my story →</a>
       </div>
-      <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson, professional wedding speechwriter" loading="lazy" width="520" height="600" />
+      <img src="/images/Adrian-simpson.jpg" alt="Adrian Simpson, professional speechwriter and speaking coach" loading="lazy" width="400" height="500" />
     </div>
   </section>
 
@@ -170,6 +204,20 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
 </Layout>
 
 <style>
+  .coaching-band { background: var(--paper); border-bottom: 1px solid var(--line); }
+  .coaching-band .path-card {
+    background: #fff;
+    border: 2px solid var(--gold);
+    border-radius: var(--radius);
+    padding: 32px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .coaching-band .path-card h3 { margin: 0.2em 0 0.4em; }
+  .coaching-band .path-card p { margin-bottom: 22px; }
+  .coaching-band .path-card .btn { margin-top: auto; align-self: flex-start; }
   .group-title { margin-top: 40px; font-size: 1.5rem; }
   .group-title--business { margin-top: 64px; }
   .group-intro { color: var(--ink-soft); margin-top: 6px; }

@@ -72,6 +72,10 @@ export const SITE = {
   // endpoint here (free at formspree.io), e.g. 'https://formspree.io/f/abcdwxyz'
   // and the contact form will post there instead and email you directly.
   formEndpoint: 'https://formspree.io/f/mkoaagyj',
+
+  // Calendly link for the coaching discovery call. Coaching CTAs open this so
+  // people can self-book the call. Change or blank it here in one place.
+  calendlyUrl: 'https://calendly.com/adrian-allspeechesgreatandsmall/discovery-call',
 } as const;
 
 /**

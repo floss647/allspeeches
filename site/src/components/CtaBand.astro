@@ -15,13 +15,14 @@ const {
   secondaryLabel = 'Read my reviews',
   secondaryHref = '/reviews',
 } = Astro.props;
+const ctaExternal = ctaHref.startsWith('http');
 ---
 <section class="section section--ink center">
   <div class="wrap measure mx-auto">
     <h2>{heading}</h2>
     <p class="lede" style="color:#cfcfe0">{text}</p>
     <div class="btn-row" style="justify-content:center">
-      <a class="btn btn--primary" href={ctaHref} data-open-booking={ctaHref === '/contact' ? "" : undefined}>{ctaLabel ?? "Book a call"}</a>
+      <a class="btn btn--primary" href={ctaHref} data-open-booking={ctaHref === '/contact' ? "" : undefined} target={ctaExternal ? '_blank' : undefined} rel={ctaExternal ? 'noopener' : undefined}>{ctaLabel ?? "Book a call"}</a>
       <a class="btn btn--ghost" href={secondaryHref}>{secondaryLabel}</a>
     </div>
   </div>
