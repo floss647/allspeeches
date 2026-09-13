@@ -1,0 +1,161 @@
+---
+/*
+ * COACHING HUB — front door for both coaching audiences.
+ * Routes to the two spoke pages:
+ *   /wedding-speech-coaching     (social & occasion speakers)
+ *   /executive-speaking-coaching (corporate & professional speakers)
+ * High-end model: no checkout. Every CTA opens the "book a discovery call" widget.
+ */
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import FeaturedIn from '../components/FeaturedIn.astro';
+import ReviewsCarousel from '../components/ReviewsCarousel.astro';
+import { SITE, abs } from '../config/site';
+import { service, faqPage, type Faq as FaqType } from '../lib/schema';
+
+const path = '/speech-coaching';
+const title = 'Public Speaking Coaching | 1:1 with Adrian Simpson';
+const description =
+  "One-to-one public speaking coaching from Adrian Simpson — the UK's most-reviewed speechwriter and a former BBC broadcaster. For wedding and occasion speakers, and for executives and professional speakers. Book a discovery call.";
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Coaching', path },
+];
+
+const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
+
+const faqs: FaqType[] = [
+  { q: 'Is coaching online or in person?', a: 'Coaching is primarily one-to-one online, so I can work with you wherever you are in the UK, the US or beyond. In-person sessions are available on request for certain engagements.' },
+  { q: 'Do you coach beginners as well as experienced speakers?', a: 'Both. I work with people facing a single nerve-wracking speech for the first time, and with seasoned professionals sharpening a high-stakes keynote or pitch.' },
+  { q: "What's the difference between coaching and your speechwriting service?", a: 'Speechwriting is done <em>for</em> you — I write the speech. Coaching is done <em>with</em> you — I help you shape, rehearse and deliver it with confidence. Many clients combine the two.' },
+  { q: 'How do I get started?', a: 'Book a short, no-obligation discovery call. We talk through your speech or goal, and I recommend the right way to work together. There is no charge and no pressure.' },
+  { q: 'How much does coaching cost?', a: 'It depends on which programme suits you. Occasion-speaker sessions start at £295; executive and professional programmes are tailored and quoted after your discovery call. See the two coaching pages for details.' },
+];
+
+const schemas = [
+  service({
+    serviceType: 'Public speaking coaching',
+    name: 'Public Speaking Coaching',
+    path,
+    description,
+    withPrice: false,
+  }),
+  faqPage(faqs),
+];
+---
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas}>
+  <section class="hero center">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <p class="eyebrow">Public Speaking Coaching</p>
+      <h1>Speak like you mean it.</h1>
+      <p class="lede measure mx-auto">
+        One-to-one coaching to help you write, rehearse and deliver a speech that lands — whether
+        you're facing the wedding toast that's been keeping you up at night, or the keynote your
+        career turns on. Coached personally by Adrian Simpson.
+      </p>
+      <div class="btn-row mt-2" style="justify-content:center">
+        <a class="btn btn--primary" href="/contact" data-open-booking="">Book a discovery call</a>
+        <a class="btn btn--ghost" href="/reviews">Read my reviews →</a>
+      </div>
+      {ratingKnown && (
+        <p class="lede mt-2"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews</p>
+      )}
+    </div>
+  </section>
+
+  <FeaturedIn />
+
+  <section class="section">
+    <div class="wrap center">
+      <p class="eyebrow">Two ways I coach</p>
+      <h2>Choose your path</h2>
+      <p class="lede measure mx-auto">Pick the coaching built for your kind of speech. Not sure? Book a call and I'll point you the right way.</p>
+    </div>
+    <div class="wrap">
+      <div class="grid grid--2 mt-2">
+        <div class="path-card">
+          <p class="eyebrow">Weddings &amp; special occasions</p>
+          <h3>Wedding &amp; Occasion Coaching</h3>
+          <p>Best man, groom, father of the bride, maid of honour, or a eulogy you want to do justice. Beat the nerves, master the timing, and deliver a speech people remember for the right reasons.</p>
+          <ul class="ticks">
+            <li>Calm the nerves and the shaking hands</li>
+            <li>Rehearse until it feels effortless</li>
+            <li>Get the laughs — and the lump in the throat — exactly where you want them</li>
+          </ul>
+          <a class="btn btn--primary" href="/wedding-speech-coaching">Wedding &amp; Occasion Coaching →</a>
+        </div>
+        <div class="path-card">
+          <p class="eyebrow">Corporate &amp; professional</p>
+          <h3>Executive Speaking Coaching</h3>
+          <p>Keynotes, conference talks, investor pitches, board presentations and award-stage moments. Command the room with clarity, authority and presence when the stakes are highest.</p>
+          <ul class="ticks">
+            <li>Sharpen your message and structure</li>
+            <li>Build genuine executive presence and stagecraft</li>
+            <li>Rehearse high-stakes talks until they're bulletproof</li>
+          </ul>
+          <a class="btn btn--primary" href="/executive-speaking-coaching">Executive Speaking Coaching →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap media">
+      <img src="/images/adrian-home.jpg" alt="Adrian Simpson, speech coach" width="500" height="500" loading="lazy" />
+      <div>
+        <p class="eyebrow">Why work with me</p>
+        <h2>Coached by someone who's done it for real</h2>
+        <p>
+          I started as a magazine journalist, spent fifteen years in television including presenting
+          on BBC Top Gear, and have written speeches professionally since 2012 — making me the UK's
+          most highly rated and reviewed speech writer. I've stood in front of cameras and crowds,
+          and I've helped hundreds of people find the words that matter most.
+        </p>
+        <p>
+          Coaching is where those two worlds meet: I help you get the words right <em>and</em> deliver
+          them like you mean them.
+        </p>
+        {ratingKnown && (
+          <p class="lede"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews.</p>
+        )}
+        <a class="btn btn--ghost" href={SITE.founderUrlPath}>Read my story →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section center">
+    <div class="wrap">
+      <p class="eyebrow">Verified reviews</p>
+      <h2>What people say about working with Adrian</h2>
+      <ReviewsCarousel />
+    </div>
+  </section>
+
+  <Faq faqs={faqs} heading="Coaching questions" />
+
+  <CtaBand
+    heading="Not sure which is right for you?"
+    text="Book a short, no-obligation discovery call. Tell me about your speech and I'll recommend the best way to work together."
+    ctaLabel="Book a discovery call"
+    secondaryLabel="Read my reviews"
+    secondaryHref="/reviews"
+  />
+</Layout>
+
+<style>
+  .path-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 32px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+  .path-card h3 { margin: 0.2em 0 0.4em; }
+  .path-card .ticks { margin-block: 12px 22px; }
+  .path-card .btn { margin-top: auto; align-self: flex-start; }
+</style>

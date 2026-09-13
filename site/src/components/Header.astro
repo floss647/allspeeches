@@ -30,6 +30,11 @@ const business = [
   ['/award-ceremony-speech-writer', 'Awards & Hosting'],
   ['/after-dinner-speeches/', 'After-Dinner'],
 ];
+const coaching = [
+  ['/speech-coaching', 'Coaching overview'],
+  ['/wedding-speech-coaching', 'Wedding & Occasion'],
+  ['/executive-speaking-coaching', 'Executive Speaking'],
+];
 const isCorporate = business.some(([href]) => isActive(href as string));
 ---
 <header class="site-header">
@@ -63,6 +68,14 @@ const isCorporate = business.some(([href]) => isActive(href as string));
           <span class="nav__link">For Business ▾</span>
           <ul class="sub">
             {business.map(([href, label]) => (
+              <li><a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a></li>
+            ))}
+          </ul>
+        </li>
+        <li class="has-sub">
+          <span class="nav__link">Coaching ▾</span>
+          <ul class="sub">
+            {coaching.map(([href, label]) => (
               <li><a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a></li>
             ))}
           </ul>
