@@ -8,9 +8,9 @@ import { services } from '../data/services';
 import { faqPage, type Faq as FaqType } from '../lib/schema';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
-const title = 'Professional Wedding Speech Writer | All Speeches Great & Small';
+const title = 'Speech Writing & Public Speaking Coaching | All Speeches Great & Small';
 const description = fill(
-  "The UK's most-reviewed wedding speech writer. Bespoke best man, groom & father of the bride speeches from £399, no templates, no clichés. [REVIEW_COUNT]+ 5★ reviews."
+  "Bespoke speechwriting and one to one public speaking coaching from Adrian Simpson, a former BBC broadcaster and the UK's most-reviewed speechwriter. For weddings, big occasions and the boardroom. [REVIEW_COUNT]+ 5★ reviews."
 );
 
 const faqs: FaqType[] = [
@@ -26,17 +26,17 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   <!-- HERO -->
   <section class="hero hero--home">
     <div class="wrap hero__inner">
-      <p class="eyebrow">Bespoke speech writing for every occasion</p>
-      <h1>Make your words unforgettable</h1>
+      <p class="eyebrow">Bespoke speechwriting &amp; public speaking coaching</p>
+      <h1>Great speeches, brilliantly delivered.</h1>
       <p class="lede">
-        You only get one shot at the speech. Make it the one everyone remembers, for the right
-        reasons. I write original, personal speeches built entirely around your story. No templates.
-        No recycled jokes. No clichés.
+        Two ways to own the moment: bespoke speeches written around your story, and one to one
+        coaching to help you deliver them with confidence. For weddings, big occasions and the
+        boardroom.
       </p>
       <div class="btn-row mt-2">
         <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
-        <a class="btn btn--ghost" href="/speech-coaching">Explore 1:1 coaching →</a>
         <a class="btn btn--ghost" href="/pricing">Speech writing · from £{SITE.price}</a>
+        <a class="btn btn--ghost" href="/speech-coaching">Explore 1:1 coaching →</a>
       </div>
       <p class="trust" style="margin-top:26px">
         <span class="stars">★★★★★</span>
