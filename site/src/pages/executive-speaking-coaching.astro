@@ -1,9 +1,10 @@
 ---
 /*
- * LANE B — Corporate & professional speakers (high-end).
- * "From" price anchoring only; real figure quoted after the discovery call
- * (premium positioning — sells through conversation, not checkout).
- * ⚠️ PRICES ARE PLACEHOLDERS — edit the `programmes` array below.
+ * LANE B: Corporate & professional speakers (high end).
+ * ONE price shown, geolocated: GBP by default, USD for US visitors (inline
+ * script at the foot of this file swaps any [data-usd] element).
+ * "From" price anchoring only; real figure quoted after the discovery call.
+ * PRICES ARE PLACEHOLDERS. Edit the `programmes` array below.
  */
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
@@ -26,32 +27,33 @@ const crumbs = [
 
 const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
 
-/* EDIT THESE PRICES ↓ — shown as "from" anchors; final price quoted on the call. */
+/* EDIT THESE PRICES. Shown as "from" anchors; final price quoted on the call.
+   gbp shows by default; usd shows automatically for US visitors. */
 const programmes = [
   {
     name: 'Executive Presence Programme',
     gbp: 'from £2,750',
     usd: 'from $3,750',
-    unit: '≈5 sessions over 6 weeks',
-    blurb: 'For senior leaders and professionals who need to speak with authority — on stage, in the boardroom, or to the market.',
+    unit: 'around five sessions across six weeks',
+    blurb: 'For senior leaders and professionals who need to speak with authority, on stage, in the boardroom, or to the market.',
     items: [
       'A tailored programme built around your role and goals',
       'Message, structure and storytelling that carries weight',
       'Executive presence, voice and stagecraft',
-      'Rehearsal of a specific high-stakes talk, or all-round skill',
+      'Rehearsal of a specific high stakes talk, or all round skill',
     ],
     featured: true,
   },
   {
-    name: 'Keynote / Pitch VIP Day',
+    name: 'Keynote or Pitch VIP Day',
     gbp: 'from £3,950',
     usd: 'from $5,250',
-    unit: 'full-day intensive',
-    blurb: 'One big talk, one focused day. Ideal for a conference keynote, a TED-style talk or an investor pitch that has to land.',
+    unit: 'full day intensive',
+    blurb: 'One big talk, one focused day. Ideal for a conference keynote, a TED style talk or an investor pitch that has to land.',
     items: [
-      'A full day dedicated to a single high-stakes talk',
+      'A full day dedicated to a single high stakes talk',
       'Script and narrative worked through with you',
-      'Intensive rehearsal and on-the-spot refinement',
+      'Intensive rehearsal and refinement on the spot',
       'You leave ready to deliver, not just prepared',
     ],
     featured: false,
@@ -63,7 +65,7 @@ const programmes = [
     unit: 'per month',
     blurb: 'Ongoing coaching for professional and repeat speakers who are always preparing for the next stage.',
     items: [
-      'Regular one-to-one sessions on a rolling basis',
+      'Regular one to one sessions on a rolling basis',
       'A trusted coach on call for every major talk',
       'Priority scheduling around your commitments',
       'Continuity that compounds your skill over time',
@@ -73,15 +75,15 @@ const programmes = [
 ];
 
 const faqs: FaqType[] = [
-  { q: 'Who do you coach?', a: 'Executives, founders, leaders, subject-matter experts and professional speakers — anyone whose role puts them in front of an audience where the stakes are real.' },
-  { q: 'Why is the price given as "from"?', a: 'Every programme is tailored to the person, the talk and the goal. After a short discovery call I\'ll recommend the right approach and confirm a fixed, all-inclusive price — no surprises.' },
-  { q: 'Can you coach for a specific event, like a keynote or a pitch?', a: 'Yes. Much of my executive work is built around one high-stakes talk. The VIP Day and the Presence Programme are both designed for exactly that.' },
-  { q: 'Do you write the talk as well as coach it?', a: 'I can. As a professional speechwriter I can develop the script and then coach the delivery — a rare combination that makes the whole thing seamless.' },
-  { q: 'Is coaching online or in person?', a: 'Online by default, which works well for busy schedules across the UK and US. In-person and on-site sessions are available for certain engagements.' },
-  { q: 'Can you work with teams as well as individuals?', a: 'Yes — get in touch about the team, the occasion and your goals, and I\'ll put together a tailored proposal.' },
+  { q: 'Who do you coach?', a: 'Executives, founders, leaders, subject matter experts and professional speakers. Anyone whose role puts them in front of an audience where the stakes are real.' },
+  { q: 'Why is the price given as "from"?', a: 'Every programme is tailored to the person, the talk and the goal. After a short discovery call I\'ll recommend the right approach and confirm a fixed, complete price, with no surprises.' },
+  { q: 'Can you coach for a specific event, like a keynote or a pitch?', a: 'Yes. Much of my executive work is built around one high stakes talk. The VIP Day and the Presence Programme are both designed for exactly that.' },
+  { q: 'Do you write the talk as well as coach it?', a: 'I can. As a professional speechwriter I can develop the script and then coach the delivery, a rare combination that makes the whole thing seamless.' },
+  { q: 'Is coaching online or in person?', a: 'Online by default, which works well for busy schedules across the UK and US. In person and on site sessions are available for certain engagements.' },
+  { q: 'Can you work with teams as well as individuals?', a: 'Yes. Get in touch about the team, the occasion and your goals, and I\'ll put together a tailored proposal.' },
 ];
 
-/* Schema: Service with a "from" price anchor at the entry programme. */
+/* Schema: Service with a "from" price anchor at the entry programme (GBP base). */
 const schemas = [
   service({
     serviceType: 'Executive public speaking coaching',
@@ -104,7 +106,7 @@ const schemas = [
           <h1>Command the room when it counts.</h1>
           <p class="lede">
             Private coaching for executives, founders and professional speakers. Keynotes, conference
-            talks, investor pitches and board presentations — delivered with the clarity, authority
+            talks, investor pitches and board presentations, delivered with the clarity, authority
             and presence your position demands.
           </p>
           <div class="btn-row mt-2">
@@ -112,7 +114,7 @@ const schemas = [
             <a class="btn btn--ghost" href="#programmes">View programmes ↓</a>
           </div>
         </div>
-        <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson, executive speaking coach" width="520" height="400" />
+        <img src="/images/conference-keynote.webp" alt="A speaker on a conference keynote stage" width="520" height="400" />
       </div>
     </div>
   </section>
@@ -124,18 +126,18 @@ const schemas = [
       <div>
         <h2>Where I make the difference</h2>
         <ul class="ticks">
-          <li><strong>Conference keynotes &amp; TED-style talks.</strong> A message that resonates and a delivery that commands the stage.</li>
-          <li><strong>Investor &amp; sales pitches.</strong> Clarity and conviction when there's real money on the line.</li>
-          <li><strong>Board &amp; leadership presentations.</strong> Authority and composure in the room that matters most.</li>
-          <li><strong>Award stages &amp; hosting.</strong> Poise and personality when all eyes are on you.</li>
+          <li><strong>Conference keynotes and TED style talks.</strong> A message that resonates and a delivery that commands the stage.</li>
+          <li><strong>Investor and sales pitches.</strong> Clarity and conviction when there's real money on the line.</li>
+          <li><strong>Board and leadership presentations.</strong> Authority and composure in the room that matters most.</li>
+          <li><strong>Award stages and hosting.</strong> Poise and personality when all eyes are on you.</li>
         </ul>
       </div>
       <div>
         <h2>How we'll work</h2>
         <ol class="steps">
-          <li><strong>Discovery call.</strong> We discuss your role, the talk, the audience and what "great" looks like for you.</li>
-          <li><strong>A tailored proposal.</strong> I recommend the right programme and confirm a fixed, all-inclusive price.</li>
-          <li><strong>Coaching &amp; rehearsal.</strong> One to one, refining message and delivery until you're ready to own it.</li>
+          <li><strong>Discovery call.</strong> We discuss your role, the talk, the audience and what great looks like for you.</li>
+          <li><strong>A tailored proposal.</strong> I recommend the right programme and confirm a fixed, complete price.</li>
+          <li><strong>Coaching and rehearsal.</strong> One to one, refining message and delivery until you're ready to own it.</li>
         </ol>
       </div>
     </div>
@@ -145,14 +147,14 @@ const schemas = [
     <div class="wrap">
       <p class="eyebrow">Programmes</p>
       <h2>Tailored to you</h2>
-      <p class="lede measure mx-auto">A starting point for every kind of engagement. Your exact programme and price are confirmed after a discovery call. Prices shown in £ (GBP) with $ (USD) for US clients.</p>
+      <p class="lede measure mx-auto">A starting point for every kind of engagement. Your exact programme and price are confirmed after a discovery call.</p>
       <div class="progs mt-2">
         {programmes.map((p) => (
           <div class={`prog${p.featured ? ' prog--featured' : ''}`}>
             {p.featured && <span class="prog__badge">Most requested</span>}
             <p class="eyebrow">{p.name}</p>
-            <p class="prog__price">{p.gbp}</p>
-            <p class="prog__usd">{p.usd} · {p.unit}</p>
+            <p class="prog__price" data-usd={p.usd}>{p.gbp}</p>
+            <p class="prog__unit">{p.unit}</p>
             <p class="prog__blurb">{p.blurb}</p>
             <ul class="ticks">{p.items.map((i) => <li>{i}</li>)}</ul>
             <a class="btn btn--primary" href="/contact" data-open-booking="">Book a discovery call</a>
@@ -165,19 +167,19 @@ const schemas = [
 
   <section class="section section--tint">
     <div class="wrap media">
-      <img src="/images/adrian-home.jpg" alt="Adrian Simpson, executive speaking coach" width="500" height="500" loading="lazy" />
+      <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson at his desk" width="500" height="500" loading="lazy" />
       <div>
         <p class="eyebrow">Why work with me</p>
         <h2>A broadcaster, a writer, and your coach</h2>
         <p>
           I started as a magazine journalist, spent fifteen years in television including presenting
-          on BBC Top Gear, and have written speeches professionally since 2012 — making me the UK's
+          on BBC Top Gear, and have written speeches professionally since 2012, making me the UK's
           most highly rated and reviewed speech writer. I've delivered under the pressure of live
           cameras and coached others to do the same.
         </p>
         <p>
           For executive clients that means something rare: a coach who can help you craft the words
-          <em>and</em> command the room — because I've had to do both.
+          <em>and</em> command the room, because I've had to do both.
         </p>
         {ratingKnown && (
           <p class="lede"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews.</p>
@@ -206,6 +208,29 @@ const schemas = [
   />
 </Layout>
 
+<script is:inline>
+  /* Show one price, geolocated: GBP by default, USD for visitors in the US.
+     No external calls; uses the browser's own locale and timezone. */
+  (function () {
+    try {
+      var tz = '';
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+      var region = '';
+      try { region = (new Intl.Locale(navigator.language)).region || ''; } catch (e) {}
+      var usZones = ['America/New_York','America/Detroit','America/Kentucky','America/Indiana','America/Chicago','America/Menominee','America/Denver','America/Boise','America/Phoenix','America/Los_Angeles','America/Anchorage','America/Juneau','America/Sitka','America/Nome','America/Adak','America/Metlakatla','Pacific/Honolulu'];
+      var isUS = region === 'US';
+      for (var i = 0; i < usZones.length && !isUS; i++) { if (tz.indexOf(usZones[i]) === 0) isUS = true; }
+      if (isUS) {
+        var els = document.querySelectorAll('[data-usd]');
+        for (var j = 0; j < els.length; j++) {
+          var u = els[j].getAttribute('data-usd');
+          if (u) els[j].textContent = u;
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .progs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: left; }
   @media (max-width: 900px) { .progs { grid-template-columns: 1fr; max-width: 460px; margin-inline: auto; } }
@@ -227,7 +252,7 @@ const schemas = [
     white-space: nowrap;
   }
   .prog__price { font-family: var(--serif); font-size: 2.2rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.05em; }
-  .prog__usd { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 12px; }
+  .prog__unit { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 12px; }
   .prog__blurb { font-weight: 500; margin: 0 0 12px; }
   .prog .ticks { margin-block: 4px 22px; }
   .prog .btn { margin-top: auto; align-self: stretch; text-align: center; }

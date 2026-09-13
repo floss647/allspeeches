@@ -1,22 +1,24 @@
 ---
 /*
- * LANE A — Wedding & occasion speakers (warm, existing audience).
- * Fixed, transparent prices shown (occasion buyers expect a number).
- * ⚠️ PRICES ARE PLACEHOLDERS — edit the `tiers` array below to set your final
+ * LANE A: Wedding & occasion speakers (warm, existing audience).
+ * ONE price shown, geolocated: GBP by default, USD for US visitors (see the
+ * inline script at the foot of this file; it swaps any [data-usd] element).
+ * PRICES ARE PLACEHOLDERS. Edit the `tiers` array below to set your final
  *    GBP/USD figures. Every CTA opens the discovery-call widget.
  */
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
+import FeaturedIn from '../components/FeaturedIn.astro';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 import { SITE, abs } from '../config/site';
 import { service, faqPage, type Faq as FaqType } from '../lib/schema';
 
 const path = '/wedding-speech-coaching';
-const title = 'Wedding Speech Coaching | Beat the Nerves & Deliver It Well';
+const title = 'Wedding Speech Coaching | Beat the Nerves & Deliver With Confidence';
 const description =
-  'One-to-one wedding speech coaching for best men, grooms, fathers of the bride and maids of honour. Calm the nerves, master delivery and own the room. Sessions from £295. Book a discovery call.';
+  'One to one wedding speech coaching for best men, grooms, fathers of the bride and maids of honour. Calm the nerves, master delivery and own the room. Sessions from £295. Book a discovery call.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Coaching', path: '/speech-coaching' },
@@ -25,16 +27,16 @@ const crumbs = [
 
 const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
 
-/* EDIT THESE PRICES ↓ — gbp is the headline; usd shows for the US audience. */
+/* EDIT THESE PRICES. gbp shows by default; usd shows automatically for US visitors. */
 const tiers = [
   {
     name: 'Speech Delivery Session',
     gbp: '£295',
     usd: '$395',
-    unit: 'one 90-minute session',
+    unit: 'one ninety minute session',
     blurb: 'Perfect if your speech is written and the delivery is the scary part.',
     items: [
-      'A 90-minute one-to-one session (online)',
+      'A ninety minute one to one session, held online',
       'Rehearse your speech and get honest, warm feedback',
       'Fix your pace, pauses, timing and nerves',
       'A recording review so you can see the difference',
@@ -42,11 +44,11 @@ const tiers = [
     featured: false,
   },
   {
-    name: 'Write + Deliver',
+    name: 'Write plus Deliver',
     gbp: '£795',
     usd: '$1,095',
-    unit: 'writing + 2 sessions',
-    blurb: 'My bespoke speechwriting and coaching together — the complete package.',
+    unit: 'writing plus two sessions',
+    blurb: 'My bespoke speechwriting and coaching together, the complete package.',
     items: [
       'A 100% original speech, written from scratch around your stories',
       'Unlimited revisions until every word feels like you',
@@ -56,14 +58,14 @@ const tiers = [
     featured: true,
   },
   {
-    name: 'Nerve-Free Speaker',
+    name: 'Nerve Free Speaker',
     gbp: '£1,250',
     usd: '$1,695',
-    unit: '3–4 sessions',
+    unit: 'three or four sessions',
     blurb: 'For when the fear feels bigger than the speech. We take it step by step.',
     items: [
-      'Three to four sessions over the weeks before the day',
-      'Confidence-building from the ground up',
+      'Three or four sessions over the weeks before the day',
+      'Confidence building from the ground up',
       'Structured rehearsals until it feels effortless',
       'Ongoing support and encouragement right up to the day',
     ],
@@ -72,15 +74,15 @@ const tiers = [
 ];
 
 const faqs: FaqType[] = [
-  { q: 'I already have my speech written — can you just help me deliver it?', a: 'Absolutely. The Speech Delivery Session is built exactly for that: we rehearse what you have and get it sounding confident and natural.' },
-  { q: "I'm terrified of public speaking. Is that normal?", a: "Completely normal — around three in four people fear it. That fear is exactly what I coach people through, and it's very beatable with the right preparation." },
-  { q: 'How far in advance should we start?', a: 'The more time the better, but I regularly help people in the final week. Tell me your date and I\'ll let you know what\'s possible.' },
-  { q: 'Are sessions online or in person?', a: 'Online by default, so we can work together wherever you are. In-person sessions can be arranged on request.' },
-  { q: 'Can you also write the speech for me?', a: 'Yes — that\'s the Write + Deliver package, combining my speechwriting service with coaching. Or explore <a href="/pricing">speech writing on its own</a>.' },
+  { q: 'I already have my speech written. Can you just help me deliver it?', a: 'Absolutely. The Speech Delivery Session is built exactly for that: we rehearse what you have and get it sounding confident and natural.' },
+  { q: "I'm terrified of public speaking. Is that normal?", a: "Completely normal. Around three in four people fear it. That fear is exactly what I coach people through, and it's very beatable with the right preparation." },
+  { q: 'How far in advance should we start?', a: 'The more time the better, but I regularly help people in the final week. Tell me your date and I\'ll let you know what is possible.' },
+  { q: 'Are sessions online or in person?', a: 'Online by default, so we can work together wherever you are. In person sessions can be arranged on request.' },
+  { q: 'Can you also write the speech for me?', a: 'Yes. That is the Write plus Deliver package, combining my speechwriting service with coaching. Or explore <a href="/pricing">speech writing on its own</a>.' },
   { q: 'What if I need to reschedule?', a: 'Life happens. Just give me reasonable notice and we\'ll find a new time.' },
 ];
 
-/* Schema: representative Service priced at the entry tier. */
+/* Schema: representative Service priced at the entry tier (GBP base). */
 const schemas = [
   service({
     serviceType: 'Wedding speech coaching',
@@ -98,11 +100,11 @@ const schemas = [
     <div class="wrap">
       <Breadcrumbs items={crumbs} />
       <p class="eyebrow">Wedding &amp; Occasion Coaching</p>
-      <h1>The speech is written. Now let's make sure you nail it.</h1>
+      <h1>The speech is written. Now let's make sure you deliver it.</h1>
       <p class="lede measure mx-auto">
-        Best man, groom, father of the bride, maid of honour — or a eulogy you want to do justice.
+        Best man, groom, father of the bride, maid of honour, or a eulogy you want to do justice.
         I'll help you calm the nerves, master the delivery and speak like the best version of
-        yourself when everyone's watching.
+        yourself when everyone is watching.
       </p>
       <div class="btn-row mt-2" style="justify-content:center">
         <a class="btn btn--primary" href="/contact" data-open-booking="">Book a discovery call</a>
@@ -111,22 +113,24 @@ const schemas = [
     </div>
   </section>
 
+  <FeaturedIn />
+
   <section class="section">
     <div class="wrap media">
       <div>
         <h2>What coaching does for you</h2>
         <ul class="ticks">
           <li><strong>Calms the nerves.</strong> Practical techniques to steady your hands, your breath and your voice.</li>
-          <li><strong>Fixes the delivery.</strong> Pace, pauses, eye contact and timing — the things that turn good words into a great moment.</li>
+          <li><strong>Fixes the delivery.</strong> Pace, pauses, eye contact and timing, the things that turn good words into a great moment.</li>
           <li><strong>Lands the jokes.</strong> We rehearse the laughs so they actually land, and the emotional beats so they hit home.</li>
-          <li><strong>Builds real confidence.</strong> By the day, you won't be dreading it — you'll be ready for it.</li>
+          <li><strong>Builds real confidence.</strong> By the day, you won't be dreading it. You'll be ready for it.</li>
         </ul>
       </div>
       <div>
         <h2>How it works</h2>
         <ol class="steps">
           <li><strong>Book a discovery call.</strong> A quick, free chat about your speech, your date and how you're feeling about it.</li>
-          <li><strong>We choose the right option.</strong> Delivery-only, write-and-deliver, or the full confidence programme.</li>
+          <li><strong>We choose the right option.</strong> Delivery only, write and deliver, or the full confidence programme.</li>
           <li><strong>We rehearse together.</strong> One to one, until it feels natural and you can't wait to stand up.</li>
         </ol>
       </div>
@@ -137,13 +141,13 @@ const schemas = [
     <div class="wrap">
       <p class="eyebrow">Coaching options</p>
       <h2>Simple, honest pricing</h2>
-      <p class="lede measure mx-auto">Clear prices, no packages to decode. Prices shown in £ (GBP) with $ (USD) for US clients.</p>
+      <p class="lede measure mx-auto">Clear prices, and no packages to decode.</p>
       <div class="tiers mt-2">
         {tiers.map((t) => (
           <div class={`tier${t.featured ? ' tier--featured' : ''}`}>
             {t.featured && <span class="tier__badge">Most popular</span>}
             <p class="eyebrow">{t.name}</p>
-            <p class="tier__price">{t.gbp} <span class="tier__usd">/ {t.usd}</span></p>
+            <p class="tier__price" data-usd={t.usd}>{t.gbp}</p>
             <p class="tier__unit">{t.unit}</p>
             <p class="tier__blurb">{t.blurb}</p>
             <ul class="ticks">{t.items.map((i) => <li>{i}</li>)}</ul>
@@ -151,19 +155,19 @@ const schemas = [
           </div>
         ))}
       </div>
-      <p class="tier__note">Not sure which fits? That's what the discovery call is for — it's free and there's no pressure.</p>
+      <p class="tier__note">Not sure which fits? That's what the discovery call is for. It's free and there's no pressure.</p>
     </div>
   </section>
 
   <section class="section section--tint">
     <div class="wrap media">
-      <img src="/images/adrian-home.jpg" alt="Adrian Simpson, wedding speech coach" width="500" height="500" loading="lazy" />
+      <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson at his desk" width="500" height="500" loading="lazy" />
       <div>
         <p class="eyebrow">Why work with me</p>
         <h2>Written by a professional. Coached by a broadcaster.</h2>
         <p>
           I started as a magazine journalist, spent fifteen years in television including presenting
-          on BBC Top Gear, and have written speeches professionally since 2012 — making me the UK's
+          on BBC Top Gear, and have written speeches professionally since 2012, making me the UK's
           most highly rated and reviewed speech writer. I know exactly what it takes to stand up,
           hold a room, and enjoy it.
         </p>
@@ -194,6 +198,29 @@ const schemas = [
   />
 </Layout>
 
+<script is:inline>
+  /* Show one price, geolocated: GBP by default, USD for visitors in the US.
+     No external calls; uses the browser's own locale and timezone. */
+  (function () {
+    try {
+      var tz = '';
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+      var region = '';
+      try { region = (new Intl.Locale(navigator.language)).region || ''; } catch (e) {}
+      var usZones = ['America/New_York','America/Detroit','America/Kentucky','America/Indiana','America/Chicago','America/Menominee','America/Denver','America/Boise','America/Phoenix','America/Los_Angeles','America/Anchorage','America/Juneau','America/Sitka','America/Nome','America/Adak','America/Metlakatla','Pacific/Honolulu'];
+      var isUS = region === 'US';
+      for (var i = 0; i < usZones.length && !isUS; i++) { if (tz.indexOf(usZones[i]) === 0) isUS = true; }
+      if (isUS) {
+        var els = document.querySelectorAll('[data-usd]');
+        for (var j = 0; j < els.length; j++) {
+          var u = els[j].getAttribute('data-usd');
+          if (u) els[j].textContent = u;
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: left; }
   @media (max-width: 900px) { .tiers { grid-template-columns: 1fr; max-width: 460px; margin-inline: auto; } }
@@ -215,7 +242,6 @@ const schemas = [
     white-space: nowrap;
   }
   .tier__price { font-family: var(--serif); font-size: 2.6rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.1em; }
-  .tier__usd { font-size: 1.1rem; color: var(--ink-soft); }
   .tier__unit { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 12px; }
   .tier__blurb { font-weight: 500; margin: 0 0 12px; }
   .tier .ticks { margin-block: 4px 22px; }

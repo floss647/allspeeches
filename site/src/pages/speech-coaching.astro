@@ -1,6 +1,6 @@
 ---
 /*
- * COACHING HUB — front door for both coaching audiences.
+ * COACHING HUB: front door for both coaching audiences.
  * Routes to the two spoke pages:
  *   /wedding-speech-coaching     (social & occasion speakers)
  *   /executive-speaking-coaching (corporate & professional speakers)
@@ -16,9 +16,9 @@ import { SITE, abs } from '../config/site';
 import { service, faqPage, type Faq as FaqType } from '../lib/schema';
 
 const path = '/speech-coaching';
-const title = 'Public Speaking Coaching | 1:1 with Adrian Simpson';
+const title = 'Public Speaking Coaching | One to One with Adrian Simpson';
 const description =
-  "One-to-one public speaking coaching from Adrian Simpson — the UK's most-reviewed speechwriter and a former BBC broadcaster. For wedding and occasion speakers, and for executives and professional speakers. Book a discovery call.";
+  "One to one public speaking coaching from Adrian Simpson, the UK's most reviewed speechwriter and a former BBC broadcaster. For wedding and occasion speakers, and for executives and professional speakers. Book a discovery call.";
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Coaching', path },
@@ -27,11 +27,11 @@ const crumbs = [
 const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
 
 const faqs: FaqType[] = [
-  { q: 'Is coaching online or in person?', a: 'Coaching is primarily one-to-one online, so I can work with you wherever you are in the UK, the US or beyond. In-person sessions are available on request for certain engagements.' },
-  { q: 'Do you coach beginners as well as experienced speakers?', a: 'Both. I work with people facing a single nerve-wracking speech for the first time, and with seasoned professionals sharpening a high-stakes keynote or pitch.' },
-  { q: "What's the difference between coaching and your speechwriting service?", a: 'Speechwriting is done <em>for</em> you — I write the speech. Coaching is done <em>with</em> you — I help you shape, rehearse and deliver it with confidence. Many clients combine the two.' },
-  { q: 'How do I get started?', a: 'Book a short, no-obligation discovery call. We talk through your speech or goal, and I recommend the right way to work together. There is no charge and no pressure.' },
-  { q: 'How much does coaching cost?', a: 'It depends on which programme suits you. Occasion-speaker sessions start at £295; executive and professional programmes are tailored and quoted after your discovery call. See the two coaching pages for details.' },
+  { q: 'Is coaching online or in person?', a: 'Coaching is primarily one to one online, so I can work with you wherever you are in the UK, the US or beyond. In person sessions are available on request for certain engagements.' },
+  { q: 'Do you coach beginners as well as experienced speakers?', a: 'Both. I work with people facing a truly nerve racking speech for the first time, and with seasoned professionals sharpening a high stakes keynote or pitch.' },
+  { q: "What's the difference between coaching and your speechwriting service?", a: 'Speechwriting is done <em>for</em> you: I write the speech. Coaching is done <em>with</em> you: I help you shape, rehearse and deliver it with confidence. Many clients combine the two.' },
+  { q: 'How do I get started?', a: 'Book a short, no obligation discovery call. We talk through your speech or goal, and I recommend the right way to work together. There is no charge and no pressure.' },
+  { q: 'How much does coaching cost?', a: 'It depends on which programme suits you. Occasion speaker sessions start at £295. Executive and professional programmes are tailored and quoted after your discovery call. See the two coaching pages for details.' },
 ];
 
 const schemas = [
@@ -52,7 +52,7 @@ const schemas = [
       <p class="eyebrow">Public Speaking Coaching</p>
       <h1>Speak like you mean it.</h1>
       <p class="lede measure mx-auto">
-        One-to-one coaching to help you write, rehearse and deliver a speech that lands — whether
+        One to one coaching to help you write, rehearse and deliver a speech that lands, whether
         you're facing the wedding toast that's been keeping you up at night, or the keynote your
         career turns on. Coached personally by Adrian Simpson.
       </p>
@@ -83,18 +83,18 @@ const schemas = [
           <ul class="ticks">
             <li>Calm the nerves and the shaking hands</li>
             <li>Rehearse until it feels effortless</li>
-            <li>Get the laughs — and the lump in the throat — exactly where you want them</li>
+            <li>Get the laughs, and the lump in the throat, exactly where you want them</li>
           </ul>
           <a class="btn btn--primary" href="/wedding-speech-coaching">Wedding &amp; Occasion Coaching →</a>
         </div>
         <div class="path-card">
           <p class="eyebrow">Corporate &amp; professional</p>
           <h3>Executive Speaking Coaching</h3>
-          <p>Keynotes, conference talks, investor pitches, board presentations and award-stage moments. Command the room with clarity, authority and presence when the stakes are highest.</p>
+          <p>Keynotes, conference talks, investor pitches, board presentations and award stage moments. Command the room with clarity, authority and presence when the stakes are highest.</p>
           <ul class="ticks">
             <li>Sharpen your message and structure</li>
             <li>Build genuine executive presence and stagecraft</li>
-            <li>Rehearse high-stakes talks until they're bulletproof</li>
+            <li>Rehearse high stakes talks until they're bulletproof</li>
           </ul>
           <a class="btn btn--primary" href="/executive-speaking-coaching">Executive Speaking Coaching →</a>
         </div>
@@ -104,13 +104,13 @@ const schemas = [
 
   <section class="section section--tint">
     <div class="wrap media">
-      <img src="/images/adrian-home.jpg" alt="Adrian Simpson, speech coach" width="500" height="500" loading="lazy" />
+      <img src="/images/adrian-portrait.jpg" alt="Adrian Simpson at his desk" width="500" height="500" loading="lazy" />
       <div>
         <p class="eyebrow">Why work with me</p>
         <h2>Coached by someone who's done it for real</h2>
         <p>
           I started as a magazine journalist, spent fifteen years in television including presenting
-          on BBC Top Gear, and have written speeches professionally since 2012 — making me the UK's
+          on BBC Top Gear, and have written speeches professionally since 2012, making me the UK's
           most highly rated and reviewed speech writer. I've stood in front of cameras and crowds,
           and I've helped hundreds of people find the words that matter most.
         </p>
@@ -138,7 +138,7 @@ const schemas = [
 
   <CtaBand
     heading="Not sure which is right for you?"
-    text="Book a short, no-obligation discovery call. Tell me about your speech and I'll recommend the best way to work together."
+    text="Book a short, no obligation discovery call. Tell me about your speech and I'll recommend the best way to work together."
     ctaLabel="Book a discovery call"
     secondaryLabel="Read my reviews"
     secondaryHref="/reviews"
