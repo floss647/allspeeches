@@ -1,10 +1,10 @@
 ---
 /*
- * LANE B: Corporate & professional speakers (high end).
- * ONE price shown, geolocated: GBP by default, USD for US visitors (inline
- * script at the foot of this file swaps any [data-usd] element).
- * "From" price anchoring only; real figure quoted after the discovery call.
- * PRICES ARE PLACEHOLDERS. Edit the `programmes` array below.
+ * CORPORATE / TEAM TRAINING (slug kept as /executive-speaking-coaching for
+ * SEO + existing links). Corporate-first: in-house team workshops and
+ * leadership programmes lead; 1:1 executive coaching is secondary.
+ * Prices are "from" anchors, geolocated GBP/USD (script at foot). Bespoke
+ * quoted after a call. PRICES ARE PLACEHOLDERS. Edit the `programmes` array.
  */
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
@@ -16,82 +16,82 @@ import { SITE, abs } from '../config/site';
 import { service, faqPage, type Faq as FaqType } from '../lib/schema';
 
 const path = '/executive-speaking-coaching';
-const title = 'Executive Speaking Coaching | Keynotes, Pitches & Presence';
+const title = 'Corporate Public Speaking Training | Teams & Executives';
 const description =
-  'Private public speaking coaching for executives, founders and professional speakers. Keynotes, conference talks, investor pitches and board presentations. Bespoke programmes from £2,750. Book a discovery call.';
+  'In-house public speaking and communication training for teams and leaders. Bespoke workshops, leadership programmes and 1:1 executive coaching from Adrian Simpson, a former BBC broadcaster who has coached global CEOs. Book a call.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Coaching', path: '/speech-coaching' },
-  { name: 'Executive Speaking', path },
+  { name: 'Corporate Training', path },
 ];
 
 const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
 
-/* EDIT THESE PRICES. Shown as "from" anchors; final price quoted on the call.
-   gbp shows by default; usd shows automatically for US visitors. */
+/* EDIT THESE PRICES. Shown as "from" anchors; final price quoted after a call.
+   gbp shows by default; usd shows automatically for US visitors. Omit `usd`
+   to leave a price unswapped (e.g. the "Tailored" programme). */
 const programmes = [
   {
-    name: 'Executive Presence Programme',
-    gbp: 'from £2,750',
-    usd: 'from $3,750',
-    unit: 'around five sessions across six weeks',
-    blurb: 'For senior leaders and professionals who need to speak with authority, on stage, in the boardroom, or to the market.',
+    name: 'In-House Team Workshop',
+    gbp: 'from £2,500',
+    usd: 'from $3,400',
+    unit: 'per training day, for your team',
+    blurb: 'A hands-on training day that lifts your whole team, built around the talks and pitches they actually give.',
     items: [
-      'A tailored programme built around your role and goals',
-      'Message, structure and storytelling that carries weight',
-      'Executive presence, voice and stagecraft',
-      'Rehearsal of a specific high stakes talk, or all round skill',
+      'A full day built around your team and their real presentations',
+      'Structure, delivery, presence, nerves and handling questions',
+      'Delivered at your offices or online',
+      'Everyone leaves with tools they can use the next morning',
     ],
     featured: true,
   },
   {
-    name: 'Keynote or Pitch VIP Day',
-    gbp: 'from £3,950',
-    usd: 'from $5,250',
-    unit: 'full day intensive',
-    blurb: 'One big talk, one focused day. Ideal for a conference keynote, a TED style talk or an investor pitch that has to land.',
+    name: 'Leadership Communication Programme',
+    gbp: 'Tailored',
+    unit: 'multi-session, for leaders & cohorts',
+    blurb: 'A bespoke programme for leadership teams, high-potentials or a specific initiative that needs the whole group speaking well.',
     items: [
-      'A full day dedicated to a single high stakes talk',
-      'Script and narrative worked through with you',
-      'Intensive rehearsal and refinement on the spot',
-      'You leave ready to deliver, not just prepared',
+      'Several sessions across weeks, shaped to your goals',
+      'Message discipline, executive presence and storytelling',
+      'Built around your sector and your real high-stakes moments',
+      'A clear before-and-after on the presentations that matter',
     ],
     featured: false,
   },
   {
-    name: 'Speaker Retainer',
-    gbp: 'from £1,200',
-    usd: 'from $1,650',
-    unit: 'per month',
-    blurb: 'Ongoing coaching for professional and repeat speakers who are always preparing for the next stage.',
+    name: '1:1 Executive Coaching',
+    gbp: 'from £2,750',
+    usd: 'from $3,750',
+    unit: 'for an individual senior leader',
+    blurb: 'Private coaching for a single leader with a keynote, pitch or board presentation on the line.',
     items: [
-      'Regular one to one sessions on a rolling basis',
-      'A trusted coach on call for every major talk',
-      'Priority scheduling around your commitments',
-      'Continuity that compounds your skill over time',
+      'One to one coaching around a specific talk or all-round skill',
+      'Script and narrative developed and rehearsed with you',
+      'Executive presence, voice and stagecraft',
+      'Discreet, flexible, built around your schedule',
     ],
     featured: false,
   },
 ];
 
 const faqs: FaqType[] = [
-  { q: 'Who do you coach?', a: 'Executives, founders, leaders, subject matter experts and professional speakers. Anyone whose role puts them in front of an audience where the stakes are real.' },
-  { q: 'Why is the price given as "from"?', a: 'Every programme is tailored to the person, the talk and the goal. After a short discovery call I\'ll recommend the right approach and confirm a fixed, complete price, with no surprises.' },
-  { q: 'Can you coach for a specific event, like a keynote or a pitch?', a: 'Yes. Much of my executive work is built around one high stakes talk. The VIP Day and the Presence Programme are both designed for exactly that.' },
-  { q: 'Do you write the talk as well as coach it?', a: 'I can. As a professional speechwriter I can develop the script and then coach the delivery, a rare combination that makes the whole thing seamless.' },
-  { q: 'Is coaching online or in person?', a: 'Online by default, which works well for busy schedules across the UK and US. In person and on site sessions are available for certain engagements.' },
-  { q: 'Can you work with teams as well as individuals?', a: 'Yes. Get in touch about the team, the occasion and your goals, and I\'ll put together a tailored proposal.' },
+  { q: 'Who is this training for?', a: 'Teams and leaders in any organisation: sales and pitch teams, leadership groups, conference speakers, or a cohort preparing for a specific event. I also coach individual senior leaders one to one.' },
+  { q: 'Is training delivered in-house or online?', a: 'Both. I run workshops at your offices anywhere in the UK, and online for distributed teams or US clients. The format is part of the proposal.' },
+  { q: 'How is it priced?', a: 'In-house team days start from £2,500 and individual executive coaching from £2,750; multi-session programmes are quoted per scope. You get a fixed, itemised proposal after a short call, so there are no surprises.' },
+  { q: 'How big can the group be?', a: 'Workshops work best up to around twelve people, so everyone gets hands-on practice. Larger groups can run across several sessions, or as a keynote plus breakout format.' },
+  { q: 'Can you tailor it to our sector or a specific event?', a: 'Always. Every workshop is built around your people\'s real talks, pitches and presentations, in your context, never a generic script.' },
+  { q: 'Do you write the talks as well as coach them?', a: 'I can. As a professional speechwriter I can develop key scripts and pitches and then coach the delivery, a rare combination most trainers can\'t offer.' },
 ];
 
-/* Schema: Service with a "from" price anchor at the entry programme (GBP base). */
+/* Schema: corporate training service, "from" day-rate anchor (GBP base). */
 const schemas = [
   service({
-    serviceType: 'Executive public speaking coaching',
-    name: 'Executive Speaking Coaching',
+    serviceType: 'Corporate communication training',
+    name: 'Corporate Public Speaking Training',
     path,
     description,
     withPrice: true,
-    price: '2750',
+    price: '2500',
   }),
   faqPage(faqs),
 ];
@@ -102,19 +102,19 @@ const schemas = [
       <Breadcrumbs items={crumbs} />
       <div class="media" style="align-items:center">
         <div>
-          <p class="eyebrow">Executive Speaking Coaching</p>
-          <h1>Command the room when it counts.</h1>
+          <p class="eyebrow">Corporate &amp; Executive Training</p>
+          <h1>Public speaking training for your team.</h1>
           <p class="lede">
-            Private coaching for executives, founders and professional speakers. Keynotes, conference
-            talks, investor pitches and board presentations, delivered with the clarity, authority
-            and presence your position demands.
+            In-house workshops, leadership programmes and one to one coaching that give your people
+            the confidence and skill to present, pitch and speak with authority. Delivered at your
+            offices or online, built around your business.
           </p>
           <div class="btn-row mt-2">
-            <a class="btn btn--primary" href="/contact" data-open-booking="">Book a discovery call</a>
-            <a class="btn btn--ghost" href="#programmes">View programmes ↓</a>
+            <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
+            <a class="btn btn--ghost" href="#programmes">View training options ↓</a>
           </div>
         </div>
-        <img src="/images/conference-keynote.webp" alt="A speaker on a conference keynote stage" width="520" height="400" />
+        <img src="/images/conference-keynote.webp" alt="A speaker training a corporate audience from the stage" width="520" height="400" />
       </div>
     </div>
   </section>
@@ -124,20 +124,20 @@ const schemas = [
   <section class="section">
     <div class="wrap media">
       <div>
-        <h2>Where I make the difference</h2>
+        <h2>Where teams need it most</h2>
         <ul class="ticks">
-          <li><strong>Conference keynotes and TED style talks.</strong> A message that resonates and a delivery that commands the stage.</li>
-          <li><strong>Investor and sales pitches.</strong> Clarity and conviction when there's real money on the line.</li>
-          <li><strong>Board and leadership presentations.</strong> Authority and composure in the room that matters most.</li>
-          <li><strong>Award stages and hosting.</strong> Poise and personality when all eyes are on you.</li>
+          <li><strong>Sales &amp; pitch teams.</strong> Win more with pitches that are clear, confident and land.</li>
+          <li><strong>Leadership &amp; all-hands.</strong> Speak with the authority your people actually believe.</li>
+          <li><strong>Conference &amp; keynote speakers.</strong> Represent the business brilliantly on stage.</li>
+          <li><strong>Investor &amp; board presentations.</strong> Clarity and conviction when the stakes are highest.</li>
         </ul>
       </div>
       <div>
         <h2>How we'll work</h2>
         <ol class="steps">
-          <li><strong>Discovery call.</strong> We discuss your role, the talk, the audience and what great looks like for you.</li>
-          <li><strong>A tailored proposal.</strong> I recommend the right programme and confirm a fixed, complete price.</li>
-          <li><strong>Coaching and rehearsal.</strong> One to one, refining message and delivery until you're ready to own it.</li>
+          <li><strong>A short call.</strong> We talk through your team, the goal and the context.</li>
+          <li><strong>A tailored proposal.</strong> Scope, format and a fixed price, with no surprises.</li>
+          <li><strong>We deliver.</strong> At your offices or online, with practical tools people use straight away.</li>
         </ol>
       </div>
     </div>
@@ -145,9 +145,9 @@ const schemas = [
 
   <section class="section section--tint center" id="programmes">
     <div class="wrap">
-      <p class="eyebrow">Programmes</p>
-      <h2>Tailored to you</h2>
-      <p class="lede measure mx-auto">A starting point for every kind of engagement. Your exact programme and price are confirmed after a discovery call.</p>
+      <p class="eyebrow">Training options</p>
+      <h2>Built around your business</h2>
+      <p class="lede measure mx-auto">A starting point for every kind of engagement. Your exact scope, format and price are confirmed in a fixed proposal after a short call.</p>
       <div class="progs mt-2">
         {programmes.map((p) => (
           <div class={`prog${p.featured ? ' prog--featured' : ''}`}>
@@ -157,30 +157,30 @@ const schemas = [
             <p class="prog__unit">{p.unit}</p>
             <p class="prog__blurb">{p.blurb}</p>
             <ul class="ticks">{p.items.map((i) => <li>{i}</li>)}</ul>
-            <a class="btn btn--primary" href="/contact" data-open-booking="">Book a discovery call</a>
+            <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
           </div>
         ))}
       </div>
-      <p class="prog__note">Coaching a team, or planning something bespoke? <a href="/contact" data-open-booking="">Tell me about it →</a></p>
+      <p class="prog__note">Something bigger or more bespoke in mind? <a href="/contact" data-open-booking="">Tell me about it →</a></p>
     </div>
   </section>
 
   <section class="section section--tint">
     <div class="wrap media">
-      <img src="/images/Adrian-simpson.jpg" alt="Adrian Simpson, executive speaking coach" width="400" height="500" loading="lazy" />
+      <img src="/images/Adrian-simpson.jpg" alt="Adrian Simpson, corporate public speaking trainer" width="400" height="500" loading="lazy" />
       <div>
         <p class="eyebrow">Why work with me</p>
-        <h2>A broadcaster, a writer, and your coach</h2>
+        <h2>A broadcaster, a writer, and your trainer</h2>
         <p>
           I started as a magazine journalist, spent fifteen years in television including presenting
           on BBC Top Gear, and have written speeches professionally since 2012, making me the UK's
           most highly rated and reviewed speech writer. I've given talks around the world, including
-          at MIT in Boston, to global CEOs in the telecoms industry, and I've coached others to do
-          the same.
+          at MIT in Boston, to global CEOs in the telecoms industry, and I train teams and leaders to
+          do the same.
         </p>
         <p>
-          For executive clients that means something rare: a coach who can help you craft the words
-          <em>and</em> command the room, because I've had to do both.
+          For organisations that means something rare: a trainer who can help your people craft the
+          words <em>and</em> command the room, because I've had to do both.
         </p>
         {ratingKnown && (
           <p class="lede"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews.</p>
@@ -198,12 +198,12 @@ const schemas = [
     </div>
   </section>
 
-  <Faq faqs={faqs} heading="Executive coaching questions" />
+  <Faq faqs={faqs} heading="Corporate training questions" />
 
   <CtaBand
-    heading="Let's talk about your next talk"
-    text="Book a discovery call. Tell me about the talk, the audience and the stakes, and I'll recommend exactly how to get you there."
-    ctaLabel="Book a discovery call"
+    heading="Let's scope your team's training"
+    text="Book a call. Tell me about your team, the goal and the timing, and I'll send a tailored proposal."
+    ctaLabel="Book a call"
     secondaryLabel="See corporate speech writing"
     secondaryHref="/corporate-speeches"
   />
