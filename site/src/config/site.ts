@@ -59,6 +59,16 @@ export const SITE = {
   googleAdsId: 'AW-968218322',
   googleAdsLabel: '2zCFCITfnMEcENKt180D',
 
+  // Dedicated "Coaching discovery call" (Book appointment) conversion action.
+  // This is separate from the speechwriting conversion above so coaching
+  // bookings are not counted at the £399 speechwriting value. A completed
+  // Calendly booking fires this one. Paste the send_to from that action's
+  // event snippet: the ID is the same account 'AW-968218322', the label is
+  // the part after the slash. Leave the label blank to fire no Ads conversion
+  // on a booking yet (the GA4 coaching_call_booked event still records it).
+  coachingAdsId: 'AW-968218322',
+  coachingAdsLabel: '',
+
   // GA4 Measurement ID (reuses the existing property so history is preserved).
   // Loads via gtag only after the visitor accepts cookies.
   ga4Id: 'G-99R1G1B2LC',
