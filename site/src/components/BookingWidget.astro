@@ -1,8 +1,10 @@
 ---
 import { SITE } from '../config/site';
 const formEndpoint = SITE.formEndpoint;
-const adsId = SITE.googleAdsId;
-const adsLabel = SITE.googleAdsLabel;
+// Every "book a call" is a discovery-call booking, so it fires the dedicated
+// Book appointment conversion action, never the £399 speechwriting one.
+const adsId = SITE.bookingAdsId;
+const adsLabel = SITE.bookingAdsLabel;
 // When set, every "Book a call" trigger opens this Calendly link (popup where
 // available, otherwise a new tab) instead of the built-in Formspree modal.
 const calendlyUrl = SITE.calendlyUrl;
