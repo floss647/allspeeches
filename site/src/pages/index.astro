@@ -26,19 +26,22 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   <!-- HERO -->
   <section class="hero hero--home">
     <div class="wrap hero__inner">
-      <p class="eyebrow">Bespoke speechwriting &amp; public speaking coaching</p>
+      <p class="eyebrow">Public speaking coaching, corporate training &amp; bespoke speeches</p>
       <h1>Great speeches, brilliantly delivered.</h1>
       <p class="lede">
-        Two ways to own the moment: bespoke speeches written around your story, and one to one
-        coaching to help you deliver them with confidence. For weddings, big occasions and the
-        boardroom.
+        I coach individuals, executives and teams to speak with authority, and I write the bespoke
+        speeches worth delivering. From the boardroom pitch to the biggest talk of your life.
+      </p>
+      <p class="creds">
+        Former BBC broadcaster · Fifteen years in television · Talks around the world, including at
+        MIT to global CEOs · The UK's most reviewed speechwriter
       </p>
       <div class="btn-row mt-2">
         <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
-        <a class="btn btn--ghost" href="/pricing">Speech writing · from £{SITE.price}</a>
-        <a class="btn btn--ghost" href="/speech-coaching">Explore 1:1 coaching →</a>
+        <a class="btn btn--ghost" href="/executive-speaking-coaching">Corporate training →</a>
+        <a class="btn btn--ghost" href="/speech-coaching">Public speaking coaching →</a>
       </div>
-      <p class="trust" style="margin-top:26px">
+      <p class="trust" style="margin-top:22px">
         <span class="stars">★★★★★</span>
         {ratingKnown && reviewsKnown ? (
           <span>Rated {SITE.rating}/5 from {SITE.reviewCount} reviews</span>
@@ -55,31 +58,32 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
   <!-- COACHING (featured) -->
   <section class="section coaching-band">
     <div class="wrap center">
-      <p class="eyebrow">New · One to one coaching</p>
-      <h2>Don't just get the words. Learn to deliver them.</h2>
+      <p class="eyebrow">Coaching &amp; corporate training</p>
+      <h2>Words are only half the job.</h2>
       <p class="lede measure mx-auto">
-        Now, as well as writing your speech, I coach you to deliver it: calm the nerves, master the
-        timing and command the room. For wedding and occasion speakers, and for executives and
-        professional speakers.
+        The finest speech falls flat if it is not delivered well, so now I coach the delivery too.
+        For executives and teams who pitch and present for a living, and for anyone facing the
+        biggest talk of their life. After fifteen years in television and on stages around the
+        world, I show you how to calm the nerves, hold the room and speak with real authority.
       </p>
     </div>
     <div class="wrap">
       <div class="grid grid--2 mt-2">
+        <div class="path-card">
+          <p class="eyebrow">Corporate &amp; professional</p>
+          <h3>Corporate &amp; Executive Training</h3>
+          <p>In house team workshops, leadership programmes and one to one coaching. Equip your people to present, pitch and speak with authority. Delivered at your offices or online.</p>
+          <a class="btn btn--primary" href="/executive-speaking-coaching">Corporate &amp; Executive Training →</a>
+        </div>
         <div class="path-card">
           <p class="eyebrow">Weddings &amp; special occasions</p>
           <h3>Wedding &amp; Occasion Coaching</h3>
           <p>Best man, groom, father of the bride, maid of honour, or a eulogy. Beat the nerves and deliver a speech people remember for the right reasons. One to one, online, built around your day.</p>
           <a class="btn btn--primary" href="/wedding-speech-coaching">Wedding &amp; Occasion Coaching →</a>
         </div>
-        <div class="path-card">
-          <p class="eyebrow">Corporate &amp; professional</p>
-          <h3>Corporate &amp; Executive Training</h3>
-          <p>In-house team workshops, leadership programmes and one to one coaching. Equip your people to present, pitch and speak with authority. Delivered at your offices or online.</p>
-          <a class="btn btn--primary" href="/executive-speaking-coaching">Corporate &amp; Executive Training →</a>
-        </div>
       </div>
       <div class="center mt-2">
-        <a class="btn btn--ghost" href="/speech-coaching">Explore all coaching →</a>
+        <a class="btn btn--ghost" href="/speech-coaching">Explore coaching &amp; training →</a>
       </div>
     </div>
   </section>
@@ -204,6 +208,7 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
 </Layout>
 
 <style>
+  .creds { margin-top: 14px; color: var(--ink-soft); font-size: 0.9rem; line-height: 1.6; letter-spacing: 0.01em; }
   .coaching-band { background: var(--paper); border-bottom: 1px solid var(--line); }
   .coaching-band .path-card {
     background: #fff;
