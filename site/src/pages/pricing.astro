@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
-import { SITE, fill } from '../config/site';
+import { SITE } from '../config/site';
 import { faqPage, type Faq as FaqType } from '../lib/schema';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
@@ -33,13 +33,66 @@ const offer = {
   availability: 'https://schema.org/InStock',
   seller: { '@id': `${SITE.url}/#business` },
 };
-const included = [
-  'A 100% original speech, written from scratch around your stories',
-  'A relaxed chat or simple questionnaire to gather your material',
-  'A complete, polished, ready-to-deliver speech',
-  'Unlimited revisions until every word feels right',
-  fill('Delivery within [X] days, last-minute turnarounds available'),
-  'Honest, friendly, discreet service throughout',
+
+/* Two parallel offers, given equal weight on the page. */
+const writing = [
+  {
+    name: 'Bespoke wedding speech',
+    price: `£${SITE.price}`,
+    unit: 'flat, all in',
+    blurb: 'Best man, groom, father of the bride or maid of honour. Complete, polished and yours, with unlimited revisions.',
+    cta: 'Book a call',
+    href: '/contact',
+    book: true,
+  },
+  {
+    name: 'Eulogy writing',
+    price: `£${SITE.price}`,
+    unit: 'flat, all in',
+    blurb: 'The same flat price, written with the same care and no rush, to honour someone properly.',
+    cta: 'Eulogy writing service →',
+    href: '/eulogy-writing-service',
+    book: false,
+  },
+  {
+    name: 'After-dinner speech',
+    price: 'from £499',
+    unit: 'bespoke',
+    blurb: 'Longer and more involved than a wedding speech, crafted to land in the room.',
+    cta: 'After-dinner speech writer →',
+    href: '/after-dinner-speeches/',
+    book: false,
+  },
+];
+
+const coaching = [
+  {
+    name: '1:1 Public Speaking Coaching',
+    price: 'from £295',
+    usd: '$395',
+    unit: 'per session',
+    blurb: 'Beat the nerves and speak with confidence, for any talk, pitch or presentation.',
+    cta: 'See coaching options →',
+    href: '/speech-coaching',
+  },
+  {
+    name: 'Wedding & Occasion Coaching',
+    price: 'from £295',
+    usd: '$395',
+    unit: 'per session',
+    blurb: 'Best man, groom, father of the bride or a eulogy. Deliver it like you mean it.',
+    cta: 'See occasion coaching →',
+    href: '/wedding-speech-coaching',
+  },
+  {
+    name: 'Corporate & Executive Training',
+    price: 'from £2,500',
+    usd: '$3,400',
+    unit: 'per training day',
+    blurb: 'In house workshops, leadership programmes and one to one coaching for your team.',
+    cta: 'See corporate training →',
+    href: '/executive-speaking-coaching',
+  },
 ];
 ---
 <Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={[offer, faqPage(faqs)]}>
@@ -52,30 +105,23 @@ const included = [
     </div>
   </section>
 
-  <section class="section">
-    <div class="wrap measure mx-auto">
-      <p class="eyebrow center">Speech writing</p>
-      <h2 class="center">A speech, written for you</h2>
-      <div class="price-card mt-2">
-        <p class="eyebrow">Bespoke wedding speech</p>
-        <p class="price">£{SITE.price}</p>
-        <p>Best man, groom, father of the bride, or maid of honour. Everything included:</p>
-        <ul class="ticks">{included.map((i) => <li>{i}</li>)}</ul>
-        <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
+  <section class="section center">
+    <div class="wrap">
+      <p class="eyebrow">Speech writing</p>
+      <h2>A speech, written for you</h2>
+      <p class="lede measure mx-auto">Bespoke and original, written from scratch around your stories. One flat price, unlimited revisions.</p>
+      <div class="grid grid--3 mt-2 p-grid">
+        {writing.map((t) => (
+          <div class="p-card">
+            <p class="eyebrow">{t.name}</p>
+            <p class="p-price">{t.price}</p>
+            <p class="p-unit">{t.unit}</p>
+            <p class="p-blurb">{t.blurb}</p>
+            <a class="btn btn--primary" href={t.href} data-open-booking={t.book ? '' : null}>{t.cta}</a>
+          </div>
+        ))}
       </div>
-
-      <div class="grid grid--2 mt-2">
-        <div class="card"><div class="card__body">
-          <h3>Eulogy writing, £399</h3>
-          <p>A eulogy is also £399, the same flat price, written with the same care and no rush.</p>
-          <a class="card__link" href="/eulogy-writing-service">Eulogy Writing Service →</a>
-        </div></div>
-        <div class="card"><div class="card__body">
-          <h3>After-dinner, from £499</h3>
-          <p>Longer and more involved than a wedding speech. Bespoke after-dinner speeches start from £499.</p>
-          <a class="card__link" href="/after-dinner-speeches/">After-Dinner Speech Writer →</a>
-        </div></div>
-      </div>
+      <p class="p-note">Every speech includes unlimited revisions and delivery within {SITE.turnaround} days, with last minute turnarounds available.</p>
     </div>
   </section>
 
@@ -84,28 +130,16 @@ const included = [
       <p class="eyebrow">Public speaking coaching</p>
       <h2>Or learn to deliver it yourself</h2>
       <p class="lede measure mx-auto">One to one coaching and corporate training, priced simply. Starting points below; the right fit is agreed on a short call.</p>
-      <div class="grid grid--3 mt-2 coach-grid">
-        <div class="coach-card">
-          <p class="eyebrow">1:1 Public Speaking Coaching</p>
-          <p class="coach-price" data-usd="$395">from £295</p>
-          <p class="coach-unit">per session</p>
-          <p>Beat the nerves and speak with confidence, for any talk, pitch or presentation.</p>
-          <a class="btn btn--primary" href="/speech-coaching">See coaching options →</a>
-        </div>
-        <div class="coach-card">
-          <p class="eyebrow">Wedding &amp; Occasion Coaching</p>
-          <p class="coach-price" data-usd="$395">from £295</p>
-          <p class="coach-unit">per session</p>
-          <p>Best man, groom, father of the bride or a eulogy. Deliver it like you mean it.</p>
-          <a class="btn btn--primary" href="/wedding-speech-coaching">See occasion coaching →</a>
-        </div>
-        <div class="coach-card">
-          <p class="eyebrow">Corporate &amp; Executive Training</p>
-          <p class="coach-price" data-usd="$3,400">from £2,500</p>
-          <p class="coach-unit">per training day</p>
-          <p>In house workshops, leadership programmes and one to one coaching for your team.</p>
-          <a class="btn btn--primary" href="/executive-speaking-coaching">See corporate training →</a>
-        </div>
+      <div class="grid grid--3 mt-2 p-grid">
+        {coaching.map((t) => (
+          <div class="p-card">
+            <p class="eyebrow">{t.name}</p>
+            <p class="p-price" data-usd={t.usd}>{t.price}</p>
+            <p class="p-unit">{t.unit}</p>
+            <p class="p-blurb">{t.blurb}</p>
+            <a class="btn btn--primary" href={t.href}>{t.cta}</a>
+          </div>
+        ))}
       </div>
     </div>
   </section>
@@ -123,15 +157,21 @@ const included = [
 </Layout>
 
 <style>
-  .price-card { background: #fff; border: 2px solid var(--gold); border-radius: var(--radius); padding: 36px; box-shadow: var(--shadow); text-align: center; }
-  .price-card .ticks { text-align: left; max-width: 420px; margin-inline: auto; }
-  .price { font-family: var(--serif); font-size: 4rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.4em; }
-  .coach-grid { text-align: left; }
-  .coach-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 26px; box-shadow: var(--shadow); display: flex; flex-direction: column; }
-  .coach-price { font-family: var(--serif); font-size: 2.2rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.05em; }
-  .coach-unit { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 12px; }
-  .coach-card p:not(.eyebrow):not(.coach-price):not(.coach-unit) { margin-bottom: 20px; }
-  .coach-card .btn { margin-top: auto; align-self: stretch; text-align: center; }
+  .p-grid { text-align: left; }
+  .p-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 28px 26px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+  .p-price { font-family: var(--serif); font-size: 2.4rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.05em; }
+  .p-unit { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 14px; }
+  .p-blurb { margin: 0 0 22px; }
+  .p-card .btn { margin-top: auto; align-self: stretch; text-align: center; }
+  .p-note { margin-top: 22px; color: var(--ink-soft); font-size: 0.95rem; }
 </style>
 
 <script is:inline>
