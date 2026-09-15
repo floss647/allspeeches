@@ -8,9 +8,9 @@ import { faqPage, type Faq as FaqType } from '../lib/schema';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 
 const path = '/pricing';
-const title = 'Speech Writing Prices | From £399, What\'s Included';
+const title = 'Prices | Speech Writing from £399 & Public Speaking Coaching';
 const description =
-  'Simple, flat-fee speech writing pricing, £399 for a bespoke wedding speech, including unlimited revisions. See exactly what\'s included.';
+  'Clear, honest pricing. Bespoke speech writing from £399, and public speaking coaching from £295, plus corporate training. See exactly what is included.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Pricing', path },
@@ -47,14 +47,16 @@ const included = [
     <div class="wrap">
       <Breadcrumbs items={crumbs} />
       <p class="eyebrow">Pricing</p>
-      <h1>Speech Writing Prices</h1>
-      <p class="lede measure mx-auto">One simple, honest price. No packages to decode, no upsells, no surprises.</p>
+      <h1>Prices</h1>
+      <p class="lede measure mx-auto">Clear, honest pricing for both sides of what I do: writing your speech, and coaching you to deliver it. No packages to decode, no upsells, no surprises.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap measure mx-auto">
-      <div class="price-card">
+      <p class="eyebrow center">Speech writing</p>
+      <h2 class="center">A speech, written for you</h2>
+      <div class="price-card mt-2">
         <p class="eyebrow">Bespoke wedding speech</p>
         <p class="price">£{SITE.price}</p>
         <p>Best man, groom, father of the bride, or maid of honour. Everything included:</p>
@@ -79,6 +81,37 @@ const included = [
 
   <section class="section section--tint center">
     <div class="wrap">
+      <p class="eyebrow">Public speaking coaching</p>
+      <h2>Or learn to deliver it yourself</h2>
+      <p class="lede measure mx-auto">One to one coaching and corporate training, priced simply. Starting points below; the right fit is agreed on a short call.</p>
+      <div class="grid grid--3 mt-2 coach-grid">
+        <div class="coach-card">
+          <p class="eyebrow">1:1 Public Speaking Coaching</p>
+          <p class="coach-price" data-usd="$395">from £295</p>
+          <p class="coach-unit">per session</p>
+          <p>Beat the nerves and speak with confidence, for any talk, pitch or presentation.</p>
+          <a class="btn btn--primary" href="/speech-coaching">See coaching options →</a>
+        </div>
+        <div class="coach-card">
+          <p class="eyebrow">Wedding &amp; Occasion Coaching</p>
+          <p class="coach-price" data-usd="$395">from £295</p>
+          <p class="coach-unit">per session</p>
+          <p>Best man, groom, father of the bride or a eulogy. Deliver it like you mean it.</p>
+          <a class="btn btn--primary" href="/wedding-speech-coaching">See occasion coaching →</a>
+        </div>
+        <div class="coach-card">
+          <p class="eyebrow">Corporate &amp; Executive Training</p>
+          <p class="coach-price" data-usd="$3,400">from £2,500</p>
+          <p class="coach-unit">per training day</p>
+          <p>In house workshops, leadership programmes and one to one coaching for your team.</p>
+          <a class="btn btn--primary" href="/executive-speaking-coaching">See corporate training →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section center">
+    <div class="wrap">
       <p class="eyebrow">Verified reviews</p>
       <h2>Trusted by hundreds of speakers</h2>
       <ReviewsCarousel />
@@ -93,4 +126,32 @@ const included = [
   .price-card { background: #fff; border: 2px solid var(--gold); border-radius: var(--radius); padding: 36px; box-shadow: var(--shadow); text-align: center; }
   .price-card .ticks { text-align: left; max-width: 420px; margin-inline: auto; }
   .price { font-family: var(--serif); font-size: 4rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.4em; }
+  .coach-grid { text-align: left; }
+  .coach-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 26px; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+  .coach-price { font-family: var(--serif); font-size: 2.2rem; color: var(--gold-dark); line-height: 1; margin: 0.1em 0 0.05em; }
+  .coach-unit { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 12px; }
+  .coach-card p:not(.eyebrow):not(.coach-price):not(.coach-unit) { margin-bottom: 20px; }
+  .coach-card .btn { margin-top: auto; align-self: stretch; text-align: center; }
 </style>
+
+<script is:inline>
+  /* Show one price, geolocated by TIME ZONE: GBP by default, USD only for
+     visitors whose time zone is in the US. Not based on browser language,
+     since many UK users have their language set to US English. */
+  (function () {
+    try {
+      var tz = '';
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+      var usZones = ['America/New_York','America/Detroit','America/Kentucky','America/Indiana','America/Chicago','America/Menominee','America/Denver','America/Boise','America/Phoenix','America/Los_Angeles','America/Anchorage','America/Juneau','America/Sitka','America/Nome','America/Adak','America/Metlakatla','Pacific/Honolulu'];
+      var isUS = false;
+      for (var i = 0; i < usZones.length && !isUS; i++) { if (tz.indexOf(usZones[i]) === 0) isUS = true; }
+      if (isUS) {
+        var els = document.querySelectorAll('[data-usd]');
+        for (var j = 0; j < els.length; j++) {
+          var u = els[j].getAttribute('data-usd');
+          if (u) els[j].textContent = u;
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
