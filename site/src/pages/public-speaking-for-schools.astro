@@ -1,0 +1,225 @@
+---
+/*
+ * SCHOOLS / SIXTH FORM public speaking coaching. Landing page for the
+ * schools outreach. Prices are quoted after a call (no anchors shown).
+ * Mirrors the structure of executive-speaking-coaching.astro.
+ */
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import FeaturedIn from '../components/FeaturedIn.astro';
+import ReviewsCarousel from '../components/ReviewsCarousel.astro';
+import { SITE } from '../config/site';
+import { service, faqPage, type Faq as FaqType } from '../lib/schema';
+
+const path = '/public-speaking-for-schools';
+const title = 'Public Speaking Workshops for Schools & Sixth Forms';
+const description =
+  'Public speaking and presentation coaching for sixth formers: workshops, small group masterclasses and one to one coaching for university and Oxbridge interviews, EPQ presentations, debating and everyday confidence. From Adrian Simpson, a former BBC broadcaster.';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Coaching', path: '/speech-coaching' },
+  { name: 'Schools & Sixth Forms', path },
+];
+
+const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('[');
+
+const programmes = [
+  {
+    name: 'Whole Year Group Workshop',
+    unit: 'for a full cohort',
+    blurb: 'A hands-on session that lifts a whole year group, built around the talks, interviews and presentations they are about to give.',
+    items: [
+      'Structure, delivery, presence, nerves and handling questions',
+      'Practical and interactive, not a lecture',
+      'Delivered in school or online',
+      'Everyone leaves with tools they can use the next day',
+    ],
+    featured: true,
+  },
+  {
+    name: 'Small Group Masterclass',
+    unit: 'for a focused group',
+    blurb: 'Deeper work with a smaller group: a debating society, prefects and scholars, or a cohort preparing for a specific event.',
+    items: [
+      'More individual attention and rehearsal time',
+      'Shaped around debating, MUN, or a competition',
+      'Ideal for Head Student hopefuls and scholarship pupils',
+      'Real practice with real feedback',
+    ],
+    featured: false,
+  },
+  {
+    name: 'One to One Coaching',
+    unit: 'for an individual pupil',
+    blurb: 'Private coaching for a pupil with a high stakes talk or interview on the line, from Oxbridge and medicine to drama school.',
+    items: [
+      'University, Oxbridge and course interviews',
+      'EPQ presentations and Head Student election speeches',
+      'Confidence, voice and stagecraft',
+      'Discreet and built around the pupil',
+    ],
+    featured: false,
+  },
+];
+
+const faqs: FaqType[] = [
+  { q: 'Which year groups is this for?', a: 'Mainly the sixth form, Years 12 and 13, where interviews and big presentations start to matter. I also run whole-school enrichment days and work with GCSE years on confidence.' },
+  { q: 'What does a session cover?', a: 'Structuring what you want to say, calming the nerves, voice and presence, handling questions, and speaking well with or without notes. It is practical throughout, with real speaking practice.' },
+  { q: 'Is it delivered in school or online?', a: 'Both. I run sessions in school anywhere in the UK, and online where that is easier. The format is part of the proposal.' },
+  { q: 'Can you tailor it to interviews or a specific event?', a: 'Always. University and Oxbridge interviews, medicine and law interviews, EPQ presentations, Head Student speeches and debating competitions are all common briefs.' },
+  { q: 'How is it priced?', a: 'Quoted after a short call, based on group size and format. I am happy to work to an enrichment, careers or sixth-form budget.' },
+  { q: 'What makes you the right person?', a: 'I am a former BBC broadcaster with fifteen years in television and a professional speechwriter. I coach executives and have spoken to global CEOs, and I bring exactly that experience to pupils, in a way they enjoy.' },
+];
+
+const schemas = [
+  service({
+    serviceType: 'Public speaking training for schools',
+    name: 'Public Speaking Workshops for Schools and Sixth Forms',
+    path,
+    description,
+    withPrice: false,
+  }),
+  faqPage(faqs),
+];
+---
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas}>
+  <section class="hero">
+    <div class="wrap">
+      <Breadcrumbs items={crumbs} />
+      <div class="media" style="align-items:center">
+        <div>
+          <p class="eyebrow">Schools &amp; Sixth Forms</p>
+          <h1>Help your sixth formers speak with confidence.</h1>
+          <p class="lede">
+            Public speaking and presentation coaching for sixth formers: workshops, small group
+            masterclasses and one to one coaching that prepare pupils for interviews, presentations
+            and the moments that matter. Delivered in school or online, built around your students.
+          </p>
+          <div class="btn-row mt-2">
+            <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
+            <a class="btn btn--ghost" href="#programmes">View the options ↓</a>
+          </div>
+        </div>
+        <img src="/images/adrian-keynote-stage.jpg" alt="Adrian Simpson speaking on stage to a large audience" width="800" height="1000" style="width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 20%; max-height:600px;" />
+      </div>
+    </div>
+  </section>
+
+  <FeaturedIn />
+
+  <section class="section">
+    <div class="wrap media">
+      <div>
+        <h2>Where it makes the difference</h2>
+        <ul class="ticks">
+          <li><strong>University &amp; Oxbridge interviews.</strong> Speak clearly and think on your feet when it counts most.</li>
+          <li><strong>EPQ &amp; class presentations.</strong> Structure the talk, hold the room and lose the nerves.</li>
+          <li><strong>Debating &amp; Model United Nations.</strong> Argue with clarity, confidence and control.</li>
+          <li><strong>Head Student &amp; leadership.</strong> Election speeches and assemblies that land.</li>
+          <li><strong>The first job and beyond.</strong> A life skill that pays off long after school.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>How we'll work</h2>
+        <ol class="steps">
+          <li><strong>A short call.</strong> We talk through your pupils, the goal and what is coming up.</li>
+          <li><strong>A simple proposal.</strong> Format, group size and a clear price, with no surprises.</li>
+          <li><strong>We deliver.</strong> In school or online, practical throughout, with tools pupils use straight away.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint center" id="programmes">
+    <div class="wrap">
+      <p class="eyebrow">The options</p>
+      <h2>Public speaking, built around your pupils</h2>
+      <p class="lede measure mx-auto">A starting point for every kind of session. The exact format, group size and price are confirmed in a simple proposal after a short call.</p>
+      <div class="progs mt-2">
+        {programmes.map((p) => (
+          <div class={`prog${p.featured ? ' prog--featured' : ''}`}>
+            {p.featured && <span class="prog__badge">Most requested</span>}
+            <p class="eyebrow">{p.name}</p>
+            <p class="prog__unit">{p.unit}</p>
+            <p class="prog__blurb">{p.blurb}</p>
+            <ul class="ticks">{p.items.map((i) => <li>{i}</li>)}</ul>
+            <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
+          </div>
+        ))}
+      </div>
+      <p class="prog__note">Something bigger in mind, like a whole enrichment day? <a href="/contact" data-open-booking="">Tell me about it →</a></p>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap media">
+      <img src="/images/Adrian-simpson.jpg" alt="Adrian Simpson, public speaking coach for schools" width="400" height="500" loading="lazy" />
+      <div>
+        <p class="eyebrow">Why work with me</p>
+        <h2>A broadcaster, a writer, and a coach pupils enjoy</h2>
+        <p>
+          I started as a magazine journalist and spent fifteen years in television, presenting for
+          every major broadcaster including BBC Top Gear. I have written speeches professionally
+          since 2012, making me the UK's most highly rated and reviewed speech writer, and I have
+          given talks around the world, including at MIT in Boston to global CEOs.
+        </p>
+        <p>
+          For pupils that means the real thing: someone who has stood in front of cameras and big
+          rooms for a living, teaching them how to do the same, in a way that is practical, warm and
+          genuinely enjoyable.
+        </p>
+        {ratingKnown && (
+          <p class="lede"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews.</p>
+        )}
+        <a class="btn btn--ghost" href={SITE.founderUrlPath}>Read my story →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section center">
+    <div class="wrap">
+      <p class="eyebrow">Verified reviews</p>
+      <h2>Trusted by hundreds of speakers</h2>
+      <ReviewsCarousel />
+    </div>
+  </section>
+
+  <Faq faqs={faqs} heading="Questions from schools" />
+
+  <CtaBand
+    heading="Bring it to your sixth form"
+    text="Book a short call. Tell me about your pupils and what is coming up, and I will put together a simple proposal."
+    ctaLabel="Book a call"
+    secondaryLabel="See my reviews"
+    secondaryHref="/reviews"
+  />
+</Layout>
+
+<style>
+  .progs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: left; }
+  @media (max-width: 900px) { .progs { grid-template-columns: 1fr; max-width: 460px; margin-inline: auto; } }
+  .prog {
+    position: relative;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 28px 26px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+  .prog--featured { border: 2px solid var(--gold); }
+  .prog__badge {
+    position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+    background: var(--gold); color: #fff; font: 600 0.72rem var(--sans);
+    text-transform: uppercase; letter-spacing: 0.1em; padding: 4px 12px; border-radius: 999px;
+    white-space: nowrap;
+  }
+  .prog__unit { font-size: 0.85rem; color: var(--ink-soft); margin: 0.2em 0 12px; }
+  .prog__blurb { font-weight: 500; margin: 0 0 12px; }
+  .prog .ticks { margin-block: 4px 22px; }
+  .prog .btn { margin-top: auto; align-self: stretch; text-align: center; }
+  .prog__note { margin-top: 22px; color: var(--ink-soft); font-size: 0.95rem; }
+</style>
