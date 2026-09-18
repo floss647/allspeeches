@@ -16,7 +16,7 @@ import { service, faqPage, type Faq as FaqType } from '../lib/schema';
 const path = '/public-speaking-for-schools';
 const title = 'Public Speaking Workshops for Schools & Sixth Forms';
 const description =
-  'Public speaking and presentation coaching for sixth formers: class workshops and one to one coaching for university and Oxbridge interviews, EPQ presentations, debating and everyday confidence. From Adrian Simpson, a former BBC broadcaster.';
+  'Public speaking and presentation coaching for sixth formers: class workshops, a regular termly programme and one to one coaching for university and Oxbridge interviews, EPQ presentations, debating and everyday confidence. From Adrian Simpson, a former BBC broadcaster.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Coaching', path: '/speech-coaching' },
@@ -27,14 +27,26 @@ const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('['
 
 const programmes = [
   {
-    name: 'Class Workshops',
-    unit: 'for a class-sized group',
-    blurb: 'A hands-on, interactive workshop for a class-sized group, up to around 30. Where a school wants a whole year covered, we simply run a few across the day, class by class.',
+    name: 'Single Workshop',
+    unit: 'a one-off session',
+    blurb: 'A single hands-on workshop for a class-sized group, up to around 30. A great taster, or for a group with something specific coming up.',
     items: [
       'Practical and interactive, never a lecture',
-      'Structure, delivery, presence, nerves and handling questions',
+      'Structure, delivery, presence and handling nerves',
       'Real speaking practice with real feedback',
       'Delivered in school or online',
+    ],
+    featured: false,
+  },
+  {
+    name: 'Ongoing Programme',
+    unit: 'regular sessions through the year',
+    blurb: 'A recurring programme of class workshops, typically once a month, that builds genuine skill and confidence over a term or the whole year, not just a one-off hit.',
+    items: [
+      'Regular sessions, for example one a month',
+      'Skills built and revisited so they really stick',
+      'Rotated across classes to reach a whole year over time',
+      'Becomes part of your enrichment calendar',
     ],
     featured: true,
   },
@@ -81,9 +93,10 @@ const schemas = [
           <p class="eyebrow">Schools &amp; Sixth Forms</p>
           <h1>Help your sixth formers speak with confidence.</h1>
           <p class="lede">
-            Public speaking and presentation coaching for sixth formers: class workshops and one to
-            one coaching that prepare pupils for interviews, presentations and the moments that
-            matter. Delivered in school or online, built around your students.
+            Public speaking and presentation coaching for sixth formers: single workshops, a regular
+            programme through the year, and one to one coaching that prepare pupils for interviews,
+            presentations and the moments that matter. Delivered in school or online, built around
+            your students.
           </p>
           <div class="btn-row mt-2">
             <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
@@ -128,7 +141,7 @@ const schemas = [
       <div class="progs mt-2">
         {programmes.map((p) => (
           <div class={`prog${p.featured ? ' prog--featured' : ''}`}>
-            {p.featured && <span class="prog__badge">Most requested</span>}
+            {p.featured && <span class="prog__badge">Most popular</span>}
             <p class="eyebrow">{p.name}</p>
             <p class="prog__unit">{p.unit}</p>
             <p class="prog__blurb">{p.blurb}</p>
@@ -186,8 +199,8 @@ const schemas = [
 </Layout>
 
 <style>
-  .progs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left; max-width: 760px; margin-inline: auto; }
-  @media (max-width: 700px) { .progs { grid-template-columns: 1fr; max-width: 460px; } }
+  .progs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: left; }
+  @media (max-width: 900px) { .progs { grid-template-columns: 1fr; max-width: 460px; margin-inline: auto; } }
   .prog {
     position: relative;
     background: #fff;
