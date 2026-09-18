@@ -16,7 +16,7 @@ import { service, faqPage, type Faq as FaqType } from '../lib/schema';
 const path = '/public-speaking-for-schools';
 const title = 'Public Speaking Workshops for Schools & Sixth Forms';
 const description =
-  'Public speaking and presentation coaching for sixth formers: workshops, small group masterclasses and one to one coaching for university and Oxbridge interviews, EPQ presentations, debating and everyday confidence. From Adrian Simpson, a former BBC broadcaster.';
+  'Public speaking and presentation coaching for sixth formers: class workshops and one to one coaching for university and Oxbridge interviews, EPQ presentations, debating and everyday confidence. From Adrian Simpson, a former BBC broadcaster.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Coaching', path: '/speech-coaching' },
@@ -27,36 +27,24 @@ const ratingKnown = !SITE.rating.includes('[') && !SITE.reviewCount.includes('['
 
 const programmes = [
   {
-    name: 'Year Group Talk & Workshops',
-    unit: 'reach the whole cohort',
-    blurb: 'Reach a full year group without cramming a hundred pupils into one room. An assembly-style talk to inspire everyone, then hands-on workshops in class-sized groups so each pupil gets real practice.',
+    name: 'Class Workshops',
+    unit: 'for a class-sized group',
+    blurb: 'A hands-on, interactive workshop for a class-sized group, up to around 30. Where a school wants a whole year covered, we simply run a few across the day, class by class.',
     items: [
-      'An engaging talk to the whole year to set the tone',
-      'Hands-on workshops in class-sized groups (up to around 30)',
-      'Run across a day so the whole cohort takes part',
+      'Practical and interactive, never a lecture',
       'Structure, delivery, presence, nerves and handling questions',
+      'Real speaking practice with real feedback',
+      'Delivered in school or online',
     ],
     featured: true,
   },
   {
-    name: 'Small Group Masterclass',
-    unit: 'for a focused group',
-    blurb: 'Deeper work with a smaller group: a debating society, prefects and scholars, or a cohort preparing for a specific event.',
-    items: [
-      'More individual attention and rehearsal time',
-      'Shaped around debating, MUN, or a competition',
-      'Ideal for Head Student hopefuls and scholarship pupils',
-      'Real practice with real feedback',
-    ],
-    featured: false,
-  },
-  {
     name: 'One to One Coaching',
     unit: 'for an individual pupil',
-    blurb: 'Private coaching for a pupil with a high stakes talk or interview on the line, from Oxbridge and medicine to drama school.',
+    blurb: 'Private coaching for a pupil with a high stakes talk or interview on the line, from Oxbridge and medicine interviews to a Head Student speech.',
     items: [
       'University, Oxbridge and course interviews',
-      'EPQ presentations and Head Student election speeches',
+      'EPQ presentations and election speeches',
       'Confidence, voice and stagecraft',
       'Discreet and built around the pupil',
     ],
@@ -93,9 +81,9 @@ const schemas = [
           <p class="eyebrow">Schools &amp; Sixth Forms</p>
           <h1>Help your sixth formers speak with confidence.</h1>
           <p class="lede">
-            Public speaking and presentation coaching for sixth formers: workshops, small group
-            masterclasses and one to one coaching that prepare pupils for interviews, presentations
-            and the moments that matter. Delivered in school or online, built around your students.
+            Public speaking and presentation coaching for sixth formers: class workshops and one to
+            one coaching that prepare pupils for interviews, presentations and the moments that
+            matter. Delivered in school or online, built around your students.
           </p>
           <div class="btn-row mt-2">
             <a class="btn btn--primary" href="/contact" data-open-booking="">Book a call</a>
@@ -198,8 +186,8 @@ const schemas = [
 </Layout>
 
 <style>
-  .progs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: left; }
-  @media (max-width: 900px) { .progs { grid-template-columns: 1fr; max-width: 460px; margin-inline: auto; } }
+  .progs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left; max-width: 760px; margin-inline: auto; }
+  @media (max-width: 700px) { .progs { grid-template-columns: 1fr; max-width: 460px; } }
   .prog {
     position: relative;
     background: #fff;
