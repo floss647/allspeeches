@@ -16,7 +16,7 @@ const items = data.whatYouGet.items.map(fill);
 const steps = data.howItWorks.map(fill);
 const aiFaq = {
   q: 'Can\'t I just use ChatGPT or AI?',
-  a: 'You can, but brace yourself. I\'ve tested it thoroughly: AI lists your facts in order, can\'t judge what\'s appropriate, and — fatally for a speech — it can\'t be funny. It arranges words; it can\'t find the story only you can tell or read a room. <a href="/can-ai-write-your-speech">Here\'s what happened when I put ChatGPT to the test →</a>',
+  a: 'You can, but brace yourself. I\'ve tested it thoroughly: AI lists your facts in order, can\'t judge what\'s appropriate, and — fatally for a speech — it can\'t be funny. It arranges words; it can\'t find the story only you can tell or read a room. <a href="/can-ai-write-your-speech/">Here\'s what happened when I put ChatGPT to the test →</a>',
 };
 const faqs = [
   ...data.faqs.map((f) => ({ q: f.q, a: fill(f.a) })),
@@ -55,7 +55,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
           <h1>{data.h1}</h1>
           {intro.map((p) => <p class="lede" set:html={p} />)}
           <div class="btn-row mt-2">
-            <a class="btn btn--primary" href="/contact" data-open-booking="">{ctaLabel}</a>
+            <a class="btn btn--primary" href="/contact/" data-open-booking="">{ctaLabel}</a>
             {data.guidePath && <a class="btn btn--ghost" href={data.guidePath}>{data.guideLabel} →</a>}
           </div>
         </div>
@@ -127,7 +127,7 @@ const priceDisplay = data.priceValue ?? SITE.price;
             <span>A bespoke {data.nav.toLowerCase()} speech is a flat <strong>£{priceDisplay}</strong>, including unlimited revisions and everything above. No hidden extras.</span>
           )}
         </p>
-        <a class="btn btn--primary" href="/pricing">See what's included →</a>
+        <a class="btn btn--primary" href="/pricing/">See what's included →</a>
       </div>
     </section>
   )}

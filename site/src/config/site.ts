@@ -89,24 +89,17 @@ export const SITE = {
 } as const;
 
 /**
- * Slugs whose trailing slash is part of the existing ranking URL and MUST be
- * preserved exactly. Everything else is canonicalised without a trailing slash.
+ * Every page is served with a trailing slash: Astro's `directory` build emits
+ * `/page/index.html` and Netlify 301-redirects the no-slash form to it. The
+ * canonical URL, sitemap, JSON-LD and internal links must therefore ALL use
+ * the trailing-slash form — otherwise the declared canonical points at a URL
+ * that redirects, and Google files the page under "Page with redirect" and
+ * stops ranking it. (That mismatch is what sank every non-slash page after the
+ * rebuild while the slash pages, e.g. /best-man-speeches/, survived.)
  */
-export const TRAILING_SLASH_PATHS = new Set([
-  '/',
-  '/best-man-speech-writer/',
-  '/best-man-speeches/',
-  '/after-dinner-speeches/',
-  '/about-adrian-simpson-speechwriter/',
-  '/blogs/',
-]);
-
-/** Normalise a path to its exact canonical slug (mixed trailing slashes). */
 export function canonicalPath(path: string): string {
   if (path === '/') return '/';
-  const withSlash = path.endsWith('/') ? path : path + '/';
-  const noSlash = path.replace(/\/$/, '');
-  return TRAILING_SLASH_PATHS.has(withSlash) ? withSlash : noSlash;
+  return path.endsWith('/') ? path : path + '/';
 }
 
 /** Resolve a path to an absolute canonical URL on the www host. */

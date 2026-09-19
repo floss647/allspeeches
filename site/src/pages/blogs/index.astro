@@ -40,14 +40,14 @@ const catLabel: Record<string, string> = {
       <div class="grid grid--3">
         {posts.map((p) => (
           <article class="card">
-            <a href={`/${p.data.slug}`}>
+            <a href={`/${p.data.slug}/`}>
               <img class="card__img" src={p.data.hero ?? '/images/adrian-home.jpg'} alt={p.data.title} loading="lazy" width="400" height="267" />
             </a>
             <div class="card__body">
               <p class="eyebrow" style="margin-bottom:.5em">{catLabel[p.data.category] ?? p.data.category}</p>
-              <h3 style="font-size:1.3rem"><a href={`/${p.data.slug}`} style="text-decoration:none;color:inherit">{p.data.title}</a></h3>
+              <h3 style="font-size:1.3rem"><a href={`/${p.data.slug}/`} style="text-decoration:none;color:inherit">{p.data.title}</a></h3>
               <p>{p.data.excerpt}</p>
-              <a class="card__link" href={`/${p.data.slug}`}>Read more →</a>
+              <a class="card__link" href={`/${p.data.slug}/`}>Read more →</a>
             </div>
           </article>
         ))}
