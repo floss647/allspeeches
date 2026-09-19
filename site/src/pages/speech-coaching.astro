@@ -94,23 +94,33 @@ const schemas = [
 ];
 ---
 <Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas}>
-  <section class="hero center">
+  <section class="hero">
     <div class="wrap">
       <Breadcrumbs items={crumbs} />
-      <p class="eyebrow">Public Speaking Coaching</p>
-      <h1>Public speaking coaching that turns dread into confidence.</h1>
-      <p class="lede measure mx-auto">
-        One to one coaching for anyone who has to stand up and speak, and wants to do it well. Beat
-        the nerves, sharpen your message and deliver with genuine confidence, whether it's a
-        presentation, a pitch or the talk of your career. Coached personally by Adrian Simpson.
-      </p>
-      <div class="btn-row mt-2" style="justify-content:center">
-        <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a discovery call</a>
-        <a class="btn btn--ghost" href="#prices">See coaching options ↓</a>
+      <div class="media" style="align-items:center">
+        <div>
+          <p class="eyebrow">Public Speaking Coaching</p>
+          <h1>Public speaking coaching that turns dread into confidence.</h1>
+          <p class="lede">
+            One to one coaching for anyone who has to stand up and speak, and wants to do it well.
+            Beat the nerves, sharpen your message and deliver with genuine confidence, whether it's a
+            presentation, a pitch, an interview or the talk of your career. Coached personally by
+            Adrian Simpson.
+          </p>
+          <p>
+            No need to find a coach near you. We work one to one online, so wherever you are in the
+            UK we can get started this week.
+          </p>
+          <div class="btn-row mt-2">
+            <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a discovery call</a>
+            <a class="btn btn--ghost" href="#prices">See coaching options ↓</a>
+          </div>
+          {ratingKnown && (
+            <p class="lede mt-2"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews</p>
+          )}
+        </div>
+        <img src="/images/adrian-keynote-stage.jpg" alt="Adrian Simpson, public speaking coach, presenting on stage to a large audience" width="800" height="1000" style="width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 20%; max-height:600px;" />
       </div>
-      {ratingKnown && (
-        <p class="lede mt-2"><span class="stars">★★★★★</span> {SITE.rating}/5 from {SITE.reviewCount} verified reviews</p>
-      )}
     </div>
   </section>
 
