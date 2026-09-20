@@ -8,6 +8,7 @@ import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
+import CoachingEnquiry from '../components/CoachingEnquiry.astro';
 import FeaturedIn from '../components/FeaturedIn.astro';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 import { SITE } from '../config/site';
@@ -84,7 +85,7 @@ const schemas = [
   faqPage(faqs),
 ];
 ---
-<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas}>
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas} showBooking={false}>
   <section class="hero">
     <div class="wrap">
       <Breadcrumbs items={crumbs} />
@@ -99,7 +100,7 @@ const schemas = [
             your students.
           </p>
           <div class="btn-row mt-2">
-            <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a call</a>
+            <a class="btn btn--primary" href="#enquire">Book a call</a>
             <a class="btn btn--ghost" href="#programmes">View the options ↓</a>
           </div>
         </div>
@@ -146,11 +147,11 @@ const schemas = [
             <p class="prog__unit">{p.unit}</p>
             <p class="prog__blurb">{p.blurb}</p>
             <ul class="ticks">{p.items.map((i) => <li>{i}</li>)}</ul>
-            <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a call</a>
+            <a class="btn btn--primary" href="#enquire">Book a call</a>
           </div>
         ))}
       </div>
-      <p class="prog__note">Something bigger in mind, like a whole enrichment day? <a href="/contact/" data-open-booking="">Tell me about it →</a></p>
+      <p class="prog__note">Something bigger in mind, like a whole enrichment day? <a href="#enquire">Tell me about it →</a></p>
     </div>
   </section>
 
@@ -191,10 +192,17 @@ const schemas = [
 
   <CtaBand
     heading="Bring it to your sixth form"
-    text="Book a short call. Tell me about your pupils and what is coming up, and I will put together a simple proposal."
-    ctaLabel="Book a call"
+    text="Tell me about your pupils and what is coming up, and I will put together a simple proposal."
+    ctaLabel="Get in touch"
+    ctaHref="#enquire"
     secondaryLabel="See my reviews"
     secondaryHref="/reviews"
+  />
+
+  <CoachingEnquiry
+    heading="Enquire about a schools programme"
+    intro="Tell me about your pupils and what is coming up, and I will come straight back to you, usually the same day, with a simple proposal."
+    interests={['Schools and sixth forms', 'Not sure yet']}
   />
 </Layout>
 

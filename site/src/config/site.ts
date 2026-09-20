@@ -83,9 +83,12 @@ export const SITE = {
   // and the contact form will post there instead and email you directly.
   formEndpoint: 'https://formspree.io/f/mkoaagyj',
 
-  // Calendly link for the coaching discovery call. Coaching CTAs open this so
-  // people can self-book the call. Change or blank it here in one place.
-  calendlyUrl: 'https://calendly.com/adrian-allspeechesgreatandsmall/discovery-call',
+  // Calendly link for the coaching discovery call. When set, every "Book a
+  // call" CTA opens Calendly; when blank (as now), they open the built-in
+  // Formspree request-a-call form instead, which submits on our own domain
+  // and so can be tracked as a conversion. Paste a Calendly URL here to switch
+  // back to self-booking in one place.
+  calendlyUrl: '',
 } as const;
 
 /**
