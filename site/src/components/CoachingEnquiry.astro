@@ -117,7 +117,10 @@ const thankYouUrl = `${SITE.url}/thank-you`;
       })
         .then(function (r) {
           if (r.ok) {
-            try { sessionStorage.setItem('asgs-enquiry', '1'); } catch (e) {}
+            try {
+              sessionStorage.setItem('asgs-enquiry', '1');
+              sessionStorage.setItem('asgs-enquiry-type', 'coaching');
+            } catch (e) {}
             window.location.href = '/thank-you';
             return;
           }
