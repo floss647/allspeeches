@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 
 const path = '/thank-you';
 const title = 'Thank you | All Speeches Great & Small';
-const description = 'Thank you — your message has been received.';
+const description = 'Thank you, your message has been received.';
 // The Google Ads conversion is fired by the cookie-consent component once
 // marketing consent has been granted (it detects this /thank-you page).
 ---
@@ -12,15 +12,38 @@ const description = 'Thank you — your message has been received.';
     <div class="wrap measure mx-auto center">
       <p class="eyebrow center">Message received</p>
       <h1>Thank you</h1>
-      <p class="lede">
+      <p class="lede" id="ty-lede">
         Your message has landed safely with me. I read every enquiry personally and aim to reply
-        within one working day — often sooner. Working to a tight deadline? Don't worry, last-minute
+        within one working day, often sooner. Working to a tight deadline? Don't worry, last-minute
         speeches are often possible.
       </p>
       <div class="btn-row mt-2" style="justify-content:center">
         <a class="btn btn--primary" href="/">Back to home</a>
-        <a class="btn btn--ghost" href="/blogs/">Read the speech-writing blog</a>
+        <a class="btn btn--ghost" id="ty-secondary" href="/blogs/">Read the speech-writing blog</a>
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    /* The thank-you page is shared by the speech contact form and the coaching
+       enquiry form. If the visitor came from the coaching form, swap in
+       coaching-appropriate copy (the coaching form sets this flag on submit). */
+    (function () {
+      var type = '';
+      try {
+        type = sessionStorage.getItem('asgs-enquiry-type') || '';
+        sessionStorage.removeItem('asgs-enquiry-type');
+      } catch (e) {}
+      if (type !== 'coaching') return;
+      var lede = document.getElementById('ty-lede');
+      if (lede) {
+        lede.textContent = "Your message has landed safely with me. I read every enquiry personally and aim to reply within one working day, often sooner. If there's a talk, presentation or event coming up, do let me know and we'll make sure you're ready.";
+      }
+      var sec = document.getElementById('ty-secondary');
+      if (sec) {
+        sec.textContent = 'Read my reviews';
+        sec.setAttribute('href', '/reviews/');
+      }
+    })();
+  </script>
 </Layout>
