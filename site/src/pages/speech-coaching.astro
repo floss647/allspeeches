@@ -10,6 +10,7 @@ import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
+import CoachingEnquiry from '../components/CoachingEnquiry.astro';
 import FeaturedIn from '../components/FeaturedIn.astro';
 import ReviewsCarousel from '../components/ReviewsCarousel.astro';
 import { SITE, abs } from '../config/site';
@@ -93,7 +94,7 @@ const schemas = [
   faqPage(faqs),
 ];
 ---
-<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas}>
+<Layout title={title} description={description} path={path} breadcrumbs={crumbs} schemas={schemas} showBooking={false}>
   <section class="hero">
     <div class="wrap">
       <Breadcrumbs items={crumbs} />
@@ -112,7 +113,7 @@ const schemas = [
             UK we can get started this week.
           </p>
           <div class="btn-row mt-2">
-            <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a discovery call</a>
+            <a class="btn btn--primary" href="#enquire">Find out more</a>
             <a class="btn btn--ghost" href="#prices">See coaching options ↓</a>
           </div>
           {ratingKnown && (
@@ -162,7 +163,7 @@ const schemas = [
             <p class="tier__unit">{t.unit}</p>
             <p class="tier__blurb">{t.blurb}</p>
             <ul class="ticks">{t.items.map((i) => <li>{i}</li>)}</ul>
-            <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a discovery call</a>
+            <a class="btn btn--primary" href="#enquire">Find out more</a>
           </div>
         ))}
       </div>
@@ -207,10 +208,16 @@ const schemas = [
 
   <CtaBand
     heading="Ready to speak with confidence?"
-    text="Book a free discovery call. Tell me what you're working towards and I'll recommend the best way to get you there."
-    ctaLabel="Book a discovery call"
+    text="Tell me what you're working towards and I'll recommend the best way to get you there."
+    ctaLabel="Get in touch"
+    ctaHref="#enquire"
     secondaryLabel="Read my reviews"
     secondaryHref="/reviews"
+  />
+
+  <CoachingEnquiry
+    heading="Enquire about coaching"
+    intro="Tell me a little about what you need and I will come straight back to you, usually the same day. No obligation, just a friendly reply."
   />
 </Layout>
 
