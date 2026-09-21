@@ -83,9 +83,10 @@ export const SITE = {
   // and the contact form will post there instead and email you directly.
   formEndpoint: 'https://formspree.io/f/mkoaagyj',
 
-  // Calendly link for the coaching discovery call. Coaching CTAs open this so
-  // people can self-book the call. Change or blank it here in one place.
-  calendlyUrl: 'https://calendly.com/adrian-allspeechesgreatandsmall/discovery-call',
+  // Calendly link for the coaching discovery call. BLANK = Calendly disabled
+  // everywhere: no Calendly script loads and every "Book a call" trigger opens
+  // the built-in enquiry form instead. Set a URL here to re-enable it.
+  calendlyUrl: '',
 } as const;
 
 /**
