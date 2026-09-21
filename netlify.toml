@@ -206,3 +206,29 @@
   from = "/fob-speech-ready"
   to = "/father-of-the-bride-speech-writer/"
   status = 301
+
+# ── Retired transactional pages → 410 Gone ────────────────────────
+# Old checkout/payment pages that no longer exist and have no live
+# equivalent. Returning 410 (rather than the default 404) tells Google
+# they are permanently gone, so they drop out of the index faster. The
+# 404 page is served as the body; the status code is what matters.
+[[redirects]]
+  from = "/bm-299-payment"
+  to = "/404.html"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/bm-299-payment/"
+  to = "/404.html"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/coaching-payment"
+  to = "/404.html"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/coaching-payment/"
+  to = "/404.html"
+  status = 410
+  force = true
