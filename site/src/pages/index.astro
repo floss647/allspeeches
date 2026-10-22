@@ -25,30 +25,41 @@ const reviewsKnown = !SITE.reviewCount.includes('[');
 <Layout title={title} description={description} path="/" schemas={[faqPage(faqs)]}>
   <!-- HERO -->
   <section class="hero hero--home">
-    <div class="wrap hero__inner">
-      <p class="eyebrow">Public speaking coaching, corporate training &amp; bespoke speeches</p>
-      <h1>Great speeches, brilliantly delivered.</h1>
-      <p class="lede">
-        I coach individuals, executives and teams to speak with authority, and I write the bespoke
-        speeches worth delivering. From the boardroom pitch to the biggest talk of your life.
-      </p>
-      <p class="creds">
-        Former BBC broadcaster · Fifteen years in television · Talks around the world, including at
-        MIT to global CEOs · The UK's most reviewed speechwriter
-      </p>
-      <div class="btn-row mt-2">
-        <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a call</a>
-        <a class="btn btn--ghost" href="/executive-speaking-coaching/">Corporate training →</a>
-        <a class="btn btn--ghost" href="/speech-coaching/">Public speaking coaching →</a>
+    <div class="wrap hero__grid">
+      <div class="hero__content">
+        <p class="eyebrow">Public speaking coaching, corporate training &amp; bespoke speeches</p>
+        <h1>Great speeches,<br />brilliantly delivered.</h1>
+        <p class="lede">
+          I coach individuals, executives and teams to speak with authority, and I write the
+          bespoke speeches worth delivering. From the boardroom pitch to the biggest talk of your life.
+        </p>
+        <ul class="hero__creds" aria-label="Credentials">
+          <li>Former BBC broadcaster</li>
+          <li>15 years in television</li>
+          <li>Spoken at MIT to global CEOs</li>
+          <li>UK&rsquo;s most-reviewed speechwriter</li>
+        </ul>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="/contact/" data-open-booking="">Book a call</a>
+          <a class="btn btn--ghost" href="/speech-coaching/">Explore coaching &amp; training &rarr;</a>
+        </div>
+        <p class="trust">
+          <span class="stars">★★★★★</span>
+          {ratingKnown && reviewsKnown ? (
+            <span>Rated {SITE.rating}/5 from {SITE.reviewCount} reviews</span>
+          ) : (
+            <span class="ph">Rated [RATING]/5 from [REVIEW_COUNT] reviews</span>
+          )}
+        </p>
       </div>
-      <p class="trust" style="margin-top:22px">
-        <span class="stars">★★★★★</span>
-        {ratingKnown && reviewsKnown ? (
-          <span>Rated {SITE.rating}/5 from {SITE.reviewCount} reviews</span>
-        ) : (
-          <span class="ph">Rated [RATING]/5 from [REVIEW_COUNT] reviews</span>
-        )}
-      </p>
+      <div class="hero__media">
+        <img
+          src="/images/adrian-keynote-stage.jpg"
+          alt="Adrian Simpson speaking on stage to a packed auditorium at the Global Tech Summit"
+          width="1601" height="2000" fetchpriority="high" decoding="async"
+        />
+        <span class="hero__media__tag">Keynote &middot; Global Tech Summit</span>
+      </div>
     </div>
   </section>
 
