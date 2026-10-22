@@ -150,9 +150,39 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Hero */
 .hero { position: relative; padding: clamp(60px, 10vw, 120px) 0; background: linear-gradient(180deg, var(--paper) 0%, var(--paper-2) 100%); }
-.hero--home { background: linear-gradient(180deg, rgba(255,255,255,0.90) 0%, rgba(255,255,255,0.95) 60%, var(--paper-2) 100%), url('/images/hero-home.webp'); background-size: cover; background-position: center; }
-.hero__inner { max-width: 760px; }
+.hero--home { background: radial-gradient(1100px 520px at 12% -10%, #fffefb 0%, var(--paper) 45%, var(--paper-2) 100%); }
 .hero h1 { margin-bottom: 0.3em; }
+
+/* Image-forward split hero */
+.hero__grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: clamp(28px, 5vw, 60px); align-items: center; }
+.hero__content { max-width: 600px; }
+.hero__content .lede { margin-bottom: 1.2rem; }
+
+.hero__creds { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 10px; margin: 0 0 1.6rem; padding: 0; }
+.hero__creds li { font-family: var(--sans); font-size: 0.8rem; font-weight: 600; color: var(--ink-soft);
+  background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 6px 13px;
+  display: inline-flex; align-items: center; gap: 7px; }
+.hero__creds li::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex: none; }
+
+.hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+
+.hero__media { position: relative; }
+.hero__media img { width: 100%; height: auto; display: block; border-radius: var(--radius);
+  box-shadow: 0 26px 55px rgba(26,26,46,0.24); }
+.hero__media__tag { position: absolute; left: 14px; bottom: 14px;
+  background: rgba(26,26,46,0.74); color: #fff; font-family: var(--sans); font-size: 0.72rem;
+  font-weight: 600; letter-spacing: 0.03em; padding: 7px 12px; border-radius: 999px; }
+
+@media (max-width: 880px) {
+  .hero { padding: 0 0 clamp(32px, 7vw, 56px); }
+  .hero__grid { grid-template-columns: 1fr; gap: 22px; }
+  .hero__media { order: -1; margin: 0 -22px; }
+  .hero__media img { border-radius: 0; width: 100%; max-height: 46vh; object-fit: cover; object-position: center 18%; }
+  .hero__media__tag { left: 28px; }
+  .hero__content { max-width: none; }
+  .hero__cta { flex-direction: column; align-items: stretch; }
+  .hero__cta .btn { width: 100%; justify-content: center; }
+}
 
 /* Article (guides/blog) */
 .prose { max-width: 760px; margin-inline: auto; }
