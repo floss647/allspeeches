@@ -83,9 +83,11 @@ export const SITE = {
   // and the contact form will post there instead and email you directly.
   formEndpoint: 'https://formspree.io/f/mkoaagyj',
 
-  // Calendly link for the coaching discovery call. BLANK = Calendly disabled
-  // everywhere: no Calendly script loads and every "Book a call" trigger opens
-  // the built-in enquiry form instead. Set a URL here to re-enable it.
+  // Calendly link for the coaching discovery call. When set, every "Book a
+  // call" CTA opens Calendly; when blank (as now), they open the built-in
+  // Formspree request-a-call form instead, which submits on our own domain
+  // and so can be tracked as a conversion. Paste a Calendly URL here to switch
+  // back to self-booking in one place.
   calendlyUrl: '',
 } as const;
 

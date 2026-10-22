@@ -17,6 +17,7 @@ interface Props {
   breadcrumbs?: Crumb[];    // omit on home
   schemas?: Record<string, any>[]; // page-specific JSON-LD blocks
   noindex?: boolean;
+  showBooking?: boolean;   // floating call-booking popup; off on pages with their own inline form
 }
 
 const {
@@ -28,6 +29,7 @@ const {
   breadcrumbs,
   schemas = [],
   noindex = false,
+  showBooking = true,
 } = Astro.props;
 
 const canonical = abs(path);
@@ -116,6 +118,6 @@ const allSchemas: Record<string, any>[] = [
     </main>
     <Footer />
     <CookieConsent />
-    <BookingWidget />
+    {showBooking && <BookingWidget />}
   </body>
 </html>
